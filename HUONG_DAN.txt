@@ -1,0 +1,61 @@
+BẢN TIN CHỨNG KHOÁN LPS — HƯỚNG DẪN (CẬP NHẬT TỰ ĐỘNG, KHÔNG DÙNG AI)
+
+THÀNH PHẦN
+  update_lps.py      Script lấy dữ liệu và dựng trang
+  lps_rules.py       Quy tắc phân loại văn bản và sàng lọc trễ hạn (sửa file này để thêm/bớt nhãn)
+  template.html      Mẫu giao diện (sửa xong chạy: python update_lps.py --render)
+  lps_db.json        Cơ sở dữ liệu (script tự cập nhật)
+  ban-tin-lps.html   Trang tin hoàn chỉnh, một file duy nhất — mở bằng trình duyệt
+  run_update.bat     Chạy cập nhật một lần
+  cai_dat_lich.bat   Tạo lịch tự chạy 08:00 và 15:00 trong Windows Task Scheduler
+
+CÀI ĐẶT TRÊN WINDOWS (làm một lần)
+  1. Cài Python 3 từ https://www.python.org/downloads/ — tích "Add python.exe to PATH".
+  2. Giải nén thư mục vào nơi cố định, ví dụ D:\BanTinLPS
+  3. Mở Command Prompt trong thư mục đó, chạy:  pip install -r requirements.txt
+  4. Nhấp đúp run_update.bat để chạy thử (khoảng 30 giây). Mở ban-tin-lps.html để xem.
+  5. Nhấp đúp cai_dat_lich.bat để tạo lịch 08:00 và 15:00.
+  Máy phải bật và đã đăng nhập vào giờ chạy; nếu lỡ, lần chạy sau tự bù.
+
+TRANG CÓ 3 TAB
+  Tin tức              Tin báo chí + Tin tức LPS. Lọc theo trang tin gốc, năm/tháng/ngày.
+  Công bố thông tin    587+ văn bản từ lpbs.com.vn. Lọc theo nhãn (chọn nhiều nhãn = văn bản có đủ các nhãn),
+                       theo thời gian, "Có dấu hiệu trễ hạn", "Chưa thấy trên HOSE".
+                       Ví dụ: Nghị quyết HĐQT + Tín dụng ngân hàng + Năm 2026.
+  Đối chiếu HOSE       So mục Công bố thông tin trên website với tin của LPS trên HOSE (từ 21/07/2026).
+  Nhãn "Mới": trình duyệt ghi nhớ những mục bạn đã thấy ở lần mở trước. Mỗi trình duyệt/máy nhớ riêng.
+
+NGUYÊN TẮC "NGUYÊN VĂN"
+  - Công bố thông tin, Tin tức LPS: tiêu đề, ngày, nội dung, file đính kèm lấy nguyên văn từ lpbs.com.vn.
+  - Tin HOSE: tiêu đề, giờ đăng, đoạn mô tả, file đính kèm lấy nguyên văn từ hsx.vn.
+  - Báo chí: tiêu đề nguyên văn; sapo nguyên văn từ RSS hoặc thẻ mô tả của bài. Không sao chép thân bài
+    (bản quyền của tòa soạn) — bấm "Đọc bài gốc".
+  - Nhãn phân loại và cảnh báo trễ hạn là do script suy ra theo quy tắc, KHÔNG phải nội dung bài gốc.
+
+SÀNG LỌC TRỄ HẠN — CÁCH HIỂU KẾT QUẢ
+  - Script tìm ngày phát sinh trong tiêu đề hoặc câu đầu nội dung ("Ngày 21/10/2026, HĐQT đã ban hành…"),
+    so với ngày đăng trên website và giờ đăng trên HOSE.
+  - Chỉ đánh dấu khi cách từ 2 ngày lịch trở lên (chắc chắn quá 24 giờ), vì không biết giờ ban hành.
+  - Căn cứ: Điều 11 và Điều 23 Thông tư 96/2020/TT-BTC (sửa đổi bởi TT 68/2024 và TT 08/2026). Cần tự kiểm tra
+    văn bản đang có hiệu lực; ngưỡng đặt ở DEADLINE_DAYS trong lps_rules.py.
+  - Giờ trên HOSE là giờ Sở đăng tin, có thể muộn hơn giờ LPS gửi hồ sơ. Văn bản do cơ quan khác ký
+    (UBCK, Sở…) tính 24 giờ từ khi LPS nhận được, nên chỉ hiện "Cần xem", không kết luận trễ.
+  - Đây là dấu hiệu sàng lọc để kiểm tra thêm, không phải kết luận vi phạm.
+
+ĐỐI CHIẾU HOSE — GIỚI HẠN
+  - Dùng API công khai mà website hsx.vn dùng (không có tài liệu chính thức; HOSE đổi thì phải sửa script).
+  - Chỉ so với mục Công bố thông tin của website. Văn bản đăng ở mục khác (ví dụ "Điều lệ và quy chế công ty")
+    sẽ hiện "Có trên HOSE, chưa thấy trên website" — cần kiểm tra thủ công.
+  - Thông báo giải chấp và chứng quyền không đăng ở mục tin tổ chức niêm yết của HOSE nên được tách riêng.
+  - HNX chưa được đối chiếu.
+
+TÙY CHỈNH TRONG update_lps.py
+  OUTPUT_HTML        nơi ghi file trang (vd. thư mục dùng chung r"\\fileserver\KTNB\ban-tin-lps.html")
+  USE_GOOGLE_NEWS    True/False. Google chỉ cho phép dùng feed cho mục đích cá nhân, phi thương mại.
+  USE_HOSE           True/False
+  Nhật ký mỗi lần chạy: update_lps.log
+
+LỆNH HỮU ÍCH
+  python update_lps.py            cập nhật phần mới
+  python update_lps.py --full     quét lại toàn bộ mục Công bố thông tin trên lpbs.com.vn
+  python update_lps.py --render   chỉ dựng lại trang từ lps_db.json (sau khi sửa template.html hoặc lps_rules.py)

@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bản tin Chứng khoán LPS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap">
+<style>
+/* Theo nhận diện lpbs.com.vn: nền trắng, chữ xám than, nâu LPS chủ đạo, cam vàng nhấn, dải kem cho vùng thông tin.
+   Màu ngữ nghĩa (cảnh báo đỏ, khớp xanh) tách riêng khỏi màu thương hiệu. */
+:root{
+  --brown:#6e361a; --gold:#f99d1c; --gold-2:#fbb94f;
+  --cream:#fff6e9; --cream-2:#feebd2; --ink:#2b343b; --text:#545454; --muted:#808080;
+  --line:#e8e8e8; --bg:#f5f5f5; --white:#ffffff;
+  --ok:#17784f; --ok-bg:#e7f5ee; --warn:#a3470b; --warn-bg:#fff1e5; --bad:#b42318; --bad-bg:#fdecea; --new:#1d5fd1; --new-bg:#e8f0fe;
+  --font:"Roboto",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --mono:"Roboto Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:15px/1.6 var(--font)}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header.site{background:var(--white);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:12px}
+.logo{display:flex;align-items:center;gap:14px;text-decoration:none;min-width:0}
+.logo img{height:44px;width:auto;display:block}
+.logo .sep{width:1px;height:32px;background:var(--line)}
+.logo .name{color:var(--brown);font-weight:700;font-size:18px;line-height:1.2}
+.logo .name small{display:block;color:var(--muted);font-weight:400;font-size:12.5px}
+.hotline{font-size:13px}
+.hotline b{color:var(--brown)}
+.bar{height:4px;background:linear-gradient(90deg,var(--brown),var(--gold) 55%,var(--gold-2))}
+
+.band{background:var(--cream);border-bottom:1px solid var(--cream-2)}
+.band .wrap{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;padding-block:12px;font-size:13.5px}
+.band b{color:var(--ink)}
+.band .sched span{font-family:var(--mono);font-size:12px;background:var(--white);border:1px solid var(--cream-2);color:var(--brown);border-radius:4px;padding:1px 7px;margin-left:4px}
+.band .newsum{color:var(--new);font-weight:500}
+
+.tabs{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.tabs .wrap{display:flex;gap:4px;overflow-x:auto}
+.tab{font:inherit;font-weight:500;font-size:15px;color:var(--text);background:none;border:0;border-bottom:3px solid transparent;padding:14px 16px 11px;cursor:pointer;white-space:nowrap}
+.tab .n{font-family:var(--mono);font-size:12px;color:var(--muted);margin-left:6px}
+.tab .nw{font-size:11px;font-weight:700;color:var(--white);background:var(--new);border-radius:9px;padding:0 6px;margin-left:6px}
+.tab[aria-selected="true"]{color:var(--brown);border-bottom-color:var(--gold);font-weight:700}
+.tab:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+
+.main{display:grid;grid-template-columns:290px minmax(0,1fr);gap:28px;padding-block:24px 56px}
+@media (max-width:880px){.main{grid-template-columns:minmax(0,1fr);gap:16px}}
+aside{display:flex;flex-direction:column;gap:14px;align-self:start}
+.main.wide{grid-template-columns:minmax(0,1fr)}
+.panel{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:14px}
+.panel h2{margin:0 0 10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--brown);font-weight:700;display:flex;justify-content:space-between;gap:8px}
+.panel h2 button{font:inherit;font-size:11px;letter-spacing:0;text-transform:none;font-weight:500;border:0;background:none;color:var(--muted);text-decoration:underline;cursor:pointer;padding:0}
+.search{width:100%;font:inherit;font-size:14px;padding:9px 12px;border:1px solid var(--line);border-radius:4px;background:var(--white);color:var(--ink)}
+.search:focus{outline:2px solid var(--gold);outline-offset:0;border-color:var(--gold)}
+ul.f{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px}
+ul.f ul{list-style:none;margin:0;padding:0 0 0 14px;display:flex;flex-direction:column;gap:1px}
+li:not(.open) > ul{display:none}
+.fb{width:100%;display:flex;justify-content:space-between;gap:8px;font:inherit;font-size:14px;text-align:left;padding:6px 8px;border:0;border-radius:4px;background:none;color:var(--text);cursor:pointer}
+.fb:hover{background:var(--cream)}
+.fb[aria-pressed="true"]{background:var(--cream-2);color:var(--brown);font-weight:700}
+.fb:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.fb .l{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fb .c{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.caret{display:inline-block;width:12px;color:var(--gold);transition:transform .15s}
+li.open > .fb .caret{transform:rotate(90deg)}
+.hint{font-size:12px;color:var(--muted);margin:8px 0 0}
+.chk{display:flex;gap:8px;align-items:flex-start;font-size:14px;cursor:pointer;padding:4px 0}
+.chk input{margin-top:4px;accent-color:var(--brown)}
+.chk .c{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--muted)}
+.mtoggle{display:none}
+@media (max-width:880px){
+  .mtoggle{display:flex;justify-content:space-between;font:inherit;font-weight:700;color:var(--brown);padding:10px 14px;border:1px solid var(--line);border-radius:6px;background:var(--white);cursor:pointer}
+  .filters[data-collapsed="true"]{display:none}
+}
+.filters{display:flex;flex-direction:column;gap:14px}
+
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.head h2{margin:0;color:var(--ink);font-size:20px;font-weight:700}
+.head .info{font-size:13px;color:var(--muted)}
+.clear{font:inherit;font-size:13px;border:0;background:none;color:var(--brown);text-decoration:underline;cursor:pointer;padding:0}
+.day{margin-top:22px}
+.day h3{display:flex;align-items:center;gap:10px;margin:0 0 10px;font-size:13px;font-weight:500;color:var(--muted)}
+.day h3 .d{font-family:var(--mono);color:var(--brown);font-weight:500}
+.day h3::after{content:"";flex:1;height:1px;background:var(--line)}
+.list{display:flex;flex-direction:column;gap:10px}
+
+.item{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.item.off{border-left:3px solid var(--gold)}
+.item.isnew{box-shadow:inset 3px 0 0 var(--new)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;font-size:12.5px;color:var(--muted)}
+.meta .src{color:var(--ink);font-weight:500}
+.meta .t{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.pill{font-size:11.5px;line-height:1.5;padding:1px 8px;border-radius:3px;background:var(--cream);color:var(--brown);white-space:nowrap}
+.pill.tag{background:var(--bg);color:var(--ink);border:1px solid var(--line);cursor:pointer;font:inherit;font-size:11.5px}
+.pill.tag:hover{border-color:var(--gold)}
+.pill.new{background:var(--new);color:var(--white);font-weight:700}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}
+.pill.warn{background:var(--warn-bg);color:var(--warn)}
+.pill.bad{background:var(--bad-bg);color:var(--bad);font-weight:500}
+a.pill{text-decoration:none}
+a.pill:hover{text-decoration:underline}
+.item h4{margin:0;font-size:16.5px;line-height:1.45;color:var(--ink);font-weight:500;text-wrap:balance}
+.item h4 a{text-decoration:none}
+.item h4 a:hover{color:var(--brown)}
+.ex{margin:0;max-width:78ch}
+.ex .o{font-size:11.5px;color:var(--muted);margin-left:6px;font-style:italic}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.late{border-radius:4px;padding:10px 12px;font-size:13.5px;line-height:1.5;max-width:78ch}
+.late.bad{background:var(--bad-bg);color:#5c1a14}
+.late.warn{background:var(--warn-bg);color:#5a2a08}
+.late b{font-weight:700}
+.late q{display:block;margin-top:4px;font-style:italic;color:var(--text)}
+.late q::before,.late q::after{content:""}
+.body{white-space:pre-line;border-top:1px dashed var(--line);padding-top:10px;max-width:78ch;color:var(--ink)}
+.files{display:flex;flex-direction:column;gap:6px;padding:0;margin:4px 0 0;list-style:none;white-space:normal}
+.files a{display:inline-flex;gap:8px;align-items:baseline;color:var(--brown);font-weight:500;text-decoration:none;overflow-wrap:anywhere}
+.files a:hover{text-decoration:underline}
+.files .ext{font-family:var(--mono);font-size:11px;background:var(--brown);color:var(--white);border-radius:3px;padding:0 5px;flex:none}
+.files .fn{color:var(--muted);font-weight:400;font-size:13px}
+.acts{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.btn{font:inherit;font-size:13.5px;font-weight:500;padding:6px 14px;border-radius:4px;border:0;background:var(--gold);color:var(--white);cursor:pointer}
+.btn:hover{background:var(--brown)}
+.btn:focus-visible,.orig:focus-visible{outline:2px solid var(--brown);outline-offset:2px}
+.orig{font-size:13.5px;color:var(--brown);font-weight:500;text-decoration:none;display:inline-flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.orig:hover{text-decoration:underline}
+.orig .dm{font-family:var(--mono);font-weight:400;font-size:11.5px;color:var(--muted)}
+.more{display:flex;justify-content:center;margin-top:18px}
+.more button{font:inherit;font-weight:500;color:var(--brown);background:var(--white);border:1px solid var(--cream-2);border-radius:4px;padding:9px 22px;cursor:pointer}
+.more button:hover{background:var(--cream)}
+.empty{background:var(--white);border:1px dashed var(--line);border-radius:6px;padding:28px;text-align:center;color:var(--muted)}
+.note{background:var(--white);border:1px solid var(--line);border-left:3px solid var(--brown);border-radius:6px;padding:12px 16px;font-size:13.5px;margin-top:14px;max-width:90ch}
+.note p{margin:0 0 6px}.note p:last-child{margin:0}
+
+/* Đối chiếu HOSE */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
+@media (max-width:700px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpi{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;text-align:left;font:inherit;cursor:pointer;color:inherit}
+.kpi:hover{border-color:var(--gold)}
+.kpi[aria-pressed="true"]{border-color:var(--brown);box-shadow:inset 0 -3px 0 var(--gold)}
+.kpi .v{font-size:24px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums}
+.kpi .k{font-size:12.5px;color:var(--muted)}
+.kpi.bad .v{color:var(--bad)} .kpi.ok .v{color:var(--ok)} .kpi.warn .v{color:var(--warn)}
+.rtable{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:6px;font-size:13.5px}
+.rwrap{overflow-x:auto;margin-top:14px}
+.rtable th{text-align:left;font-weight:500;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em;padding:10px 12px;border-bottom:1px solid var(--line);background:var(--cream)}
+.rtable td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.rtable td.t{font-family:var(--mono);font-size:12.5px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.rtable td a{color:var(--ink);text-decoration:none}
+.rtable td a:hover{color:var(--brown);text-decoration:underline}
+.rtable .sub{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.rtable tr:last-child td{border-bottom:0}
+
+mark{background:var(--cream-2);color:inherit;padding:0 1px}
+footer{background:var(--ink);color:#c9cfd4;font-size:12.5px}
+footer .wrap{padding-block:18px;display:flex;flex-direction:column;gap:4px}
+footer b{color:#fff}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="https://www.lpbs.com.vn/" target="_blank" rel="noopener">
+      <img src="__LPS_LOGO__" alt="LPS">
+      <span class="sep" aria-hidden="true"></span>
+      <span class="name">Bản tin LPS<small>Tin tức · Công bố thông tin · Đối chiếu HOSE</small></span>
+    </a>
+    <div class="hotline">Mã CK: <b>LPS</b> · HOSE</div>
+  </div>
+</header>
+<div class="bar" aria-hidden="true"></div>
+<div class="band"><div class="wrap" id="band"></div></div>
+
+<nav class="tabs" aria-label="Chuyên mục">
+  <div class="wrap" role="tablist">
+    <button class="tab" role="tab" data-tab="news">Tin tức<span class="n" id="n-news"></span><span class="nw" id="nw-news" hidden></span></button>
+    <button class="tab" role="tab" data-tab="cbtt">Công bố thông tin<span class="n" id="n-cbtt"></span><span class="nw" id="nw-cbtt" hidden></span></button>
+    <button class="tab" role="tab" data-tab="recon">Đối chiếu HOSE<span class="n" id="n-recon"></span></button>
+  </div>
+</nav>
+
+<div class="wrap main">
+  <aside>
+    <button class="mtoggle" id="mtoggle" type="button" aria-expanded="false" aria-controls="filters">Bộ lọc <span aria-hidden="true">▾</span></button>
+    <div class="filters" id="filters" data-collapsed="true">
+      <div class="panel">
+        <h2><label for="q">Tìm kiếm</label></h2>
+        <input class="search" id="q" type="search" autocomplete="off" placeholder="Từ khóa trong tiêu đề, nội dung…">
+        <label class="chk" style="margin-top:8px"><input type="checkbox" id="onlynew"> Chỉ hiện mục mới <span class="c" id="c-onlynew"></span></label>
+      </div>
+      <div class="panel" id="p-tags" hidden>
+        <h2>Phân loại <button type="button" id="tagclear" hidden>Bỏ chọn</button></h2>
+        <div id="tags"></div>
+        <p class="hint">Chọn nhiều nhãn để lọc văn bản có đủ các nhãn đó, ví dụ <i>Nghị quyết HĐQT</i> + <i>Tín dụng ngân hàng</i>.</p>
+      </div>
+      <div class="panel" id="p-screen" hidden>
+        <h2>Sàng lọc</h2>
+        <label class="chk"><input type="checkbox" id="onlylate"> Có dấu hiệu trễ hạn <span class="c" id="c-late"></span></label>
+        <label class="chk"><input type="checkbox" id="onlyweb"> Chưa thấy trên HOSE <span class="c" id="c-webonly"></span></label>
+      </div>
+      <div class="panel" id="p-src" hidden>
+        <h2>Trang tin gốc</h2>
+        <ul class="f" id="sources"></ul>
+      </div>
+      <div class="panel" id="p-tree">
+        <h2>Mốc thời gian</h2>
+        <div id="tree"></div>
+      </div>
+    </div>
+  </aside>
+  <main id="view" role="tabpanel">
+    <div class="head">
+      <h2 id="vtitle">Tin tức</h2>
+      <div class="info"><span id="cnt">0</span> mục <span id="clrw" hidden>· <button class="clear" id="clr" type="button">Bỏ lọc</button></span></div>
+    </div>
+    <div id="feed"></div>
+    <div class="more" id="morew" hidden><button type="button" id="more">Xem thêm</button></div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div><b>Nguồn dữ liệu.</b> Công bố thông tin và Tin tức LPS lấy nguyên văn từ lpbs.com.vn; tin trên HOSE lấy nguyên văn từ hsx.vn. Tin báo chí hiển thị nguyên văn tiêu đề và đoạn mô tả do tòa soạn cung cấp; toàn văn đọc tại trang gốc.</div>
+    <div>Nhãn phân loại và cảnh báo trễ hạn do script tự gắn theo quy tắc, chỉ dùng để sàng lọc. Không thay thế văn bản công bố thông tin chính thức hay kết luận kiểm tra.</div>
+  </div>
+</footer>
+
+<script id="lps-data" type="application/json">__LPS_DATA__</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById("lps-data").textContent);
+  const PAGE = 30;
+  const S = { tab:"news", src:null, y:null, m:null, d:null, q:"", tags:[], onlyLate:false, onlyWeb:false, onlyNew:false, rv:"hose_only", shown:PAGE };
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const DOW = ["Chủ nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy"];
+  const DOWS = ["CN","T2","T3","T4","T5","T6","T7"];
+  const norm = s => String(s||"").normalize("NFC").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/đ/g,"d");
+  const fmtD = s => s ? `${s.slice(8,10)}/${s.slice(5,7)}/${s.slice(0,4)}` : "Không rõ ngày";
+  const wd = s => { if (!s) return ""; const d = new Date(+s.slice(0,4), +s.slice(5,7)-1, +s.slice(8,10)); return DOWS[d.getDay()]; };
+  const host = u => { try { return new URL(u).hostname.replace(/^www\./,""); } catch(e){ return ""; } };
+  const fname = u => { try { return decodeURIComponent(new URL(u).pathname.split("/").pop()); } catch(e){ return ""; } };
+  const ext = u => { const m = decodeURIComponent(u).match(/\.([a-z0-9]{2,4})(?:$|\?)/i); return m ? m[1].toUpperCase() : "LINK"; };
+
+  // ---------- dữ liệu
+  const NEWS = (D.news||[]).map(r => ({ kind:"news", ...r, date:(r.published||"").slice(0,10),
+    time: r.date_precision === "minute" ? (r.published||"").slice(11,16) : "" }));
+  const CBTT = (D.cbtt||[]).map(r => ({ kind:"cbtt", ...r, source:"lpbs.com.vn", time:"", tags:r.tags||["Khác"] }));
+  const HOSE = (D.hose||[]).map(r => ({ ...r, date:r.posted.slice(0,10), time:r.posted.slice(11,16) }));
+  const byId = Object.fromEntries(CBTT.map(r => [r.id, r]));
+  const srcName = r => r.source_name || (D.sources||{})[r.source] || r.source || "Khác";
+  const isLate = r => !!(r.late && (r.late.web_flag || r.late.hose_flag));
+  const firstHose = (D.meta||{}).hose_first || "";
+
+  // ---------- nhãn "Mới": so với danh sách đã thấy ở lần mở trước (lưu trong trình duyệt này)
+  const SEEN_KEY = "lps_seen_v1";
+  let prevSeen = null;
+  try { const raw = localStorage.getItem(SEEN_KEY); if (raw) prevSeen = new Set(JSON.parse(raw)); } catch(e) {}
+  const allIds = [...NEWS, ...CBTT].map(r => r.id);
+  const isNew = r => !!prevSeen && !prevSeen.has(r.id);
+  const newCount = { news: NEWS.filter(isNew).length, cbtt: CBTT.filter(isNew).length };
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify(allIds)); } catch(e) {}
+
+  // ---------- lọc
+  function rows(){ return S.tab === "news" ? NEWS : CBTT; }
+  function filtered(){
+    const q = norm(S.q.trim());
+    return rows().filter(r => {
+      if (S.tab === "news" && S.src && r.source !== S.src) return false;
+      if (S.tab === "cbtt") {
+        if (S.tags.length && !S.tags.every(t => r.tags.includes(t))) return false;
+        if (S.onlyLate && !isLate(r)) return false;
+        if (S.onlyWeb && r.recon !== "web_only") return false;
+      }
+      if (S.onlyNew && !isNew(r)) return false;
+      if (S.y && r.date.slice(0,4) !== S.y) return false;
+      if (S.m && r.date.slice(5,7) !== S.m) return false;
+      if (S.d && r.date.slice(8,10) !== S.d) return false;
+      if (q && !norm([r.title, r.excerpt, r.body, srcName(r), (r.tags||[]).join(" "), (r.files||[]).map(f=>f.label).join(" ")].join(" ")).includes(q)) return false;
+      return true;
+    }).sort((a,b) => (b.date + b.time).localeCompare(a.date + a.time));
+  }
+
+  // ---------- thanh thông tin & tab
+  function renderBand(){
+    const m = D.meta || {}, u = m.last_updated || "";
+    const upd = u ? `${u.slice(11,16)} ${fmtD(u.slice(0,10))}` : "—";
+    const nn = newCount.news + newCount.cbtt;
+    $("band").innerHTML = `<span>Cập nhật lần cuối: <b>${esc(upd)}</b></span>
+      <span class="sched">Lịch cập nhật<span>08:00</span><span>15:00</span></span>
+      <span><b>${CBTT.length}</b> công bố thông tin · <b>${NEWS.length}</b> tin tức · <b>${HOSE.length}</b> tin HOSE</span>
+      ${prevSeen ? (nn ? `<span class="newsum">${nn} mục mới từ lần bạn mở trang trước</span>` : `<span>Không có mục mới từ lần mở trước</span>`) : `<span>Lần đầu mở trang trên trình duyệt này: từ lần sau, mục mới sẽ có nhãn “Mới”.</span>`}
+      ${m.last_result ? `<span>Lần chạy gần nhất: ${esc(m.last_result)}</span>` : ""}`;
+    $("n-news").textContent = NEWS.length; $("n-cbtt").textContent = CBTT.length; $("n-recon").textContent = HOSE.length;
+    ["news","cbtt"].forEach(k => { const el = $("nw-"+k); el.hidden = !newCount[k]; el.textContent = newCount[k] ? "+" + newCount[k] : ""; });
+  }
+
+  // ---------- bảng điều khiển bên trái
+  function renderPanels(){
+    const t = S.tab;
+    $("p-src").hidden = t !== "news";
+    $("p-tags").hidden = t !== "cbtt";
+    $("p-screen").hidden = t !== "cbtt";
+    $("p-tree").hidden = t === "recon";
+    $("onlynew").closest(".chk").hidden = t === "recon" || !prevSeen;
+    $("q").closest(".panel").hidden = t === "recon";
+    const nNew = t === "news" ? newCount.news : t === "cbtt" ? newCount.cbtt : 0;
+    $("c-onlynew").textContent = nNew;
+    if (t === "news") renderSources();
+    if (t === "cbtt") renderTags();
+    if (t !== "recon") renderTree();
+  }
+
+  function renderSources(){
+    const c = {}; NEWS.forEach(r => c[r.source] = (c[r.source]||0) + 1);
+    const ks = Object.keys(c).sort((a,b) => (a==="lpbs.com.vn"?-1:b==="lpbs.com.vn"?1:0) || c[b]-c[a] || a.localeCompare(b));
+    const nameOf = k => { const r = NEWS.find(x => x.source === k); return r ? srcName(r) : k; };
+    $("sources").innerHTML = `<li><button class="fb" type="button" data-src="" aria-pressed="${!S.src}"><span class="l">Tất cả nguồn</span><span class="c">${NEWS.length}</span></button></li>` +
+      ks.map(k => `<li><button class="fb" type="button" data-src="${esc(k)}" aria-pressed="${S.src===k}"><span class="l">${esc(nameOf(k))}</span><span class="c">${c[k]}</span></button></li>`).join("");
+  }
+
+  function renderTags(){
+    // đếm theo tập văn bản đang thỏa các nhãn đã chọn, để biết chọn thêm nhãn nào còn kết quả
+    const base = CBTT.filter(r => S.tags.every(t => r.tags.includes(t)));
+    const c = {}; base.forEach(r => r.tags.forEach(t => c[t] = (c[t]||0) + 1));
+    const all = {}; CBTT.forEach(r => r.tags.forEach(t => all[t] = (all[t]||0) + 1));
+    const order = Object.keys(all).sort((a,b) => (a==="Khác") - (b==="Khác") || all[b]-all[a]);
+    $("tags").innerHTML = `<ul class="f">` + order.map(t => {
+      const on = S.tags.includes(t), n = on ? base.length : (c[t]||0);
+      return `<li><button class="fb" type="button" data-tag="${esc(t)}" aria-pressed="${on}" ${!on && !n ? "disabled style='opacity:.45;cursor:default'" : ""}><span class="l">${on?"✓ ":""}${esc(t)}</span><span class="c">${n}</span></button></li>`;
+    }).join("") + `</ul>`;
+    $("tagclear").hidden = !S.tags.length;
+    $("c-late").textContent = CBTT.filter(isLate).length;
+    $("c-webonly").textContent = CBTT.filter(r => r.recon === "web_only").length;
+    $("onlylate").checked = S.onlyLate; $("onlyweb").checked = S.onlyWeb;
+  }
+
+  function renderTree(){
+    const T = {};
+    rows().forEach(r => { if (!r.date) return; const [y,m,d] = r.date.split("-"); ((T[y] ??= {})[m] ??= {})[d] = (T[y][m][d]||0) + 1; });
+    const sum = o => Object.values(o).reduce((s,v) => s + (typeof v === "number" ? v : sum(v)), 0);
+    const ys = Object.keys(T).sort().reverse();
+    let h = `<ul class="f"><li><button class="fb" type="button" data-y="" aria-pressed="${!S.y}"><span class="l">Mọi thời điểm</span><span class="c">${rows().length}</span></button></li>`;
+    ys.forEach((y,i) => {
+      const yo = S.y === y || (!S.y && i === 0);
+      h += `<li class="${yo?"open":""}"><button class="fb" type="button" data-y="${y}" aria-pressed="${S.y===y&&!S.m}"><span class="l"><span class="caret">›</span> Năm ${y}</span><span class="c">${sum(T[y])}</span></button><ul>`;
+      Object.keys(T[y]).sort().reverse().forEach(m => {
+        const mo = S.y === y && S.m === m;
+        h += `<li class="${mo?"open":""}"><button class="fb" type="button" data-y="${y}" data-m="${m}" aria-pressed="${S.y===y&&S.m===m&&!S.d}"><span class="l"><span class="caret">›</span> Tháng ${+m}</span><span class="c">${sum(T[y][m])}</span></button><ul>`;
+        Object.keys(T[y][m]).sort().reverse().forEach(d => {
+          const w = DOW[new Date(+y, +m-1, +d).getDay()];
+          h += `<li><button class="fb" type="button" data-y="${y}" data-m="${m}" data-d="${d}" aria-pressed="${S.y===y&&S.m===m&&S.d===d}"><span class="l">${d}/${m} · ${w}</span><span class="c">${T[y][m][d]}</span></button></li>`;
+        });
+        h += `</ul></li>`;
+      });
+      h += `</ul></li>`;
+    });
+    $("tree").innerHTML = h + `</ul>`;
+  }
+
+  // ---------- thẻ tin
+  function filesHtml(files){
+    if (!files || !files.length) return "";
+    return `<ul class="files">${files.map(f => {
+      const fn = fname(f.url);
+      return `<li><a href="${esc(f.url)}" target="_blank" rel="noopener"><span class="ext">${esc(ext(f.url))}</span><span>${esc(f.label)}${fn && fn !== f.label ? `<span class="fn"> — ${esc(fn)}</span>` : ""}</span></a></li>`;
+    }).join("")}</ul>`;
+  }
+
+  function lateHtml(r){
+    const L = r.late; if (!L || !(L.web_flag || L.hose_flag)) return "";
+    const ev = L.event_date;
+    const parts = [];
+    if (L.web_flag) parts.push(`đăng trên website ${wd(r.date)} ${fmtD(r.date)} (sau <b>${L.web_gap_days} ngày</b>)`);
+    if (L.hose_flag && r.hose) parts.push(`đăng trên HOSE ${wd(r.hose.posted)} ${fmtD(r.hose.posted.slice(0,10))} lúc ${r.hose.posted.slice(11,16)} (sau <b>${L.hose_gap_days} ngày</b>)`);
+    const cls = L.external ? "warn" : "bad";
+    const basis = L.external
+      ? "Ngày nêu là ngày ký của cơ quan bên ngoài; thời hạn 24 giờ tính từ khi LPS nhận được văn bản, có thể muộn hơn ngày này."
+      : (L.hose_flag && !L.web_flag ? "Giờ trên HOSE là giờ Sở đăng tin, có thể muộn hơn giờ LPS gửi hồ sơ." : "");
+    return `<div class="late ${cls}"><b>${L.external ? "Cần xem: " : "Dấu hiệu trễ hạn: "}</b>ngày phát sinh theo nội dung là ${wd(ev)} ${fmtD(ev)}; ${parts.join("; ")}. Thời hạn công bố thông tin bất thường là 24 giờ. ${basis}
+      <q>Căn cứ trích từ văn bản: “${esc(L.evidence)}”</q></div>`;
+  }
+
+  function item(r){
+    const off = r.source === "lpbs.com.vn";
+    const hasBody = !!(r.body || (r.files && r.files.length));
+    const id = esc(r.id);
+    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : "";
+    const ex = r.kind === "news" && r.excerpt ? `<p class="ex">${esc(r.excerpt)}${origin?`<span class="o">${origin}</span>`:""}</p>` : "";
+    let hoseChip = "";
+    if (r.kind === "cbtt") {
+      if (r.hose) hoseChip = `<a class="pill ok" href="${esc(r.hose.url)}" target="_blank" rel="noopener" title="${esc(r.hose.title)}">HOSE ${fmtD(r.hose.posted.slice(0,10)).slice(0,5)} ${r.hose.posted.slice(11,16)} ↗</a>`;
+      else if (r.recon === "web_only") hoseChip = `<span class="pill warn" title="Không tìm thấy tin tương ứng trong mục Tin tổ chức niêm yết của HOSE">Chưa thấy trên HOSE</span>`;
+    }
+    const tags = r.kind === "cbtt" ? `<div class="tags">${r.tags.map(t => `<button type="button" class="pill tag" data-addtag="${esc(t)}" aria-pressed="${S.tags.includes(t)}">${esc(t)}</button>`).join("")}</div>` : "";
+    return `<article class="item ${off?"off":""} ${isNew(r)?"isnew":""}">
+      <div class="meta">
+        ${isNew(r) ? `<span class="pill new">Mới</span>` : ""}
+        <span class="src">${esc(r.kind==="cbtt" ? "LPS – Công bố thông tin" : srcName(r))}</span>
+        <span class="t">${r.time ? r.time + " · " : ""}${fmtD(r.date)}</span>
+        ${off ? `<span class="pill">Nguồn chính thức</span>` : ""}
+        ${hoseChip}
+        ${isLate(r) ? `<span class="pill ${r.late.external?"warn":"bad"}">${r.late.external?"Cần xem thời hạn":"Dấu hiệu trễ hạn"}</span>` : ""}
+      </div>
+      <h4><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h4>
+      ${ex}
+      ${tags}
+      ${lateHtml(r)}
+      ${hasBody ? `<div class="body" id="b-${id}" hidden>${esc(r.body||"")}${filesHtml(r.files)}</div>` : ""}
+      <div class="acts">
+        ${hasBody ? `<button class="btn" type="button" data-open="${id}" aria-expanded="false" aria-controls="b-${id}">Đọc tiếp</button>` : ""}
+        <a class="orig" href="${esc(r.url)}" target="_blank" rel="noopener">${off ? "Xem trên lpbs.com.vn" : "Đọc bài gốc"} ↗ <span class="dm">${esc(r.via === "google" && r.url.includes("news.google.com") ? r.source + " · qua Google News" : host(r.url))}</span></a>
+      </div>
+    </article>`;
+  }
+
+  function renderFeed(){
+    const L = filtered();
+    $("cnt").textContent = L.length;
+    $("clrw").hidden = !(S.src || S.y || S.q.trim() || S.tags.length || S.onlyLate || S.onlyWeb || S.onlyNew);
+    const bits = [S.tab === "news" ? "Tin tức" : "Công bố thông tin"];
+    if (S.tags.length) bits.push(S.tags.join(" + "));
+    if (S.src) { const r = NEWS.find(x => x.source === S.src); bits.push(r ? srcName(r) : S.src); }
+    if (S.d) bits.push(`${S.d}/${S.m}/${S.y}`); else if (S.m) bits.push(`Tháng ${+S.m}/${S.y}`); else if (S.y) bits.push(`Năm ${S.y}`);
+    $("vtitle").textContent = bits.join(" · ");
+    let head = "";
+    if (S.tab === "cbtt" && S.onlyLate) head = `<div class="note"><p><b>Cách sàng lọc trễ hạn.</b> Script tìm ngày phát sinh sự kiện trong tiêu đề hoặc câu đầu nội dung (ví dụ “Ngày 21/10/2026, HĐQT đã ban hành…”) và so với ngày đăng. Vì chỉ biết ngày, không biết giờ, văn bản chỉ bị đánh dấu khi ngày đăng cách ngày phát sinh từ 2 ngày lịch trở lên, tức chắc chắn quá 24 giờ.</p><p>Căn cứ: Điều 11 (công ty đại chúng) và Điều 23 (công ty chứng khoán) Thông tư 96/2020/TT-BTC, đã sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC. Không áp dụng cho báo cáo tài chính, báo cáo quản trị, tài liệu đại hội và thông báo giải chấp. Chỉ ${CBTT.filter(r=>r.late).length}/${CBTT.length} văn bản xác định được ngày phát sinh.</p></div>`;
+    if (!L.length) { $("feed").innerHTML = head + `<div class="empty">Không có mục nào khớp bộ lọc. Bỏ bớt điều kiện hoặc đổi từ khóa.</div>`; $("morew").hidden = true; return; }
+    const show = L.slice(0, S.shown), G = {};
+    show.forEach(r => (G[r.date||"0000-00-00"] ??= []).push(r));
+    $("feed").innerHTML = head + Object.keys(G).sort().reverse().map(k => {
+      const w = k === "0000-00-00" ? "" : DOW[new Date(+k.slice(0,4), +k.slice(5,7)-1, +k.slice(8,10)).getDay()];
+      return `<section class="day"><h3>${w}<span class="d">${fmtD(k==="0000-00-00"?"":k)}</span><span>${G[k].length} mục</span></h3><div class="list">${G[k].map(item).join("")}</div></section>`;
+    }).join("");
+    $("morew").hidden = L.length <= S.shown;
+    $("more").textContent = `Xem thêm (${L.length - S.shown} mục)`;
+  }
+
+  // ---------- đối chiếu HOSE
+  function renderRecon(){
+    $("vtitle").textContent = "Đối chiếu website LPS với HOSE";
+    $("clrw").hidden = true; $("morew").hidden = true;
+    const hoseLps = HOSE.filter(h => !h.own_notice);
+    const hoseOnly = hoseLps.filter(h => !h.match);
+    const matched = hoseLps.filter(h => h.match);
+    const webOnly = CBTT.filter(r => r.recon === "web_only");
+    const webExp = CBTT.filter(r => r.recon === "web_only_expected");
+    const own = HOSE.filter(h => h.own_notice);
+    $("cnt").textContent = HOSE.length;
+    const K = (key, v, k, cls) => `<button type="button" class="kpi ${cls}" data-rv="${key}" aria-pressed="${S.rv===key}"><span class="v">${v}</span><span class="k">${k}</span></button>`;
+    let h = `<div class="note"><p>So sánh mục <b>Công bố thông tin</b> trên lpbs.com.vn với mục <b>Tin tổ chức niêm yết</b> của LPS trên HOSE, từ ngày LPS có tin đầu tiên trên HOSE (${fmtD(firstHose)}). Hai văn bản được coi là một khi đăng cách nhau tối đa 5 ngày và có tiêu đề gần giống hoặc trùng số hiệu.</p>
+      <p>Script chỉ đọc mục Công bố thông tin của website. Văn bản đăng ở mục khác (ví dụ “Điều lệ và quy chế công ty”) sẽ hiện là “chỉ có trên HOSE”, cần kiểm tra thủ công.</p></div>
+      <div class="kpis">${K("hose_only", hoseOnly.length, "Có trên HOSE, chưa thấy trên website", hoseOnly.length ? "bad" : "ok")}
+        ${K("web_only", webOnly.length, "Có trên website, chưa thấy trên HOSE", webOnly.length ? "warn" : "ok")}
+        ${K("matched", matched.length, "Khớp hai nơi", "ok")}
+        ${K("other", webExp.length + own.length, "Không cần đối chiếu (giải chấp, chứng quyền, thông báo của Sở)", "")}</div>`;
+    const dt = s => `${wd(s)} ${fmtD(s.slice(0,10))}${s.length > 10 ? " " + s.slice(11,16) : ""}`;
+    let rowsHtml = "", cols = "";
+    if (S.rv === "hose_only") {
+      cols = `<tr><th>Đăng trên HOSE</th><th>Tiêu đề trên HOSE</th><th>Tệp</th></tr>`;
+      rowsHtml = hoseOnly.map(x => `<tr><td class="t">${dt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>${x.summary ? `<span class="sub">${esc(x.summary)}</span>` : ""}</td><td>${filesHtml(x.files)}</td></tr>`).join("");
+    } else if (S.rv === "web_only") {
+      cols = `<tr><th>Đăng trên website</th><th>Văn bản</th><th>Nhãn</th></tr>`;
+      rowsHtml = webOnly.map(x => `<tr><td class="t">${dt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${x.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join(" ")}</td></tr>`).join("");
+    } else if (S.rv === "matched") {
+      cols = `<tr><th>Website</th><th>HOSE</th><th>Chênh lệch</th><th>Văn bản</th></tr>`;
+      rowsHtml = matched.map(x => { const c = byId[x.match]; const gap = Math.round((new Date(x.date) - new Date(c.date)) / 864e5);
+        return `<tr><td class="t">${dt(c.date)}</td><td class="t">${dt(x.posted)}</td><td class="t">${gap === 0 ? "cùng ngày" : (gap > 0 ? "HOSE sau " : "HOSE trước ") + Math.abs(gap) + " ngày"}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="sub">HOSE: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></span></td></tr>`; }).join("");
+    } else {
+      cols = `<tr><th>Ngày</th><th>Mục</th><th>Lý do không đối chiếu</th></tr>`;
+      rowsHtml = own.map(x => `<tr><td class="t">${dt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>Thông báo của HOSE (${esc(x.type)})</td></tr>`).join("") +
+        webExp.map(x => `<tr><td class="t">${dt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.tags.filter(t => /Giải chấp|Chứng quyền/.test(t)).join(", "))} – không đăng ở mục tin tổ chức niêm yết</td></tr>`).join("");
+    }
+    h += rowsHtml ? `<div class="rwrap"><table class="rtable"><thead>${cols}</thead><tbody>${rowsHtml}</tbody></table></div>` : `<div class="empty" style="margin-top:14px">Không có mục nào.</div>`;
+    $("feed").innerHTML = h;
+  }
+
+  // ---------- điều hướng
+  function render(){ document.querySelector(".main").classList.toggle("wide", S.tab === "recon"); document.querySelector("aside").hidden = S.tab === "recon"; renderPanels(); if (S.tab === "recon") renderRecon(); else renderFeed(); }
+  function resetFilters(){ S.src = S.y = S.m = S.d = null; S.q = ""; $("q").value = ""; S.tags = []; S.onlyLate = S.onlyWeb = S.onlyNew = false; $("onlynew").checked = false; S.shown = PAGE; }
+  function setTab(t){
+    S.tab = t; resetFilters();
+    document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
+    try { history.replaceState(null, "", "#" + t); } catch(e) {}
+    render();
+  }
+
+  document.addEventListener("click", e => {
+    const t = e.target.closest(".tab"); if (t) { setTab(t.dataset.tab); return; }
+    const o = e.target.closest("[data-open]");
+    if (o) { const b = $("b-" + o.dataset.open), open = b.hidden; b.hidden = !open; o.setAttribute("aria-expanded", String(open)); o.textContent = open ? "Thu gọn" : "Đọc tiếp"; return; }
+    const tg = e.target.closest("[data-tag]");
+    if (tg && !tg.disabled) { const v = tg.dataset.tag; S.tags = S.tags.includes(v) ? S.tags.filter(x => x !== v) : [...S.tags, v]; S.shown = PAGE; render(); return; }
+    const at = e.target.closest("[data-addtag]");
+    if (at) { const v = at.dataset.addtag; if (!S.tags.includes(v)) S.tags = [...S.tags, v]; S.shown = PAGE; render(); window.scrollTo({top:0}); return; }
+    const rv = e.target.closest("[data-rv]"); if (rv) { S.rv = rv.dataset.rv; renderRecon(); return; }
+    const s = e.target.closest("[data-src]"); if (s) { S.src = s.dataset.src || null; S.shown = PAGE; render(); return; }
+    const y = e.target.closest("#tree [data-y]");
+    if (y) { S.y = y.dataset.y || null; S.m = y.dataset.m || null; S.d = y.dataset.d || null; S.shown = PAGE; render(); }
+  });
+  let tm; $("q").addEventListener("input", e => { clearTimeout(tm); tm = setTimeout(() => { S.q = e.target.value; S.shown = PAGE; renderFeed(); }, 150); });
+  $("onlylate").addEventListener("change", e => { S.onlyLate = e.target.checked; S.shown = PAGE; render(); });
+  $("onlyweb").addEventListener("change", e => { S.onlyWeb = e.target.checked; S.shown = PAGE; render(); });
+  $("onlynew").addEventListener("change", e => { S.onlyNew = e.target.checked; S.shown = PAGE; render(); });
+  $("tagclear").addEventListener("click", () => { S.tags = []; S.shown = PAGE; render(); });
+  $("clr").addEventListener("click", () => { resetFilters(); render(); });
+  $("more").addEventListener("click", () => { S.shown += PAGE; renderFeed(); });
+  $("mtoggle").addEventListener("click", () => { const f = $("filters"), c = f.dataset.collapsed === "true"; f.dataset.collapsed = String(!c); $("mtoggle").setAttribute("aria-expanded", String(c)); });
+
+  renderBand();
+  setTab(["cbtt","recon"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "news");
+})();
+</script>
+</body>
+</html>

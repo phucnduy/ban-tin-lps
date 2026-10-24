@@ -1,0 +1,30 @@
+# Chạy script lúc 07:30 và 14:30 giờ Việt Nam (00:30 và 07:30 UTC). Không dùng AI.
+# GitHub có thể chạy trễ 5–30 phút vào giờ cao điểm; lịch Claude tải về máy cơ quan đặt lúc 08:00 và 15:00.
+name: Cap nhat Ban tin LPS
+on:
+  schedule:
+    - cron: "30 0,7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ban-tin-lps
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python update_lps.py
+      - name: Luu ket qua
+        run: |
+          git config user.name "ban-tin-lps-bot"
+          git config user.email "ban-tin-lps-bot@users.noreply.github.com"
+          git add lps_db.json ban-tin-lps.html logo_lps.png
+          git diff --cached --quiet || git commit -m "Cap nhat ban tin $(TZ=Asia/Ho_Chi_Minh date +'%Y-%m-%d %H:%M')"
+          git push
