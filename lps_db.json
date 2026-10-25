@@ -10,8 +10,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-10-25T08:13+07:00",
-  "last_result": "171 văn bản mới, 0 tin mới, 0 tin HOSE mới, 237 tin bên liên quan, 4 thay đổi văn bản",
+  "last_updated": "2026-10-25T08:20+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 2 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -3471,7 +3471,8 @@
      "lm": "Thu, 22 Oct 2026 10:11:50 GMT",
      "size": 2333225,
      "sha256": "0883322b0eea789de29eb738730430a3e9d9790854f058b8d3c175b2775fa84a",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/0883322b0eea_20261022_-_LPS_-_NQ_Phe_duyet_dieu_chinh_dieu_kien_cap_tin_dung_LPBank_signed.pdf"
     },
     {
      "label": "Here",
@@ -3480,12 +3481,13 @@
      "lm": "Thu, 22 Oct 2026 10:12:00 GMT",
      "size": 2333225,
      "sha256": "0883322b0eea789de29eb738730430a3e9d9790854f058b8d3c175b2775fa84a",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/0883322b0eea_20261022_-_LPS_-_Resolution_on_Approval_of_Amendments_to_the_Credit_Facility_Terms_at_LPBank_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -3503,7 +3505,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -3521,7 +3523,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -3539,7 +3541,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -3557,7 +3559,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -3575,7 +3577,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -3593,7 +3595,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -3611,7 +3613,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -3629,7 +3631,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -3647,7 +3649,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -3665,7 +3667,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -3683,7 +3685,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -3701,7 +3703,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -3724,12 +3726,13 @@
      "lm": "Thu, 15 Oct 2026 10:24:46 GMT",
      "size": 3303510,
      "sha256": "f3167f9afd8ccd8c9be284449f04d415bb133a92b1e276d5aa9aee72259b4aef",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f3167f9afd8c_20261015-LPS-NQ_H_QT_Phe_duyet_phuong_an_dang_ky_chao_ban_Chung_quyen_Nam_2026_Dot_2_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -3747,7 +3750,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -3765,7 +3768,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -3783,7 +3786,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -3801,7 +3804,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -3819,7 +3822,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -3837,7 +3840,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -3855,7 +3858,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -3873,7 +3876,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -3891,7 +3894,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -3909,7 +3912,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -3927,7 +3930,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -3945,7 +3948,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -3968,12 +3971,13 @@
      "lm": "Mon, 12 Oct 2026 10:49:05 GMT",
      "size": 991197,
      "sha256": "e831bcb9a681b655fb9276a7a87fc04d143df904acb99f448ca7631213ed7e09",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/e831bcb9a681_20261012_-_LPS_-_Bao_cao_mo_tai_khoan_Ngan_hang_TMCP_Ngoai_thuong_Viet_Nam_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -3996,7 +4000,8 @@
      "lm": "Fri, 09 Oct 2026 06:07:19 GMT",
      "size": 1587423,
      "sha256": "935b8cff639fd615603a5ede3985d2953bfea22baba28ff0330d7fc08d6f6b93",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/935b8cff639f_20261009_-_CHDB2614_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     },
     {
      "label": "Covered warrants CHDB2614",
@@ -4005,7 +4010,8 @@
      "lm": "Fri, 09 Oct 2026 06:07:19 GMT",
      "size": 1587423,
      "sha256": "935b8cff639fd615603a5ede3985d2953bfea22baba28ff0330d7fc08d6f6b93",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/935b8cff639f_20261009_-_CHDB2614_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CHDB2615/ Covered warrants CHDB2615",
@@ -4014,12 +4020,13 @@
      "lm": "Fri, 09 Oct 2026 06:07:38 GMT",
      "size": 1590876,
      "sha256": "cfc8d94edd315649a7ef0120cf8e72837f6244e5b65daa56a93d15cfbcb9eb29",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/cfc8d94edd31_20261009_-_CHDB2615_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -4037,7 +4044,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -4055,7 +4062,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -4073,7 +4080,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -4091,7 +4098,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
@@ -4109,7 +4116,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
@@ -4127,7 +4134,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
@@ -4150,12 +4157,13 @@
      "lm": "Thu, 08 Oct 2026 09:36:25 GMT",
      "size": 1539179,
      "sha256": "e122969ffd17991f97a2d1677095f104c892f8de69f6a127250a8c8c23885256",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/e122969ffd17_20261008_-_LPS_-_CBTT_GCN_KDN_thay_doi_lan_thu_3_CN_N_ng_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
@@ -4178,7 +4186,8 @@
      "lm": "Wed, 07 Oct 2026 09:09:51 GMT",
      "size": 1545090,
      "sha256": "d1232732f489bff41d146160a3b6d49949f0576d8f463338ecc2b31e7eb272f0",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/d1232732f489_20261007_-_CMWG2624_-_CBTT_Dieu_chinh_chung_quyen_HOSE_signed.pdf"
     },
     {
      "label": "Covered warrant CMWG2624",
@@ -4187,7 +4196,8 @@
      "lm": "Wed, 07 Oct 2026 09:10:06 GMT",
      "size": 1545090,
      "sha256": "d1232732f489bff41d146160a3b6d49949f0576d8f463338ecc2b31e7eb272f0",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/d1232732f489_20261007_-_CMWG2624_-_Information_disclosure_of_Adjustment_to_Covered_Warrant_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CMWG2625",
@@ -4196,7 +4206,8 @@
      "lm": "Wed, 07 Oct 2026 09:10:19 GMT",
      "size": 1544713,
      "sha256": "7c3a8ad8639b25cbd70eed070b7be9481cc9bd663a1993be3899c825501b41f3",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/7c3a8ad8639b_20261007_-_CMWG2625_-_CBTT_Dieu_chinh_chung_quyen_HOSE_signed.pdf"
     },
     {
      "label": "Covered warrant CMWG2625",
@@ -4205,12 +4216,13 @@
      "lm": "Wed, 07 Oct 2026 09:10:31 GMT",
      "size": 1544713,
      "sha256": "7c3a8ad8639b25cbd70eed070b7be9481cc9bd663a1993be3899c825501b41f3",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/7c3a8ad8639b_20261007_-_CMWG2625_-_Information_disclosure_of_Adjustment_to_Covered_Warrant_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
@@ -4228,7 +4240,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
@@ -4246,7 +4258,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
@@ -4264,7 +4276,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
@@ -4287,12 +4299,13 @@
      "lm": "Wed, 07 Oct 2026 10:47:15 GMT",
      "size": 4963625,
      "sha256": "f316f46e20f9e84fab4e558bd9b91001d5207c1b7815c4bc7ef61c9341cad2a1",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f316f46e20f9_20261007_-_LPS_-_CBTT_Thay_doi_mau_dau_03_chi_nhanh_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
@@ -4315,12 +4328,13 @@
      "lm": "Wed, 07 Oct 2026 12:09:55 GMT",
      "size": 804680,
      "sha256": "dd370033910d1d7ad2412a2d5fdce84ca2c3256504276039291d182c5f5f2246",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/dd370033910d_2026_10_07-_Thong_bao_KH_LPBS_-_BIDV_ky_hop_dong_tk_chuyen_dung_N_TNN__Song_ngu_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
@@ -4343,12 +4357,13 @@
      "lm": "Tue, 06 Oct 2026 06:37:54 GMT",
      "size": 2044146,
      "sha256": "679279423f865066d76cff7ba9c8050c79bd85e0c2bee236e5a74aee35c35802",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/679279423f86_20261006_-_LPS_-_CBTT_GCN_KDN_lan_thu_2_CN_Cat_Linh_up_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
@@ -4366,7 +4381,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
@@ -4384,7 +4399,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
@@ -4402,7 +4417,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
@@ -4420,7 +4435,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
@@ -4438,7 +4453,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
@@ -4456,7 +4471,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
@@ -4479,12 +4494,13 @@
      "lm": "Mon, 05 Oct 2026 10:30:16 GMT",
      "size": 2066142,
      "sha256": "9580d93725d2d99694d2d91216b722d868b561e7c64c4add27a4fe6fefa2378f",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/9580d93725d2_20261005_-_LPS_-_CBTT_GCN_KDN_lan_thu_20_CN_Ha_Noi_che_thong_tin_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
@@ -4502,7 +4518,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "fd5b9cf02da571f1",
@@ -4520,7 +4536,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b675872c7a30dafa",
@@ -4538,7 +4554,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "6a08f5c23c167d65",
@@ -4561,12 +4577,13 @@
      "lm": "Fri, 02 Oct 2026 11:43:16 GMT",
      "size": 8239876,
      "sha256": "eb60c3da310e230b1c6e2090c574e72a92d7f41eb57bc000959bb03ef9d62754",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/eb60c3da310e_20261002_-_LPS_-_CBTT_NQ_HDQT_thong_qua_ban_hanh_Quy_che_CBTT_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "6a1f515c9b003e5e",
     "body": "1a007f48e9dec93b",
@@ -4589,12 +4606,13 @@
      "lm": "Mon, 05 Oct 2026 04:02:06 GMT",
      "size": 1437911,
      "sha256": "6c171f97742a50d23b6a8abadb83f69557a76ee5204ff171d767ee2760ea8fc0",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/6c171f97742a_20261002_-_LPS_-_NQ_phe_duyet_dau_tu_cp_SCEX_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "46235d898d95f367",
     "body": "4b54b90d98db66a4",
@@ -4612,7 +4630,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "311f415837fd9720",
@@ -4630,7 +4648,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "5b9eaabda90c0763",
@@ -4648,7 +4666,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "42078ea48dca413a",
@@ -4666,7 +4684,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "286146af1fbebd16",
@@ -4684,7 +4702,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43f19b8bbef669c5",
@@ -4702,7 +4720,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "11bcb15b783d7836",
@@ -4725,12 +4743,13 @@
      "lm": "Thu, 01 Oct 2026 11:04:45 GMT",
      "size": 1553608,
      "sha256": "6f489b381d12e6da9ecd8e87224a6438e91e8f303d8be6146dd0cf978cfeeede",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/6f489b381d12_20261001_-_LPS_-_CBTT_trich_NQ-H_QT-Phe_duyet_giao_dich_LPS_va_Sacomlife_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "ff4d1a38aac741a1",
     "body": "5fbe5f20d03a2fb9",
@@ -4753,7 +4772,8 @@
      "lm": "Wed, 30 Sep 2026 02:36:09 GMT",
      "size": 1381785,
      "sha256": "e8608964d3b714ee51d157fc32651d294d2a3690c1b2d06eb3967da541f11193",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/e8608964d3b7_1__Gi_y_ch_ng_nh_n_ng_k_ch_o_b_n_tr_i_phi_u_ra_c_ng_ch_ng_2_.pdf"
     },
     {
      "label": "Công văn số 9362 của UBCKNN",
@@ -4762,7 +4782,8 @@
      "lm": "Wed, 30 Sep 2026 02:36:21 GMT",
      "size": 379729,
      "sha256": "59c1ab0c62566d25ba607166722fc2f04f93f9c8a426afe651893cb7ae84aa18",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/59c1ab0c6256_2__C_ng_v_n_s_9362_c_a_UBCKNN_1_.pdf"
     },
     {
      "label": "Thông báo chào bán trái phiếu ra công chúng - Đợt 2",
@@ -4771,7 +4792,8 @@
      "lm": "Wed, 30 Sep 2026 02:36:33 GMT",
      "size": 5155655,
      "sha256": "436d29abe1116e2b97de86bbfc79d7084447f7fbc6c0388801911663ca252e3d",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/436d29abe111_3__Th_ng_b_o_ch_o_b_n_tr_i_phi_u_ra_c_ng_ch_ng_-_t_2_1_.pdf"
     },
     {
      "label": "Bản cáo bạch chào bán trái phiếu ra công chúng",
@@ -4780,7 +4802,8 @@
      "lm": "Wed, 30 Sep 2026 02:36:46 GMT",
      "size": 8857910,
      "sha256": "8379ad516759f745a9a7738d39fe4e44b7df06581085f79488af090b7204ad3d",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/8379ad516759_4__B_n_c_o_b_ch_ch_o_b_n_tr_i_phi_u_ra_c_ng_ch_ng_2_.pdf"
     },
     {
      "label": "Bản thông tin cập nhật Bản cáo bạch",
@@ -4789,7 +4812,8 @@
      "lm": "Wed, 30 Sep 2026 02:36:57 GMT",
      "size": 6093548,
      "sha256": "c02a318cb97585b303b4aa57c90c1184b9ac128e707fbe409694a89d923dd1cf",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/c02a318cb975_5__B_n_th_ng_tin_c_p_nh_t_B_n_c_o_b_ch_2_.pdf"
     },
     {
      "label": "Giấy chứng nhận đăng ký kinh doanh số 6403000058",
@@ -4798,7 +4822,8 @@
      "lm": "Wed, 30 Sep 2026 02:37:08 GMT",
      "size": 462878,
      "sha256": "813309fcdaa4eeebdbcd6b1290f128925d08baedf1a0ffc96c593d00c1202220",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/813309fcdaa4_6__Gi_y_ch_ng_nh_n_ng_k_kinh_doanh_s_6403000058_2_.pdf"
     },
     {
      "label": "Giấy chứng nhận đăng ký doanh nghiệp số 6300048638",
@@ -4807,7 +4832,8 @@
      "lm": "Wed, 30 Sep 2026 02:37:19 GMT",
      "size": 544682,
      "sha256": "9f050c6fb54b37b540a8789f809f43dcac983a35508886c721f9979c23c771e0",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/9f050c6fb54b_7__Gi_y_ch_ng_nh_n_ng_k_doanh_nghi_p_s_6300048638_2_.PDF"
     },
     {
      "label": "Giấy phép thành lập và hoạt động số 33",
@@ -4816,7 +4842,8 @@
      "lm": "Wed, 30 Sep 2026 02:37:30 GMT",
      "size": 957728,
      "sha256": "a7611d9aafaa3c7bd7a7c1e390f449504b2228ced4c6bd4c62651f9f167c3ec8",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a7611d9aafaa_8__Gi_y_ph_p_th_nh_l_p_v_ho_t_ng_s_33_1_.PDF"
     },
     {
      "label": "Nghị quyết số 435 của Hội đồng Quản trị LPBank",
@@ -4825,7 +4852,8 @@
      "lm": "Wed, 30 Sep 2026 02:37:43 GMT",
      "size": 437720,
      "sha256": "bce8ce7c9efdc91253d6287ffb32b56d8b6e716288b13143a2a05eeee16b9569",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/bce8ce7c9efd_9__Ngh_quy_t_s_435_c_a_H_i_ng_Qu_n_tr_LPBank_2_.pdf"
     },
     {
      "label": "Điều lệ năm 2026 của LPBank",
@@ -4834,7 +4862,8 @@
      "lm": "Wed, 30 Sep 2026 02:37:59 GMT",
      "size": 5509283,
      "sha256": "50d19a08e061fe62574ded8c1849d29bc2c4d8c0f9129b780b1b37791e9bb9ca",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/50d19a08e061_10__i_u_l_n_m_2026_c_a_LPBank_1_.pdf"
     },
     {
      "label": "Nghị quyết số 2693 của Hội đồng Quản trị LPBank",
@@ -4843,7 +4872,8 @@
      "lm": "Wed, 30 Sep 2026 02:38:15 GMT",
      "size": 3406743,
      "sha256": "59c0a71c9f4969f45d1199fe171dacc845ea70753e4b08065d5ea06dccd17c00",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/59c0a71c9f49_11__Ngh_quy_t_s_2693_c_a_H_i_ng_Qu_n_tr_LPBank_1_.pdf"
     },
     {
      "label": "Nghị quyết số 1591 của Hội đồng Quản trị LPBank",
@@ -4852,7 +4882,8 @@
      "lm": "Wed, 30 Sep 2026 02:38:28 GMT",
      "size": 2625613,
      "sha256": "bc3843ef8acc7dc87bd79a4b37d6a1f707e28ef7d594b570cf8acaa698d53b4b",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/bc3843ef8acc_12__Ngh_quy_t_s_1591_c_a_H_i_ng_Qu_n_tr_LPBank_1_.pdf"
     },
     {
      "label": "Báo cáo tài chính năm 2024 đã được kiểm toán",
@@ -4861,7 +4892,8 @@
      "lm": "Wed, 30 Sep 2026 02:38:50 GMT",
      "size": 7508298,
      "sha256": "9c82b38e0f5d93324256b571352e94f2aaad872dd7ba0721f7672a683f6e145c",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/9c82b38e0f5d_13__B_o_c_o_t_i_ch_nh_n_m_2024_c_ki_m_to_n_1_.pdf"
     },
     {
      "label": "Báo cáo tài chính năm 2025 đã được kiểm toán",
@@ -4870,7 +4902,8 @@
      "lm": "Wed, 30 Sep 2026 02:39:05 GMT",
      "size": 22796073,
      "sha256": "55fa02a53f64689b92724a51e6b5c95e3c4b8f1765972e4ac50c18e5cffed3c5",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/55fa02a53f64_14__B_o_c_o_t_i_ch_nh_n_m_2025_c_ki_m_to_n_1_.pdf"
     },
     {
      "label": "Báo cáo tài chính giữa niên độ năm 2026 đã được soát xét",
@@ -4879,7 +4912,8 @@
      "lm": "Wed, 30 Sep 2026 02:39:20 GMT",
      "size": 7127115,
      "sha256": "386ba5f5c44d355d7b07e967b44aa25a63238f2088df7fe103bfb352000e14f9",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/386ba5f5c44d_15__B_o_c_o_t_i_ch_nh_gi_a_ni_n_n_m_2026_c_so_t_x_t_1_.pdf"
     },
     {
      "label": "Văn bản số 21980 Cam kết đáp ứng điều kiện chào bán",
@@ -4888,7 +4922,8 @@
      "lm": "Wed, 30 Sep 2026 02:40:41 GMT",
      "size": 982259,
      "sha256": "92aa089d4cf3926be589e280ab39f6104edc7b45ce48b9f3cee3db0807ef37cd",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/92aa089d4cf3_16__V_n_b_n_s_21980_Cam_k_t_p_ng_i_u_ki_n_ch_o_b_n_1_.pdf"
     },
     {
      "label": "Văn bản số 21981 Cam kết thực hiện nghĩa vụ đối với nhà đầu tư",
@@ -4897,7 +4932,8 @@
      "lm": "Wed, 30 Sep 2026 02:42:56 GMT",
      "size": 484732,
      "sha256": "707b4acd155311a06ab2196fd7cd94d56396d2faaa23d05eda0e7032ce8c703f",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/707b4acd1553_17__V_n_b_n_s_21981_Cam_k_t_th_c_hi_n_ngh_a_v_i_v_i_nh_u_t_1_.pdf"
     },
     {
      "label": "Hợp đồng Đại diện Người sỡ hữu trái phiếu",
@@ -4906,7 +4942,8 @@
      "lm": "Wed, 30 Sep 2026 02:53:33 GMT",
      "size": 6308964,
      "sha256": "85832a19f4b383dfe43a68ae872d49b66cc30c4338b4fd815940afc77e00ca66",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/85832a19f4b3_18__H_p_ng_i_di_n_Ng_i_s_h_u_tr_i_phi_u_2_.pdf"
     },
     {
      "label": "Loại hình ĐKSH, Loại hình NĐT, Mã Quốc tịch của VSDC",
@@ -4915,7 +4952,8 @@
      "lm": "Wed, 30 Sep 2026 02:43:32 GMT",
      "size": 184245,
      "sha256": "a562aebf0c6f3fd5870497d5ec2ee82015c4f5d13d0edeb1d21fadb7bb58a3d7",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a562aebf0c6f_19__Lo_i_h_nh_KSH_Lo_i_h_nh_N_T_M_Qu_c_t_ch_c_a_VSDC_1_.pdf"
     },
     {
      "label": "Hướng dẫn đặt mua trái phiếu",
@@ -4924,7 +4962,8 @@
      "lm": "Wed, 30 Sep 2026 02:43:43 GMT",
      "size": 384142,
      "sha256": "5dd0d155b464a06b23fe3aeae239348e9e9122691ee7cc359617153f63b23410",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/5dd0d155b464_20__H_ng_d_n_t_mua_tr_i_phi_u_1_.pdf"
     },
     {
      "label": "Phiếu đặt mua dành cho khách hàng tại LPBank (trường hợp không phong tỏa)",
@@ -4933,7 +4972,8 @@
      "lm": "Wed, 30 Sep 2026 02:43:54 GMT",
      "size": 49180,
      "sha256": "267b4344558b21e6bd10dfbb8554a7f47eb42936cabce06744a2086f6973d5b9",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/267b4344558b_21__Phi_u_t_mua_d_nh_cho_kh_ch_h_ng_t_i_LPBank_tr_ng_h_p_kh_ng_phong_t_a_1_.docx"
     },
     {
      "label": "Phiếu đặt mua dành cho khách hàng tại LPBank (trường hợp phong tỏa)",
@@ -4942,7 +4982,8 @@
      "lm": "Wed, 30 Sep 2026 02:44:06 GMT",
      "size": 50772,
      "sha256": "3c0fd5f1106acbfc4b380d0f970fd030c1c9e2ba2747337dd970aaaaff8ad496",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/3c0fd5f1106a_22__Phi_u_t_mua_d_nh_cho_kh_ch_h_ng_t_i_LPBank_tr_ng_h_p_phong_t_a_1_.docx"
     },
     {
      "label": "Phiếu đặt mua dành cho khách hàng tại LPS",
@@ -4951,7 +4992,8 @@
      "lm": "Wed, 30 Sep 2026 02:44:21 GMT",
      "size": 89167,
      "sha256": "ad402329410709e4377ae264d1dd26daaa4baa4f6c739a94fb1327b021d44a72",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/ad4023294107_23__Phi_u_t_mua_d_nh_cho_kh_ch_h_ng_t_i_LPS_1_.docx"
     },
     {
      "label": "Giấy ủy quyền đặt mua trái phiếu",
@@ -4960,7 +5002,8 @@
      "lm": "Wed, 30 Sep 2026 02:44:30 GMT",
      "size": 32824,
      "sha256": "3336c7c7b47aa91203eedc9954940256d1f32cf9451ef5f7eb39e302f86e9561",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/3336c7c7b47a_24__Gi_y_y_quy_n_t_mua_tr_i_phi_u_1_.docx"
     },
     {
      "label": "Certificate of registration for bond public offering",
@@ -4969,7 +5012,8 @@
      "lm": "Wed, 30 Sep 2026 02:45:08 GMT",
      "size": 1085182,
      "sha256": "3b08bf21420273a1c0d1649ea29a1824d2d5d6b6c93533e4c358c9b870dece73",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/3b08bf214202_1__Certificate_of_registration_for_bond_public_offering_2_.pdf"
     },
     {
      "label": "Official letter No. 9362 of the SSC",
@@ -4978,7 +5022,8 @@
      "lm": "Wed, 30 Sep 2026 02:45:25 GMT",
      "size": 596541,
      "sha256": "72a5521a2f2d58bbaba8937c33471cfebaa99f0d57531275d4132d782b15de2f",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/72a5521a2f2d_2__Official_letter_No__9362_of_the_SSC_1_.pdf"
     },
     {
      "label": "Notice of bond public offering - The second tranche",
@@ -4987,7 +5032,8 @@
      "lm": "Wed, 30 Sep 2026 02:45:40 GMT",
      "size": 5155655,
      "sha256": "436d29abe1116e2b97de86bbfc79d7084447f7fbc6c0388801911663ca252e3d",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/436d29abe111_3__Notice_of_bond_public_offering_-_The_second_tranche_1_.pdf"
     },
     {
      "label": "Prospectus for the bond public offering",
@@ -4996,7 +5042,8 @@
      "lm": "Wed, 30 Sep 2026 02:46:06 GMT",
      "size": 19796922,
      "sha256": "5eaf2b5a6f5ed35d48700d64eaf7809faa54ce1d6425198036336aa191c910b2",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/5eaf2b5a6f5e_4__Prospectus_for_the_bond_public_offering_1_.pdf"
     },
     {
      "label": "Prospectus update information",
@@ -5005,7 +5052,8 @@
      "lm": "Wed, 30 Sep 2026 02:46:23 GMT",
      "size": 13274431,
      "sha256": "c2f5c9430bb7cab293363c6f48bb94da72ae29690a7c03a50995e285598fcf1a",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/c2f5c9430bb7_5__Prospectus_update_information_1_.pdf"
     },
     {
      "label": "Business registration certificate No. 6403000058",
@@ -5014,7 +5062,8 @@
      "lm": "Wed, 30 Sep 2026 02:46:36 GMT",
      "size": 2195508,
      "sha256": "a4c7b2b0ca4c11913ac7c6a10fc412ca42882350014f5b1aaa2be5ef2cc73c3a",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a4c7b2b0ca4c_6__Business_registration_certificate_No__6403000058_1_.pdf"
     },
     {
      "label": "Enterprise registration certificate No. 6300048638",
@@ -5023,7 +5072,8 @@
      "lm": "Wed, 30 Sep 2026 02:46:52 GMT",
      "size": 2255526,
      "sha256": "48ad653ddb102069787ade811af88ef39c688bed64bb6244ad1a413e26a1a20a",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/48ad653ddb10_7__Enterprise_registration_certificate_No__6300048638_1_.pdf"
     },
     {
      "label": "Establishment and operation license No. 33 issued by the SBV",
@@ -5032,7 +5082,8 @@
      "lm": "Wed, 30 Sep 2026 02:47:04 GMT",
      "size": 856547,
      "sha256": "cfd85d92e53e2d93700b35aa696c839c88622c92c56ec90ae0620dc660611f86",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/cfd85d92e53e_8__Establishment_and_operation_license_No__33_issued_by_the_SBV_1_.pdf"
     },
     {
      "label": "Resolution No. 435 of the BOD of LPBank",
@@ -5041,7 +5092,8 @@
      "lm": "Wed, 30 Sep 2026 02:47:13 GMT",
      "size": 991588,
      "sha256": "78b55c0a9ece786d092ccb6eabca92425ec51370e64f10c727b1ba33dbe7f0dd",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/78b55c0a9ece_9__Resolution_No__435_of_the_BOD_of_LPBank_2_.pdf"
     },
     {
      "label": "LPBank Charter (2026)",
@@ -5050,7 +5102,8 @@
      "lm": "Wed, 30 Sep 2026 02:47:24 GMT",
      "size": 10500679,
      "sha256": "f282b3e321c88c8f20ec8ca371a10e089d45466d5f3af055f35a12e8213d0ab3",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f282b3e321c8_10__LPBank_Charter_2026_1_.pdf"
     },
     {
      "label": "Resolution No. 2693 of the BOD of LPBank",
@@ -5059,7 +5112,8 @@
      "lm": "Wed, 30 Sep 2026 02:47:39 GMT",
      "size": 6431779,
      "sha256": "f1749ad6a907aefcb5450a10248a4f0a18781ac1894361035edd83f7a83f5fa7",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f1749ad6a907_11__Resolution_No__2693_of_the_BOD_of_LPBank_1_.pdf"
     },
     {
      "label": "Resolution No. 1591 of the BOD of LPBank",
@@ -5068,7 +5122,8 @@
      "lm": "Wed, 30 Sep 2026 02:47:53 GMT",
      "size": 2625613,
      "sha256": "bc3843ef8acc7dc87bd79a4b37d6a1f707e28ef7d594b570cf8acaa698d53b4b",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/bc3843ef8acc_12__Resolution_No__1591_of_the_BOD_of_LPBank_1_.pdf"
     },
     {
      "label": "Audited financial statements for the year 2024",
@@ -5077,7 +5132,8 @@
      "lm": "Wed, 30 Sep 2026 02:48:06 GMT",
      "size": 7258031,
      "sha256": "3694783a93531d22ba8a0f739c252958e5b7bea0c114133150b101e15c999420",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/3694783a9353_13__Audited_financial_statements_for_the_year_2024_1_.pdf"
     },
     {
      "label": "Audited financial statements for the year 2025",
@@ -5086,7 +5142,8 @@
      "lm": "Wed, 30 Sep 2026 02:48:23 GMT",
      "size": 8732718,
      "sha256": "5118ce5ca7082fec6c1199c3e10059a0b2217ba2a2f875e465089c3a2eb2a073",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/5118ce5ca708_14__Audited_financial_statements_for_the_year_2025_1_.pdf"
     },
     {
      "label": "Reviewed Interim financial statements for the year 2026",
@@ -5095,7 +5152,8 @@
      "lm": "Wed, 30 Sep 2026 02:48:43 GMT",
      "size": 10296269,
      "sha256": "f6f0afdb9bbdd53c0baf2c18f8daa4eee3bbc03021ff16bbb3a70de2ff6c0450",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f6f0afdb9bbd_15__Reviewed_Interim_financial_statements_for_the_year_2026_1_.pdf"
     },
     {
      "label": "Document No. 21980 regarding the commitment on meeting offer conditions",
@@ -5104,7 +5162,8 @@
      "lm": "Wed, 30 Sep 2026 02:48:54 GMT",
      "size": 1896760,
      "sha256": "17e48e874f9c43b8323ae89cbc6a8852a0dd510329ab6720c67bd70c79eb158c",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/17e48e874f9c_16__Document_No__21980_regarding_the_commitment_on_meeting_offer_conditions_1_.pdf"
     },
     {
      "label": "Document No. 21981 regarding the commitment on implementing obligations",
@@ -5113,7 +5172,8 @@
      "lm": "Wed, 30 Sep 2026 02:49:07 GMT",
      "size": 1492159,
      "sha256": "a1b16b752917adab3af2ae0be58de1bd7268dace9b4b6ecd5e35b3a2fa4eda14",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a1b16b752917_17__Document_No__21981_regarding_the_commitment_on_implementing_obligations_1_.pdf"
     },
     {
      "label": "Bondholders’ Representative Agreement",
@@ -5122,7 +5182,8 @@
      "lm": "Wed, 30 Sep 2026 04:39:40 GMT",
      "size": 18052361,
      "sha256": "bc4ae91d260c2b307c28a16ae23aa56fee91b036f6eda132b9c7b81f42be06a8",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/bc4ae91d260c_Bondholders_Representative_Agreement.pdf"
     },
     {
      "label": "Ownership registration type, Investor type, and Nationality codes issued by VSDC",
@@ -5131,7 +5192,8 @@
      "lm": "Wed, 30 Sep 2026 02:49:57 GMT",
      "size": 184245,
      "sha256": "a562aebf0c6f3fd5870497d5ec2ee82015c4f5d13d0edeb1d21fadb7bb58a3d7",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a562aebf0c6f_19__Ownership_registration_type_Investor_type_and_Nationality_codes_issued_by_VSDC_1_.pdf"
     },
     {
      "label": "Guidelines for bond subscription",
@@ -5140,7 +5202,8 @@
      "lm": "Wed, 30 Sep 2026 02:50:12 GMT",
      "size": 384142,
      "sha256": "5dd0d155b464a06b23fe3aeae239348e9e9122691ee7cc359617153f63b23410",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/5dd0d155b464_20__Guidelines_for_bond_subscription_1_.pdf"
     },
     {
      "label": "Bond subscription form for customers at LPBank (non-escrow case)",
@@ -5149,7 +5212,8 @@
      "lm": "Wed, 30 Sep 2026 02:50:28 GMT",
      "size": 49180,
      "sha256": "267b4344558b21e6bd10dfbb8554a7f47eb42936cabce06744a2086f6973d5b9",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/267b4344558b_21__Bond_subscription_form_for_customers_at_LPBank_non-escrow_case_1_.docx"
     },
     {
      "label": "Bond subscription form for customers at LPBank (escrow case)",
@@ -5158,7 +5222,8 @@
      "lm": "Wed, 30 Sep 2026 02:50:39 GMT",
      "size": 50772,
      "sha256": "3c0fd5f1106acbfc4b380d0f970fd030c1c9e2ba2747337dd970aaaaff8ad496",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/3c0fd5f1106a_22__Bond_subscription_form_for_customers_at_LPBank_escrow_case_1_.docx"
     },
     {
      "label": "Bond subscription form for customers at LPBS",
@@ -5167,7 +5232,8 @@
      "lm": "Wed, 30 Sep 2026 02:50:50 GMT",
      "size": 89167,
      "sha256": "ad402329410709e4377ae264d1dd26daaa4baa4f6c739a94fb1327b021d44a72",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/ad4023294107_23__Bond_subscription_form_for_customers_at_LPBS_1_.docx"
     },
     {
      "label": "Power of attorney for bond subscription",
@@ -5176,12 +5242,13 @@
      "lm": "Wed, 30 Sep 2026 02:50:58 GMT",
      "size": 32825,
      "sha256": "aea51177be6df870adcf7539171ede7fa424de1d232f75a53a1b54cb458d38d1",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/aea51177be6d_24__Power_of_attorney_for_bond_subscription_1_.docx"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "32c87a8e0ba70448",
     "body": "644cf691db92a4c7",
@@ -5199,7 +5266,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c2e7fa47058b0479",
@@ -5217,7 +5284,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4ee7897b57f7e1a5",
@@ -5235,7 +5302,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "d7be12cb5738aba1",
@@ -5253,7 +5320,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "269b24b66cd6ff81",
@@ -5271,7 +5338,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "88a0d86faed82fce",
@@ -5289,7 +5356,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1dfdda738fb0f889",
@@ -5307,7 +5374,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "39efc48ba784074d",
@@ -5325,7 +5392,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "262b7e7d060478d3",
@@ -5348,12 +5415,13 @@
      "lm": "Mon, 28 Sep 2026 10:17:03 GMT",
      "size": 3968139,
      "sha256": "06a1ae198b40ccee22eeec24be5b581598d9d9079ffd8ca707cfe104a76cb864",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/06a1ae198b40_20260928_-_LPS_-_CBTT_Quyet_dinh_dieu_chinh_ten_3_CN_-_website_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "29612cfa4466b320",
     "body": "999bb343affa64db",
@@ -5371,7 +5439,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8a4e1ca4869e3789",
@@ -5389,7 +5457,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fb38eb4fcf32a69b",
@@ -5407,7 +5475,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7f343194f5388f2d",
@@ -5430,7 +5498,8 @@
      "lm": "Thu, 24 Sep 2026 03:58:43 GMT",
      "size": 1580304,
      "sha256": "ffd96d752c7859f48472ae331d516e0695dfbb73157fd868fa7f19e948b5ae71",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/ffd96d752c78_20260924_-_CVPB2624_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     },
     {
      "label": "- Chứng quyền có bảo đảm mã CVPB2625 / Warrants coded CVPB2625",
@@ -5439,12 +5508,13 @@
      "lm": "Thu, 24 Sep 2026 03:58:54 GMT",
      "size": 1576471,
      "sha256": "1cde86bcae36a8d5e6638c1b5a767cae659b7b11ef173b4a90f171c11e0c2ac9",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/1cde86bcae36_20260924_-_CVPB2625_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "7ecb94a55e2b0d0d",
     "body": "255fca2d813169b3",
@@ -5462,7 +5532,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "4c099fdbaf240824",
@@ -5485,7 +5555,8 @@
      "lm": "Mon, 21 Sep 2026 08:30:42 GMT",
      "size": 1594487,
      "sha256": "a41314f7000b9a83bb217a96fda97788c8269e8e3ef17ed523dd5501f0dbaa25",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a41314f7000b_20260921_-_CFPT2604_-_CBTT_Dieu_chinh_chung_quyen_1_signed_1_.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CFPT2629 / Warrants coded CFPT2629",
@@ -5494,7 +5565,8 @@
      "lm": "Mon, 21 Sep 2026 08:30:57 GMT",
      "size": 1592974,
      "sha256": "a47442c4527f48fa30299ce8ea3b7f505f6ab4c6545a5fc2d21cff36e21d381e",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a47442c4527f_20260921_-_CFPT2629_-_CBTT_Dieu_chinh_chung_quyen_1_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CFPT2630 / Warrants coded CFPT2630",
@@ -5503,12 +5575,13 @@
      "lm": "Mon, 21 Sep 2026 08:31:10 GMT",
      "size": 1599597,
      "sha256": "e052bcf415cebca6d08106d1de1c0eee12aef008f24c383a059578f79da03808",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/e052bcf415ce_20260921_-_CFPT2630_-_CBTT_Dieu_chinh_chung_quyen_1_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "dfe30ddb8a5a239b",
     "body": "32b2b7b0a555b221",
@@ -5531,12 +5604,13 @@
      "lm": "Wed, 16 Sep 2026 10:58:45 GMT",
      "size": 2870623,
      "sha256": "7031137f1b9051dc20993f69495dec288f2e7e15914bb085118f4c8d1018669d",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/7031137f1b90_20260916_-_LPS_-_CBTT_NQ_phat_hanh_trai_phieu_rieng_le_lan_2_signed_1_.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "47dddbe9752fac2a",
     "body": "9b2d8d14792ab6db",
@@ -5559,12 +5633,13 @@
      "lm": "Mon, 14 Sep 2026 06:30:48 GMT",
      "size": 2659024,
      "sha256": "c691615ae8b8ff4825a2aad2eec5ad4c2978720ee88b0e0982c2c8877912463e",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/c691615ae8b8_20260914_-_LPS_-_TB_ve_ngay_giao_dich_dau_tien_32_CW_co_bao_dam_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "b4c1d3dd87d08af4",
     "body": "93d35671da836ca9",
@@ -5587,12 +5662,13 @@
      "lm": "Fri, 11 Sep 2026 10:08:08 GMT",
      "size": 13274759,
      "sha256": "731a1aa795bc5ea1e654d670033c457f49c3d4449f6c01aa2cdcd852457034e4",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/731a1aa795bc_20260911_-_LPS_-_Resolution_No_108A_and_108B_-_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "aa62ff98a720fa38",
     "body": "1430054e27f27058",
@@ -5615,7 +5691,8 @@
      "lm": "Mon, 21 Sep 2026 03:28:14 GMT",
      "size": 1606696,
      "sha256": "d8e549b7a048ed6d4b08822432d8c18b890e5ef698732f6fe70cd04fedf47739",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/d8e549b7a048_20260910_-_LPS_-_CBTT_Dieu_chinh_chung_quyen_CVIB2601_signed.pdf"
     },
     {
      "label": "Warrants coded CVIB2601",
@@ -5624,7 +5701,8 @@
      "lm": "Mon, 21 Sep 2026 03:28:55 GMT",
      "size": 1606696,
      "sha256": "d8e549b7a048ed6d4b08822432d8c18b890e5ef698732f6fe70cd04fedf47739",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/d8e549b7a048_20260910_-_LPS_-_Adjustment_of_covered_warrants_CVIB2601_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CVIB2609",
@@ -5633,7 +5711,8 @@
      "lm": "Mon, 21 Sep 2026 03:28:30 GMT",
      "size": 1598199,
      "sha256": "77bc388f93c882013d1ef338f06821c2535a479896f9089ae727bc0099f16f81",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/77bc388f93c8_20260910_-_LPS_-_CBTT_Dieu_chinh_chung_quyen_CVIB2609_signed.pdf"
     },
     {
      "label": "Warrants coded CVIB2609",
@@ -5642,7 +5721,8 @@
      "lm": "Mon, 21 Sep 2026 03:29:12 GMT",
      "size": 1598199,
      "sha256": "77bc388f93c882013d1ef338f06821c2535a479896f9089ae727bc0099f16f81",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/77bc388f93c8_20260910_-_LPS_-_Adjustment_of_covered_warrants_CVIB2609_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CVIB2610",
@@ -5651,7 +5731,8 @@
      "lm": "Mon, 21 Sep 2026 03:28:45 GMT",
      "size": 1600016,
      "sha256": "351cb3cd05974c09576203968f3e7bb9138275a78b20761ec681639cff5781dc",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/351cb3cd0597_20260910_-_LPS_-_CBTT_Dieu_chinh_chung_quyen_CVIB2610_signed.pdf"
     },
     {
      "label": "Warrants coded CVIB2610",
@@ -5660,12 +5741,13 @@
      "lm": "Mon, 21 Sep 2026 03:29:26 GMT",
      "size": 1600016,
      "sha256": "351cb3cd05974c09576203968f3e7bb9138275a78b20761ec681639cff5781dc",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/351cb3cd0597_20260910_-_LPS_-_Adjustment_of_covered_warrants_CVIB2610_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "1546257c6a8446cb",
     "body": "3d286363196e7af7",
@@ -23964,7 +24046,8 @@
      "lm": "Mon, 20 Jul 2026 11:43:20 GMT",
      "size": 12811187,
      "sha256": "8052e8c8ed6c03442fcdca0bd25aab5bdb68a4f6f4ff1c0fb423fa43ca211587",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/8052e8c8ed6c_LPBS_-_FS_30062026_-_ENG_1_1_.pdf"
     },
     {
      "label": "Tại đây",
@@ -23973,7 +24056,8 @@
      "lm": "Tue, 20 Oct 2026 15:07:22 GMT",
      "size": 20098006,
      "sha256": "fe7e9d24a586335b5d2fd856927a1cdfc39387a6335221b92054d440dfe390db",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/fe7e9d24a586_20261020_-_LPS_-_CBTT_BCTC_Qu_III_2026_v2_signed_1_.pdf"
     },
     {
      "label": "Here",
@@ -23982,12 +24066,13 @@
      "lm": "Tue, 20 Oct 2026 15:08:04 GMT",
      "size": 19791698,
      "sha256": "fa4083a99b64a47d85c8d1e70c59d40b36016fde05cb49efe5e2bd437bbdbe7d",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/fa4083a99b64_20261020_-_LPS_-_Disclosure_of_Q3_2026_Financial_Statements_v2_signed_1_.pdf"
     }
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -28346,7 +28431,8 @@
      "lm": "Mon, 05 Oct 2026 03:46:07 GMT",
      "size": 3224266,
      "sha256": "2b50dfe7ebdf5cb1add6630c7bf6540e856e27855b6f8b22acaa5499ff4205f0",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/2b50dfe7ebdf_Quy_che_Cong_bo_thong_tin_2026.pdf"
     },
     {
      "label": "Quy chế công bố thông tin số QC/PC/CBTT/03",
@@ -28355,7 +28441,8 @@
      "lm": "Fri, 02 Oct 2026 12:00:59 GMT",
      "size": 3194236,
      "sha256": "e9ab8a03bde8af25707848c3590ce5f15661fe7a1f87d49d5438f71f20bada27",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/e9ab8a03bde8_Quy_che_CBTT_1_.pdf"
     },
     {
      "label": "Information Disclosure Regulations No. QC/PC/CBTT/03",
@@ -28364,12 +28451,13 @@
      "lm": "Fri, 02 Oct 2026 12:00:24 GMT",
      "size": 3598056,
      "sha256": "f1419c04700aaea66457b7c9422a03b3af74aab6cdd8df9dbcce1e605190ef6f",
-     "hashed_at": "2026-10-25T08:08+07:00"
+     "hashed_at": "2026-10-25T08:17+07:00",
+     "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f1419c04700a_Ver_ENG_-_Quy_ch_b_o_c_o_v_c_ng_b_th_ng_tin_1_.pdf"
     }
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-10-25T08:08+07:00",
+   "checked": "2026-10-25T08:17+07:00",
    "fp": {
     "title": "cbfde550a192bc38",
     "body": "39eb5d9732ced56b",
@@ -29593,10 +29681,11 @@
    "source_name": "Vietnam.vn",
    "published": "2026-10-21T11:23+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "(Dân trí) - Tính đến ngày 30/9, Ngân hàng Lộc Phát Việt Nam (LPBank, mã: LPB) đạt 10.421 tỷ đồng lợi nhuận trước thuế lũy kế, tổng tài sản đạt 694.183 tỷ đồng, tăng trưởng tương ứng gần 9% và 29% so với cùng kỳ.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRVhKSFBYazhERENPRXNJaGo4QklBdU5aLXp5YmZ1bWs3djZwSjRKb3NTckhtQ092ZVgtcF9vZEhPZXp4X3dybEJNdFppVVdQOVpJOHYzaHBxTHlaUlBXNUhJS0dkb09QTGRFcUJJbTluRGZ0aTJDSDBUMmZSRjNxN3VCM3hCeWRWT1B5bTZiWFNGMVVuM1hoZ3NQZFVJeWpiaXR5Rw?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRVhKSFBYazhERENPRXNJaGo4QklBdU5aLXp5YmZ1bWs3djZwSjRKb3NTckhtQ092ZVgtcF9vZEhPZXp4X3dybEJNdFppVVdQOVpJOHYzaHBxTHlaUlBXNUhJS0dkb09QTGRFcUJJbTluRGZ0aTJDSDBUMmZSRjNxN3VCM3hCeWRWT1B5bTZiWFNGMVVuM1hoZ3NQZFVJeWpiaXR5Rw?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-2f967eac8a1c",
@@ -29608,10 +29697,11 @@
    "source_name": "Vietnam.vn",
    "published": "2026-10-21T11:05+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Loc Phat Vietnam Bank (LPBank – HOSE code: LPB) has just announced its Q3 Financial Report with several noteworthy highlights. As of September 30, 2026, the Bank achieved cumulative pre-tax profit of VND 10,421 billion, and total assets reached VND 694,183 billion, representing growth of nearly 9% and 29% respectively compared to the same period last year.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVC1yNDZYUktsX1lDb1ZnV0xNbHJHcjJLUGZHUDFzNzMxQS1sZlBoRHFQbThZel9pZnJBRXoxZ2ZoT3dRSDBvWWR0QlZ0MXB3RTNmTnJXMlUyd0ZxU2hMRDJwZ1hneWNfR3RiclBGUjBYSF9FQ3dlVTFwV3REcXV2NER1X0ZVSFNqaHpzUUZ2aXpsNV9STUpGM21NRmhuQQ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVC1yNDZYUktsX1lDb1ZnV0xNbHJHcjJLUGZHUDFzNzMxQS1sZlBoRHFQbThZel9pZnJBRXoxZ2ZoT3dRSDBvWWR0QlZ0MXB3RTNmTnJXMlUyd0ZxU2hMRDJwZ1hneWNfR3RiclBGUjBYSF9FQ3dlVTFwV3REcXV2NER1X0ZVSFNqaHpzUUZ2aXpsNV9STUpGM21NRmhuQQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-cb772c56df77",
@@ -29623,10 +29713,11 @@
    "source_name": "Vietnam Post",
    "published": "2026-10-21T11:03+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Ngày 20/10, tại TP. Hồ Chí Minh, Tổng công ty Bưu điện Việt Nam (Vietnam Post) và Ngân hàng TMCP Lộc Phát Việt Nam (LPBank) tổ chức Hội nghị thúc đẩy kinh doanh huy động Tiết kiệm Bưu điện khu vực TP. Hồ Chí Minh trong 3 tháng cuối năm 2026.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeW9DZzRZSC1nUnNocFNfUFhYTFRSeXJTZm94VElFdHlEb0Vzb1ltLTdSYXRLN3lyRG1pdzRBVXZhTzVMeVd3cjFrV1R4UDJ0VjBwUW1NRW1tX2NHZGxMX3huc3d6aWtKcGdxUDFNQ1daQjh5ZzBsVmtXb2ZsYmYxdnVGQWlzSWFxaC04VVNzZzBJcDc0alFQM19jU2Z0UksycVBOM3ltZ0c4UERSSWc4NnlfdFVmTWhvNUJhTklaVnVnQzJvdDlkS3hoSVF0Uzc2SlB4X1o2Zk9mZw?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeW9DZzRZSC1nUnNocFNfUFhYTFRSeXJTZm94VElFdHlEb0Vzb1ltLTdSYXRLN3lyRG1pdzRBVXZhTzVMeVd3cjFrV1R4UDJ0VjBwUW1NRW1tX2NHZGxMX3huc3d6aWtKcGdxUDFNQ1daQjh5ZzBsVmtXb2ZsYmYxdnVGQWlzSWFxaC04VVNzZzBJcDc0alFQM19jU2Z0UksycVBOM3ltZ0c4UERSSWc4NnlfdFVmTWhvNUJhTklaVnVnQzJvdDlkS3hoSVF0Uzc2SlB4X1o2Zk9mZw?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-35e2006c0c98",
@@ -29638,10 +29729,11 @@
    "source_name": "Tạp chí Bóng đá",
    "published": "2026-10-21T11:01+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Vòng 5 LPBank V.League 2026/27 hứa hẹn nhiều cuộc so kè hấp dẫn với những trận đấu đáng chú ý. Trong đó, hai cuộc đối đầu giữa Thể Công vs Bắc Ninh và Đồng Nai vs Nam Định được xem là tâm điểm, bởi đây là những thử thách lớn đối với các HLV đội chủ nhà.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDZhcDBGUUp4UzE1b0p5a092YjlmVFRxcTlBZE1uTkVsWFA5cWRDQUREUmMxZ0dpaVpaNDR6eW9McEZ6YnRqcEJOaW1sYmw0eWhLYVlCSlZRTUl1LXR2TnlkakhXMjJuZXI0QUdNOXItbVBRd01aWEFFZF9RV1NjV1plTmhhbGhNbmFzdm0teWQ3TzVPN0xOaVprTnpuYW1sOVJMU252YnF5SkR1WWtBWUxFQ3REaW9GcE14NDQwYWE?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDZhcDBGUUp4UzE1b0p5a092YjlmVFRxcTlBZE1uTkVsWFA5cWRDQUREUmMxZ0dpaVpaNDR6eW9McEZ6YnRqcEJOaW1sYmw0eWhLYVlCSlZRTUl1LXR2TnlkakhXMjJuZXI0QUdNOXItbVBRd01aWEFFZF9RV1NjV1plTmhhbGhNbmFzdm0teWQ3TzVPN0xOaVprTnpuYW1sOVJMU252YnF5SkR1WWtBWUxFQ3REaW9GcE14NDQwYWE?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-60bf97351f9b",
@@ -29653,10 +29745,11 @@
    "source_name": "Báo Pháp Luật Việt Nam",
    "published": "2026-10-21T09:46+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Báo cáo tài chính quý 3 năm 2026 của Ngân hàng Lộc Phát Việt Nam ghi nhận đà tăng trưởng tích cực ở cả ba chỉ tiêu quan trọng là lợi nhuận, huy động và tín dụng. Trong đó, thu nhập từ hoạt động dịch vụ và ngoại hối bứt phá mạnh, trở thành động lực chính thúc đẩy cơ cấu thu nhập ngoài lãi của nhà băng này.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWkhpVVh3bG0zOU1LWjlQazN4cEQyaHB5WTI2bXNfdDcyLU1NSTJjU1VxT0E1Q2FENXAwRC1ybHF3ZVNBZHlJdW5FVHd0VVEyMlUtWGU0N3lRUFFvcFRGclFYWVI3bW9oUjFpTGxYWWRvLWhOeEhfT1JHd1BBZWswOHNPbWgzX3ljSTNlWWR6WlNrckpMUE1UcTZGNWJLZ3Vqcmh5cV9nLV9vV3NsVTIxRmtQanhzRWplUlBlUg?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWkhpVVh3bG0zOU1LWjlQazN4cEQyaHB5WTI2bXNfdDcyLU1NSTJjU1VxT0E1Q2FENXAwRC1ybHF3ZVNBZHlJdW5FVHd0VVEyMlUtWGU0N3lRUFFvcFRGclFYWVI3bW9oUjFpTGxYWWRvLWhOeEhfT1JHd1BBZWswOHNPbWgzX3ljSTNlWWR6WlNrckpMUE1UcTZGNWJLZ3Vqcmh5cV9nLV9vV3NsVTIxRmtQanhzRWplUlBlUg?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-d6cb533584cd",
@@ -29668,10 +29761,11 @@
    "source_name": "Thương gia",
    "published": "2026-10-21T09:32+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Đây là nền tảng để LPBank tiếp tục triển khai các nhiệm vụ, giải pháp kinh doanh trong quý 4, hướng tới hoàn thành các mục tiêu đã đề ra cho cả năm...",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN3VQQVRGR3lTbDVURk4zSzI2MUUzbGxnQWM3QUI5UDhSaGl6eUJveDcwdXlIUUZjRE5ta3RLUUh5Q1RicE5KWWdScVoyeVJmOEx0eFNDYUhwYnQxQlpSQUVwN0ZHbU11OW1MTzh4QnJvcVlPSjZrY0xxQkQtVEIwSm1pZ0hkOXk0THNsbWV6WjZQNF9JdjBQRTRZMGZ1M3VFSml0elNZOTRoaXVjaXRN0gGvAUFVX3lxTFA3dVBBVEZHeVNsNVRGTjNLMjYxRTNsbGdBYzdBQjlQOFJoaXp5Qm94NzB1eUhRRmNETm1rdEtRSHlDVGJwTkpZZ1JxWjJ5UmY4THR4U0NhSHBidDFCWlJBRXA3RkdtTXU5bUxPOHhCcm9xWU9KNmtjTHFCRC1UQjBKbWlnSGQ5eTRMc2xtZXpaNlA0X0l2MFBFNFkwZnUzdUVKaXR6U1k5NGhpdWNpdE0?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN3VQQVRGR3lTbDVURk4zSzI2MUUzbGxnQWM3QUI5UDhSaGl6eUJveDcwdXlIUUZjRE5ta3RLUUh5Q1RicE5KWWdScVoyeVJmOEx0eFNDYUhwYnQxQlpSQUVwN0ZHbU11OW1MTzh4QnJvcVlPSjZrY0xxQkQtVEIwSm1pZ0hkOXk0THNsbWV6WjZQNF9JdjBQRTRZMGZ1M3VFSml0elNZOTRoaXVjaXRN0gGvAUFVX3lxTFA3dVBBVEZHeVNsNVRGTjNLMjYxRTNsbGdBYzdBQjlQOFJoaXp5Qm94NzB1eUhRRmNETm1rdEtRSHlDVGJwTkpZZ1JxWjJ5UmY4THR4U0NhSHBidDFCWlJBRXA3RkdtTXU5bUxPOHhCcm9xWU9KNmtjTHFCRC1UQjBKbWlnSGQ5eTRMc2xtZXpaNlA0X0l2MFBFNFkwZnUzdUVKaXR6U1k5NGhpdWNpdE0?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-hose-2506330",
@@ -29695,10 +29789,11 @@
    "source_name": "VTVgo",
    "published": "2026-10-21T07:00+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Chiến thắng đầu tiên của CLB Hà Nội là điểm nhấn đáng chú ý trong hai trận đấu khép lại vòng 3 V.League 2026/2027. Sau hai vòng đấu trắng tay, thầy trò HLV Harry Kewell đã tìm lại niềm vui chiến thắng, trong khi Công an TP.HCM đánh rơi lợi thế trên sân Vinh.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE00STV3SHpXS19yd08tNXJhSFo1VDdwdHpaRTZzN0JJaDR6SUxMNEdsajZZTUVnQmpDalBEMFh1aDU?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE00STV3SHpXS19yd08tNXJhSFo1VDdwdHpaRTZzN0JJaDR6SUxMNEdsajZZTUVnQmpDalBEMFh1aDU?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-b30680a2e896",
@@ -29710,10 +29805,11 @@
    "source_name": "Báo Tiền Phong",
    "published": "2026-10-21T05:45+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Theo thống kê về thời gian bóng lăn trung bình mỗi trận tại các giải vô địch quốc gia hàng đầu châu Á năm 2025 do trang ASEAN Football tổng hợp, giải Vô địch Quốc gia Việt Nam (LPBank V.League 1) đã tạo nên một bất ngờ thú vị về mặt chuyên môn.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2FvVTI2ZUtSYXlDd3lPSXdaRzA2dk40cFM3YjBTVmZUTURoekZyaE9STVY4RTdoZGZWaDl0RzRMd2tWSmRtZU5JSEI4TzdoSVAzd0VXcHRGTlRaa3BWYUIzSTRuRzBuZ2NMa1MxSFRVUTZNeXVtVjBaR1NqZWJVRVJ0dFk5ejJPaE1ZS0VLam1CdWt6MkE?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2FvVTI2ZUtSYXlDd3lPSXdaRzA2dk40cFM3YjBTVmZUTURoekZyaE9STVY4RTdoZGZWaDl0RzRMd2tWSmRtZU5JSEI4TzdoSVAzd0VXcHRGTlRaa3BWYUIzSTRuRzBuZ2NMa1MxSFRVUTZNeXVtVjBaR1NqZWJVRVJ0dFk5ejJPaE1ZS0VLam1CdWt6MkE?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-703d64218ec5",
@@ -29725,10 +29821,11 @@
    "source_name": "Hangthat.vn",
    "published": "2026-10-19T21:57+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "LPBank giảm lãi suất tiền gửi từ 1 đến 36 tháng, trong khi VietBank hạ 0,5 điểm phần trăm/năm ở các kỳ hạn 6-36 tháng. Động thái diễn ra sau cuộc họp ngày 19/10 của Ngân hàng Nhà nước, với yêu cầu giảm lãi suất huy động và hạ lãi suất cho vay nhằm hỗ",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJaZ2hHY1BsN1h1Tks0RlMxQlJQOTFGY1lHZVZZdnFicUdUOU04OC1XX1VxTUR1c0pybHFRbVc2NEF5Q1lSeGNiUHo2dUN1dFItd21QVGdrN0RYY3g3SVNiZlpJWXZRSGRGYWk3SmZ1T25fMEg5bjRhSkprOUdYYXc0V3JtOTcwai1Qa3JvWWlsMGJmTEQ1Z2xma3NGcjl0SER4b1AxUFpwV1FhcEpfU0tqZUNDQQ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJaZ2hHY1BsN1h1Tks0RlMxQlJQOTFGY1lHZVZZdnFicUdUOU04OC1XX1VxTUR1c0pybHFRbVc2NEF5Q1lSeGNiUHo2dUN1dFItd21QVGdrN0RYY3g3SVNiZlpJWXZRSGRGYWk3SmZ1T25fMEg5bjRhSkprOUdYYXc0V3JtOTcwai1Qa3JvWWlsMGJmTEQ1Z2xma3NGcjl0SER4b1AxUFpwV1FhcEpfU0tqZUNDQQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-23a459450a77",
@@ -29740,10 +29837,11 @@
    "source_name": "Báo Công Lý",
    "published": "2026-10-19T18:11+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Ngân hàng Thương mại cổ phần Lộc Phát Việt Nam (LPBank) triển khai chương trình giảm lãi suất cho vay từ 1,6-2%/năm đối với các khoản giải ngân mới phục vụ sản xuất, kinh doanh ngắn hạn, đồng thời điều chỉnh lãi suất huy động nhằm tối ưu chi phí vốn.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0w4NjJfRE03TGx0b2ctNnF1LVZMZGtsUFgxckVrRGRYVVU2N2tILWZaakFTb0gtTHl4UWN3MWc0STNHMUpmcEMyZlk1ODZjMXJwY184b1pQdU5oTXJJdWxRQVZmZTVOc09uRG9VQWdlRkZoczRMUXJOYm1ZejFwdUxtVm42emw4bENtNXlod2tYZw?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc0w4NjJfRE03TGx0b2ctNnF1LVZMZGtsUFgxckVrRGRYVVU2N2tILWZaakFTb0gtTHl4UWN3MWc0STNHMUpmcEMyZlk1ODZjMXJwY184b1pQdU5oTXJJdWxRQVZmZTVOc09uRG9VQWdlRkZoczRMUXJOYm1ZejFwdUxtVm42emw4bENtNXlod2tYZw?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-a227df089baf",
@@ -29755,10 +29853,11 @@
    "source_name": "An ninh Tiền tệ",
    "published": "2026-10-19T16:34+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Ngày 8/10/2026, LPBank đã phát hành trái phiếu mã LPBL12615 trị giá 200 tỷ đồng, kỳ hạn 6 năm, lãi suất thả nổi 9,68%/năm.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEEyVGJHN3VxV3dramtuUU1OcXpkTE1nZ1ZQMllmdDBQaGMzZml3NmlVbGpQMkZ3Uk91OUd1YzlrN21Yc3RGbktOY3dBSWNlaFEtdEhiazd4VEhEdktZWmhEd29INTRFbFhtSWlwQXpabkhXVTRNd0ZVTldxM3p1d2ZNOTNDUm5hS1A1RVRLWVFMa2RMd1VJS25TWlFreDRnVy1GLWIzaElINy11bndJ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEEyVGJHN3VxV3dramtuUU1OcXpkTE1nZ1ZQMllmdDBQaGMzZml3NmlVbGpQMkZ3Uk91OUd1YzlrN21Yc3RGbktOY3dBSWNlaFEtdEhiazd4VEhEdktZWmhEd29INTRFbFhtSWlwQXpabkhXVTRNd0ZVTldxM3p1d2ZNOTNDUm5hS1A1RVRLWVFMa2RMd1VJS25TWlFreDRnVy1GLWIzaElINy11bndJ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-fd1589a14a1f",
@@ -29770,52 +29869,59 @@
    "source_name": "24HMoney",
    "published": "2026-10-19T14:56+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Thực hiện định hướng điều hành của Chính phủ và chỉ đạo của Thống đốc NHNN, Ngân hàng TMCP Lộc Phát Việt Nam (LPBank, LPB) triển khai chương trình điều chỉnh giảm lãi suất huy động và cho vay trên toàn hệ thống, áp dụng từ ngày 19/10/2026 đến hết ngày 31/12/2026.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZThNaWpJVnM5LVlSZnRsbTZ4M0lKc2ZQdjBHN2RmRXdaLXVrZWViUi1MLXIxNTl0MjBKVVJ4dUhBNzFLN1hGX2Z2QlRfQ0k4WHcxQTQzeUNjcXRlblRseEZhUS05T0hWR1lNT25MRDdENUdIWG16SEZPZ1kybTlKeG1wSkhXMnJBdTdQWUpZeGxPakZQY3Z0bkdFUQ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZThNaWpJVnM5LVlSZnRsbTZ4M0lKc2ZQdjBHN2RmRXdaLXVrZWViUi1MLXIxNTl0MjBKVVJ4dUhBNzFLN1hGX2Z2QlRfQ0k4WHcxQTQzeUNjcXRlblRseEZhUS05T0hWR1lNT25MRDdENUdIWG16SEZPZ1kybTlKeG1wSkhXMnJBdTdQWUpZeGxPakZQY3Z0bkdFUQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-fd342fbfd944",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank hạ đồng thời lãi suất huy động và cho vay",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORFZJMEp1NGp1TVBnYmxKMnJNcXdZUVhnZ2Q5RDlXZ3VjbmV5WXpVbjBUM0NLZnFoZ0hVVjZsWEZtT1dEajdJZVNqeEpvRU1KTXNnbWFvN1djMlZNeFZZZnkxc2ZyVm5Kc3BEZHhJYktwUnlGR1N1bDJ2cGFIb1dpc0hZcWNrUExpRTR2Zg?oc=5",
+   "url": "https://nguoiquansat.vn/lpbank-ha-dong-thoi-lai-suat-huy-dong-va-cho-vay-322881.html",
    "source": "nguoiquansat.vn",
    "source_name": "nguoiquansat.vn",
    "published": "2026-10-19T14:46+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Ngân hàng tạo điều kiện để doanh nghiệp, hộ kinh doanh và khách hàng cá nhân chuẩn bị nguồn lực cho giai đoạn cao điểm cuối năm.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORFZJMEp1NGp1TVBnYmxKMnJNcXdZUVhnZ2Q5RDlXZ3VjbmV5WXpVbjBUM0NLZnFoZ0hVVjZsWEZtT1dEajdJZVNqeEpvRU1KTXNnbWFvN1djMlZNeFZZZnkxc2ZyVm5Kc3BEZHhJYktwUnlGR1N1bDJ2cGFIb1dpc0hZcWNrUExpRTR2Zg?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-6e87edb724f6",
    "party": "LPB",
    "kind": "news",
    "title": "Agribank, Vietcombank, BIDV, MB, ACB, Sacombank, LPBank, VietBank, Nam A Bank đồng loạt giảm lãi suất cho vay",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeUh1aFRnT0ZnYlhiS1diTURobmJORENsUm9Qd1V2TXdNQW4zazRJaEtxVC1PdGpPUUptWjBWTzhORk8zcnBYZThvYU5VcGJuS2VVeTZxNnNxTUhyUlV0OG1iWWZfTm1XeFRLNEhETVM0YXJsLTAxbUNMMFJ6Nm1lVGR3NWFvc191cTR1RG41OGE2a2w0Qm8wUTdCOWJTeDIwRnlZMTBmakQ4RUpfMEhqUXpPbmpDZERZQ044VEdnMFZiRXJMZFJ1ZG0tYkdaYmZpcVRPTnQ1UHY?oc=5",
+   "url": "https://cafef.vn/agribank-vietcombank-bidv-mb-acb-sacombank-lpbank-vietbank-nam-a-bank-dong-loat-giam-lai-suat-cho-vay-188261019135427753.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-19T13:53+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Thực hiện chỉ đạo của Chính phủ và Ngân hàng Nhà nước, Agribank, Vietcombank, BIDV, ACB, LPBank và VietBank đồng loạt triển khai các chương trình giảm lãi suất cho vay, với mức điều chỉnh phổ biến từ 1,5-2 điểm %/năm đối với các khoản vay và lĩnh vực ưu tiên.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeUh1aFRnT0ZnYlhiS1diTURobmJORENsUm9Qd1V2TXdNQW4zazRJaEtxVC1PdGpPUUptWjBWTzhORk8zcnBYZThvYU5VcGJuS2VVeTZxNnNxTUhyUlV0OG1iWWZfTm1XeFRLNEhETVM0YXJsLTAxbUNMMFJ6Nm1lVGR3NWFvc191cTR1RG41OGE2a2w0Qm8wUTdCOWJTeDIwRnlZMTBmakQ4RUpfMEhqUXpPbmpDZERZQ044VEdnMFZiRXJMZFJ1ZG0tYkdaYmZpcVRPTnQ1UHY?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-748e121e374a",
    "party": "LPB",
    "kind": "news",
    "title": "Lãi suất ngân hàng ngày 19/10/2026: LPBank và VietBank giảm từ 0,1 đến 0,6 điểm phần trăm",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR29Fa0paY1YzcnczNkZGV1E1M29iS19MNFBaMERWX2xSWWJQR0pCbmpIbWJud255ZDlFNWlLOFBNMG1sVjdfZk1uM1VOTS1Db3hnNk5aNTlCZGh4cjFFV0FzS0p4a0lpeTZsMzhVbl9iZnctZVhJcDh6cTlEQTIzU0JGWjN4Nmhxcy1RalhORUJCY1UxQlhmYkk4bUJMUkxtcnBhN0kxUzZTY3hzaUtudg?oc=5",
+   "url": "https://www.vietnam.vn/lai-suat-ngan-hang-ngay-19-10-2026-lpbank-va-vietbank-giam-tu-0-1-den-0-6-diem-phan-tram",
    "source": "vietnam.vn",
    "source_name": "Vietnam.vn",
    "published": "2026-10-19T10:24+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Sáng ngày 19/10/2026, LPBank và VietBank đồng loạt điều chỉnh giảm lãi suất huy động từ 0,1 đến 0,6 điểm phần trăm sau chỉ đạo mới của Ngân hàng Nhà nước.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOR29Fa0paY1YzcnczNkZGV1E1M29iS19MNFBaMERWX2xSWWJQR0pCbmpIbWJud255ZDlFNWlLOFBNMG1sVjdfZk1uM1VOTS1Db3hnNk5aNTlCZGh4cjFFV0FzS0p4a0lpeTZsMzhVbl9iZnctZVhJcDh6cTlEQTIzU0JGWjN4Nmhxcy1RalhORUJCY1UxQlhmYkk4bUJMUkxtcnBhN0kxUzZTY3hzaUtudg?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-hose-2505142",
@@ -29834,154 +29940,174 @@
    "party": "LPB",
    "kind": "news",
    "title": "LPBank điều chỉnh hạ lãi suất huy động và cho vay tại nhiều kỳ hạn sau chỉ đạo của Chính phủ",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbWVfU2NIQ3JEUTRaXzRwbGpOT0szbVp2TFdnVldXdG0tNjVTb0Q3Q25zZlBXVWpjWmw5c1dPblZGWkI5ZExXLXNXbFFWXy1DUXhHRzNZeDlWLUpSSzFKclMwWHJ5UXlLaHBkaFlmQnFNTHFycC1EYjc0Ry1jcDF4a3ZhOEFKQnRNN2hqTnpVSE9jZHFpaGJHS0ZKS0taY09pNEg3YXQwZTloMVJUZWg5ekk4TVhFUzdGQ2VXdVRjUkZwT2pEOWlTdw?oc=5",
+   "url": "https://tienphong.vn/lpbank-dieu-chinh-ha-lai-suat-huy-dong-va-cho-vay-tai-nhieu-ky-han-sau-chi-dao-cua-chinh-phu-post1886512.tpo",
    "source": "tienphong.vn",
    "source_name": "Báo Tiền Phong",
    "published": "2026-10-19T09:49+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Thực hiện chủ trương của Chính phủ, thực thi chỉ đạo xuyên suốt, quyết liệt và sát sao của Thống đốc Ngân hàng Nhà nước (NHNN), từ ngày 19/10/2026 đến hết ngày 31/12/2026, Ngân hàng TMCP Lộc Phát Việt Nam (LPBank) triển khai chương trình giảm lãi suất huy động và cho vay trên toàn hệ thống. Theo đó, ngân hàng giảm 0,5–0,6%/năm lãi suất tiền gửi niêm yết tại nhiều kỳ hạn và giảm 1,6–2%/năm lãi suất cho vay đối với các khoản giải ngân mới phục vụ sản xuất, kinh doanh ngắn hạn.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbWVfU2NIQ3JEUTRaXzRwbGpOT0szbVp2TFdnVldXdG0tNjVTb0Q3Q25zZlBXVWpjWmw5c1dPblZGWkI5ZExXLXNXbFFWXy1DUXhHRzNZeDlWLUpSSzFKclMwWHJ5UXlLaHBkaFlmQnFNTHFycC1EYjc0Ry1jcDF4a3ZhOEFKQnRNN2hqTnpVSE9jZHFpaGJHS0ZKS0taY09pNEg3YXQwZTloMVJUZWg5ekk4TVhFUzdGQ2VXdVRjUkZwT2pEOWlTdw?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-192205ab64c1",
    "party": "LPB",
    "kind": "news",
    "title": "Lãi suất ngân hàng ngày 19/10/2026: LPBank và VietBank giảm lãi suất huy động tới 0,6%/năm",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2p6T0llUFFscGNELUVYZlh2b2MwdFBQeURzMXlOSFdwMWQzSl9wRlZQR0w1ZGxva0pZUDljYUhxTHFYblh6YjZudVBTaTdmSkQzVENyZzd3T2YxaVdlbElsX0ZGNFIyMXlDV0pNdFpOUld6SmZoQTdhd2ZGRnRSdEdOVS1PN05wTE12X3Y1ZUZ6cW9LLU5vN3ZRMl9kRUk2OGZDeE8yMm9aTHNnU3ktNkxwbnRDczhqNC1F?oc=5",
+   "url": "https://baohatinh.vn/tv/lai-suat-ngan-hang-ngay-19102026-lpbank-va-vietbank-giam-lai-suat-huy-dong-toi-06nam-55245.html",
    "source": "baohatinh.vn",
    "source_name": "Báo Hà Tĩnh",
    "published": "2026-10-19T09:45+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Sau chỉ đạo từ Ngân hàng Nhà nước, LPBank và VietBank đã hạ 0,1-0,6 điểm phần trăm lãi suất huy động, trong khi các ngân hàng lớn cắt giảm lãi suất cho vay.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2p6T0llUFFscGNELUVYZlh2b2MwdFBQeURzMXlOSFdwMWQzSl9wRlZQR0w1ZGxva0pZUDljYUhxTHFYblh6YjZudVBTaTdmSkQzVENyZzd3T2YxaVdlbElsX0ZGNFIyMXlDV0pNdFpOUld6SmZoQTdhd2ZGRnRSdEdOVS1PN05wTE12X3Y1ZUZ6cW9LLU5vN3ZRMl9kRUk2OGZDeE8yMm9aTHNnU3ktNkxwbnRDczhqNC1F?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-59939b0d47ee",
    "party": "LPB",
    "kind": "news",
    "title": "Lãi suất huy động ngày 19/10/2026: LPBank và VietBank đồng loạt điều chỉnh giảm đến 0,6%",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2xXbnJnZkUyYmhaZnoyWC0yMUFNQ3gwQ0RKdmF3QkdTdGhYMEliVE96R1o0UUhvM2xHdkdVSkxLWDJGX3VsTmUybTgyQU5fTDJqcjA0T3NiWWVCcnFPbVk0S05vMFFGNmRKTzBnS3hINU5OcGd0MUVBR1RsMHhVLVFpcGhPY0ZURC1OYVFXTE5ITG0tTWR6NHYwQkh1ZGhrdkFrSE5ZVkVzNHctUUswbVBhZW03eEliSDRuRnV3?oc=5",
+   "url": "https://baonghean.vn/lai-suat-huy-dong-ngay-19-10-2026-lpbank-va-vietbank-dong-loat-dieu-chinh-giam-den-0-6-10353856.html",
    "source": "baonghean.vn",
    "source_name": "Báo Nghệ An",
    "published": "2026-10-19T09:43+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Sáng 19/10/2026, LPBank và VietBank là hai đơn vị đầu tiên giảm lãi suất tiền gửi từ 0,1 - 0,6%/năm sau văn bản chỉ đạo ổn định thị trường tiền tệ từ NHNN.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2xXbnJnZkUyYmhaZnoyWC0yMUFNQ3gwQ0RKdmF3QkdTdGhYMEliVE96R1o0UUhvM2xHdkdVSkxLWDJGX3VsTmUybTgyQU5fTDJqcjA0T3NiWWVCcnFPbVk0S05vMFFGNmRKTzBnS3hINU5OcGd0MUVBR1RsMHhVLVFpcGhPY0ZURC1OYVFXTE5ITG0tTWR6NHYwQkh1ZGhrdkFrSE5ZVkVzNHctUUswbVBhZW03eEliSDRuRnV3?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-2d054f0df1f5",
    "party": "LPB",
    "kind": "news",
    "title": "Deposit interest rates on October 19, 2026: LPBank and VietBank simultaneously adjusted rates down by up to 0.6%.",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUw1LTNCeHMtWlFuVWdGUk9MN21XSEhRY0x0Tm0wOW1kUWNoX0JQTjVIX1p2LV9JZGNPOG05Zm1VcGJ3bHZVaE5mcFAzaG1ucWpkdnVIak55SVlYN2NGeUJkRDZoYXdHOVJwLUVWb1NwZ2RLM1g1b0VvRjhJbE9Tcjl3TU5aeUNMaEJqOWNIX1ROQmdTSnZfb280VXUySFJGQzZuanpZbUFwTXd1cHhkcDRtaTNwUExMRjk4TzQ1RjRVZw?oc=5",
+   "url": "https://baonghean.vn/en/lai-suat-huy-dong-ngay-19-10-2026-lpbank-va-vietbank-dong-loat-dieu-chinh-giam-den-0-6-10353856.html",
    "source": "baonghean.vn",
    "source_name": "Báo Nghệ An",
    "published": "2026-10-19T09:43+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "On the morning of October 19, 2026, LPBank and VietBank were the first two institutions to reduce deposit interest rates by 0.1 - 0.6% per year following the State Bank of Vietnam's directive to stabilize the monetary market.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaUw1LTNCeHMtWlFuVWdGUk9MN21XSEhRY0x0Tm0wOW1kUWNoX0JQTjVIX1p2LV9JZGNPOG05Zm1VcGJ3bHZVaE5mcFAzaG1ucWpkdnVIak55SVlYN2NGeUJkRDZoYXdHOVJwLUVWb1NwZ2RLM1g1b0VvRjhJbE9Tcjl3TU5aeUNMaEJqOWNIX1ROQmdTSnZfb280VXUySFJGQzZuanpZbUFwTXd1cHhkcDRtaTNwUExMRjk4TzQ1RjRVZw?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-bc9087162e35",
    "party": "LPB",
    "kind": "news",
    "title": "Vòng 4 LPBank V.League 1-2026/27: Những chiến thắng quan trọng",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHpxVzlTUGhHYnJQdVY0Yk1kellGVEZxSjJpNUtqOXlIQVc3NXVvUEFVSjFKQ1dKeTZWclFDMGVZSm5uOVJ2cUh2bmIwZjFBUmsxSkZvbDE2TkgyTUs3RUJUWW12ZWZaZlNMbU9LZG5UZ3hXQUMwU3FGS1E3YlhoT1NsLURmdHRi?oc=5",
+   "url": "https://vff.org.vn/vong-4-lpbank-v-league-1-2026-27-nhung-chien-thang-quan-trong/",
    "source": "vff.org.vn",
    "source_name": "VFF",
    "published": "2026-10-19T09:10+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Liên đoàn Bóng đá Việt Nam",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHpxVzlTUGhHYnJQdVY0Yk1kellGVEZxSjJpNUtqOXlIQVc3NXVvUEFVSjFKQ1dKeTZWclFDMGVZSm5uOVJ2cUh2bmIwZjFBUmsxSkZvbDE2TkgyTUs3RUJUWW12ZWZaZlNMbU9LZG5UZ3hXQUMwU3FGS1E3YlhoT1NsLURmdHRi?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-f0a58ce438d6",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank được vinh danh Thương hiệu truyền cảm hứng tại APEA 2026",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnVlcmxtWWVkbjZ1S0xFX250SUlFbE4wRWtUQzNyd085NjBQNno5Z01iSGNKT2pfWENsUmlaOEZlcDZsZDAtTUZXOWpCdVNaeVNfRjFpVVN3ZGR5TlE4bWdNWndudlhKUFoyLUJtUUZ2cmYwMzdobG52Q2l1bmRKdjFURGFFMlUyU3NUWnFmVnNYam1xUFdzcTFaQ2UtVmc4X1E?oc=5",
+   "url": "https://tienphong.vn/lpbank-duoc-vinh-danh-thuong-hieu-truyen-cam-hung-tai-apea-2026-post1886486.tpo",
    "source": "tienphong.vn",
    "source_name": "Báo Tiền Phong",
    "published": "2026-10-19T08:48+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "LPBank được vinh danh Thương hiệu truyền cảm hứng tại Giải thưởng Doanh nghiệp Châu Á – Thái Bình Dương (APEA) 2026, ghi nhận hành trình tái định vị thương hiệu, đổi mới sản phẩm, nâng cao trải nghiệm khách hàng và tạo ra những giá trị tích cực cho cộng đồng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSnVlcmxtWWVkbjZ1S0xFX250SUlFbE4wRWtUQzNyd085NjBQNno5Z01iSGNKT2pfWENsUmlaOEZlcDZsZDAtTUZXOWpCdVNaeVNfRjFpVVN3ZGR5TlE4bWdNWndudlhKUFoyLUJtUUZ2cmYwMzdobG52Q2l1bmRKdjFURGFFMlUyU3NUWnFmVnNYam1xUFdzcTFaQ2UtVmc4X1E?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-0d4f1a826e1f",
    "party": "LPB",
    "kind": "news",
    "title": "Đội bóng của Công Phượng giành được điểm số đầu tiên tại LPbank V.League 1",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcEJPWXJnMzEzOGNOVlYzcnJ4WGp4aUFDUnVNNUJUUnVWaUwzdGpMVENick9JMFN3THlGZDRjeDBRWmFPU2ZJOHB6ZU5hRzZKdVJONFc3SHFGZE9fM2lWcnJ4RThCUG1HZGxLWGlBaXRIeTNOQ29lMkZTS1N2Q3h6U3hhQmNDWFBpSW8zQ3RkSHVlYjNPV2FKa2Ixc3UzdnRIYTEwSER3dHhRZkxRdnhV?oc=5",
+   "url": "https://tienphong.vn/doi-bong-cua-cong-phuong-gianh-duoc-diem-so-dau-tien-tai-lpbank-vleague-1-post1886381.tpo",
    "source": "tienphong.vn",
    "source_name": "Báo Tiền Phong",
    "published": "2026-10-18T20:23+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Trong trận đấu giữa 2 đội bóng tân binh ở LPBank V.League 1 mùa giải 2026/27, Bắc Ninh đã không thể cụ thể hoá sức ép. Họ chấp nhận chia điểm 0-0, đồng nghĩa Đồng Nai giành được điểm số đầu tiên.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcEJPWXJnMzEzOGNOVlYzcnJ4WGp4aUFDUnVNNUJUUnVWaUwzdGpMVENick9JMFN3THlGZDRjeDBRWmFPU2ZJOHB6ZU5hRzZKdVJONFc3SHFGZE9fM2lWcnJ4RThCUG1HZGxLWGlBaXRIeTNOQ29lMkZTS1N2Q3h6U3hhQmNDWFBpSW8zQ3RkSHVlYjNPV2FKa2Ixc3UzdnRIYTEwSER3dHhRZkxRdnhV?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-9e74865719a1",
    "party": "LPB",
    "kind": "news",
    "title": "Lịch thi đấu và trực tiếp vòng 4 LPBank V.League: Tâm điểm CAHN vs CLB Hà Nội",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5KMDdwbDlnSmZ1LVlveE1wWUhpaXN0b051MnFqX042cTJYbHBSWTJTRWNKRC04WGJmR2kxa0NoMVE?oc=5",
+   "url": "https://vtvgo.vn/watch/55sl",
    "source": "vtvgo.vn",
    "source_name": "VTVgo",
    "published": "2026-10-17T09:37+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Vòng 4 LPBank V.League hứa hẹn mang đến những cuộc so tài hấp dẫn, trong đó tâm điểm là màn đại chiến giữa CLB Công an Hà Nội và CLB Hà Nội.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5KMDdwbDlnSmZ1LVlveE1wWUhpaXN0b051MnFqX042cTJYbHBSWTJTRWNKRC04WGJmR2kxa0NoMVE?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-7fca79896bd1",
    "party": "LPB",
    "kind": "news",
    "title": "Vòng 4 LPBank V.League 2026/27: Nảy lửa ‘derby’ thủ đô CAHN vs Hà Nội",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVmdQUkNZVllzUV9JWXdpRTR3SFoxdlQ3MXRHdEs2d3BJdmh5Sy1Da3NqcXVlMkM2VFVkWUJzVEpBMmpELWVDOUh0V2JQeVBNaVpqVE0zQUstRnFZVVhncDh3bHZ2c3J1cnF3TjBRVE44dmRmNW1FV05LNTJ2MlROakRjbUlJZ2l1am5STmNRTUdITXkxYjJLUFVnbXFJNFE?oc=5",
+   "url": "https://bongdaplus.vn/v-league/vong-4-lpbank-v-league-2026-27-nay-lua-derby-thu-do-5264102610.html",
    "source": "bongdaplus.vn",
    "source_name": "Tạp chí Bóng đá",
    "published": "2026-10-17T07:45+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Theo lịch thi đấu vòng 4 LPBank V.League 2026/27, trận derby thủ đô giữa CAHN vs Hà Nội rất đáng chờ đợi. CAHN là thế lực đang trở lại trong khi Hà Nội là đội bóng giàu thành tích nhất V.League.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVmdQUkNZVllzUV9JWXdpRTR3SFoxdlQ3MXRHdEs2d3BJdmh5Sy1Da3NqcXVlMkM2VFVkWUJzVEpBMmpELWVDOUh0V2JQeVBNaVpqVE0zQUstRnFZVVhncDh3bHZ2c3J1cnF3TjBRVE44dmRmNW1FV05LNTJ2MlROakRjbUlJZ2l1am5STmNRTUdITXkxYjJLUFVnbXFJNFE?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-3378a01e2d0e",
    "party": "LPB",
    "kind": "news",
    "title": "Lịch thi đấu vòng 4 LPBank V.League",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE85b09XYXBReUNfckN5aWtObVd0UzhBdS13UXJJZEVsdWp3QkV6dlhoM250cHJDcmxYTlJ4OFdUSzk?oc=5",
+   "url": "https://vtvgo.vn/watch/55sN",
    "source": "vtvgo.vn",
    "source_name": "VTVgo",
    "published": "2026-10-16T22:25+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE85b09XYXBReUNfckN5aWtObVd0UzhBdS13UXJJZEVsdWp3QkV6dlhoM250cHJDcmxYTlJ4OFdUSzk?oc=5"
   },
   {
    "id": "rel-30c81cba269f",
    "party": "LPB",
    "kind": "news",
    "title": "Học viện bóng đá LPBank HAGL – Điểm hẹn của những người yêu bóng đá",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTDNtZWNXSUxxRW9uYU5iazJKQ3BVSGxqOHhXNlJHamRzMU1rNnlwSUNOX1JKdTlOT2NwNHdEM1dSRmljdWdHbzRPY0hKUTBxWDZyNHQxelg2Q3Z2VENYdW5Fdnp6bWVHaDJKYTg3ZXZzcXRHTXZlZXFHNG1KX2JtSFN5UkNOczVtS3ctRFBtdGpjazdhYWhVaVZ4ckxLU0xXUVdqSUZhcF9lZw?oc=5",
+   "url": "https://baogialai.com.vn/hoc-vien-bong-da-lpbank-hagl-diem-hen-cua-nhung-nguoi-yeu-bong-da-post602199.html",
    "source": "baogialai.com.vn",
    "source_name": "Báo Gia Lai điện tử",
    "published": "2026-10-16T20:30+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTDNtZWNXSUxxRW9uYU5iazJKQ3BVSGxqOHhXNlJHamRzMU1rNnlwSUNOX1JKdTlOT2NwNHdEM1dSRmljdWdHbzRPY0hKUTBxWDZyNHQxelg2Q3Z2VENYdW5Fdnp6bWVHaDJKYTg3ZXZzcXRHTXZlZXFHNG1KX2JtSFN5UkNOczVtS3ctRFBtdGpjazdhYWhVaVZ4ckxLU0xXUVdqSUZhcF9lZw?oc=5"
   },
   {
    "id": "rel-hose-2504511",
@@ -30000,14 +30126,15 @@
    "party": "LPB",
    "kind": "news",
    "title": "Thắng dễ Geleximco Hưng Yên, LPBank Ninh Bình củng cố hy vọng trong cuộc đua top 4 giải bóng chuyền VĐQG 2026",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM1pvNElTeG9ORFM0WWNpWGJVNjdqNXIxVkF5Ylh3S0piN09saUthclFZSEk4OWQzQVlEWFZzZm1xZkhkeWJTdzh6YzJqMGdCNDM1TGhNdU5aYk9CZTZHZUsyM1ZzamVwRnZvSXllb3IxYzU2cmNhZ2x4c2ducTlYUEltMkFPRko1OTR4UUpvMjlGeFhsVnNBamNLOUVhcG1UblZBYmlSeEhlZkdBejNkT0N1SmYxcmZWVVZzZ1NFOTN4Tmdma2tUQnJrR3cyUUZZblJpaTRySmpyaGpSQ2dOVjctcnVlWnZraGMw?oc=5",
+   "url": "https://thethaovanhoa.vn/thang-de-geleximco-hung-yen-lpbank-ninh-binh-cung-co-hy-vong-trong-cuoc-dua-top-4-giai-bong-chuyen-vdqg-2026-20261015202135017.htm",
    "source": "thethaovanhoa.vn",
    "source_name": "thethaovanhoa.vn",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM1pvNElTeG9ORFM0WWNpWGJVNjdqNXIxVkF5Ylh3S0piN09saUthclFZSEk4OWQzQVlEWFZzZm1xZkhkeWJTdzh6YzJqMGdCNDM1TGhNdU5aYk9CZTZHZUsyM1ZzamVwRnZvSXllb3IxYzU2cmNhZ2x4c2ducTlYUEltMkFPRko1OTR4UUpvMjlGeFhsVnNBamNLOUVhcG1UblZBYmlSeEhlZkdBejNkT0N1SmYxcmZWVVZzZ1NFOTN4Tmdma2tUQnJrR3cyUUZZblJpaTRySmpyaGpSQ2dOVjctcnVlWnZraGMw?oc=5"
   },
   {
    "id": "rel-hose-2504478",
@@ -30026,28 +30153,30 @@
    "party": "LPB",
    "kind": "news",
    "title": "LPBank Ninh Bình giành chiến thắng trước Xi măng Long Sơn Thanh Hóa",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5yV0VCOHRQRExmVUc1cmVyT08xRlVoNmJ6NXNIMnZmYi1nWGcwSFpidWhSa3BWYkN2ZWhDbEZCVy0?oc=5",
+   "url": "https://vtvgo.vn/watch/55os",
    "source": "vtvgo.vn",
    "source_name": "VTVgo",
    "published": "2026-10-15T10:37+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5yV0VCOHRQRExmVUc1cmVyT08xRlVoNmJ6NXNIMnZmYi1nWGcwSFpidWhSa3BWYkN2ZWhDbEZCVy0?oc=5"
   },
   {
    "id": "rel-1a21d0b7c9f9",
    "party": "LPB",
    "kind": "news",
    "title": "Cổ phiếu của tỷ phú Nguyễn Thị Phương Thảo lập đỉnh lịch sử, vốn hóa vượt Sacombank, ACB và LPBank",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObkhLdXBmUlU0R0tOdWdLZE5ZUlotR2hqTmZxdTRsX19XbVlzeVJVTkRZbnlHUmJZaUZpcjFxa3U5WHJYYXJyREhnZUNxOTFpVng2amt0dE8yRUFNLVRDek5ieERHQnQxWE9ENDl2QmFCWm1VUWdVSDNkZlQ3Qmkzb1lra204ZF9sa1VLOW5pdFdCTXgxTG5LWVpMNjhnYWhWQWRONWU2eTBDd2Y1WE1xQzBlbEMtMlIyVDQzRzVVUlhaSjlZSGFsVUlkRURKYUNDd1E?oc=5",
+   "url": "https://cafef.vn/co-phieu-cua-ty-phu-nguyen-thi-phuong-thao-lap-dinh-lich-su-von-hoa-vuot-sacombank-acb-va-lpbank-188261014143915461.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObkhLdXBmUlU0R0tOdWdLZE5ZUlotR2hqTmZxdTRsX19XbVlzeVJVTkRZbnlHUmJZaUZpcjFxa3U5WHJYYXJyREhnZUNxOTFpVng2amt0dE8yRUFNLVRDek5ieERHQnQxWE9ENDl2QmFCWm1VUWdVSDNkZlQ3Qmkzb1lra204ZF9sa1VLOW5pdFdCTXgxTG5LWVpMNjhnYWhWQWRONWU2eTBDd2Y1WE1xQzBlbEMtMlIyVDQzRzVVUlhaSjlZSGFsVUlkRURKYUNDd1E?oc=5"
   },
   {
    "id": "rel-hose-2503940",
@@ -30066,98 +30195,105 @@
    "party": "LPB",
    "kind": "news",
    "title": "Bóng chuyền Việt Nam ngày 13.10: LPBank Ninh Bình có tân đội trưởng",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONG9zQVpiZXRPaUJxcmNSNUZEcUtNS29sckZQUGJyYnhId1pObk9BNUM4R3lSa3luQjEyMVB2a2d4NEpKZm11SlVnd3BLSkVmc20zZ2hlOTBzN2U3aDN4SzBPbVVwRXJsNUdCOGFsS2NHVWc2bWQxb1BtWXRNdmkyYVowU0F3TkstWFdKTUxlX2ZqNDJNSjJ1OVRtd0hZUVUxVk93dzVUdkJJRVlT?oc=5",
+   "url": "https://laodong.vn/bong-chuyen/bong-chuyen-viet-nam-ngay-1310-lpbank-ninh-binh-co-tan-doi-truong-1782602.ldo",
    "source": "laodong.vn",
    "source_name": "Laodong.vn",
    "published": "2026-10-13T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONG9zQVpiZXRPaUJxcmNSNUZEcUtNS29sckZQUGJyYnhId1pObk9BNUM4R3lSa3luQjEyMVB2a2d4NEpKZm11SlVnd3BLSkVmc20zZ2hlOTBzN2U3aDN4SzBPbVVwRXJsNUdCOGFsS2NHVWc2bWQxb1BtWXRNdmkyYVowU0F3TkstWFdKTUxlX2ZqNDJNSjJ1OVRtd0hZUVUxVk93dzVUdkJJRVlT?oc=5"
   },
   {
    "id": "rel-78ecf1e8d8c9",
    "party": "LPB",
    "kind": "news",
    "title": "Lãi suất ngân hàng LPBank ngày 12/10: Gửi 10 triệu, 100 triệu và 200 triệu đồng nhận bao nhiêu tiền lãi?",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ2ZhelB6Um9obTQ4aVVLalpMZjNCbmo3UWdqSHVQeFlIR1VpSDRiLXpjYlh4clR4enF5aEJXT0FFMm5kY3lRZTZHajJpbDVMTU9wR184d3QyZXBDNXdMQlZCZ2wyY21VT1QyZGhKY29kMVl4bjJ4YWk4Vkd3a2V6a196dkdYeURqUmNzaXRoRFJzOWY3VUR5Y2VnRXBvX05OWGMzWVJMZUZWZzlUejhoQUhaSy1ndS1yZUt3WDBMM2V3ODNyZUQ4ekVZc2N3SGUxWVlkbW1hYw?oc=5",
+   "url": "https://cafef.vn/lai-suat-ngan-hang-lpbank-ngay-12-10-gui-10-trieu-100-trieu-va-200-trieu-dong-nhan-bao-nhieu-tien-lai-18826101207141636.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-12T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ2ZhelB6Um9obTQ4aVVLalpMZjNCbmo3UWdqSHVQeFlIR1VpSDRiLXpjYlh4clR4enF5aEJXT0FFMm5kY3lRZTZHajJpbDVMTU9wR184d3QyZXBDNXdMQlZCZ2wyY21VT1QyZGhKY29kMVl4bjJ4YWk4Vkd3a2V6a196dkdYeURqUmNzaXRoRFJzOWY3VUR5Y2VnRXBvX05OWGMzWVJMZUZWZzlUejhoQUhaSy1ndS1yZUt3WDBMM2V3ODNyZUQ4ekVZc2N3SGUxWVlkbW1hYw?oc=5"
   },
   {
    "id": "rel-840b5e72782d",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank phát thông báo quan trọng về việc rút, chuyển tiền trên ứng dụng",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU0pzRmdYRlBEQ1dsMENTQkVDR0NzVzMtSnNmZVV6Zlgxek9kcUJQejJYZmE0NU95M3pqamtQV1ExTnhFR2k1NXBldm5UOFJKOF9uZWJ0T0VXekg2bmNvaTl2ZnU2S1Z5MVN6bUxOTTFTUTZOdi1wcTBOSHFaYXdCMm9QWFFtWTlWbmxaU3Z0N0pKOUY1ay1XaFVMQUhFV1F6N29ZdnZyclV6Zw?oc=5",
+   "url": "https://nguoiquansat.vn/lpbank-phat-thong-bao-quan-trong-ve-viec-rut-chuyen-tien-tren-ung-dung-321493.html",
    "source": "nguoiquansat.vn",
    "source_name": "nguoiquansat.vn",
    "published": "2026-10-12T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU0pzRmdYRlBEQ1dsMENTQkVDR0NzVzMtSnNmZVV6Zlgxek9kcUJQejJYZmE0NU95M3pqamtQV1ExTnhFR2k1NXBldm5UOFJKOF9uZWJ0T0VXekg2bmNvaTl2ZnU2S1Z5MVN6bUxOTTFTUTZOdi1wcTBOSHFaYXdCMm9QWFFtWTlWbmxaU3Z0N0pKOUY1ay1XaFVMQUhFV1F6N29ZdnZyclV6Zw?oc=5"
   },
   {
    "id": "rel-fbefd9584594",
    "party": "LPB",
    "kind": "news",
    "title": "CLB Hà Nội thắng trận đầu tiên tại LPBank V.League 2026/27",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9NalBjOVJ4REZFX2JYaDZjMmIzZkVhckNUeHBfcTEzaVRJVWtEYWU1ZkFnbDNiLTNsOU5Cb21pRGQ?oc=5",
+   "url": "https://vtvgo.vn/watch/55eH",
    "source": "vtvgo.vn",
    "source_name": "VTVgo",
    "published": "2026-10-12T01:33+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9NalBjOVJ4REZFX2JYaDZjMmIzZkVhckNUeHBfcTEzaVRJVWtEYWU1ZkFnbDNiLTNsOU5Cb21pRGQ?oc=5"
   },
   {
    "id": "rel-810e02a58715",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank (LPB) tối ưu hóa cấu trúc vốn, chuẩn bị huy động gần 4.000 tỷ đồng trái phiếu",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHZmbWNJbTZ5TUxpNkFfYWFjd0FiaXU4WHVwckdKUmlxVDlHUzcwM2pPLW5yQS1uc2o3a19XQ29kMDgxZTlUTThQWWhHYzhlQUZiV3lvLXFENmxtVHdrTzdqclV6WEpEMFhZSzBvbGd6RS1LQnBmZm9HYTZmU3EwQjZDcTJWdjZGT0hsNmlBczdsTHBKNWJ4ODh2b19KUFE1MFFCX1VoaEFXWHk4Z1FDWTN1ZFhXYVlVRTlN?oc=5",
+   "url": "https://doanhnhan.baophapluat.vn/lpbank-lpb-toi-uu-hoa-cau-truc-von-chuan-bi-huy-dong-gan-4-000-ty-dong-trai-phieu.html",
    "source": "doanhnhan.baophapluat.vn",
    "source_name": "Báo Pháp Luật Việt Nam",
    "published": "2026-10-10T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHZmbWNJbTZ5TUxpNkFfYWFjd0FiaXU4WHVwckdKUmlxVDlHUzcwM2pPLW5yQS1uc2o3a19XQ29kMDgxZTlUTThQWWhHYzhlQUZiV3lvLXFENmxtVHdrTzdqclV6WEpEMFhZSzBvbGd6RS1LQnBmZm9HYTZmU3EwQjZDcTJWdjZGT0hsNmlBczdsTHBKNWJ4ODh2b19KUFE1MFFCX1VoaEFXWHk4Z1FDWTN1ZFhXYVlVRTlN?oc=5"
   },
   {
    "id": "rel-6b5fa922c692",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank phát hành thêm 3 lô trái phiếu, tổng giá trị 400 tỷ đồng",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVXJGTXk4aU1SczllbDVudEFzai1TMnBUY2JsRHNNam5OWllDWGZvbVd5VzFOS0htd2ZZZHViaGZxNUptWkFJLXVGMEF1WE5obzVaU2ZneWhDVHUtTDZOZngzX1hFT0g4aXpsSDFiVHctRGRYdDhGZzdnc19uRkx1bm8zSnU2djlWRWRWV3JvOGhLSVljRFdhQ2FCakUtRVhRZGpoOU1uMzI1SlVJOWw3bnY5NA?oc=5",
+   "url": "https://antt.nguoiduatin.vn/lpbank-phat-hanh-them-3-lo-trai-phieu-tong-gia-tri-400-ty-dong-205261009220857868.htm",
    "source": "antt.nguoiduatin.vn",
    "source_name": "An ninh Tiền tệ",
    "published": "2026-10-10T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVXJGTXk4aU1SczllbDVudEFzai1TMnBUY2JsRHNNam5OWllDWGZvbVd5VzFOS0htd2ZZZHViaGZxNUptWkFJLXVGMEF1WE5obzVaU2ZneWhDVHUtTDZOZngzX1hFT0g4aXpsSDFiVHctRGRYdDhGZzdnc19uRkx1bm8zSnU2djlWRWRWV3JvOGhLSVljRFdhQ2FCakUtRVhRZGpoOU1uMzI1SlVJOWw3bnY5NA?oc=5"
   },
   {
    "id": "rel-594ff11030ba",
    "party": "LPB",
    "kind": "news",
    "title": "LPBank lan tỏa thông điệp 'Khỏe thể chất – Trọn Lộc Phát' tại sự kiện thể thao cộng đồng",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1ZBSDRRSDluMmJlN0YyeWJmRGxvZDNJV1dncUU0TnQ1X21yYkF4YS1ZTERibDg0bkVFaUZCN2h1T2F0NWtoZzFIYVZNQTJuRjY1dTN6ZkNHNGZSTTF1el8tT1ZrY2NoMHBGUFFKaVZLRDlzeE9jRDg3RVM3Mk9WXy1QdDNBOGVhZnhqUzdrYzd0Q3I2XzA0dURjU0JwU2U4S0UwUGZudk4xUnlYU1VzWXVQckxQT1ZJ?oc=5",
+   "url": "https://theleader.vn/lpbank-lan-toa-thong-diep-khoe-the-chat-tron-loc-phat-tai-su-kien-the-thao-cong-dong-d48054.html",
    "source": "theleader.vn",
    "source_name": "theleader.vn",
    "published": "2026-10-09T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1ZBSDRRSDluMmJlN0YyeWJmRGxvZDNJV1dncUU0TnQ1X21yYkF4YS1ZTERibDg0bkVFaUZCN2h1T2F0NWtoZzFIYVZNQTJuRjY1dTN6ZkNHNGZSTTF1el8tT1ZrY2NoMHBGUFFKaVZLRDlzeE9jRDg3RVM3Mk9WXy1QdDNBOGVhZnhqUzdrYzd0Q3I2XzA0dURjU0JwU2U4S0UwUGZudk4xUnlYU1VzWXVQckxQT1ZJ?oc=5"
   },
   {
    "id": "rel-9ae308b930e7",
@@ -31168,6 +31304,22 @@
    "meta_tried": true
   },
   {
+   "id": "rel-e08fa44b225e",
+   "party": "STB",
+   "kind": "news",
+   "title": "Ngày 21/10, gửi 100 triệu đồng tại VPBank, Techcombank, HDBank, MB, SHB và Sacombank nhận bao nhiêu tiền lãi sau 12 tháng?",
+   "url": "https://cafef.vn/ngay-21-10-gui-100-trieu-dong-tai-vpbank-techcombank-hdbank-mb-shb-va-sacombank-nhan-bao-nhieu-tien-lai-sau-12-thang-188261021142713175.chn",
+   "source": "cafef.vn",
+   "source_name": "CafeF",
+   "published": "2026-10-21T14:24+07:00",
+   "date_precision": "minute",
+   "excerpt": "Với khoản tiền gửi 100 triệu đồng trong 12 tháng, số tiền lãi khách hàng nhận được tại VPBank, Techcombank, HDBank, MB, SHB và Sacombank có sự chênh lệch tùy theo ngân hàng, sản phẩm tiền gửi và hình thức gửi tiết kiệm tại quầy hay online.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOMVhVbFRROFgtVWQ2SHlIc2VzWExpbnYzcGFCUm5PTmlUMWNONVVWQnhWeEtJUFl2TEZNY2I1TkdwX3BYRXMxdjl0VVcwU1oxbWtPRzNIaGdJWk4zTnZ2OGxXYXdpWXk0X0xlVmJ3SEkxRE96MzVtbENKdC00Q1F2b3RFMC1fQnNaMDA4QURPSW1kYmNoRllKTUFoN0JkeTAyeVNoa1ozVDQ0Y1dPREJNczdGY0NjMXdGeXdCUk9JQTJzekdQZ2kxRTR2V3ljdjlSaG5DbVdac25jODlCNzZDS2NfZVFQMkVzMDRPTQ?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-fa7b92210d31",
    "party": "STB",
    "kind": "news",
@@ -31193,10 +31345,11 @@
    "source_name": "Nhaquanly",
    "published": "2026-10-20T19:14+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Ông Nguyễn Đức Thụy, Phó Chủ tịch thường trực HĐQT SACOMBANK, và ông Nguyễn Xuân Vũ, Phó Chủ tịch HĐQT ngân hàng này, là hai doanh nhân đang được nhắc đến trong quá trình chuẩn bị nhân sự cho vị trí Chủ tịch Liên đoàn Bóng đá Việt Nam (VFF) nhiệm kỳ 2026-2030. Trong đó, ông Thụy nhận được sự ủng hộ của một số doanh nhân có nhiều năm gắn bó với bóng đá Việt Nam.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWpHU0NXNTFuSUFYbW9uOFNWMUJPLUpUV21wSTUwWjluZ3RSQ3ctZDh5Y3gybnc3R2NycHZib1h1SnJ5NGJPaHZvZURBV2NsZHVGdk5CY1Etb0JWRktnRmlpSzVpcDVucHBzdTZzQzhkMTlITW5kalhSaVJ3ajVycWRSVzZkTk5Qenh5OU9TTkFCZ2JwWWc?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWpHU0NXNTFuSUFYbW9uOFNWMUJPLUpUV21wSTUwWjluZ3RSQ3ctZDh5Y3gybnc3R2NycHZib1h1SnJ5NGJPaHZvZURBV2NsZHVGdk5CY1Etb0JWRktnRmlpSzVpcDVucHBzdTZzQzhkMTlITW5kalhSaVJ3ajVycWRSVzZkTk5Qenh5OU9TTkFCZ2JwWWc?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-aa3f289ee55b",
@@ -31211,7 +31364,8 @@
    "excerpt": "",
    "excerpt_origin": "",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdUgwUWVTMmNKWXU2TFhuZHJiaTk0TXpKUmpGaDV6dkRaQzZudGlYS1I1YVV5S1F3Y1ozMURQcWprb21TcWc4TDJZVW1rbEdXME51R1VEMGJzaTFWa25YeXBtYXJqbDRwRHEzZm1jZUl1UTg3dzVtZ3Q1NkhGS2F3QVI3YzBrU01Ob1ZaMS1DQy12a1JWVDdhVVJTR3hjMlU?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdUgwUWVTMmNKWXU2TFhuZHJiaTk0TXpKUmpGaDV6dkRaQzZudGlYS1I1YVV5S1F3Y1ozMURQcWprb21TcWc4TDJZVW1rbEdXME51R1VEMGJzaTFWa25YeXBtYXJqbDRwRHEzZm1jZUl1UTg3dzVtZ3Q1NkhGS2F3QVI3YzBrU01Ob1ZaMS1DQy12a1JWVDdhVVJTR3hjMlU?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-76f546db0aff",
@@ -31223,10 +31377,11 @@
    "source_name": "Báo Thanh tra",
    "published": "2026-10-20T16:37+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "(Thanh tra) - Hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước Việt Nam (NHNN) về giảm mặt bằng lãi suất, góp phần hỗ trợ hoạt động sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế, SACOMBANK điều chỉnh giảm 0,5%/năm lãi suất huy động đối với các kỳ hạn từ 6 tháng trở lên, áp dụng từ ngày 20/10/2026.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaXpZU29CRkZjbllUUFhSVDNsalpMMkNDd0UyVVVwVTU2ZkkzR1dQNzJIMFhWazhLbXN3X3lkOEdRVDhWcFdwMm0zcENCS1VzeEg5RHpTTWg4bjNCVVlXcEdoU2NYdXhHN1d6dXI0aDByc1ctNmNKTjBnaDN0QW45ME0xRnpRRUlIQWF0aXBOVThlTUVmaTduaXplQTQwZFZMZVVYRkU2QXBpMU5WQXZYUDRuR1ZycVFPR1dKSUFGMF9xY1pab2JVamJvUDE?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaXpZU29CRkZjbllUUFhSVDNsalpMMkNDd0UyVVVwVTU2ZkkzR1dQNzJIMFhWazhLbXN3X3lkOEdRVDhWcFdwMm0zcENCS1VzeEg5RHpTTWg4bjNCVVlXcEdoU2NYdXhHN1d6dXI0aDByc1ctNmNKTjBnaDN0QW45ME0xRnpRRUlIQWF0aXBOVThlTUVmaTduaXplQTQwZFZMZVVYRkU2QXBpMU5WQXZYUDRuR1ZycVFPR1dKSUFGMF9xY1pab2JVamJvUDE?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-b2564a6aa564",
@@ -31238,10 +31393,11 @@
    "source_name": "VietnamFinance",
    "published": "2026-10-20T12:35+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "(VNF) - Ông Nguyễn Đức Thụy - Phó chủ tịch thường trực HĐQT Sacombank là một trong những nhân sự nhận được nhiều đề cử cho vị trí Chủ tịch Liên đoàn Bóng đá Việt Nam (VFF) khóa X, nhiệm kỳ 2026-2030. Phương án này cũng nhận được sự ủng hộ từ một số doanh nhân có nhiều năm gắn bó với bóng đá trong nước.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWXVlNXhuM0drLUROMzR0ckdjN1Q5OEVrajdJbUZ0dHdsX0dXcmcxMnpEOXRrN3ZvWnl1cFM4SnEzZlUyUlZKUGFJV1RjZ1VSQzdLemcyTTVlX3RkRWNpWVEzbDk2S0RDWkhINHhLQnBKQU5wZWZuYTVtSnh1dXQ5aEJPNklCTVZrX1NfVjdRY2F6dXNBelpZRTBVMW9BODhXX3BzSkctOFcwdVlsc3JETA?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWXVlNXhuM0drLUROMzR0ckdjN1Q5OEVrajdJbUZ0dHdsX0dXcmcxMnpEOXRrN3ZvWnl1cFM4SnEzZlUyUlZKUGFJV1RjZ1VSQzdLemcyTTVlX3RkRWNpWVEzbDk2S0RDWkhINHhLQnBKQU5wZWZuYTVtSnh1dXQ5aEJPNklCTVZrX1NfVjdRY2F6dXNBelpZRTBVMW9BODhXX3BzSkctOFcwdVlsc3JETA?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-45ef63589338",
@@ -31253,10 +31409,11 @@
    "source_name": "CafeF",
    "published": "2026-10-20T11:30+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Giá bạc lại hạ xuống mức 52-54 triệu đồng/lượng.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcGgyeGdIT2k3SjJPLUE1MHJ2eExla0RSUG92aWcxa3UtTTQ1V093bnExNFJ3RUhYNW5hMlc4cVowa011T0ozeDNnclFyZWNXVFhiTXRLOG96aEFieXRsWWRLNTBia0hnejMwcmlKU1owcUF3S2RwbDM0VGhnbW9hcXFqOFdrcG1BUkV1X2xRVW5vR3hGTk81Z2E1Ni1yaC1SdUFYRTktbE95QWhzMkw5V0pwOTYxOVBRNHNfcV9HWQ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcGgyeGdIT2k3SjJPLUE1MHJ2eExla0RSUG92aWcxa3UtTTQ1V093bnExNFJ3RUhYNW5hMlc4cVowa011T0ozeDNnclFyZWNXVFhiTXRLOG96aEFieXRsWWRLNTBia0hnejMwcmlKU1owcUF3S2RwbDM0VGhnbW9hcXFqOFdrcG1BUkV1X2xRVW5vR3hGTk81Z2E1Ni1yaC1SdUFYRTktbE95QWhzMkw5V0pwOTYxOVBRNHNfcV9HWQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-993221a473dc",
@@ -31268,10 +31425,11 @@
    "source_name": "Nhaquanly",
    "published": "2026-10-20T09:34+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Thực hiện định hướng điều hành của Ngân hàng Nhà nước, SACOMBANK giảm 2%/năm lãi suất cho vay đối với khách hàng doanh nghiệp, trong khi Vietbank triển khai gói tín dụng 3.000 tỷ đồng với lãi suất thấp hơn tối thiểu 1,5%/năm so với thông thường, đồng thời giảm 0,5%/năm lãi suất huy động từ ngày 19/10. Các động thái này góp phần giảm chi phí vốn, hỗ trợ doanh nghiệp và người dân duy trì, mở rộng hoạt động sản xuất, kinh doanh.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmxFcWJBbVljUGM5eTJVdnZKRVY1X0t3a3RQS0d1ZkdJNnBZSmEtVU84ZDc4MUhpeUhnYVk4MWttSzhvS3RMS2ZaVi1ySUNUYml3Q0tSaHRRZzNRejA1eWdLNmltYUotdDlDMUlRc1ZfeXdjS1JteUlvczRaWG9Kc2ZPWWtUZWNfb1lBSzdSUnNhUUJzNzNLNDItVThsZmpORkVVT1FvLWJkM3VEU0l6WF8zYTlyc1VwLWV6UXp1cmtYQQ?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmxFcWJBbVljUGM5eTJVdnZKRVY1X0t3a3RQS0d1ZkdJNnBZSmEtVU84ZDc4MUhpeUhnYVk4MWttSzhvS3RMS2ZaVi1ySUNUYml3Q0tSaHRRZzNRejA1eWdLNmltYUotdDlDMUlRc1ZfeXdjS1JteUlvczRaWG9Kc2ZPWWtUZWNfb1lBSzdSUnNhUUJzNzNLNDItVThsZmpORkVVT1FvLWJkM3VEU0l6WF8zYTlyc1VwLWV6UXp1cmtYQQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-70148244608f",
@@ -31283,10 +31441,11 @@
    "source_name": "Báo Công Lý",
    "published": "2026-10-19T17:22+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Thực hiện định hướng giảm mặt bằng lãi suất, Sacombank và Vietbank triển khai các gói tín dụng ưu đãi quy mô hàng nghìn tỷ đồng, hướng đến hỗ trợ doanh nghiệp giảm chi phí vốn, duy trì sản xuất, kinh doanh và đáp ứng nhu cầu tài chính của người dân.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTUNjNGNmQ1ZTei1IU2plSWdueWx2emNET0UzTS0tYnl1djdCdmJsMnRYWmR3Y1lkTzR6cE5JU2xEbUwyWmE1RTlIYi1WU2FWVFJRWWt1cWRLV0R1M2ExZ3dwZDFzc0plQjdPSDBQaGZHc2J6UXd0dnZTNkF5WFhoWTl5TmozYzRzRXYyUmF6ZnVid08tWnN6Mg?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTUNjNGNmQ1ZTei1IU2plSWdueWx2emNET0UzTS0tYnl1djdCdmJsMnRYWmR3Y1lkTzR6cE5JU2xEbUwyWmE1RTlIYi1WU2FWVFJRWWt1cWRLV0R1M2ExZ3dwZDFzc0plQjdPSDBQaGZHc2J6UXd0dnZTNkF5WFhoWTl5TmozYzRzRXYyUmF6ZnVid08tWnN6Mg?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-63fb7a040b5b",
@@ -31298,332 +31457,378 @@
    "source_name": "Tạp chí Bóng đá",
    "published": "2026-10-19T16:04+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
+   "excerpt": "Sau 3 vòng đầu tiên của giải hạng Nhất – Sacombank 2026/27, CAND vẫn chưa thể hiện được sức mạnh của ứng viên vô địch. Với 4 điểm sau 3 trận, CAND đang tạm xếp thứ 7 trên BXH, trong lúc Thái Nguyên vươn lên dẫn đầu với thành tích toàn thắng.",
+   "excerpt_origin": "meta",
    "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN21vb2xKMWdPWUMxNk5fTlNGd0otamliRGJaUFZDTjM1X3M4SGsxU04tMDk5dm5KdkVKZFBSYXo0a3dZNG5LcnFjZnpvX3phSE50T2hyMUtfVTNfR1lWQlUtbmhmUHZveEg4TjF1S2dfX3pYNDNOUTRUZGNJOEFHd2FjYzljQ1A1ZS1iaWFqZzNVVWZWMW45ZlV5dENTM1hueEJhd2xLWFFQWFMzOFF4ajFYS0FlSkZYTE9aYXRkZEc1MnNFMVhOaU0tOGE1RWll?oc=5"
+   "google_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN21vb2xKMWdPWUMxNk5fTlNGd0otamliRGJaUFZDTjM1X3M4SGsxU04tMDk5dm5KdkVKZFBSYXo0a3dZNG5LcnFjZnpvX3phSE50T2hyMUtfVTNfR1lWQlUtbmhmUHZveEg4TjF1S2dfX3pYNDNOUTRUZGNJOEFHd2FjYzljQ1A1ZS1iaWFqZzNVVWZWMW45ZlV5dENTM1hueEJhd2xLWFFQWFMzOFF4ajFYS0FlSkZYTE9aYXRkZEc1MnNFMVhOaU0tOGE1RWll?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-419b69fc01b5",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK giảm lãi suất cho vay 2% sau chỉ đạo của Chính phủ",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVDQwR2lHS0cyZzRSblBOYk9SM01iY0ZwMDhieFk5MEo4dVhJMWVscWhSVE9KX1JBSEFoNm1qanJHblRESTNwcWg0eTZqVUlmN2lMem1qTm5FU0FMbzY5SXB6X3RXUnpYbTNBZnhlMWZUMnVEQWoxM0g2YWpWQWU5d3owWjlQNWtEUnNINmJXYWxQRGpYa0NiaUJQdnhYVW5JRGdGeA?oc=5",
+   "url": "https://thanhnien.vn/sacombank-giam-lai-suat-cho-vay-2-sau-chi-dao-cua-chinh-phu-18526101914544607.htm",
    "source": "thanhnien.vn",
    "source_name": "Báo Thanh Niên",
    "published": "2026-10-19T14:48+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Thực hiện chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước (NHNN) về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế, Ngân hàng TMCP Sài Gòn Tài Lộc (SACOMBANK) triển khai chương trình tín dụng ưu đãi với tổng quy mô lên đến 40.000 tỉ đồng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVDQwR2lHS0cyZzRSblBOYk9SM01iY0ZwMDhieFk5MEo4dVhJMWVscWhSVE9KX1JBSEFoNm1qanJHblRESTNwcWg0eTZqVUlmN2lMem1qTm5FU0FMbzY5SXB6X3RXUnpYbTNBZnhlMWZUMnVEQWoxM0g2YWpWQWU5d3owWjlQNWtEUnNINmJXYWxQRGpYa0NiaUJQdnhYVW5JRGdGeA?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-f0afdecea069",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK reduce los tipos de interés de los préstamos en un 2% siguiendo las directrices del gobierno.",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEtXLVVwRlB4NllCbkItMUtUcEhIUkFWOGlLY3RTNHlveDZIVXVvUGVuVVEzRFA2Ymd0YWJ0QUJ4Z0QySkFTX3I3OFdCSDh0NlVfczlCX25aZUZ5NjVfd0s2MlVXb0pKYmUzOUxxOFJMVm9wR1lkdHhSRllrb3VVRlo3TWN2d2J5UHp5ZVRn?oc=5",
+   "url": "https://www.vietnam.vn/es/sacombank-giam-lai-suat-cho-vay-2-sau-chi-dao-cua-chinh-phu",
    "source": "vietnam.vn",
    "source_name": "Vietnam.vn",
    "published": "2026-10-19T14:32+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "SACOMBANK declaró que la reducción de la tasa de interés tiene como objetivo facilitar el acceso de las empresas y los particulares al capital a costes razonables.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOEtXLVVwRlB4NllCbkItMUtUcEhIUkFWOGlLY3RTNHlveDZIVXVvUGVuVVEzRFA2Ymd0YWJ0QUJ4Z0QySkFTX3I3OFdCSDh0NlVfczlCX25aZUZ5NjVfd0s2MlVXb0pKYmUzOUxxOFJMVm9wR1lkdHhSRllrb3VVRlo3TWN2d2J5UHp5ZVRn?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-ea7c3c1cf1ac",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank has been honored as a Golden Brand of Ho Chi Minh City for six consecutive years.",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDFYRUFtRDRvSC1LelRSZ3FlQUN0TE1nMUx3RnZQaTNxMFBSMnBwVTVTT0MtVGtWZl9RZWRnSUUtQklIR1BnT1NEZVpSUE92YjQ1YXhRMXlRN1F2X2hzSktPemdJTFRNcEJVc0paYnF5V0dzS25JNDl2WE5tYlE4Y3BqOGdBRnNfUFBtdjVqc0Y0YU0?oc=5",
+   "url": "https://www.vietnam.vn/en/sacombank-6-nam-lien-tiep-duoc-vinh-danh-thuong-hieu-vang-tphcm",
    "source": "vietnam.vn",
    "source_name": "Vietnam.vn",
    "published": "2026-10-19T14:00+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "(DTTC) - Saigon Tai Loc Commercial Joint Stock Bank (Sacombank) has just received the \"Ho Chi Minh City Gold Brand\" award for 2026, marking the sixth consecutive year the bank has received this title.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDFYRUFtRDRvSC1LelRSZ3FlQUN0TE1nMUx3RnZQaTNxMFBSMnBwVTVTT0MtVGtWZl9RZWRnSUUtQklIR1BnT1NEZVpSUE92YjQ1YXhRMXlRN1F2X2hzSktPemdJTFRNcEJVc0paYnF5V0dzS25JNDl2WE5tYlE4Y3BqOGdBRnNfUFBtdjVqc0Y0YU0?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-fe384c67656e",
    "party": "STB",
    "kind": "news",
    "title": "Giải hạng Nhất quốc gia Sacombank 2026-2027: Long An nhận thất bại sát nút trước Khánh Hòa trên sân nhà",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd3RBX1NBUndFN2dWZmJlRFZLQVp3M3I3bXdVcTJGRDRmQjFOMlhhOXVuS0tCWU9SOWZoX0xOeEhxay1IX0RIR1RrRXI4VGY5MFhSV2FCVlJuMTMxTVdJeFpRVWUwa1liXzQyd0RmRXhJNzYxb0RfQU15OWJLWHh3TkdFazVubW9aQnZ6QW5Ybnc0eTZGYWRn?oc=5",
+   "url": "https://baotayninh.vn/long-an-nhan-that-bai-sat-nut-truoc-khanh-hoa-tren-san-nha-351359.html",
    "source": "baotayninh.vn",
    "source_name": "Báo và phát thanh, truyền hình Tây Ninh",
    "published": "2026-10-19T11:37+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Chiều 18/10, trên sân vận động Long An, CLB Long An nhận thất bại 0-1 trước Khatoco Khánh Hòa trong khuôn khổ vòng 3 Giải hạng Nhất quốc gia Sacombank 2026-2...",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd3RBX1NBUndFN2dWZmJlRFZLQVp3M3I3bXdVcTJGRDRmQjFOMlhhOXVuS0tCWU9SOWZoX0xOeEhxay1IX0RIR1RrRXI4VGY5MFhSV2FCVlJuMTMxTVdJeFpRVWUwa1liXzQyd0RmRXhJNzYxb0RfQU15OWJLWHh3TkdFazVubW9aQnZ6QW5Ybnc0eTZGYWRn?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-c18d04ae5d9e",
    "party": "STB",
    "kind": "news",
    "title": "Sau The Siren World Opens 2026, SACOMBANK Visa mang tinh thần “tận hưởng trọn vẹn” vào nhịp sống thường ngày",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNnRBYVFWcndkamNhWERIUkJqTjhHZVBqN2NsX2NmLW5KNlhsS1R6ODdFa1dQWUJtQ09tTG1VUUM0eDNTS0kybkZkT1dkRlFQZmNma0Zfd2JUMzZXQlNnYTBLcGk4cXlyX0loQmstLWhDbjN0U2VtY2NPdUxZX2p5WEhSZmRQY1dJRkNKQlZYRkhZVzVIYXBMb1BlU2VtYUNuM3drNVI1Vkcwb2hoVUhFaUpiUWpMcm82Q3dQNTlRZ05Qb2R0Z0xZSG1aaVFtRVF3VHZFUlUwdHUycjdnQWNF?oc=5",
+   "url": "https://kenh14.vn/sau-the-siren-world-opens-2026-sacombank-visa-mang-tinh-than-tan-huong-tron-ven-vao-nhip-song-thuong-ngay-215261019113836972.chn",
    "source": "kenh14.vn",
    "source_name": "Kenh14.vn",
    "published": "2026-10-19T11:30+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Có những khoảnh khắc chỉ đáng giá khi ta thực sự “có mặt” ở đó. Từ một đêm nhạc bùng nổ đến cuộc sống thường ngày, SACOMBANK Visa Platinum Cashback cho thấy cách một chiếc thẻ tín dụng có thể giúp chúng ta bận tâm ít hơn và tập trung tận hưởng cuộc sống nhiều hơn.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNnRBYVFWcndkamNhWERIUkJqTjhHZVBqN2NsX2NmLW5KNlhsS1R6ODdFa1dQWUJtQ09tTG1VUUM0eDNTS0kybkZkT1dkRlFQZmNma0Zfd2JUMzZXQlNnYTBLcGk4cXlyX0loQmstLWhDbjN0U2VtY2NPdUxZX2p5WEhSZmRQY1dJRkNKQlZYRkhZVzVIYXBMb1BlU2VtYUNuM3drNVI1Vkcwb2hoVUhFaUpiUWpMcm82Q3dQNTlRZ05Qb2R0Z0xZSG1aaVFtRVF3VHZFUlUwdHUycjdnQWNF?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-a66d0a4b8847",
    "party": "STB",
    "kind": "news",
    "title": "Vòng 3 SACOMBANK V.League 2-2026/27: CLB Thái Nguyên giữ mạch thắng",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTFhMdGRJdjFkUW1kSXdEck80eW5XeTVsWFppejF5UHJvM1ZVTHd0emZJX2tBRm1JMjJaMy1uVTNiZ2hnV0pSekU4c1BoOTM5S1ZfNmVaN1lwNkJrZWVZQ2NUbVcxUkRMZ1RrcUx3aGlHemJfLXg3eDJuZTVHOVZESFVzUU1abzk5NmRKUS1OZEtVY0RV?oc=5",
+   "url": "https://www.vff.org.vn/vong-3-sacombank-v-league-2-2026-27-clb-thai-nguyen-giu-mach-thang/",
    "source": "vff.org.vn",
    "source_name": "VFF",
    "published": "2026-10-19T08:53+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Liên đoàn Bóng đá Việt Nam",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTFhMdGRJdjFkUW1kSXdEck80eW5XeTVsWFppejF5UHJvM1ZVTHd0emZJX2tBRm1JMjJaMy1uVTNiZ2hnV0pSekU4c1BoOTM5S1ZfNmVaN1lwNkJrZWVZQ2NUbVcxUkRMZ1RrcUx3aGlHemJfLXg3eDJuZTVHOVZESFVzUU1abzk5NmRKUS1OZEtVY0RV?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-9e5317d72d11",
    "party": "STB",
    "kind": "news",
    "title": "Lãi suất ngày 17/10 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLWE3cVhIc2ZURmgzZWxqU2YtNW9MalYyUS02SG1DWTg4eENtS0V3TXppSkFmc2dOcHkzOVRXbEhJY3BfVEhCN3FVTlhjdTEzRVBaU3BvYzlwRDhmSEFnSlNCemRkQVhmYW1lbjFyWDBmVFdpb09rWWk3LVQzRERnQWx5YkllYWkyMlJLOFczNmx5UU91LU1PWkpmM09FNkZyVkZFLVZ5RkJBTVQ2NmxXcGc5Qkh6UEM3NGtBcW1UdmE4RVdKUkZHWjN2ZmhJd0paNnQxTTRR?oc=5",
+   "url": "https://cafef.vn/lai-suat-ngay-17-10-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-188261017155351262.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-17T20:16+07:00",
    "date_precision": "minute",
-   "excerpt": "",
-   "excerpt_origin": "",
-   "via": "google"
+   "excerpt": "Lãi suất huy động giữa các ngân hàng chênh lệch tới 4,3 điểm % ở một số kỳ hạn. Trong khi Sacombank niêm yết 7,5%/năm cho tiền gửi 12 tháng, VPBank đưa lãi suất kỳ hạn 18 tháng lên 7,9%/năm; nhóm Big4 cùng áp dụng mức 6,8%/năm ở kỳ hạn 12 tháng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLWE3cVhIc2ZURmgzZWxqU2YtNW9MalYyUS02SG1DWTg4eENtS0V3TXppSkFmc2dOcHkzOVRXbEhJY3BfVEhCN3FVTlhjdTEzRVBaU3BvYzlwRDhmSEFnSlNCemRkQVhmYW1lbjFyWDBmVFdpb09rWWk3LVQzRERnQWx5YkllYWkyMlJLOFczNmx5UU91LU1PWkpmM09FNkZyVkZFLVZ5RkJBTVQ2NmxXcGc5Qkh6UEM3NGtBcW1UdmE4RVdKUkZHWjN2ZmhJd0paNnQxTTRR?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-6467e78f67b3",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK tặng 500 voucher phòng chờ Bông Sen cho chủ thẻ Sacombank Vietnam Airlines Visa",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWTY4ZEFKOC0tZloxa3VwZC1mbVZSbTNrdzhpSmVPMW9ZQzNEbms2TGhOTl9RS3Rfc3VuTkRjbXpFWVJBNk53MXZzS0pCMTZlWEpuR3J4VlRZTVZrRV93WV9WZU9GdGx2WnY3ZzYwVWJqQnN1M0IwSDVTdmd4bDZiYmVZaFF3Nmt1RmE2M3p4QVNGdnVyNG5wWmJINmZDVE5FYTVnVldBRTZRRkxRTFVWWWhHRTZ0SVB3N3l0SmVWNWlKOHZ1b3lyMkdYSF9LNWNVb0ZueVNtdkpMVVJnS0NrdjRB?oc=5",
+   "url": "https://thanhtra.com.vn/tai-chinh-20FE0389A/sacombank-tang-500-voucher-phong-cho-bong-sen-cho-chu-the-sacombank-vietnam-airlines-visa-3bb8176eb.html",
    "source": "thanhtra.com.vn",
    "source_name": "Báo Thanh tra",
    "published": "2026-10-16T15:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWTY4ZEFKOC0tZloxa3VwZC1mbVZSbTNrdzhpSmVPMW9ZQzNEbms2TGhOTl9RS3Rfc3VuTkRjbXpFWVJBNk53MXZzS0pCMTZlWEpuR3J4VlRZTVZrRV93WV9WZU9GdGx2WnY3ZzYwVWJqQnN1M0IwSDVTdmd4bDZiYmVZaFF3Nmt1RmE2M3p4QVNGdnVyNG5wWmJINmZDVE5FYTVnVldBRTZRRkxRTFVWWWhHRTZ0SVB3N3l0SmVWNWlKOHZ1b3lyMkdYSF9LNWNVb0ZueVNtdkpMVVJnS0NrdjRB?oc=5"
   },
   {
    "id": "rel-94699b3b0aa8",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK 6 năm liên tiếp được vinh danh “Thương hiệu Vàng TP.HCM”",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdGoxYnFqX1U1b0tFbFQ3T0pXZXMtT25nY1NNdi1kOUZvVHJ6b3ZPWnk0WTI0enJHemw5T2xzNlp5aE9pdkdhOFVJcmZJc1hJSEJORHo2MXNrckt5MDZRMW1lN2FZd3AwZEpuOUZOdWE0Z2ZDQ3lEckNwWW41dWpoN09hTjBpdmRiZ2Fjb3RNV2tQS1ZCRU9jQTVIa0N6eUJGay0tYXZyVTJxS3pqUVU2MHR1MTBoZWlCWWJSaFBhZw?oc=5",
+   "url": "https://thanhtra.com.vn/tai-chinh-20FE0389A/sacombank-6-nam-lien-tiep-duoc-vinh-danh-thuong-hieu-vang-tphcm-3bb81785c.html",
    "source": "thanhtra.com.vn",
    "source_name": "Báo Thanh tra",
    "published": "2026-10-16T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdGoxYnFqX1U1b0tFbFQ3T0pXZXMtT25nY1NNdi1kOUZvVHJ6b3ZPWnk0WTI0enJHemw5T2xzNlp5aE9pdkdhOFVJcmZJc1hJSEJORHo2MXNrckt5MDZRMW1lN2FZd3AwZEpuOUZOdWE0Z2ZDQ3lEckNwWW41dWpoN09hTjBpdmRiZ2Fjb3RNV2tQS1ZCRU9jQTVIa0N6eUJGay0tYXZyVTJxS3pqUVU2MHR1MTBoZWlCWWJSaFBhZw?oc=5"
   },
   {
    "id": "rel-3b96aa7895af",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK 6 năm liên tiếp đạt Thương hiệu Vàng TP. Hồ Chí Minh",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1c5UG5iQWNTRENZVVZjaVBpRi1VTDVwdkl0NXc0RnZVZ0Fmal9QWHVBeGZCQnhuMkJXbDRyWThxNzRGLVNRRlYwc3ljRzEwQjA0N2tXSEQyWjBYVUhtZXFXUzZINzd6S195RU4yb29NX1Z6S25RNElPcl9GV3BXVnZSNUxEbXlqVURNVXJzSnpuaFY0cXAxZnVmUlpCTFVyU1JWS0ctX0Y?oc=5",
+   "url": "https://tapchikinhtetaichinh.vn/sacombank-6-nam-lien-tiep-dat-thuong-hieu-vang-tp-ho-chi-minh-169784.html",
    "source": "tapchikinhtetaichinh.vn",
    "source_name": "Tạp chí Kinh tế - Tài chính Online",
    "published": "2026-10-16T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1c5UG5iQWNTRENZVVZjaVBpRi1VTDVwdkl0NXc0RnZVZ0Fmal9QWHVBeGZCQnhuMkJXbDRyWThxNzRGLVNRRlYwc3ljRzEwQjA0N2tXSEQyWjBYVUhtZXFXUzZINzd6S195RU4yb29NX1Z6S25RNElPcl9GV3BXVnZSNUxEbXlqVURNVXJzSnpuaFY0cXAxZnVmUlpCTFVyU1JWS0ctX0Y?oc=5"
   },
   {
    "id": "rel-b27706dae132",
    "party": "STB",
    "kind": "news",
    "title": "Lãi suất ngày 16/10 tại MB, VPBank, Techcombank, Sacombank, HDBank, Agribank, Vietcombank, BIDV, VietinBank,...",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU1VhMk9qRU50d1BvY1dhYmlNY0xWb3RLNTA1UFVVS29XWUR1OXlwaEUtbHQwWHlVQ0M2aFA1dDIwOTVma05seG5rSE01R1RMcjhDUWx0dU5hNFdPVVRjQWw5QjU0MVp0UVQtbjcydDdBSEVlcUYwM3V3c1J6QzhpWkJiaTljang5OWdYYlVTWmM1MVh0WEVnRktZTDBMNGwxRVdKZlFpNFhINTV4LVlacnZhOEhhUUxNSWxSWXJ6Znl2UlBGOWZYYkc3aXphX2ZnZDh5WXdR?oc=5",
+   "url": "https://cafef.vn/lai-suat-ngay-16-10-tai-mb-vpbank-techcombank-sacombank-hdbank-agribank-vietcombank-bidv-vietinbank-188261016210123023.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-16T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU1VhMk9qRU50d1BvY1dhYmlNY0xWb3RLNTA1UFVVS29XWUR1OXlwaEUtbHQwWHlVQ0M2aFA1dDIwOTVma05seG5rSE01R1RMcjhDUWx0dU5hNFdPVVRjQWw5QjU0MVp0UVQtbjcydDdBSEVlcUYwM3V3c1J6QzhpWkJiaTljang5OWdYYlVTWmM1MVh0WEVnRktZTDBMNGwxRVdKZlFpNFhINTV4LVlacnZhOEhhUUxNSWxSWXJ6Znl2UlBGOWZYYkc3aXphX2ZnZDh5WXdR?oc=5"
   },
   {
    "id": "rel-8ef34e0ce665",
    "party": "STB",
    "kind": "news",
    "title": "Giá bạc thỏi, bạc miếng ngày 16/10 tại Ancarat, Sacombank, DOJI, Bảo Tín Mạnh Hải",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOek1wSWg2dnhxVUt0c2dpWkRhcFNxV0Mwd0hwZWZ0Vl9ER2hFSDZhZUZwN2U0c0VFLTg0bGJ2Xy1FR284NUlxbmM2NlFTcDhWSTAxUFhxaVl2dUNzYnQ2dWhZMWo5X1pkZGhoSVRYR3JNejJHRWV1Q0ZjRjBLR2FuV29SRDU2TmQ1NElYcl9PV1lFbXB6NDRNR2RXVEpRc0ZRR1dJbGs0eGllYmt3Vm5nUkVnZDJib0Zi?oc=5",
+   "url": "https://cafef.vn/gia-bac-thoi-bac-mieng-ngay-16-10-tai-ancarat-sacombank-doji-bao-tin-manh-hai-188261016103139027.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-16T10:31+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOek1wSWg2dnhxVUt0c2dpWkRhcFNxV0Mwd0hwZWZ0Vl9ER2hFSDZhZUZwN2U0c0VFLTg0bGJ2Xy1FR284NUlxbmM2NlFTcDhWSTAxUFhxaVl2dUNzYnQ2dWhZMWo5X1pkZGhoSVRYR3JNejJHRWV1Q0ZjRjBLR2FuV29SRDU2TmQ1NElYcl9PV1lFbXB6NDRNR2RXVEpRc0ZRR1dJbGs0eGllYmt3Vm5nUkVnZDJib0Zi?oc=5"
   },
   {
    "id": "rel-a0f3c8416ac6",
    "party": "STB",
    "kind": "news",
    "title": "Vòng 3 giải hạng Nhất – Sacombank 2026/27: CAND có thể tìm được niềm vui?",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMUd5Y2xTdW1hVXdpWFkxdWdZMjRnOHZfN2NCcm9jNkNXcnNkalEyaVlicml2ODlXTVVHNHRYUXVkc2xqYVRBb0Q2LTR1QUtTTG45TVNKSlA4VU1saU43ZnNqT0txandFSkk4NU5IZnVhRUJuOHYtcG5MT2hjYmhIeUZUcUhhWHNwTDlpTXNObUdkRjN0eGRJRjVtVmpNSDladlhuNG1nNDR3Wlg3eWZWS0dEcnN6b1h3T1pFZ1VYb3NMamdK?oc=5",
+   "url": "https://bongdaplus.vn/hang-nhat-quoc-gia/vong-3-giai-hang-nhat-sacombank-2026-27-cand-co-the-tim-duoc-niem-vui-5263332610.html",
    "source": "bongdaplus.vn",
    "source_name": "Tạp chí Bóng đá",
    "published": "2026-10-16T09:06+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMUd5Y2xTdW1hVXdpWFkxdWdZMjRnOHZfN2NCcm9jNkNXcnNkalEyaVlicml2ODlXTVVHNHRYUXVkc2xqYVRBb0Q2LTR1QUtTTG45TVNKSlA4VU1saU43ZnNqT0txandFSkk4NU5IZnVhRUJuOHYtcG5MT2hjYmhIeUZUcUhhWHNwTDlpTXNObUdkRjN0eGRJRjVtVmpNSDladlhuNG1nNDR3Wlg3eWZWS0dEcnN6b1h3T1pFZ1VYb3NMamdK?oc=5"
   },
   {
    "id": "rel-90f105a122cd",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank đấu giá tài sản 3.620 tỷ đồng liên quan Bamboo Airways",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk9WU2FGcm5FeXRrbjlxTjIwajN4dzNTQWVaSlZvR3Y1WFVwYWZMTVlpdzYzVTZfSHV2Zno3SUY3OEdaRHV3Vl84Ymc0VVR1N1o5QVdZdWVNdjhKMjFUaklFU0pfUWxKbkVqU211a0hDcS10VDRicS1VRm1sRU1ZVEZMaWpWaVRjNktQRlJYbGZ3OXRKd2ladXNOdmN3LXE2V2JwVTVwVElTTGVkbUJB?oc=5",
+   "url": "https://taichinhdoanhnghiep.net.vn/sacombank-dau-gia-tai-san-3620-ty-dong-lien-quan-bamboo-airways-d70493.html",
    "source": "taichinhdoanhnghiep.net.vn",
    "source_name": "Tạp chí Tài chính Doanh nghiệp",
    "published": "2026-10-15T15:55+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVk9WU2FGcm5FeXRrbjlxTjIwajN4dzNTQWVaSlZvR3Y1WFVwYWZMTVlpdzYzVTZfSHV2Zno3SUY3OEdaRHV3Vl84Ymc0VVR1N1o5QVdZdWVNdjhKMjFUaklFU0pfUWxKbkVqU211a0hDcS10VDRicS1VRm1sRU1ZVEZMaWpWaVRjNktQRlJYbGZ3OXRKd2ladXNOdmN3LXE2V2JwVTVwVElTTGVkbUJB?oc=5"
   },
   {
    "id": "rel-c6a366728922",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank phát mãi tài sản đảm bảo 3.600 tỷ đồng để thu hồi nợ của Bamboo Airways",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXIycUlGNG1yS0NIaVNzZGQ5QmNyWFJrZTBaR0d3Ny1MV2ZXTFEtZV9iTy1RdlhPd1hxTmF3eG96UXB5bmk3SFpnaE40aHY2VzNCb2NDLWFNd0VZeHA3cmk4bGdKSHdjNnRPU1padXNuS21JNkVyNXVheUR1eTNXbnRhQTVtQUVpRlcwQXZzOFdrYmRzVDUyNHlVbVdtWi1OWEJMSk5Vd0NZR3FSMG9kUVhyT1JXcGc?oc=5",
+   "url": "https://vnexpress.net/sacombank-phat-mai-tai-san-dam-bao-3-600-ty-dong-de-thu-hoi-no-cua-bamboo-airways-5132422.html",
    "source": "vnexpress.net",
    "source_name": "VnExpress",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXIycUlGNG1yS0NIaVNzZGQ5QmNyWFJrZTBaR0d3Ny1MV2ZXTFEtZV9iTy1RdlhPd1hxTmF3eG96UXB5bmk3SFpnaE40aHY2VzNCb2NDLWFNd0VZeHA3cmk4bGdKSHdjNnRPU1padXNuS21JNkVyNXVheUR1eTNXbnRhQTVtQUVpRlcwQXZzOFdrYmRzVDUyNHlVbVdtWi1OWEJMSk5Vd0NZR3FSMG9kUVhyT1JXcGc?oc=5"
   },
   {
    "id": "rel-38692c0f426f",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank đấu giá tài sản 3.620 tỉ đồng để thu hồi nợ của Bamboo Airways, dự án nào?",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY19YR0dHZkNvT3dBUEl4dzl4RVNJMFhzclYwekhjYjA1c2U4SC05Uk81ZWdncVZlM3BkZ1ZRR0VfZHVnSDBPdXlPWkJRcUsyOG13dm9iZGo2aEUzNUZvM3BwZk9QSzg2bS1NZDFYWVM0Q1NoSEZEU3daWS1xRzBKVXBUOWM3QTc4VlJ3dVpjN24wWUJwWTJzdkIwZ2dKdjU1SE5DeXhYQXpsTnBjZ0pSOWtYVXdGSmd4QUd0N2xMeEw?oc=5",
+   "url": "https://tuoitre.vn/sacombank-dau-gia-tai-san-3620-ti-dong-de-thu-hoi-no-cua-bamboo-airways-du-an-nao-100261015165849891.htm",
    "source": "tuoitre.vn",
    "source_name": "Tuổi Trẻ",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY19YR0dHZkNvT3dBUEl4dzl4RVNJMFhzclYwekhjYjA1c2U4SC05Uk81ZWdncVZlM3BkZ1ZRR0VfZHVnSDBPdXlPWkJRcUsyOG13dm9iZGo2aEUzNUZvM3BwZk9QSzg2bS1NZDFYWVM0Q1NoSEZEU3daWS1xRzBKVXBUOWM3QTc4VlJ3dVpjN24wWUJwWTJzdkIwZ2dKdjU1SE5DeXhYQXpsTnBjZ0pSOWtYVXdGSmd4QUd0N2xMeEw?oc=5"
   },
   {
    "id": "rel-e403f152a1f9",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank rao bán bất động sản 3.600 tỷ đồng để thu hồi nợ Bamboo Airways",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHLTNQczZFdHg3aDdrUDQzNmRwbkpHZ21UNGRoQXVlZm5TTWZ2YkhfYXpHZDZ2Ujc1b2dXMzg0dmZDWFJZemtCeEQ4RUNZOEtHTjEzVHc2RE5VMjBidWM1QVRhQ1FtcUhaSUVwUkd0QThMazBlcVBObEd4OEloTzFLVVNjZVFKVWFTRWhyckN3dHZTdG1WU0NWZmRTVUxmdEg3Qk5GVURTQVo4eFVWajlPQ2FDTVhMREgzZ2Q1U3lHMW5KM1E?oc=5",
+   "url": "https://dantri.com.vn/kinh-doanh/sacombank-rao-ban-bat-dong-san-3600-ty-dong-de-thu-hoi-no-bamboo-airways-20261015115738533.htm",
    "source": "dantri.com.vn",
    "source_name": "Báo Dân trí",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcnRHLTNQczZFdHg3aDdrUDQzNmRwbkpHZ21UNGRoQXVlZm5TTWZ2YkhfYXpHZDZ2Ujc1b2dXMzg0dmZDWFJZemtCeEQ4RUNZOEtHTjEzVHc2RE5VMjBidWM1QVRhQ1FtcUhaSUVwUkd0QThMazBlcVBObEd4OEloTzFLVVNjZVFKVWFTRWhyckN3dHZTdG1WU0NWZmRTVUxmdEg3Qk5GVURTQVo4eFVWajlPQ2FDTVhMREgzZ2Q1U3lHMW5KM1E?oc=5"
   },
   {
    "id": "rel-8d0486be2159",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank siết nợ Bamboo Airways, rao bán tài sản cầm cố giá 3.600 tỷ đồng",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVptY3FnYkY1TWo4RlM5ZERBUUNRbmkzb3paN1BJdHdSOHdQLWx4RDBwQUdjZC1CV19iRXVOanZGZkxhb1FmazdfdWNKc1Z3OGdkeDBXbC1Qb1UyUDRseDM4QjNLeS1uaG5FZ3JlUHZLMk1XckQ4UHlidEhQS1ctbUNSbmJObFpZeVYxcl9OcnprZXZ3dUVpM1Bhd2lQcW9j?oc=5",
+   "url": "https://vietnamfinance.vn/sacombank-rao-ban-tai-san-cua-bamboo-airways-gia-hon-3600-ty-d152057.html",
    "source": "vietnamfinance.vn",
    "source_name": "VietnamFinance",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVptY3FnYkY1TWo4RlM5ZERBUUNRbmkzb3paN1BJdHdSOHdQLWx4RDBwQUdjZC1CV19iRXVOanZGZkxhb1FmazdfdWNKc1Z3OGdkeDBXbC1Qb1UyUDRseDM4QjNLeS1uaG5FZ3JlUHZLMk1XckQ4UHlidEhQS1ctbUNSbmJObFpZeVYxcl9OcnprZXZ3dUVpM1Bhd2lQcW9j?oc=5"
   },
   {
    "id": "rel-1e9e23465bd2",
    "party": "STB",
    "kind": "news",
    "title": "🏦 Bamboo Airways lại đổi Chủ tịch, Sacombank chuẩn bị đấu giá từ hàng trăm bất động sản đến sàn thương mại tài sản bảo đảm 3.620 tỷ",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMU55dmh6RUs4aVM1RV9ibFhJS21KNVZFR2lMaUFoMndiUXdvaUJIcVBVWWtlVFRSQno2Z2J6c0JmYUwtam5icU9Ja0ZkdzBUa3poWWVTelFuMEwybGpkV2xSd1d6YllKbnFJa0l5ZmFsNjl5Umg3ZUp4QzhuWkhGZ25TY0hLa3F1MkJrX29MMGZHNlJOay1ySmJJVGFCMzNMTzhiZTVqcDI4dTAyT3poLTAwMU1LZUlOeWJKZU1odUxBLXd3MW5VR0hmVHV4dDJYaE5SZk9MQzluUDhhLTJfTi1MbkgtM0ZtTlBSWVRsekFrQ25mZnNXanhWaHZyZ05TTmFV?oc=5",
+   "url": "https://vietnambusinessinsider.vn/bamboo-airways-lai-doi-chu-tich-sacombank-chuan-bi-dau-gia-tu-hang-tram-bat-dong-san-den-san-thuong-mai-tai-san-bao-dam-3620-ty-a56146.html",
    "source": "vietnambusinessinsider.vn",
    "source_name": "Cộng đồng Kinh doanh Việt Nam",
    "published": "2026-10-15T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMU55dmh6RUs4aVM1RV9ibFhJS21KNVZFR2lMaUFoMndiUXdvaUJIcVBVWWtlVFRSQno2Z2J6c0JmYUwtam5icU9Ja0ZkdzBUa3poWWVTelFuMEwybGpkV2xSd1d6YllKbnFJa0l5ZmFsNjl5Umg3ZUp4QzhuWkhGZ25TY0hLa3F1MkJrX29MMGZHNlJOay1ySmJJVGFCMzNMTzhiZTVqcDI4dTAyT3poLTAwMU1LZUlOeWJKZU1odUxBLXd3MW5VR0hmVHV4dDJYaE5SZk9MQzluUDhhLTJfTi1MbkgtM0ZtTlBSWVRsekFrQ25mZnNXanhWaHZyZ05TTmFV?oc=5"
   },
   {
    "id": "rel-7c7b353d9ddd",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank rao bán tài sản của Bamboo Airways, giá khởi điểm hơn 3.600 tỷ đồng",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEZJTGxCUURoVi1fYlhDV2pPdW1iZ1dSZm5OcGdaaDE1ZnBOdFZuUUs5Nk5UVkdSVlVwb0tzeEJSTk5UQ1hoZEw5b1BWXzBYTWFIcy02X2pLYV9UQ19wOTFSVEc1LWtZSGFweWlKRklZVFlMdGdobnVXdmRuR3FUSkpfQ2YtRG90YXdZN1YtRjFpcTI5TDhOQlZLYlZ5SmpkNUxocllKU3l1QWF1VlpuM3BmRTVTQQ?oc=5",
+   "url": "https://cafef.vn/sacombank-rao-ban-tai-san-cua-bamboo-airways-gia-khoi-diem-hon-3600-ty-dong-188261014201746975.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEZJTGxCUURoVi1fYlhDV2pPdW1iZ1dSZm5OcGdaaDE1ZnBOdFZuUUs5Nk5UVkdSVlVwb0tzeEJSTk5UQ1hoZEw5b1BWXzBYTWFIcy02X2pLYV9UQ19wOTFSVEc1LWtZSGFweWlKRklZVFlMdGdobnVXdmRuR3FUSkpfQ2YtRG90YXdZN1YtRjFpcTI5TDhOQlZLYlZ5SmpkNUxocllKU3l1QWF1VlpuM3BmRTVTQQ?oc=5"
   },
   {
    "id": "rel-98d7bc9c8271",
    "party": "STB",
    "kind": "news",
    "title": "Tổng giám đốc SACOMBANK: Muốn tạo động lực tăng trưởng cho doanh nghiệp, ngân hàng phải thay đổi trước",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNVhhTjhpcFhXdTRFb2t5QU1xcml5enV1S192SjhTNldqN1ZwaFlEZVB0RF9ZOFNTclM1bTJfSTZZZnVETnVIOGhKMzJYeFV2YUxqTmxMaTNSZ0lIUm13dnZ4T0prSi0yODBHNWpValVyRmg2YlVNNkRLNkF1REFrZkljUmZKWVAyYmdlN1Y5ZE5XZFY2TFpwSWpqSDJwdVFHdElMMUxiVnJvZ0c5MmN4NFEtdkE0V1hHa0JuMVZSVHNPOXlYNDhoSHkzNjRlVjl6Q2premZPQ1lnUQ?oc=5",
+   "url": "https://tuoitre.vn/tong-giam-doc-sacombank-muon-tao-dong-luc-tang-truong-cho-doanh-nghiep-ngan-hang-phai-thay-doi-truoc-100261014121532622.htm",
    "source": "tuoitre.vn",
    "source_name": "Tuổi Trẻ",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNVhhTjhpcFhXdTRFb2t5QU1xcml5enV1S192SjhTNldqN1ZwaFlEZVB0RF9ZOFNTclM1bTJfSTZZZnVETnVIOGhKMzJYeFV2YUxqTmxMaTNSZ0lIUm13dnZ4T0prSi0yODBHNWpValVyRmg2YlVNNkRLNkF1REFrZkljUmZKWVAyYmdlN1Y5ZE5XZFY2TFpwSWpqSDJwdVFHdElMMUxiVnJvZ0c5MmN4NFEtdkE0V1hHa0JuMVZSVHNPOXlYNDhoSHkzNjRlVjl6Q2premZPQ1lnUQ?oc=5"
   },
   {
    "id": "rel-9ca691b1a881",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank phát mại tài sản liên quan khoản nợ của Bamboo Airways",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOG1sM1RpZVJGWWJ5UjFuTUc5RGhnaUFBbWtWaXk0bGJjQ0xVVGpVbVZyd29MQ0tXZnZja2VHYlJDZVc2MXpTTEFmMC1Pd1J1eFdXYWpOVVlhanh6VUsxZDAtZm9DWW9fb3U3NTRoNGEtbzloaEZGdUxuOXQ5X0FFYkZUbE1FZWhHNlZndkQySUJjeVNOaDBDQ043eS1KZkk?oc=5",
+   "url": "https://znews.vn/sacombank-phat-mai-tai-san-lien-quan-khoan-no-cua-bamboo-airways-post1689636.html",
    "source": "znews.vn",
    "source_name": "Znews",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOG1sM1RpZVJGWWJ5UjFuTUc5RGhnaUFBbWtWaXk0bGJjQ0xVVGpVbVZyd29MQ0tXZnZja2VHYlJDZVc2MXpTTEFmMC1Pd1J1eFdXYWpOVVlhanh6VUsxZDAtZm9DWW9fb3U3NTRoNGEtbzloaEZGdUxuOXQ5X0FFYkZUbE1FZWhHNlZndkQySUJjeVNOaDBDQ043eS1KZkk?oc=5"
+  },
+  {
+   "id": "rel-1416e5e8b591",
+   "party": "STB",
+   "kind": "news",
+   "title": "SACOMBANK đấu giá 7 lô đất của doanh nghiệp đứng sau một thương hiệu cà phê hòa tan",
+   "url": "https://nguoiquansat.vn/sacombank-dau-gia-7-lo-dat-cua-doanh-nghiep-dung-sau-mot-thuong-hieu-ca-phe-hoa-tan-321875.html",
+   "source": "nguoiquansat.vn",
+   "source_name": "nguoiquansat.vn",
+   "published": "2026-10-14T14:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "",
+   "excerpt_origin": "",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2hxdVVvY29FcHdPb05NcXJjTTA4QnRsTWZ2M0tOd3MyWlEzNV9lU2FyZURZcDRyTzFiRnZqY0U1TUtaM0tUdWlUOW1CdnA3T3EySVI0YmJfVVVpNC1pYTAwZHRhS2UtV3NaREZZRmRxbnd1Yk9Rb1pPNjM3SmRHSXdrdHhKb3BXM29qTVUtWnhSV0ZsdUMzWF8xVWU1d01yYVdEcVlUV3lpZ0t3d3VXbVpZZ2JZU3BkdUVV?oc=5"
   },
   {
    "id": "rel-7774c81cd1f0",
    "party": "STB",
    "kind": "news",
    "title": "Sacombank 'hút' hơn 2.100 tỷ đồng trái phiếu chỉ trong một ngày",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQW9xMGpsSER2d2ZLc0dTOFpzZU9uV0pfdm5NeU9VNE5qZkFfdWN0WnpyVjVXYjhHNzJfZ3l4WnFFelZQZnBYdTJwSFFLWHd5NHlmNVJBVVZNRUxmMzZvTzkzaEhEcEdkZUl0NFlGNUJtODRVR0NIRmN5ZHZyM1NvUjZoMFdVLV9RTFJ5SGkzR0gtazVoRlBPaHRhejJGWVp2WURYY29vSExLeWktWHc?oc=5",
+   "url": "https://suckhoedoisong.vn/sacombank-hut-hon-2100-ty-dong-trai-phieu-chi-trong-mot-ngay-169261013080542337.htm",
    "source": "suckhoedoisong.vn",
    "source_name": "Báo Sức Khỏe và Đời Sống",
    "published": "2026-10-13T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQW9xMGpsSER2d2ZLc0dTOFpzZU9uV0pfdm5NeU9VNE5qZkFfdWN0WnpyVjVXYjhHNzJfZ3l4WnFFelZQZnBYdTJwSFFLWHd5NHlmNVJBVVZNRUxmMzZvTzkzaEhEcEdkZUl0NFlGNUJtODRVR0NIRmN5ZHZyM1NvUjZoMFdVLV9RTFJ5SGkzR0gtazVoRlBPaHRhejJGWVp2WURYY29vSExLeWktWHc?oc=5"
   },
   {
    "id": "rel-hose-2503788",
@@ -31642,42 +31847,45 @@
    "party": "STB",
    "kind": "news",
    "title": "Lãi suất ngày 12/10 tại Agribank, Vietcombank, BIDV, VietinBank, VPBank, MB, Techcombank, Sacombank, HDBank,...",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQXlOaDRUTW1wUldEN1pQXzlZRjhzRjlPU1dNT2NTYS0tZTE1dnVfNmNiNFBiMllwM1lyTWNoX2FSTEVPMEFJTS00dmMwRzNoYTkzaGV1YnVUNWVRZy1kektTOEhLeC13bHdRZU5ZdXl1REc2bVgzNU1qNlhmRDA1ejN0akdxOUx0OVZFTjBEaVNEcDBSRkR5TnpjRTBoVFF5VXFFN193dGV5akI5emlkSnZuSE9xNUFybmZ2SVN2NGxjS09PU0ZMRURoaWczTVBLek9TeGp3?oc=5",
+   "url": "https://cafef.vn/lai-suat-ngay-12-10-tai-agribank-vietcombank-bidv-vietinbank-vpbank-mb-techcombank-sacombank-hdbank-188261012203235982.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-12T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQXlOaDRUTW1wUldEN1pQXzlZRjhzRjlPU1dNT2NTYS0tZTE1dnVfNmNiNFBiMllwM1lyTWNoX2FSTEVPMEFJTS00dmMwRzNoYTkzaGV1YnVUNWVRZy1kektTOEhLeC13bHdRZU5ZdXl1REc2bVgzNU1qNlhmRDA1ejN0akdxOUx0OVZFTjBEaVNEcDBSRkR5TnpjRTBoVFF5VXFFN193dGV5akI5emlkSnZuSE9xNUFybmZ2SVN2NGxjS09PU0ZMRURoaWczTVBLek9TeGp3?oc=5"
   },
   {
    "id": "rel-c1aaa808c6c2",
    "party": "STB",
    "kind": "news",
    "title": "SACOMBANK tổ chức giải Golf Championship 2026: Kết nối cộng đồng doanh nhân, kiến tạo giá trị bền vững",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSHI0NVNhb2xSQ1JBYXhDeE96cUlWRzdzcjhCZTVqTkZOakVsVlAxa2twWE8xNF9kblNRRDVXU1RaZ3ZCT0ZxSkp4dFBTYVQtZU5kOVUwQm05WUVxNGdXMUJzeS02ZmRoQTcwalNHOHhaTTZReUZoRU16ck1IbmlmV1o0cUhRNmxQX0NhOVQwWjM0aUFNY3lMSkFmRmM1LUFyeGtlbkx0aUlmUWR4cE9yeUxkUXcyUWM?oc=5",
+   "url": "https://www.sacombank.com.vn/trang-chu/tin-tuc/tin-sacombank/2026/sacombank-to-chuc-giai-golf-championship-2026.html",
    "source": "sacombank.com.vn",
    "source_name": "Sacombank",
    "published": "2026-10-11T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSHI0NVNhb2xSQ1JBYXhDeE96cUlWRzdzcjhCZTVqTkZOakVsVlAxa2twWE8xNF9kblNRRDVXU1RaZ3ZCT0ZxSkp4dFBTYVQtZU5kOVUwQm05WUVxNGdXMUJzeS02ZmRoQTcwalNHOHhaTTZReUZoRU16ck1IbmlmV1o0cUhRNmxQX0NhOVQwWjM0aUFNY3lMSkFmRmM1LUFyeGtlbkx0aUlmUWR4cE9yeUxkUXcyUWM?oc=5"
   },
   {
    "id": "rel-a9841bfbeb43",
    "party": "STB",
    "kind": "news",
    "title": "Vòng 2 giải hạng Nhất – Sacombank 2026/27: Mưa lớn giúp Khánh Hoà thắng đậm CAND!",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWVKdFN2dGtkZE55d1VCNW9ZUzFvajQ0di05N1hMeXpHbVZhc2FvaGVMWlFiZ29BdzNnUU1HVDJuSkZLd2JIT2lJY0p2Q09SMXVieXZzNWw0b2pkWnlDNEhjT1U0dERrN0JjUkxZUjFYcC1XaHdPd0VKZ25qUHJXcjNiZlNEdnJwMURBMXQ4RHhwOG9RMkNsWXlGeWliYWJwZUNWQkhfQTJVZWR5bDc3blJNYjRnaURqdm5majhNWTR3U1hEZWY4aFFIdjNvQ28?oc=5",
+   "url": "https://bongdaplus.vn/hang-nhat-quoc-gia/vong-2-giai-hang-nhat-sacombank-2026-27-mua-lon-giup-khanh-hoa-thang-dam-cand-5259152610.html",
    "source": "bongdaplus.vn",
    "source_name": "Tạp chí Bóng đá",
    "published": "2026-10-11T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdWVKdFN2dGtkZE55d1VCNW9ZUzFvajQ0di05N1hMeXpHbVZhc2FvaGVMWlFiZ29BdzNnUU1HVDJuSkZLd2JIT2lJY0p2Q09SMXVieXZzNWw0b2pkWnlDNEhjT1U0dERrN0JjUkxZUjFYcC1XaHdPd0VKZ25qUHJXcjNiZlNEdnJwMURBMXQ4RHhwOG9RMkNsWXlGeWliYWJwZUNWQkhfQTJVZWR5bDc3blJNYjRnaURqdm5majhNWTR3U1hEZWY4aFFIdjNvQ28?oc=5"
   },
   {
    "id": "rel-38154ab1fcdb",
@@ -32432,112 +32640,120 @@
    "party": "SCEX",
    "kind": "news",
    "title": "Hơn 11.300 tỷ đồng đổ vào khu công nghệ FPT và sàn tài sản số SCEX",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT0FpYUtZT1BSWjJrZ1BpamFOWFJYamw5TUR2U0lzSXduX3NyT21rMGRHWXhwN3lrdUJ6bTQzVnk1Y19NekhsdTdVTFl3ZjJLZmVGMFR3UDQ4WDZlOEEwMGZoMGJxeXJFVEZucVNDR0FGWndhNFZENGhGZnItRDdfaTZQRWp2bFdfdlRMZDh5QzJLNF9WTWx4N29valNBc0JaS3h0dC1EOWY?oc=5",
+   "url": "https://cafef.vn/hon-11300-ty-dong-do-vao-khu-cong-nghe-fpt-va-san-tai-san-so-scex-188261017074320513.chn",
    "source": "cafef.vn",
    "source_name": "CafeF",
    "published": "2026-10-17T07:43+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT0FpYUtZT1BSWjJrZ1BpamFOWFJYamw5TUR2U0lzSXduX3NyT21rMGRHWXhwN3lrdUJ6bTQzVnk1Y19NekhsdTdVTFl3ZjJLZmVGMFR3UDQ4WDZlOEEwMGZoMGJxeXJFVEZucVNDR0FGWndhNFZENGhGZnItRDdfaTZQRWp2bFdfdlRMZDh5QzJLNF9WTWx4N29valNBc0JaS3h0dC1EOWY?oc=5"
   },
   {
    "id": "rel-4f0ede71419d",
    "party": "SCEX",
    "kind": "news",
    "title": "Chứng khoán LPS huy động 4.800 tỷ đồng từ trái phiếu, thâu tóm cổ phần sàn mã hóa SCEX",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXR3NUMzb3UtRXlvZkNBcUlBUDB5ZVJZcGs4SjZ0d3dJcmp2NUNZRDJFUVg5TXVmZS1zUWZEYUpEV1hhNkhrb0k5TUF1UHRoUmNFT2p4VkdEbk5CeHFhc2RMRnF6Uk5lVlV1UlVTZThZVEdGME10c3VTSHJYUnNvRWo0c1pWLWYtc25WNzJlZzFKOFptSE9XX2VoM0JJV3dLSVJrVXZjWmpnRUNtS2JzZ2JwV2ctdGp5aWNycTMwVEg?oc=5",
+   "url": "https://doanhnhan.baophapluat.vn/chung-khoan-lps-huy-dong-4-800-ty-dong-tu-trai-phieu-thau-tom-co-phan-san-ma-hoa-scex.html",
    "source": "doanhnhan.baophapluat.vn",
    "source_name": "Báo Pháp Luật Việt Nam",
    "published": "2026-10-16T20:51+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeXR3NUMzb3UtRXlvZkNBcUlBUDB5ZVJZcGs4SjZ0d3dJcmp2NUNZRDJFUVg5TXVmZS1zUWZEYUpEV1hhNkhrb0k5TUF1UHRoUmNFT2p4VkdEbk5CeHFhc2RMRnF6Uk5lVlV1UlVTZThZVEdGME10c3VTSHJYUnNvRWo0c1pWLWYtc25WNzJlZzFKOFptSE9XX2VoM0JJV3dLSVJrVXZjWmpnRUNtS2JzZ2JwV2ctdGp5aWNycTMwVEg?oc=5"
   },
   {
    "id": "rel-d12035781788",
    "party": "SCEX",
    "kind": "news",
    "title": "Sàn tài sản mã hóa SCEX tăng vốn lên 10 nghìn tỷ",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04TlZPeV8wY2pmZm1VNy1wMTYxd3NORGpJcm5tM2xwTkJsbWpGaG5nQVdxZWlmZ0o0T2RPZ0FfT213bERwQk1Dal9SY041TDUzUDk5OEtsV0NNWVF5VjBiUnFzWXFUMFpPdTF1YUdHZWoya0JrRGNmbUwyRk0tZw?oc=5",
+   "url": "https://vneconomy.vn/san-tai-san-ma-hoa-scex-tang-von-len-10-nghin-ty.htm",
    "source": "vneconomy.vn",
    "source_name": "VnEconomy",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04TlZPeV8wY2pmZm1VNy1wMTYxd3NORGpJcm5tM2xwTkJsbWpGaG5nQVdxZWlmZ0o0T2RPZ0FfT213bERwQk1Dal9SY041TDUzUDk5OEtsV0NNWVF5VjBiUnFzWXFUMFpPdTF1YUdHZWoya0JrRGNmbUwyRk0tZw?oc=5"
   },
   {
    "id": "rel-c620a532472b",
    "party": "SCEX",
    "kind": "news",
    "title": "Tăng vốn lên 10,000 tỷ, SCEX chính thức đủ điều kiện triển khai sàn giao dịch mã hóa",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjliZ0x0WjZNT1o2VWRmRUhEcjRrQjdHV3M3RzF5ZFF0ZE1VcVU1X1ZoUXdmRjlUaXcxLUptZVZwRW1IcDdlRHVrWlVfcGttMWh3bDd4VXpGc2RwOVY3c18wWnY4YnppakxmOWt6VWxTTUZTdzFseXdIWWduSHQ4VThNUHBBQ1dUZnluNl92YUtxckZ5OGMzLXZXRXFpeEM4Y3Q3VVJ4TkxmTkM2VGxXVVg3RUw0LUdHRmUyV0ZaeHVrTjZsVVM4dA?oc=5",
+   "url": "https://vietstock.vn/2026/10/tang-von-len-10000-ty-scex-chinh-thuc-du-dieu-kien-trien-khai-san-giao-dich-ma-hoa-16312-1502255.htm",
    "source": "vietstock.vn",
    "source_name": "Vietstock",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjliZ0x0WjZNT1o2VWRmRUhEcjRrQjdHV3M3RzF5ZFF0ZE1VcVU1X1ZoUXdmRjlUaXcxLUptZVZwRW1IcDdlRHVrWlVfcGttMWh3bDd4VXpGc2RwOVY3c18wWnY4YnppakxmOWt6VWxTTUZTdzFseXdIWWduSHQ4VThNUHBBQ1dUZnluNl92YUtxckZ5OGMzLXZXRXFpeEM4Y3Q3VVJ4TkxmTkM2VGxXVVg3RUw0LUdHRmUyV0ZaeHVrTjZsVVM4dA?oc=5"
   },
   {
    "id": "rel-971f05329273",
    "party": "SCEX",
    "kind": "news",
    "title": "SCEX tăng vốn điều lệ lên 10.000 tỷ đồng",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vaXQxdlpPTjV3RWN1OUF1NnJDOFV2ajlrSFQ3Y0JNR0RKUTJwaGxfWU96akpBem52MXhDT3dkWWpEWW5lMEJJU2ZIeXNIOEdmU2E1Y21BZWxSa1BVVlRocjludVAyaU51UnJzUl9SN1dFWkFkaDNQWFNCb1Y?oc=5",
+   "url": "https://theleader.vn/scex-tang-von-dieu-le-len-10000-ty-dong-d48080.html",
    "source": "theleader.vn",
    "source_name": "TheLEADER",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vaXQxdlpPTjV3RWN1OUF1NnJDOFV2ajlrSFQ3Y0JNR0RKUTJwaGxfWU96akpBem52MXhDT3dkWWpEWW5lMEJJU2ZIeXNIOEdmU2E1Y21BZWxSa1BVVlRocjludVAyaU51UnJzUl9SN1dFWkFkaDNQWFNCb1Y?oc=5"
   },
   {
    "id": "rel-d480d1000f60",
    "party": "SCEX",
    "kind": "news",
    "title": "Công ty tài sản mã hoá SCEX hoàn tất tăng vốn lên 10.000 tỷ đồng",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb3F3cl9KRWx6VFVuZ3VuM1lnRGpDT3hSNDVzanlyR19QeWlIWnNwZ3dqaUxOUS1iYkNITE1aeDZFVVFkZUJHVHhpSGF4ZVNjdlZQeEV2cnM1aU1OdnNKVkhzVHpXZTM5MkhvcV96YXI1SXgxMnE3RUFJVGdIZlI5VFB0anJEU2RlcUtOR21kajgwblR2dFBXeG1TT0Nhd0liTkE1QVd5S3B2S0E?oc=5",
+   "url": "https://vietnambiz.vn/cong-ty-tai-san-ma-hoa-scex-hoan-tat-tang-von-len-10000-ty-dong-20261014152118432.htm",
    "source": "vietnambiz.vn",
    "source_name": "VietnamBiz",
    "published": "2026-10-14T14:00+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb3F3cl9KRWx6VFVuZ3VuM1lnRGpDT3hSNDVzanlyR19QeWlIWnNwZ3dqaUxOUS1iYkNITE1aeDZFVVFkZUJHVHhpSGF4ZVNjdlZQeEV2cnM1aU1OdnNKVkhzVHpXZTM5MkhvcV96YXI1SXgxMnE3RUFJVGdIZlI5VFB0anJEU2RlcUtOR21kajgwblR2dFBXeG1TT0Nhd0liTkE1QVd5S3B2S0E?oc=5"
   },
   {
    "id": "rel-b30845167f5e",
    "party": "SCEX",
    "kind": "news",
    "title": "SCEX tăng vốn lên 10.000 tỷ đồng, đủ điều kiện lập sàn crypto",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhdm16VzdLdlhlNmptV202Z19udVctMDZHdjUtLXhvV2xCS2Q1Q3pudi1BcWJNZVV4VmtiRjVBT1I1QjV0a2ZIeDBZdzNaeEJ6SEMtNUlKSXBLWkRZamtuUV93VDB1Q1ZEUHJrS2RaaldmS1lVRDVfWG9B?oc=5",
+   "url": "https://coin68.com/scex-tang-von-1500-lan-du-dieu-kien-lap-san-crypto/",
    "source": "coin68.com",
    "source_name": "Coin68",
    "published": "2026-10-14T13:07+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhdm16VzdLdlhlNmptV202Z19udVctMDZHdjUtLXhvV2xCS2Q1Q3pudi1BcWJNZVV4VmtiRjVBT1I1QjV0a2ZIeDBZdzNaeEJ6SEMtNUlKSXBLWkRZamtuUV93VDB1Q1ZEUHJrS2RaaldmS1lVRDVfWG9B?oc=5"
   },
   {
    "id": "rel-b51153485ec7",
    "party": "SCEX",
    "kind": "news",
    "title": "Sau chuỗi tăng vốn gần 1.500 lần, SCEX đủ điều kiện xin giấy phép lập sàn tài sản mã hóa",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORjAyQWVfbmJzWFFVSmdPOHFuYy0taVZMTktfOFBDRkVPY1dUTzViYXN1R2ZSU2dNcTNlNl9nQnFmOEVsTzlZMmF0Zl9ieXFuczJ1WVF2Y1c3cmtHVWQ5WUpEcWU2Yk9NUXlvZm8wSEJFbzhaQUQwWGZVSzVBT3VMc21IVmRiU3dKZTZIaGJ4WVdtTDRyNFRleDVTNzREeWpaRktndmpTNUxhRndZdUlocE80ZFJ5Umk4WXBGRjJNbUNvcU0?oc=5",
+   "url": "https://vietnamfinance.vn/sau-chuoi-tang-von-gan-1500-lan-scex-du-dieu-kien-xin-giay-phep-lap-san-tai-san-ma-hoa-d152019.html",
    "source": "vietnamfinance.vn",
    "source_name": "VietnamFinance",
    "published": "2026-10-14T11:30+07:00",
    "date_precision": "minute",
    "excerpt": "",
    "excerpt_origin": "",
-   "via": "google"
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORjAyQWVfbmJzWFFVSmdPOHFuYy0taVZMTktfOFBDRkVPY1dUTzViYXN1R2ZSU2dNcTNlNl9nQnFmOEVsTzlZMmF0Zl9ieXFuczJ1WVF2Y1c3cmtHVWQ5WUpEcWU2Yk9NUXlvZm8wSEJFbzhaQUQwWGZVSzVBT3VMc21IVmRiU3dKZTZIaGJ4WVdtTDRyNFRleDVTNzREeWpaRktndmpTNUxhRndZdUlocE80ZFJ5Umk4WXBGRjJNbUNvcU0?oc=5"
   },
   {
    "id": "rel-fd57d16f5ef1",
