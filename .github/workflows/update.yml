@@ -13,14 +13,17 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python update_lps.py
+      - name: Chay script cap nhat
+        run: python update_lps.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # để lưu bản sao tệp PDF vào mục Releases của kho
       - name: Luu ket qua
         run: |
           git config user.name "ban-tin-lps-bot"

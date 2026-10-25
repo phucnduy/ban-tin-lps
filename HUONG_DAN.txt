@@ -17,13 +17,26 @@ CÀI ĐẶT TRÊN WINDOWS (làm một lần)
   5. Nhấp đúp cai_dat_lich.bat để tạo lịch 08:00 và 15:00.
   Máy phải bật và đã đăng nhập vào giờ chạy; nếu lỡ, lần chạy sau tự bù.
 
-TRANG CÓ 3 TAB
+TRANG CÓ 4 TAB
   Tin tức              Tin báo chí + Tin tức LPS. Lọc theo trang tin gốc, năm/tháng/ngày.
   Công bố thông tin    587+ văn bản từ lpbs.com.vn. Lọc theo nhãn (chọn nhiều nhãn = văn bản có đủ các nhãn),
                        theo thời gian, "Có dấu hiệu trễ hạn", "Chưa thấy trên HOSE".
                        Ví dụ: Nghị quyết HĐQT + Tín dụng ngân hàng + Năm 2026.
-  Đối chiếu HOSE       So mục Công bố thông tin trên website với tin của LPS trên HOSE (từ 21/07/2026).
+  Bên liên quan        LPB, STB, SCEX, Sacom Life: công bố thông tin trên HOSE (LPB, STB) + báo chí 120 ngày gần nhất.
+  Kiểm soát            4 phần:
+    - Văn bản thay đổi: văn bản bị sửa tiêu đề/nội dung/ngày, bị gỡ, bị thay tệp, tệp không còn tải được.
+      Kiểm tra văn bản 45 ngày gần nhất mỗi lần chạy; kiểm tra toàn bộ mỗi ngày một lần. Tệp so bằng SHA-256.
+    - Đối chiếu HOSE: so 4 mục văn bản trên website với tin của LPS trên HOSE (từ 21/07/2026).
+    - Số hiệu nghị quyết: các số nghị quyết HĐQT chưa thấy công bố, để đối chiếu sổ nghị quyết nội bộ.
+    - Lịch định kỳ: BCTC quý/bán niên/năm, tỷ lệ an toàn tài chính, báo cáo thường niên, báo cáo quản trị.
+  Mọi danh sách đều có nút "Xuất CSV" (mở bằng Excel). Các tin báo cùng sự kiện được gộp thành một mục.
   Nhãn "Mới": trình duyệt ghi nhớ những mục bạn đã thấy ở lần mở trước. Mỗi trình duyệt/máy nhớ riêng.
+
+LƯU TRỮ TỆP PDF
+  - Mã băm SHA-256 tính cho mọi tệp đính kèm (khoảng 4 GB, xử lý dần ~25 phút mỗi lần chạy).
+  - Bản sao PDF của văn bản từ 01/01/2026 lưu ở mục Releases của kho GitHub (mỗi năm một bản phát hành
+    "luu-tru-YYYY"); tên tệp bắt đầu bằng 12 ký tự đầu mã băm. Trang hiện liên kết "Bản lưu trữ".
+  - Kho GitHub là kho riêng tư: chỉ tài khoản của bạn xem được bản lưu.
 
 NGUYÊN TẮC "NGUYÊN VĂN"
   - Công bố thông tin, Tin tức LPS: tiêu đề, ngày, nội dung, file đính kèm lấy nguyên văn từ lpbs.com.vn.

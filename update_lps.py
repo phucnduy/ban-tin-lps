@@ -41,6 +41,7 @@ except ImportError:
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lps_rules import classify, late_check, nfc   # quy tắc phân loại và sàng lọc (sửa trong lps_rules.py)
+import lps_audit                                  # phát hiện thay đổi, mã băm, số hiệu nghị quyết, lịch định kỳ, gộp tin
 
 # ----------------------------------------------------------------- CẤU HÌNH
 BASE_DIR = Path(__file__).resolve().parent
@@ -52,8 +53,14 @@ LOG_FILE = BASE_DIR / "update_lps.log"
 SEED_FILE = BASE_DIR / "news.json"               # dữ liệu cũ (chỉ dùng ở lần chạy đầu tiên)
 
 LPBS = "https://www.lpbs.com.vn"
-CBTT_FIRST = LPBS + "/cong-bo-thong-tin-cat19"
-CBTT_PAGE = LPBS + "/news/19/{n}/cong-bo-thong-tin.html"   # trang 2 = n=1, trang 3 = n=2 ...
+# Các mục văn bản của nhà đầu tư trên lpbs.com.vn: (mã, tên hiển thị, trang đầu, mẫu trang tiếp theo)
+# Trang 2 = n=1, trang 3 = n=2 … Báo cáo tài chính KHÔNG nằm trong mục Công bố thông tin mà ở mục Thông tin tài chính.
+IR_SECTIONS = [
+    ("cbtt", "Công bố thông tin", LPBS + "/cong-bo-thong-tin-cat19", LPBS + "/news/19/{n}/cong-bo-thong-tin.html"),
+    ("ttc", "Thông tin tài chính", LPBS + "/thong-tin-tai-chinh-cat17", LPBS + "/news/17/{n}/thong-tin-tai-chinh.html"),
+    ("bctn", "Báo cáo thường niên", LPBS + "/bao-cao-thuong-nien-cat18", LPBS + "/news/18/{n}/bao-cao-thuong-nien.html"),
+    ("dieule", "Điều lệ và quy chế", LPBS + "/dieu-le-va-quy-che-cong-ty-cat12", LPBS + "/news/12/{n}/dieu-le-va-quy-che-cong-ty.html"),
+]
 LPS_NEWS_FIRST = LPBS + "/tin-tuc-lps-news24"
 LPS_NEWS_PAGE = LPBS + "/news/24/{n}/tin-tuc-lps.html"
 LOGO_URL = LPBS + "/images/logo.png"
@@ -97,6 +104,22 @@ HOSE_SEC_ID = 8399            # mã nội bộ của LPS trên HOSE (tra từ ap
 HOSE_START = dt.date(2026, 1, 1)   # LPS bắt đầu có tin trên HOSE từ tháng 7/2026
 HOSE_NEWS_TYPES = {1: "Tin tổ chức niêm yết", 3: "Tin của Sở về LPS"}
 HOSE_MATCH_DAYS = 5           # văn bản trên web và trên HOSE được coi là cùng một văn bản nếu đăng cách nhau ≤ 5 ngày
+
+# Bên liên quan theo dõi trong tab riêng. hose_code: mã trên HOSE (lấy tin công bố thông tin);
+# queries: truy vấn Google News; kw: biểu thức bắt buộc có trong tiêu đề để giữ bài.
+RELATED_PARTIES = [
+    {"key": "LPB", "name": "LPBank (LPB)", "hose_code": "LPB",
+     "queries": ['"LPBank"', '"Ngân hàng Lộc Phát"'], "kw": r"LPBank|Lộc Phát|\bLPB\b"},
+    {"key": "STB", "name": "Sacombank (STB)", "hose_code": "STB",
+     "queries": ['"Sacombank"'], "kw": r"Sacombank|\bSTB\b"},
+    {"key": "SCEX", "name": "SCEX – Sàn GD tài sản mã hóa Sacom", "hose_code": None,
+     "queries": ['"SCEX"', '"tài sản mã hóa Sacom"'], "kw": r"\bSCEX\b|mã hóa Sacom"},
+    {"key": "SACOMLIFE", "name": "Sacom Life", "hose_code": None,
+     "queries": ['"Sacom Life"', '"Nhân thọ Sacom"'], "kw": r"Sacom\s*Life|Nhân thọ Sacom"},
+]
+RELATED_DAYS = 120          # giữ tin bên liên quan trong 120 ngày gần nhất
+RELATED_MAX_PER_PARTY = 250
+MAX_RELATED_DECODE = 60
 
 # Giải mã link Google News sang link gốc của báo (số lượng tối đa mỗi lần chạy)
 MAX_GOOGLE_DECODE = 80
@@ -210,7 +233,7 @@ def parse_lpbs_detail(html):
     files = []
     for a in box.select("a[href]"):
         href = a["href"].strip()
-        if not href or href.lower().startswith(("javascript", "mailto", "#")):
+        if not href or href.lower().startswith(("javascript", "mailto", "#")) or "cdn-cgi" in href or "email-protection" in href:
             continue
         files.append({"label": re.sub(r"\s+", " ", a.get_text()).strip() or "Tài liệu",
                       "url": urljoin(LPBS, href)})
@@ -218,48 +241,62 @@ def parse_lpbs_detail(html):
 
 
 def crawl_lpbs_section(first_url, page_tpl, known_urls, full, label):
-    """Đọc các trang danh sách cho tới khi gặp một trang không có mục mới (trừ khi --full)."""
-    found, n, seen = [], 0, set()
+    """Đọc các trang danh sách. Chế độ thường: dừng khi gặp trang không có mục mới.
+    Chế độ full: đọc hết mọi trang. Trả về (mục mới, toàn bộ mục đã thấy, đọc trọn vẹn hay không)."""
+    found, n, seen, all_items, complete = [], 0, set(), [], True
     while True:
         url = first_url if n == 0 else page_tpl.format(n=n)
         try:
             items = parse_lpbs_list(get(url).text)
         except Exception as e:
             log(f"{label}: lỗi tải {url}: {e}")
+            complete = False
             break
         items = [i for i in items if i["url"] not in seen]
         if not items:
             break
         seen.update(i["url"] for i in items)
+        all_items.extend(items)
         new = [i for i in items if i["url"] not in known_urls]
         found.extend(new)
         if not new and not full:
+            complete = False      # không đọc hết danh sách → không dùng để kết luận văn bản bị gỡ
             break
         n += 1
         if n > 300:
             break
     log(f"{label}: quét {n + 1} trang, {len(found)} mục mới")
-    return found
+    return found, all_items, complete
 
 
 def update_lpbs(db, full):
-    # Công bố thông tin
+    """Đọc 4 mục văn bản trên lpbs.com.vn. Trả về (số văn bản mới, số tin LPS mới, {url: (mục, tiêu đề, ngày)} nếu đọc trọn vẹn)."""
     known = {x["url"] for x in db["cbtt"]}
-    new_items = crawl_lpbs_section(CBTT_FIRST, CBTT_PAGE, known, full, "Công bố thông tin")
-    for it in new_items:
-        try:
-            body, files = parse_lpbs_detail(get(it["url"]).text)
-        except Exception as e:
-            log(f"  Không đọc được chi tiết {it['url']}: {e}")
-            body, files = "", []
-        db["cbtt"].append({"id": make_id("cbtt", it["url"]), "title": it["title"], "url": it["url"],
-                           "date": it["date"], "body": body, "files": files,
-                           "fetched": dt.datetime.now(VN_TZ).isoformat(timespec="minutes")})
-        if len(db["cbtt"]) % 50 == 0:
-            save_db(db)
-            log(f"  … đã lưu {len(db['cbtt'])} văn bản")
-    # Bổ sung nội dung cho mục còn thiếu (lỗi mạng lần trước)
+    total_new, listing, listing_ok = 0, {}, True
+    for key, label, first, tpl in IR_SECTIONS:
+        sec_full = full or not db["meta"].get(f"section_done_{key}")
+        new_items, all_items, complete = crawl_lpbs_section(first, tpl, known, sec_full, label)
+        if sec_full and complete:
+            db["meta"][f"section_done_{key}"] = True
+        listing_ok = listing_ok and complete
+        for it in all_items:
+            listing.setdefault(it["url"], (key, it["title"], it["date"]))
+        for it in new_items:
+            try:
+                body, files = parse_lpbs_detail(get(it["url"]).text)
+            except Exception as e:
+                log(f"  Không đọc được chi tiết {it['url']}: {e}")
+                body, files = "", []
+            db["cbtt"].append({"id": make_id("cbtt", it["url"]), "title": it["title"], "url": it["url"],
+                               "date": it["date"], "body": body, "files": files, "section": key,
+                               "first_seen": dt.datetime.now(VN_TZ).isoformat(timespec="minutes")})
+            known.add(it["url"])
+            total_new += 1
+            if total_new % 50 == 0:
+                save_db(db)
+                log(f"  … đã lưu {len(db['cbtt'])} văn bản")
     for x in db["cbtt"]:
+        x.setdefault("section", "cbtt")
         if not x.get("body") and not x.get("files"):
             try:
                 x["body"], x["files"] = parse_lpbs_detail(get(x["url"]).text)
@@ -268,7 +305,7 @@ def update_lpbs(db, full):
 
     # Tin tức LPS (đăng trên lpbs.com.vn)
     known_news = {x["url"] for x in db["news"]}
-    new_news = crawl_lpbs_section(LPS_NEWS_FIRST, LPS_NEWS_PAGE, known_news, full, "Tin tức LPS")
+    new_news, _, _ = crawl_lpbs_section(LPS_NEWS_FIRST, LPS_NEWS_PAGE, known_news, full, "Tin tức LPS")
     for it in new_news:
         try:
             body, files = parse_lpbs_detail(get(it["url"]).text)
@@ -278,7 +315,7 @@ def update_lpbs(db, full):
                            "source": "lpbs.com.vn", "published": it["date"], "date_precision": "day",
                            "excerpt": first_paragraph(body), "excerpt_origin": "lpbs",
                            "body": body, "files": files, "via": "lpbs"})
-    return len(new_items), len(new_news)
+    return total_new, len(new_news), (listing if (full and listing_ok) else None)
 
 
 def first_paragraph(body, limit=320):
@@ -434,7 +471,7 @@ def resolve_google_links(db):
 def fill_meta_descriptions(db):
     """Lấy sapo nguyên văn từ thẻ meta description của bài gốc (chỉ với link trực tiếp tới báo)."""
     n = 0
-    for x in sorted(db["news"], key=lambda r: r.get("published", ""), reverse=True):
+    for x in sorted(db["news"] + db.get("related", []), key=lambda r: r.get("published", ""), reverse=True):
         if n >= MAX_META_FETCH:
             break
         if x.get("excerpt") or x.get("meta_tried") or x.get("via") == "lpbs":
@@ -596,6 +633,104 @@ def analyse_cbtt(db):
             c["recon"] = "web_only"
 
 
+# ------------------------------------------------------------- BÊN LIÊN QUAN
+def hose_sec_id(db, code):
+    cache = db["meta"].setdefault("hose_ids", {})
+    if code in cache:
+        return cache[code]
+    data = get(f"https://api.hsx.vn/l/api/v1/1/securities/stock?pageIndex=1&pageSize=1000&alphabet={code[0]}&sectorId=",
+               headers={"Origin": "https://www.hsx.vn"}).json()
+    for it in (data.get("data") or {}).get("list") or []:
+        if it.get("code") == code:
+            cache[code] = it["id"]
+            return it["id"]
+    return None
+
+
+def update_related(db):
+    rel = db.setdefault("related", [])
+    known = {r["url"] for r in rel}
+    known_titles = {(r["party"], norm_title(r["title"])) for r in rel}
+    today = dt.datetime.now(VN_TZ).date()
+    start = today - dt.timedelta(days=RELATED_DAYS)
+    added = 0
+    for p in RELATED_PARTIES:
+        kw = re.compile(p["kw"], re.I)
+        # (a) công bố thông tin trên HOSE
+        if p.get("hose_code"):
+            try:
+                sid = hose_sec_id(db, p["hose_code"])
+                if sid:
+                    url = (f"{HOSE_API}/news/securities/{sid}/1?pageIndex=1&pageSize=100"
+                           f"&startDate={start:%Y-%m-%d}&endDate={today:%Y-%m-%d}")
+                    data = (get(url, headers={"Origin": "https://www.hsx.vn"}).json().get("data") or {})
+                    for it in data.get("list") or []:
+                        link = f"https://www.hsx.vn/vi/tin-tuc/tin-to-chuc-niem-yet/{it['id']}"
+                        if link in known:
+                            continue
+                        known.add(link)
+                        rel.append({"id": f"rel-hose-{it['id']}", "party": p["key"], "kind": "hose",
+                                    "title": nfc(it.get("title") or ""), "url": link, "source": "hsx.vn",
+                                    "published": hose_time(it["postedDate"]), "date_precision": "minute",
+                                    "excerpt": strip_html(it.get("summary") or ""), "excerpt_origin": "hose"})
+                        added += 1
+            except Exception as e:
+                log(f"HOSE ({p['hose_code']}) lỗi: {e}")
+        # (b) báo chí qua Google News (chỉ 30 ngày gần nhất mỗi lần đọc)
+        if USE_GOOGLE_NEWS:
+            for q in p["queries"]:
+                u = f"https://news.google.com/rss/search?q={quote(q + ' when:30d')}&hl=vi&gl=VN&ceid=VN:vi"
+                try:
+                    items = list(rss_items(get(u).content))
+                except Exception as e:
+                    log(f"Google News lỗi ({q}): {e}")
+                    continue
+                for it in items:
+                    title = it["title"]
+                    if it["source_name"] and title.endswith(" - " + it["source_name"]):
+                        title = title[: -len(" - " + it["source_name"])].strip()
+                    if not kw.search(title) or EXCLUDE_RE.search(title):
+                        continue
+                    if it["link"] in known or (p["key"], norm_title(title)) in known_titles:
+                        continue
+                    pub, prec = parse_pubdate(it["pub"])
+                    known.add(it["link"]); known_titles.add((p["key"], norm_title(title)))
+                    rel.append({"id": make_id("rel", it["link"]), "party": p["key"], "kind": "news", "title": title,
+                                "url": it["link"], "source": domain_of(it["source_url"]) if it["source_url"] else "news.google.com",
+                                "source_name": it["source_name"], "published": pub, "date_precision": prec,
+                                "excerpt": "", "excerpt_origin": "", "via": "google"})
+                    added += 1
+    # giải mã link Google, bỏ tin cũ, giới hạn số lượng mỗi bên
+    n = 0
+    for r in sorted(rel, key=lambda x: x.get("published", ""), reverse=True):
+        if n >= MAX_RELATED_DECODE:
+            break
+        if "news.google.com" in r["url"] and r.get("decode_failed", 0) < 3:
+            n += 1
+            try:
+                real = decode_google_link(r["url"])
+            except Exception:
+                real = None
+            if real:
+                r["google_url"], r["url"] = r["url"], real
+                r["source"] = domain_of(real) or r["source"]
+            else:
+                r["decode_failed"] = r.get("decode_failed", 0) + 1
+    cutoff = start.isoformat()
+    keep = []
+    for p in RELATED_PARTIES:
+        mine = sorted([r for r in rel if r["party"] == p["key"] and (r.get("published") or "")[:10] >= cutoff],
+                      key=lambda x: x.get("published", ""), reverse=True)
+        keep += mine[:RELATED_MAX_PER_PARTY]
+    seen, out = set(), []
+    for r in keep:
+        if r["url"] not in seen:
+            seen.add(r["url"]); out.append(r)
+    db["related"] = out
+    log(f"Bên liên quan: {added} tin mới, đang giữ {len(out)} tin")
+    return added
+
+
 # ------------------------------------------------------------------ DỮ LIỆU
 def empty_db():
     return {"meta": {"company": "Công ty Cổ phần Chứng khoán LPS", "ticker": "LPS", "exchange": "HOSE",
@@ -637,22 +772,64 @@ def logo_data_uri():
     return "data:image/png;base64," + base64.b64encode(LOGO_CACHE.read_bytes()).decode()
 
 
+def _strip(rows, drop=("meta_tried", "decode_failed", "google_url")):
+    return [{k: v for k, v in r.items() if k not in drop} for r in rows]
+
+
 def render(db):
     match_hose(db)
     analyse_cbtt(db)
-    tpl = TEMPLATE_FILE.read_text(encoding="utf-8")
-    news = [{k: v for k, v in r.items() if k not in ("meta_tried", "decode_failed")} for r in db["news"]]
+    today = dt.datetime.now(VN_TZ).date()
+    docs = [dict(r, where="web") for r in db["cbtt"]]
+    docs += [{"title": h["title"], "url": h["url"], "date": h["posted"][:10], "where": "hose"}
+             for h in db.get("hose", []) if not h.get("own_notice")]
+    news = lps_audit.cluster_news(_strip(db["news"]))
+    related = lps_audit.cluster_news(_strip(db.get("related", [])))
+    cbtt_out = []
+    for r in db["cbtt"]:
+        x = {k: v for k, v in r.items() if k not in ("fp", "versions")}
+        x["n_versions"] = len(r.get("versions", []))
+        cbtt_out.append(x)
+    changes = []
+    for r in db["cbtt"]:
+        for ch in r.get("changes", []):
+            changes.append({**ch, "doc_id": r["id"], "title": r["title"], "url": r["url"], "date": r.get("date", ""),
+                            "previous": (r.get("versions") or [None])[-1]})
+    audit = {
+        "changes": sorted(changes, key=lambda c: c["at"], reverse=True),
+        "numbering": lps_audit.resolution_numbering(db["cbtt"], db.get("hose")),
+        "calendar": lps_audit.periodic_calendar(docs, today),
+        "hash_remaining": db["meta"].get("hash_remaining"),
+        "baseline": db["meta"].get("verify_baseline"),
+        "sections": {k: n for k, n, *_ in IR_SECTIONS},
+    }
     payload = {"meta": db["meta"], "sources": KNOWN_SOURCES,
-               "news": sorted(news, key=lambda r: r.get("published", ""), reverse=True),
-               "cbtt": sorted(db["cbtt"], key=lambda r: (r.get("date", ""), r["url"]), reverse=True),
-               "hose": sorted(db.get("hose", []), key=lambda r: r["posted"], reverse=True)}
+               "news": news,
+               "cbtt": sorted(cbtt_out, key=lambda r: (r.get("date", ""), r["url"]), reverse=True),
+               "hose": sorted(db.get("hose", []), key=lambda r: r["posted"], reverse=True),
+               "related": related,
+               "parties": [{"key": p["key"], "name": p["name"]} for p in RELATED_PARTIES],
+               "audit": audit}
     data = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    html = tpl.replace("__LPS_DATA__", data).replace("__LPS_LOGO__", logo_data_uri())
+    html = tpl_text().replace("__LPS_DATA__", data).replace("__LPS_LOGO__", logo_data_uri())
     OUTPUT_HTML.parent.mkdir(parents=True, exist_ok=True)
     tmp = OUTPUT_HTML.with_name(OUTPUT_HTML.name + ".tmp")
     tmp.write_text(html, encoding="utf-8")
     os.replace(tmp, OUTPUT_HTML)
     log(f"Đã dựng {OUTPUT_HTML} ({len(html) // 1024} KB)")
+
+
+def tpl_text():
+    return TEMPLATE_FILE.read_text(encoding="utf-8")
+
+
+def step(name, fn, default=-1):
+    """Chạy một bước; lỗi ở bước này không làm hỏng các bước khác."""
+    try:
+        return fn()
+    except Exception as e:
+        log(f"Lỗi ở bước {name}: {e}")
+        return default
 
 
 def main():
@@ -663,36 +840,36 @@ def main():
 
     db = load_db()
     if not args.render:
-        full = args.full or not db["meta"].get("cbtt_full_done")
+        today = dt.datetime.now(VN_TZ).date().isoformat()
+        # Mỗi ngày một lần (lần chạy đầu tiên trong ngày): đọc trọn danh sách 4 mục và kiểm tra lại MỌI văn bản.
+        full_day = args.full or db["meta"].get("last_full_verify") != today
         news_before = len(db["news"])
-        try:
-            c, n = update_lpbs(db, full)
-        except Exception as e:
-            log(f"Lỗi khi đọc lpbs.com.vn: {e}")
-            c, n = -1, 0
-        if full and c >= 0:
-            db["meta"]["cbtt_full_done"] = True
-        p = update_press(db)
-        try:
-            resolve_google_links(db)
-        except Exception as e:
-            log(f"Lỗi giải mã link Google News: {e}")
-        p = len(db["news"]) - news_before - n   # số tin mới thực sự sau khi gộp bản trùng
-        fill_meta_descriptions(db)
-        if USE_HOSE:
-            try:
-                h = update_hose(db)
-            except Exception as e:
-                log(f"Lỗi khi đọc HOSE: {e}")
-                h = -1
-        else:
-            h = 0
+        res = step("đọc lpbs.com.vn", lambda: update_lpbs(db, full_day), (-1, 0, None))
+        c, n, listing = res
+        first_verify = not any("fp" in r for r in db["cbtt"])
+        v = step("kiểm tra văn bản", lambda: lps_audit.verify_documents(
+            db, session, parse_lpbs_detail, log, listing=listing, full_day=full_day), None)
+        if v is not None and full_day:
+            db["meta"]["last_full_verify"] = today
+        if first_verify and v is not None:
+            db["meta"]["verify_baseline"] = dt.datetime.now(VN_TZ).isoformat(timespec="minutes")
+        save_db(db)
+        step("RSS báo chí", lambda: update_press(db), 0)
+        step("giải mã link Google News", lambda: resolve_google_links(db), None)
+        p = len(db["news"]) - news_before - n
+        h = step("HOSE", lambda: update_hose(db)) if USE_HOSE else 0
+        r = step("bên liên quan", lambda: update_related(db))
+        step("lấy sapo", lambda: fill_meta_descriptions(db), None)
         now = dt.datetime.now(VN_TZ)
         db["meta"]["last_updated"] = now.isoformat(timespec="minutes")
-        db["meta"]["last_result"] = (f"{max(c, 0)} công bố thông tin mới, {n + p} tin mới, {max(h, 0)} tin HOSE mới"
-                                     + (" (lỗi khi đọc lpbs.com.vn)" if c < 0 else "") + (" (lỗi khi đọc HOSE)" if h < 0 else ""))
+        chg = (v or {}).get("changed", 0)
+        db["meta"]["last_result"] = (f"{max(c, 0)} văn bản mới, {n + p} tin mới, {max(h, 0)} tin HOSE mới, "
+                                     f"{max(r, 0)} tin bên liên quan, {chg} thay đổi văn bản"
+                                     + (" (lỗi khi đọc lpbs.com.vn)" if c < 0 else "") + (" (lỗi khi đọc HOSE)" if h < 0 else "")
+                                     + (" (lỗi khi kiểm tra văn bản)" if v is None else ""))
+        db["meta"]["last_errors"] = [l for l in LOG if "Lỗi" in l or "lỗi" in l][-10:]
         save_db(db)
-        log(f"Hoàn tất: {db['meta']['last_result']}. Tổng: {len(db['cbtt'])} CBTT, {len(db['news'])} tin.")
+        log(f"Hoàn tất: {db['meta']['last_result']}. Tổng: {len(db['cbtt'])} văn bản, {len(db['news'])} tin.")
     render(db)
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write("\n".join(LOG) + "\n")

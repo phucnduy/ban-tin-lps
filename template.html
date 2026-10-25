@@ -163,15 +163,55 @@ footer{background:var(--ink);color:#c9cfd4;font-size:12.5px}
 footer .wrap{padding-block:18px;display:flex;flex-direction:column;gap:4px}
 footer b{color:#fff}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* ---- bổ sung: cảnh báo dữ liệu cũ, gộp tin, kiểm soát, CSV */
+.stale{background:var(--bad);color:#fff;font-size:13.5px}
+.stale .wrap{padding-block:8px;display:flex;flex-wrap:wrap;gap:4px 16px}
+.stale b{color:#fff}
+.headr{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.csv{font:inherit;font-size:13px;font-weight:500;color:var(--brown);background:var(--white);border:1px solid var(--cream-2);border-radius:4px;padding:5px 12px;cursor:pointer}
+.csv:hover{background:var(--cream)}
+.cluster{border-top:1px dashed var(--line);padding-top:8px;display:flex;flex-direction:column;gap:6px}
+.cluster summary{cursor:pointer;font-size:13px;color:var(--brown);font-weight:500;list-style:none}
+.cluster summary::-webkit-details-marker{display:none}
+.cluster summary::before{content:"▸ ";color:var(--gold)}
+.cluster[open] summary::before{content:"▾ "}
+.cluster ul{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
+.cluster li{font-size:13.5px;line-height:1.45}
+.cluster li .s{color:var(--muted);font-size:12.5px;margin-right:6px}
+.cluster li a{color:var(--ink);text-decoration:none}
+.cluster li a:hover{color:var(--brown);text-decoration:underline}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.subtab{font:inherit;font-size:14px;font-weight:500;padding:7px 14px;border-radius:18px;border:1px solid var(--line);background:var(--white);color:var(--text);cursor:pointer}
+.subtab[aria-pressed="true"]{background:var(--brown);border-color:var(--brown);color:var(--white)}
+.subtab .n{font-family:var(--mono);font-size:12px;opacity:.8;margin-left:6px}
+.hist{margin-top:6px;font-size:13px}
+.hist li{margin:2px 0}
+.hist .t{font-family:var(--mono);font-size:12px;color:var(--muted)}
+details.prev{margin-top:6px}
+details.prev summary{cursor:pointer;color:var(--brown);font-size:12.5px}
+details.prev pre{white-space:pre-wrap;font:12.5px/1.5 var(--font);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:8px;margin:6px 0 0;max-height:260px;overflow:auto}
+.sha{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.arch{font-size:12px;color:var(--ok);text-decoration:none;font-weight:500}
+.arch:hover{text-decoration:underline}
+.yearcard{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:14px 16px;margin-top:14px}
+.yearcard h3{margin:0 0 6px;color:var(--ink);font-size:16px}
+.yearcard p{margin:0 0 8px}
+.gap{display:inline-block;font-family:var(--mono);font-size:12.5px;background:var(--warn-bg);color:var(--warn);border-radius:3px;padding:1px 6px;margin:2px 4px 2px 0}
+.numgrid{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.num{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:3px;padding:1px 6px;text-decoration:none;color:var(--ink);background:var(--white)}
+.num.h{border-color:var(--ok);color:var(--ok)}
+.num:hover{border-color:var(--gold)}
 </style>
 </head>
 <body>
+<div class="stale" id="stale" hidden><div class="wrap" id="staletxt"></div></div>
 <header class="site">
   <div class="wrap">
     <a class="logo" href="https://www.lpbs.com.vn/" target="_blank" rel="noopener">
       <img src="__LPS_LOGO__" alt="LPS">
       <span class="sep" aria-hidden="true"></span>
-      <span class="name">Bản tin LPS<small>Tin tức · Công bố thông tin · Đối chiếu HOSE</small></span>
+      <span class="name">Bản tin LPS<small>Tin tức · Công bố thông tin · Bên liên quan · Kiểm soát</small></span>
     </a>
     <div class="hotline">Mã CK: <b>LPS</b> · HOSE</div>
   </div>
@@ -183,7 +223,8 @@ footer b{color:#fff}
   <div class="wrap" role="tablist">
     <button class="tab" role="tab" data-tab="news">Tin tức<span class="n" id="n-news"></span><span class="nw" id="nw-news" hidden></span></button>
     <button class="tab" role="tab" data-tab="cbtt">Công bố thông tin<span class="n" id="n-cbtt"></span><span class="nw" id="nw-cbtt" hidden></span></button>
-    <button class="tab" role="tab" data-tab="recon">Đối chiếu HOSE<span class="n" id="n-recon"></span></button>
+    <button class="tab" role="tab" data-tab="related">Bên liên quan<span class="n" id="n-related"></span><span class="nw" id="nw-related" hidden></span></button>
+    <button class="tab" role="tab" data-tab="audit">Kiểm soát<span class="nw" id="nw-audit" hidden></span></button>
   </div>
 </nav>
 
@@ -191,10 +232,20 @@ footer b{color:#fff}
   <aside>
     <button class="mtoggle" id="mtoggle" type="button" aria-expanded="false" aria-controls="filters">Bộ lọc <span aria-hidden="true">▾</span></button>
     <div class="filters" id="filters" data-collapsed="true">
-      <div class="panel">
+      <div class="panel" id="p-search">
         <h2><label for="q">Tìm kiếm</label></h2>
         <input class="search" id="q" type="search" autocomplete="off" placeholder="Từ khóa trong tiêu đề, nội dung…">
-        <label class="chk" style="margin-top:8px"><input type="checkbox" id="onlynew"> Chỉ hiện mục mới <span class="c" id="c-onlynew"></span></label>
+        <label class="chk" style="margin-top:8px" id="w-onlynew"><input type="checkbox" id="onlynew"> Chỉ hiện mục mới <span class="c" id="c-onlynew"></span></label>
+      </div>
+      <div class="panel" id="p-party" hidden>
+        <h2>Bên liên quan</h2>
+        <ul class="f" id="parties"></ul>
+        <h2 style="margin-top:12px">Loại tin</h2>
+        <ul class="f" id="kinds"></ul>
+      </div>
+      <div class="panel" id="p-section" hidden>
+        <h2>Mục trên website</h2>
+        <ul class="f" id="sections"></ul>
       </div>
       <div class="panel" id="p-tags" hidden>
         <h2>Phân loại <button type="button" id="tagclear" hidden>Bỏ chọn</button></h2>
@@ -205,6 +256,7 @@ footer b{color:#fff}
         <h2>Sàng lọc</h2>
         <label class="chk"><input type="checkbox" id="onlylate"> Có dấu hiệu trễ hạn <span class="c" id="c-late"></span></label>
         <label class="chk"><input type="checkbox" id="onlyweb"> Chưa thấy trên HOSE <span class="c" id="c-webonly"></span></label>
+        <label class="chk"><input type="checkbox" id="onlychg"> Bị sửa, gỡ hoặc thay tệp <span class="c" id="c-chg"></span></label>
       </div>
       <div class="panel" id="p-src" hidden>
         <h2>Trang tin gốc</h2>
@@ -219,8 +271,10 @@ footer b{color:#fff}
   <main id="view" role="tabpanel">
     <div class="head">
       <h2 id="vtitle">Tin tức</h2>
-      <div class="info"><span id="cnt">0</span> mục <span id="clrw" hidden>· <button class="clear" id="clr" type="button">Bỏ lọc</button></span></div>
+      <div class="headr"><span class="info"><span id="cnt">0</span> mục <span id="clrw" hidden>· <button class="clear" id="clr" type="button">Bỏ lọc</button></span></span>
+        <button class="csv" id="csv" type="button" title="Tải danh sách đang hiển thị dưới dạng CSV, mở bằng Excel">Xuất CSV</button></div>
     </div>
+    <div id="subtabs"></div>
     <div id="feed"></div>
     <div class="more" id="morew" hidden><button type="button" id="more">Xem thêm</button></div>
   </main>
@@ -228,8 +282,8 @@ footer b{color:#fff}
 
 <footer>
   <div class="wrap">
-    <div><b>Nguồn dữ liệu.</b> Công bố thông tin và Tin tức LPS lấy nguyên văn từ lpbs.com.vn; tin trên HOSE lấy nguyên văn từ hsx.vn. Tin báo chí hiển thị nguyên văn tiêu đề và đoạn mô tả do tòa soạn cung cấp; toàn văn đọc tại trang gốc.</div>
-    <div>Nhãn phân loại và cảnh báo trễ hạn do script tự gắn theo quy tắc, chỉ dùng để sàng lọc. Không thay thế văn bản công bố thông tin chính thức hay kết luận kiểm tra.</div>
+    <div><b>Nguồn dữ liệu.</b> Văn bản trên lpbs.com.vn (Công bố thông tin, Thông tin tài chính, Báo cáo thường niên, Điều lệ và quy chế) và tin trên HOSE lấy nguyên văn. Tin báo chí hiển thị nguyên văn tiêu đề và đoạn mô tả do tòa soạn cung cấp; toàn văn đọc tại trang gốc.</div>
+    <div>Nhãn phân loại, cảnh báo trễ hạn, đối chiếu, số hiệu nghị quyết, lịch định kỳ và nhóm tin do script tự suy ra theo quy tắc, chỉ dùng để sàng lọc. Không thay thế văn bản công bố thông tin chính thức hay kết luận kiểm tra.</div>
   </div>
 </footer>
 
@@ -237,8 +291,10 @@ footer b{color:#fff}
 <script>
 (function(){
   const D = JSON.parse(document.getElementById("lps-data").textContent);
+  const A = D.audit || {};
   const PAGE = 30;
-  const S = { tab:"news", src:null, y:null, m:null, d:null, q:"", tags:[], onlyLate:false, onlyWeb:false, onlyNew:false, rv:"hose_only", shown:PAGE };
+  const S = { tab:"news", sub:"changes", rv:"hose_only", src:null, party:null, kind:null, section:null, y:null, m:null, d:null, q:"",
+              tags:[], onlyLate:false, onlyWeb:false, onlyNew:false, onlyChg:false, shown:PAGE };
   const $ = id => document.getElementById(id);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const DOW = ["Chủ nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy"];
@@ -246,90 +302,122 @@ footer b{color:#fff}
   const norm = s => String(s||"").normalize("NFC").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/đ/g,"d");
   const fmtD = s => s ? `${s.slice(8,10)}/${s.slice(5,7)}/${s.slice(0,4)}` : "Không rõ ngày";
   const wd = s => { if (!s) return ""; const d = new Date(+s.slice(0,4), +s.slice(5,7)-1, +s.slice(8,10)); return DOWS[d.getDay()]; };
+  const dtt = s => s ? `${wd(s)} ${fmtD(s.slice(0,10))}${s.length > 10 ? " " + s.slice(11,16) : ""}` : "";
   const host = u => { try { return new URL(u).hostname.replace(/^www\./,""); } catch(e){ return ""; } };
   const fname = u => { try { return decodeURIComponent(new URL(u).pathname.split("/").pop()); } catch(e){ return ""; } };
   const ext = u => { const m = decodeURIComponent(u).match(/\.([a-z0-9]{2,4})(?:$|\?)/i); return m ? m[1].toUpperCase() : "LINK"; };
+  const SECTIONS = A.sections || {cbtt:"Công bố thông tin"};
+  const PARTIES = Object.fromEntries((D.parties||[]).map(p => [p.key, p.name]));
 
   // ---------- dữ liệu
-  const NEWS = (D.news||[]).map(r => ({ kind:"news", ...r, date:(r.published||"").slice(0,10),
-    time: r.date_precision === "minute" ? (r.published||"").slice(11,16) : "" }));
-  const CBTT = (D.cbtt||[]).map(r => ({ kind:"cbtt", ...r, source:"lpbs.com.vn", time:"", tags:r.tags||["Khác"] }));
+  const asNews = r => ({ ...r, date:(r.published||"").slice(0,10), time: r.date_precision === "minute" ? (r.published||"").slice(11,16) : "" });
+  const NEWS = (D.news||[]).map(r => ({ kind:"news", ...asNews(r) }));
+  const REL = (D.related||[]).map(r => ({ ...asNews(r), rkind:r.kind, kind:"related" }));
+  const CBTT = (D.cbtt||[]).map(r => ({ ...r, kind:"cbtt", source:"lpbs.com.vn", time:"", tags:r.tags||["Khác"], section:r.section||"cbtt" }));
   const HOSE = (D.hose||[]).map(r => ({ ...r, date:r.posted.slice(0,10), time:r.posted.slice(11,16) }));
   const byId = Object.fromEntries(CBTT.map(r => [r.id, r]));
   const srcName = r => r.source_name || (D.sources||{})[r.source] || r.source || "Khác";
   const isLate = r => !!(r.late && (r.late.web_flag || r.late.hose_flag));
+  const hasChg = r => !!((r.changes && r.changes.length) || r.status === "removed" || r.status === "unlisted");
   const firstHose = (D.meta||{}).hose_first || "";
 
-  // ---------- nhãn "Mới": so với danh sách đã thấy ở lần mở trước (lưu trong trình duyệt này)
-  const SEEN_KEY = "lps_seen_v1";
-  let prevSeen = null;
+  // ---------- nhãn "Mới"
+  const SEEN_KEY = "lps_seen_v1", SEENC_KEY = "lps_seen_changes_v1";
+  let prevSeen = null, prevChg = null;
   try { const raw = localStorage.getItem(SEEN_KEY); if (raw) prevSeen = new Set(JSON.parse(raw)); } catch(e) {}
-  const allIds = [...NEWS, ...CBTT].map(r => r.id);
+  try { const raw = localStorage.getItem(SEENC_KEY); if (raw) prevChg = new Set(JSON.parse(raw)); } catch(e) {}
+  const chgKey = c => c.doc_id + "|" + c.kind + "|" + c.at;
   const isNew = r => !!prevSeen && !prevSeen.has(r.id);
-  const newCount = { news: NEWS.filter(isNew).length, cbtt: CBTT.filter(isNew).length };
-  try { localStorage.setItem(SEEN_KEY, JSON.stringify(allIds)); } catch(e) {}
+  const newCount = { news: NEWS.filter(isNew).length, cbtt: CBTT.filter(isNew).length, related: REL.filter(isNew).length,
+                     audit: prevChg ? (A.changes||[]).filter(c => !prevChg.has(chgKey(c))).length : 0 };
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify([...NEWS, ...CBTT, ...REL].map(r => r.id)));
+        localStorage.setItem(SEENC_KEY, JSON.stringify((A.changes||[]).map(chgKey))); } catch(e) {}
+
+  // ---------- CSV
+  function downloadCSV(name, header, rows){
+    const q = v => { const s = String(v ?? ""); return /[",\n;]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s; };
+    const text = "﻿" + [header, ...rows].map(r => r.map(q).join(",")).join("\r\n");
+    const url = URL.createObjectURL(new Blob([text], {type:"text/csv;charset=utf-8"}));
+    const a = document.createElement("a"); a.href = url; a.download = name; document.body.appendChild(a); a.click();
+    setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 1000);
+  }
+  let csvFn = null;
 
   // ---------- lọc
-  function rows(){ return S.tab === "news" ? NEWS : CBTT; }
+  function rows(){ return S.tab === "news" ? NEWS : S.tab === "related" ? REL : CBTT; }
   function filtered(){
     const q = norm(S.q.trim());
     return rows().filter(r => {
       if (S.tab === "news" && S.src && r.source !== S.src) return false;
+      if (S.tab === "related") { if (S.party && r.party !== S.party) return false; if (S.kind && r.rkind !== S.kind) return false; }
       if (S.tab === "cbtt") {
+        if (S.section && r.section !== S.section) return false;
         if (S.tags.length && !S.tags.every(t => r.tags.includes(t))) return false;
         if (S.onlyLate && !isLate(r)) return false;
         if (S.onlyWeb && r.recon !== "web_only") return false;
+        if (S.onlyChg && !hasChg(r)) return false;
       }
       if (S.onlyNew && !isNew(r)) return false;
       if (S.y && r.date.slice(0,4) !== S.y) return false;
       if (S.m && r.date.slice(5,7) !== S.m) return false;
       if (S.d && r.date.slice(8,10) !== S.d) return false;
-      if (q && !norm([r.title, r.excerpt, r.body, srcName(r), (r.tags||[]).join(" "), (r.files||[]).map(f=>f.label).join(" ")].join(" ")).includes(q)) return false;
+      if (q && !norm([r.title, r.excerpt, r.body, srcName(r), PARTIES[r.party], (r.tags||[]).join(" "), (r.files||[]).map(f=>f.label).join(" ")].join(" ")).includes(q)) return false;
       return true;
     }).sort((a,b) => (b.date + b.time).localeCompare(a.date + a.time));
   }
 
-  // ---------- thanh thông tin & tab
+  // ---------- thanh thông tin
   function renderBand(){
     const m = D.meta || {}, u = m.last_updated || "";
     const upd = u ? `${u.slice(11,16)} ${fmtD(u.slice(0,10))}` : "—";
-    const nn = newCount.news + newCount.cbtt;
+    const nn = newCount.news + newCount.cbtt + newCount.related;
     $("band").innerHTML = `<span>Cập nhật lần cuối: <b>${esc(upd)}</b></span>
-      <span class="sched">Lịch cập nhật<span>08:00</span><span>15:00</span></span>
-      <span><b>${CBTT.length}</b> công bố thông tin · <b>${NEWS.length}</b> tin tức · <b>${HOSE.length}</b> tin HOSE</span>
+      <span class="sched">Lịch cập nhật<span>07:30</span><span>14:30</span></span>
+      <span><b>${CBTT.length}</b> văn bản · <b>${NEWS.length}</b> tin · <b>${HOSE.length}</b> tin HOSE · <b>${REL.length}</b> tin bên liên quan</span>
       ${prevSeen ? (nn ? `<span class="newsum">${nn} mục mới từ lần bạn mở trang trước</span>` : `<span>Không có mục mới từ lần mở trước</span>`) : `<span>Lần đầu mở trang trên trình duyệt này: từ lần sau, mục mới sẽ có nhãn “Mới”.</span>`}
       ${m.last_result ? `<span>Lần chạy gần nhất: ${esc(m.last_result)}</span>` : ""}`;
-    $("n-news").textContent = NEWS.length; $("n-cbtt").textContent = CBTT.length; $("n-recon").textContent = HOSE.length;
-    ["news","cbtt"].forEach(k => { const el = $("nw-"+k); el.hidden = !newCount[k]; el.textContent = newCount[k] ? "+" + newCount[k] : ""; });
+    $("n-news").textContent = NEWS.length; $("n-cbtt").textContent = CBTT.length; $("n-related").textContent = REL.length;
+    ["news","cbtt","related","audit"].forEach(k => { const el = $("nw-"+k); el.hidden = !newCount[k]; el.textContent = newCount[k] ? "+" + newCount[k] : ""; });
+    // cảnh báo dữ liệu cũ (quá 8 giờ) hoặc lần chạy có lỗi
+    const age = u ? (Date.now() - new Date(u).getTime()) / 36e5 : 999;
+    const errs = (m.last_errors || []).map(e => e.replace(/^\[[^\]]+\]\s*/, ""));
+    if (age > 8 || errs.length) {
+      $("stale").hidden = false;
+      $("staletxt").innerHTML = (age > 8 ? `<span><b>Dữ liệu đã cũ:</b> lần cập nhật gần nhất cách đây ${Math.floor(age)} giờ. Kiểm tra tab Actions trong kho GitHub ban-tin-lps, hoặc lịch tải về máy cơ quan.</span>` : "")
+        + (errs.length ? `<span><b>Lần chạy gần nhất có lỗi:</b> ${esc(errs.slice(0,3).join(" · "))}</span>` : "");
+    }
   }
 
-  // ---------- bảng điều khiển bên trái
+  // ---------- bảng điều khiển trái
   function renderPanels(){
     const t = S.tab;
     $("p-src").hidden = t !== "news";
+    $("p-party").hidden = t !== "related";
+    $("p-section").hidden = t !== "cbtt";
     $("p-tags").hidden = t !== "cbtt";
     $("p-screen").hidden = t !== "cbtt";
-    $("p-tree").hidden = t === "recon";
-    $("onlynew").closest(".chk").hidden = t === "recon" || !prevSeen;
-    $("q").closest(".panel").hidden = t === "recon";
-    const nNew = t === "news" ? newCount.news : t === "cbtt" ? newCount.cbtt : 0;
-    $("c-onlynew").textContent = nNew;
-    if (t === "news") renderSources();
-    if (t === "cbtt") renderTags();
-    if (t !== "recon") renderTree();
+    $("p-tree").hidden = t === "audit";
+    $("p-search").hidden = t === "audit";
+    $("w-onlynew").hidden = t === "audit" || !prevSeen;
+    $("c-onlynew").textContent = newCount[t] || 0;
+    if (t === "news") renderCountList("sources", NEWS, r => r.source, k => { const r = NEWS.find(x => x.source === k); return r ? srcName(r) : k; }, "src", "Tất cả nguồn", k => k === "lpbs.com.vn" ? -1 : 0);
+    if (t === "related") {
+      renderCountList("parties", REL, r => r.party, k => PARTIES[k] || k, "party", "Tất cả", k => Object.keys(PARTIES).indexOf(k));
+      renderCountList("kinds", REL.filter(r => !S.party || r.party === S.party), r => r.rkind, k => k === "hose" ? "Công bố thông tin trên HOSE" : "Báo chí", "kind", "Tất cả loại", k => k === "hose" ? -1 : 0);
+    }
+    if (t === "cbtt") { renderCountList("sections", CBTT, r => r.section, k => SECTIONS[k] || k, "section", "Tất cả các mục", k => Object.keys(SECTIONS).indexOf(k)); renderTags(); }
+    if (t !== "audit") renderTree();
   }
 
-  function renderSources(){
-    const c = {}; NEWS.forEach(r => c[r.source] = (c[r.source]||0) + 1);
-    const ks = Object.keys(c).sort((a,b) => (a==="lpbs.com.vn"?-1:b==="lpbs.com.vn"?1:0) || c[b]-c[a] || a.localeCompare(b));
-    const nameOf = k => { const r = NEWS.find(x => x.source === k); return r ? srcName(r) : k; };
-    $("sources").innerHTML = `<li><button class="fb" type="button" data-src="" aria-pressed="${!S.src}"><span class="l">Tất cả nguồn</span><span class="c">${NEWS.length}</span></button></li>` +
-      ks.map(k => `<li><button class="fb" type="button" data-src="${esc(k)}" aria-pressed="${S.src===k}"><span class="l">${esc(nameOf(k))}</span><span class="c">${c[k]}</span></button></li>`).join("");
+  function renderCountList(elId, list, keyFn, nameFn, stateKey, allLabel, orderFn){
+    const c = {}; list.forEach(r => { const k = keyFn(r); if (k) c[k] = (c[k]||0) + 1; });
+    const ks = Object.keys(c).sort((a,b) => (orderFn(a) - orderFn(b)) || c[b]-c[a] || a.localeCompare(b));
+    $(elId).innerHTML = `<li><button class="fb" type="button" data-set="${stateKey}" data-v="" aria-pressed="${!S[stateKey]}"><span class="l">${allLabel}</span><span class="c">${list.length}</span></button></li>` +
+      ks.map(k => `<li><button class="fb" type="button" data-set="${stateKey}" data-v="${esc(k)}" aria-pressed="${S[stateKey]===k}"><span class="l">${esc(nameFn(k))}</span><span class="c">${c[k]}</span></button></li>`).join("");
   }
 
   function renderTags(){
-    // đếm theo tập văn bản đang thỏa các nhãn đã chọn, để biết chọn thêm nhãn nào còn kết quả
-    const base = CBTT.filter(r => S.tags.every(t => r.tags.includes(t)));
+    const base = CBTT.filter(r => (!S.section || r.section === S.section) && S.tags.every(t => r.tags.includes(t)));
     const c = {}; base.forEach(r => r.tags.forEach(t => c[t] = (c[t]||0) + 1));
     const all = {}; CBTT.forEach(r => r.tags.forEach(t => all[t] = (all[t]||0) + 1));
     const order = Object.keys(all).sort((a,b) => (a==="Khác") - (b==="Khác") || all[b]-all[a]);
@@ -340,7 +428,8 @@ footer b{color:#fff}
     $("tagclear").hidden = !S.tags.length;
     $("c-late").textContent = CBTT.filter(isLate).length;
     $("c-webonly").textContent = CBTT.filter(r => r.recon === "web_only").length;
-    $("onlylate").checked = S.onlyLate; $("onlyweb").checked = S.onlyWeb;
+    $("c-chg").textContent = CBTT.filter(hasChg).length;
+    $("onlylate").checked = S.onlyLate; $("onlyweb").checked = S.onlyWeb; $("onlychg").checked = S.onlyChg;
   }
 
   function renderTree(){
@@ -371,121 +460,214 @@ footer b{color:#fff}
     if (!files || !files.length) return "";
     return `<ul class="files">${files.map(f => {
       const fn = fname(f.url);
-      return `<li><a href="${esc(f.url)}" target="_blank" rel="noopener"><span class="ext">${esc(ext(f.url))}</span><span>${esc(f.label)}${fn && fn !== f.label ? `<span class="fn"> — ${esc(fn)}</span>` : ""}</span></a></li>`;
+      const extra = [f.status === 404 ? `<span class="pill bad">Tệp không còn tải được</span>` : "",
+                     f.sha256 ? `<span class="sha" title="Mã băm SHA-256 lúc ${esc(f.hashed_at||"")}">SHA-256 ${esc(f.sha256.slice(0,16))}…</span>` : "",
+                     f.archive ? `<a class="arch" href="${esc(f.archive)}" target="_blank" rel="noopener">Bản lưu trữ ↗</a>` : ""].filter(Boolean).join(" ");
+      return `<li><a href="${esc(f.url)}" target="_blank" rel="noopener"><span class="ext">${esc(ext(f.url))}</span><span>${esc(f.label)}${fn && fn !== f.label ? `<span class="fn"> — ${esc(fn)}</span>` : ""}</span></a>${extra ? `<div>${extra}</div>` : ""}</li>`;
     }).join("")}</ul>`;
   }
 
   function lateHtml(r){
     const L = r.late; if (!L || !(L.web_flag || L.hose_flag)) return "";
-    const ev = L.event_date;
-    const parts = [];
+    const ev = L.event_date, parts = [];
     if (L.web_flag) parts.push(`đăng trên website ${wd(r.date)} ${fmtD(r.date)} (sau <b>${L.web_gap_days} ngày</b>)`);
-    if (L.hose_flag && r.hose) parts.push(`đăng trên HOSE ${wd(r.hose.posted)} ${fmtD(r.hose.posted.slice(0,10))} lúc ${r.hose.posted.slice(11,16)} (sau <b>${L.hose_gap_days} ngày</b>)`);
-    const cls = L.external ? "warn" : "bad";
-    const basis = L.external
-      ? "Ngày nêu là ngày ký của cơ quan bên ngoài; thời hạn 24 giờ tính từ khi LPS nhận được văn bản, có thể muộn hơn ngày này."
+    if (L.hose_flag && r.hose) parts.push(`đăng trên HOSE ${dtt(r.hose.posted)} (sau <b>${L.hose_gap_days} ngày</b>)`);
+    const basis = L.external ? "Ngày nêu là ngày ký của cơ quan bên ngoài; thời hạn 24 giờ tính từ khi LPS nhận được văn bản, có thể muộn hơn ngày này."
       : (L.hose_flag && !L.web_flag ? "Giờ trên HOSE là giờ Sở đăng tin, có thể muộn hơn giờ LPS gửi hồ sơ." : "");
-    return `<div class="late ${cls}"><b>${L.external ? "Cần xem: " : "Dấu hiệu trễ hạn: "}</b>ngày phát sinh theo nội dung là ${wd(ev)} ${fmtD(ev)}; ${parts.join("; ")}. Thời hạn công bố thông tin bất thường là 24 giờ. ${basis}
+    return `<div class="late ${L.external ? "warn" : "bad"}"><b>${L.external ? "Cần xem: " : "Dấu hiệu trễ hạn: "}</b>ngày phát sinh theo nội dung là ${wd(ev)} ${fmtD(ev)}; ${parts.join("; ")}. Thời hạn công bố thông tin bất thường là 24 giờ. ${basis}
       <q>Căn cứ trích từ văn bản: “${esc(L.evidence)}”</q></div>`;
   }
 
-  function item(r){
-    const off = r.source === "lpbs.com.vn";
+  function changesHtml(r){
+    if (!r.changes || !r.changes.length) return "";
+    return `<div class="late warn"><b>Lịch sử thay đổi trên website</b> (${r.changes.length})<ul class="hist">${r.changes.slice().reverse().map(c =>
+      `<li><span class="t">${dtt(c.at)}</span> · ${esc(c.label)}${c.detail ? ` — ${esc(c.detail)}` : ""}</li>`).join("")}</ul>
+      ${r.n_versions ? `<span class="hint">Bản trước khi sửa xem ở tab Kiểm soát → Văn bản thay đổi.</span>` : ""}</div>`;
+  }
+
+  function statusPills(r){
+    const out = [];
+    if (r.status === "removed") out.push(`<span class="pill bad">Đã gỡ khỏi website</span>`);
+    else if (r.status === "unlisted") out.push(`<span class="pill warn">Không còn trong danh sách mục</span>`);
+    const kinds = new Set((r.changes||[]).map(c => c.kind));
+    if (kinds.has("sua_noi_dung") || kinds.has("doi_tieu_de") || kinds.has("doi_ngay")) out.push(`<span class="pill bad">Đã sửa</span>`);
+    if (kinds.has("thay_noi_dung_tep") || kinds.has("doi_tep")) out.push(`<span class="pill bad">Đã thay tệp</span>`);
+    if (kinds.has("tep_loi")) out.push(`<span class="pill warn">Tệp lỗi</span>`);
+    return out.join("");
+  }
+
+  function item(r, cluster){
+    const off = r.source === "lpbs.com.vn" || r.rkind === "hose";
     const hasBody = !!(r.body || (r.files && r.files.length));
     const id = esc(r.id);
-    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : "";
-    const ex = r.kind === "news" && r.excerpt ? `<p class="ex">${esc(r.excerpt)}${origin?`<span class="o">${origin}</span>`:""}</p>` : "";
+    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : r.excerpt_origin === "hose" ? "Mô tả trên HOSE" : "";
+    const ex = r.kind !== "cbtt" && r.excerpt ? `<p class="ex">${esc(r.excerpt)}${origin?`<span class="o">${origin}</span>`:""}</p>` : "";
     let hoseChip = "";
     if (r.kind === "cbtt") {
       if (r.hose) hoseChip = `<a class="pill ok" href="${esc(r.hose.url)}" target="_blank" rel="noopener" title="${esc(r.hose.title)}">HOSE ${fmtD(r.hose.posted.slice(0,10)).slice(0,5)} ${r.hose.posted.slice(11,16)} ↗</a>`;
       else if (r.recon === "web_only") hoseChip = `<span class="pill warn" title="Không tìm thấy tin tương ứng trong mục Tin tổ chức niêm yết của HOSE">Chưa thấy trên HOSE</span>`;
     }
     const tags = r.kind === "cbtt" ? `<div class="tags">${r.tags.map(t => `<button type="button" class="pill tag" data-addtag="${esc(t)}" aria-pressed="${S.tags.includes(t)}">${esc(t)}</button>`).join("")}</div>` : "";
+    const srcLabel = r.kind === "cbtt" ? `LPS – ${SECTIONS[r.section] || "Công bố thông tin"}` : r.kind === "related" ? `${PARTIES[r.party] || r.party} · ${r.rkind === "hose" ? "HOSE" : srcName(r)}` : srcName(r);
+    const cl = cluster && cluster.length ? `<details class="cluster"><summary>${cluster.length} bài khác cùng sự kiện</summary><ul>${cluster.map(c =>
+      `<li><span class="s">${esc(srcName(c))} · ${c.time ? c.time + " " : ""}${fmtD(c.date)}</span><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a></li>`).join("")}</ul></details>` : "";
     return `<article class="item ${off?"off":""} ${isNew(r)?"isnew":""}">
       <div class="meta">
         ${isNew(r) ? `<span class="pill new">Mới</span>` : ""}
-        <span class="src">${esc(r.kind==="cbtt" ? "LPS – Công bố thông tin" : srcName(r))}</span>
+        <span class="src">${esc(srcLabel)}</span>
         <span class="t">${r.time ? r.time + " · " : ""}${fmtD(r.date)}</span>
-        ${off ? `<span class="pill">Nguồn chính thức</span>` : ""}
-        ${hoseChip}
+        ${off && r.kind === "cbtt" ? `<span class="pill">Nguồn chính thức</span>` : ""}
+        ${hoseChip}${r.kind === "cbtt" ? statusPills(r) : ""}
         ${isLate(r) ? `<span class="pill ${r.late.external?"warn":"bad"}">${r.late.external?"Cần xem thời hạn":"Dấu hiệu trễ hạn"}</span>` : ""}
       </div>
       <h4><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></h4>
-      ${ex}
-      ${tags}
-      ${lateHtml(r)}
+      ${ex}${tags}${lateHtml(r)}${r.kind === "cbtt" ? changesHtml(r) : ""}
       ${hasBody ? `<div class="body" id="b-${id}" hidden>${esc(r.body||"")}${filesHtml(r.files)}</div>` : ""}
       <div class="acts">
         ${hasBody ? `<button class="btn" type="button" data-open="${id}" aria-expanded="false" aria-controls="b-${id}">Đọc tiếp</button>` : ""}
-        <a class="orig" href="${esc(r.url)}" target="_blank" rel="noopener">${off ? "Xem trên lpbs.com.vn" : "Đọc bài gốc"} ↗ <span class="dm">${esc(r.via === "google" && r.url.includes("news.google.com") ? r.source + " · qua Google News" : host(r.url))}</span></a>
+        <a class="orig" href="${esc(r.url)}" target="_blank" rel="noopener">${r.kind === "cbtt" ? "Xem trên lpbs.com.vn" : r.rkind === "hose" ? "Xem trên HOSE" : "Đọc bài gốc"} ↗ <span class="dm">${esc(r.url.includes("news.google.com") ? r.source + " · qua Google News" : host(r.url))}</span></a>
       </div>
+      ${cl}
     </article>`;
   }
 
+  // nhóm tin cùng sự kiện: bài đại diện + các bài cùng nhóm (chỉ trong tập đang lọc)
+  function groupClusters(L){
+    if (S.tab === "cbtt") return L.map(r => [r, []]);
+    const ids = new Set(L.map(r => r.id)), members = {};
+    L.forEach(r => { if (r.cluster && ids.has(r.cluster)) (members[r.cluster] ??= []).push(r); });
+    return L.filter(r => !(r.cluster && ids.has(r.cluster))).map(r => [r, members[r.id] || []]);
+  }
+
   function renderFeed(){
+    $("subtabs").innerHTML = "";
     const L = filtered();
+    const G0 = groupClusters(L);
     $("cnt").textContent = L.length;
-    $("clrw").hidden = !(S.src || S.y || S.q.trim() || S.tags.length || S.onlyLate || S.onlyWeb || S.onlyNew);
-    const bits = [S.tab === "news" ? "Tin tức" : "Công bố thông tin"];
+    $("clrw").hidden = !(S.src || S.party || S.kind || S.section || S.y || S.q.trim() || S.tags.length || S.onlyLate || S.onlyWeb || S.onlyNew || S.onlyChg);
+    const bits = [S.tab === "news" ? "Tin tức" : S.tab === "related" ? "Bên liên quan" : "Công bố thông tin"];
+    if (S.section) bits.push(SECTIONS[S.section]);
+    if (S.party) bits.push(PARTIES[S.party]);
     if (S.tags.length) bits.push(S.tags.join(" + "));
     if (S.src) { const r = NEWS.find(x => x.source === S.src); bits.push(r ? srcName(r) : S.src); }
     if (S.d) bits.push(`${S.d}/${S.m}/${S.y}`); else if (S.m) bits.push(`Tháng ${+S.m}/${S.y}`); else if (S.y) bits.push(`Năm ${S.y}`);
     $("vtitle").textContent = bits.join(" · ");
+    csvFn = () => {
+      if (S.tab === "cbtt") downloadCSV("lps-cong-bo-thong-tin.csv", ["Ngày đăng","Mục","Tiêu đề","Nhãn","HOSE","Dấu hiệu trễ hạn","Ngày phát sinh","Thay đổi","Trạng thái","Liên kết","Tệp đính kèm","SHA-256"],
+        L.map(r => [r.date, SECTIONS[r.section]||r.section, r.title, r.tags.join("; "), r.hose ? r.hose.posted.replace("T"," ") : (r.recon === "web_only" ? "Chưa thấy" : ""),
+          isLate(r) ? (r.late.external ? "Cần xem" : "Có") : "", r.late ? r.late.event_date : "", (r.changes||[]).map(c => c.label).join("; "), r.status || "", r.url,
+          (r.files||[]).map(f => f.url).join(" | "), (r.files||[]).map(f => f.sha256 || "").join(" | ")]));
+      else downloadCSV(S.tab === "news" ? "lps-tin-tuc.csv" : "lps-ben-lien-quan.csv", ["Ngày","Giờ", S.tab === "related" ? "Bên liên quan" : "Nguồn","Loại","Tiêu đề","Sapo","Liên kết","Nhóm sự kiện"],
+        L.map(r => [r.date, r.time, S.tab === "related" ? PARTIES[r.party] : srcName(r), S.tab === "related" ? (r.rkind === "hose" ? "HOSE" : srcName(r)) : "", r.title, r.excerpt || "", r.url, r.cluster || ""]));
+    };
     let head = "";
-    if (S.tab === "cbtt" && S.onlyLate) head = `<div class="note"><p><b>Cách sàng lọc trễ hạn.</b> Script tìm ngày phát sinh sự kiện trong tiêu đề hoặc câu đầu nội dung (ví dụ “Ngày 21/10/2026, HĐQT đã ban hành…”) và so với ngày đăng. Vì chỉ biết ngày, không biết giờ, văn bản chỉ bị đánh dấu khi ngày đăng cách ngày phát sinh từ 2 ngày lịch trở lên, tức chắc chắn quá 24 giờ.</p><p>Căn cứ: Điều 11 (công ty đại chúng) và Điều 23 (công ty chứng khoán) Thông tư 96/2020/TT-BTC, đã sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC. Không áp dụng cho báo cáo tài chính, báo cáo quản trị, tài liệu đại hội và thông báo giải chấp. Chỉ ${CBTT.filter(r=>r.late).length}/${CBTT.length} văn bản xác định được ngày phát sinh.</p></div>`;
-    if (!L.length) { $("feed").innerHTML = head + `<div class="empty">Không có mục nào khớp bộ lọc. Bỏ bớt điều kiện hoặc đổi từ khóa.</div>`; $("morew").hidden = true; return; }
-    const show = L.slice(0, S.shown), G = {};
-    show.forEach(r => (G[r.date||"0000-00-00"] ??= []).push(r));
+    if (S.tab === "cbtt" && S.onlyLate) head = `<div class="note"><p><b>Cách sàng lọc trễ hạn.</b> Script tìm ngày phát sinh sự kiện trong tiêu đề hoặc câu đầu nội dung và so với ngày đăng. Vì chỉ biết ngày, không biết giờ, văn bản chỉ bị đánh dấu khi ngày đăng cách ngày phát sinh từ 2 ngày lịch trở lên, tức chắc chắn quá 24 giờ.</p><p>Căn cứ: Điều 11 và Điều 23 Thông tư 96/2020/TT-BTC, đã sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC. Không áp dụng cho báo cáo tài chính, báo cáo quản trị, tài liệu đại hội và thông báo giải chấp. Chỉ ${CBTT.filter(r=>r.late).length}/${CBTT.length} văn bản xác định được ngày phát sinh.</p></div>`;
+    if (S.tab === "related" && !S.party) head = `<div class="note"><p>Theo dõi ${Object.values(PARTIES).join(", ")} trong ${120} ngày gần nhất: công bố thông tin trên HOSE (LPB, STB) và tin báo chí qua Google News. Các bài cùng sự kiện được gộp thành một mục.</p></div>`;
+    if (!G0.length) { $("feed").innerHTML = head + `<div class="empty">Không có mục nào khớp bộ lọc. Bỏ bớt điều kiện hoặc đổi từ khóa.</div>`; $("morew").hidden = true; return; }
+    const show = G0.slice(0, S.shown), G = {};
+    show.forEach(g => (G[g[0].date||"0000-00-00"] ??= []).push(g));
     $("feed").innerHTML = head + Object.keys(G).sort().reverse().map(k => {
       const w = k === "0000-00-00" ? "" : DOW[new Date(+k.slice(0,4), +k.slice(5,7)-1, +k.slice(8,10)).getDay()];
-      return `<section class="day"><h3>${w}<span class="d">${fmtD(k==="0000-00-00"?"":k)}</span><span>${G[k].length} mục</span></h3><div class="list">${G[k].map(item).join("")}</div></section>`;
+      return `<section class="day"><h3>${w}<span class="d">${fmtD(k==="0000-00-00"?"":k)}</span><span>${G[k].length} mục</span></h3><div class="list">${G[k].map(g => item(g[0], g[1])).join("")}</div></section>`;
     }).join("");
-    $("morew").hidden = L.length <= S.shown;
-    $("more").textContent = `Xem thêm (${L.length - S.shown} mục)`;
+    $("morew").hidden = G0.length <= S.shown;
+    $("more").textContent = `Xem thêm (${G0.length - S.shown} mục)`;
   }
 
-  // ---------- đối chiếu HOSE
-  function renderRecon(){
-    $("vtitle").textContent = "Đối chiếu website LPS với HOSE";
+  // ---------- tab Kiểm soát
+  const SUBS = [["changes","Văn bản thay đổi"],["hose","Đối chiếu HOSE"],["numbering","Số hiệu nghị quyết"],["calendar","Lịch định kỳ"]];
+  function renderAudit(){
     $("clrw").hidden = true; $("morew").hidden = true;
-    const hoseLps = HOSE.filter(h => !h.own_notice);
-    const hoseOnly = hoseLps.filter(h => !h.match);
-    const matched = hoseLps.filter(h => h.match);
-    const webOnly = CBTT.filter(r => r.recon === "web_only");
-    const webExp = CBTT.filter(r => r.recon === "web_only_expected");
-    const own = HOSE.filter(h => h.own_notice);
+    const counts = { changes:(A.changes||[]).length, hose:HOSE.filter(h=>!h.own_notice && !h.match).length + CBTT.filter(r=>r.recon==="web_only").length,
+      numbering:(A.numbering||[]).reduce((s,y)=>s+y.missing.length,0), calendar:(A.calendar||[]).filter(r=>r.status==="missing"||r.status==="late").length };
+    $("subtabs").innerHTML = `<div class="subtabs">${SUBS.map(([k,l]) => `<button class="subtab" type="button" data-sub="${k}" aria-pressed="${S.sub===k}">${l}<span class="n">${counts[k]}</span></button>`).join("")}</div>`;
+    ({changes:auditChanges, hose:auditHose, numbering:auditNumbering, calendar:auditCalendar})[S.sub]();
+  }
+  const table = (cols, rows) => rows.length ? `<div class="rwrap"><table class="rtable"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>` : `<div class="empty" style="margin-top:14px">Không có mục nào.</div>`;
+
+  function auditChanges(){
+    const L = A.changes || [];
+    $("vtitle").textContent = "Văn bản bị sửa, gỡ hoặc thay tệp"; $("cnt").textContent = L.length;
+    const base = A.baseline ? `${dtt(A.baseline)}` : "lần chạy đầu tiên";
+    let h = `<div class="note"><p>Mỗi lần chạy, script so tiêu đề, ngày, nội dung và danh sách tệp của văn bản đăng trong 45 ngày gần nhất với lần lưu trước; mỗi ngày một lần kiểm tra lại toàn bộ văn bản. Tệp đính kèm được so bằng mã băm SHA-256. Toàn bộ lịch sử dữ liệu lưu trong kho GitHub ban-tin-lps kèm thời điểm, có thể dùng làm bằng chứng phiên bản cũ.</p>
+      <p>Bắt đầu theo dõi từ <b>${esc(base)}</b>: thay đổi xảy ra trước thời điểm này không phát hiện được. ${A.hash_remaining ? `Còn ${A.hash_remaining} tệp chưa có mã băm (đang xử lý dần qua các lần chạy).` : ""}</p></div>`;
+    h += table(["Phát hiện lúc","Văn bản","Thay đổi","Bản trước"], L.map(c => {
+      const p = c.previous;
+      const prev = p && ["sua_noi_dung","doi_tieu_de","doi_tep","thay_noi_dung_tep","doi_ngay"].includes(c.kind)
+        ? `<details class="prev"><summary>Xem bản trước</summary><pre>${esc(p.title)}\n${esc(p.date||"")}\n\n${esc(p.body||"")}\n\n${esc((p.files||[]).map(f=>f.label+" — "+f.url+(f.sha256?" — SHA-256 "+f.sha256:"")).join("\n"))}</pre></details>` : "";
+      return `<tr><td class="t">${dtt(c.at)}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="sub">Đăng ${fmtD(c.date)}</span></td><td><span class="pill ${/go_khoi_web|sua|thay|doi_tieu|doi_ngay/.test(c.kind)?"bad":"warn"}">${esc(c.label)}</span>${c.detail?`<span class="sub">${esc(c.detail)}</span>`:""}</td><td>${prev}</td></tr>`;
+    }));
+    $("feed").innerHTML = h;
+    csvFn = () => downloadCSV("lps-van-ban-thay-doi.csv", ["Phát hiện lúc","Ngày đăng","Văn bản","Thay đổi","Chi tiết","Liên kết","Tiêu đề trước","Nội dung trước"],
+      L.map(c => [c.at.replace("T"," "), c.date, c.title, c.label, c.detail, c.url, c.previous ? c.previous.title : "", c.previous ? c.previous.body : ""]));
+  }
+
+  function auditHose(){
+    $("vtitle").textContent = "Đối chiếu website LPS với HOSE";
+    const hoseLps = HOSE.filter(h => !h.own_notice), hoseOnly = hoseLps.filter(h => !h.match), matched = hoseLps.filter(h => h.match);
+    const webOnly = CBTT.filter(r => r.recon === "web_only"), webExp = CBTT.filter(r => r.recon === "web_only_expected"), own = HOSE.filter(h => h.own_notice);
     $("cnt").textContent = HOSE.length;
     const K = (key, v, k, cls) => `<button type="button" class="kpi ${cls}" data-rv="${key}" aria-pressed="${S.rv===key}"><span class="v">${v}</span><span class="k">${k}</span></button>`;
-    let h = `<div class="note"><p>So sánh mục <b>Công bố thông tin</b> trên lpbs.com.vn với mục <b>Tin tổ chức niêm yết</b> của LPS trên HOSE, từ ngày LPS có tin đầu tiên trên HOSE (${fmtD(firstHose)}). Hai văn bản được coi là một khi đăng cách nhau tối đa 5 ngày và có tiêu đề gần giống hoặc trùng số hiệu.</p>
-      <p>Script chỉ đọc mục Công bố thông tin của website. Văn bản đăng ở mục khác (ví dụ “Điều lệ và quy chế công ty”) sẽ hiện là “chỉ có trên HOSE”, cần kiểm tra thủ công.</p></div>
+    let h = `<div class="note"><p>So sánh 4 mục văn bản trên lpbs.com.vn với mục <b>Tin tổ chức niêm yết</b> của LPS trên HOSE, từ ngày LPS có tin đầu tiên trên HOSE (${fmtD(firstHose)}). Hai văn bản được coi là một khi đăng cách nhau tối đa 5 ngày và có tiêu đề gần giống hoặc trùng số hiệu.</p></div>
       <div class="kpis">${K("hose_only", hoseOnly.length, "Có trên HOSE, chưa thấy trên website", hoseOnly.length ? "bad" : "ok")}
         ${K("web_only", webOnly.length, "Có trên website, chưa thấy trên HOSE", webOnly.length ? "warn" : "ok")}
         ${K("matched", matched.length, "Khớp hai nơi", "ok")}
         ${K("other", webExp.length + own.length, "Không cần đối chiếu (giải chấp, chứng quyền, thông báo của Sở)", "")}</div>`;
-    const dt = s => `${wd(s)} ${fmtD(s.slice(0,10))}${s.length > 10 ? " " + s.slice(11,16) : ""}`;
-    let rowsHtml = "", cols = "";
-    if (S.rv === "hose_only") {
-      cols = `<tr><th>Đăng trên HOSE</th><th>Tiêu đề trên HOSE</th><th>Tệp</th></tr>`;
-      rowsHtml = hoseOnly.map(x => `<tr><td class="t">${dt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>${x.summary ? `<span class="sub">${esc(x.summary)}</span>` : ""}</td><td>${filesHtml(x.files)}</td></tr>`).join("");
-    } else if (S.rv === "web_only") {
-      cols = `<tr><th>Đăng trên website</th><th>Văn bản</th><th>Nhãn</th></tr>`;
-      rowsHtml = webOnly.map(x => `<tr><td class="t">${dt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${x.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join(" ")}</td></tr>`).join("");
-    } else if (S.rv === "matched") {
-      cols = `<tr><th>Website</th><th>HOSE</th><th>Chênh lệch</th><th>Văn bản</th></tr>`;
-      rowsHtml = matched.map(x => { const c = byId[x.match]; const gap = Math.round((new Date(x.date) - new Date(c.date)) / 864e5);
-        return `<tr><td class="t">${dt(c.date)}</td><td class="t">${dt(x.posted)}</td><td class="t">${gap === 0 ? "cùng ngày" : (gap > 0 ? "HOSE sau " : "HOSE trước ") + Math.abs(gap) + " ngày"}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="sub">HOSE: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></span></td></tr>`; }).join("");
-    } else {
-      cols = `<tr><th>Ngày</th><th>Mục</th><th>Lý do không đối chiếu</th></tr>`;
-      rowsHtml = own.map(x => `<tr><td class="t">${dt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>Thông báo của HOSE (${esc(x.type)})</td></tr>`).join("") +
-        webExp.map(x => `<tr><td class="t">${dt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.tags.filter(t => /Giải chấp|Chứng quyền/.test(t)).join(", "))} – không đăng ở mục tin tổ chức niêm yết</td></tr>`).join("");
-    }
-    h += rowsHtml ? `<div class="rwrap"><table class="rtable"><thead>${cols}</thead><tbody>${rowsHtml}</tbody></table></div>` : `<div class="empty" style="margin-top:14px">Không có mục nào.</div>`;
+    let rowsHtml = [], cols = [], exp = null;
+    if (S.rv === "hose_only") { cols = ["Đăng trên HOSE","Tiêu đề trên HOSE","Tệp"]; rowsHtml = hoseOnly.map(x => `<tr><td class="t">${dtt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>${x.summary ? `<span class="sub">${esc(x.summary)}</span>` : ""}</td><td>${filesHtml(x.files)}</td></tr>`);
+      exp = () => downloadCSV("lps-chi-co-tren-hose.csv", ["Đăng trên HOSE","Tiêu đề","Liên kết"], hoseOnly.map(x => [x.posted.replace("T"," "), x.title, x.url])); }
+    else if (S.rv === "web_only") { cols = ["Đăng trên website","Văn bản","Nhãn"]; rowsHtml = webOnly.map(x => `<tr><td class="t">${dtt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a><span class="sub">${esc(SECTIONS[x.section]||"")}</span></td><td>${x.tags.map(t=>`<span class="pill">${esc(t)}</span>`).join(" ")}</td></tr>`);
+      exp = () => downloadCSV("lps-chi-co-tren-website.csv", ["Ngày đăng","Mục","Văn bản","Nhãn","Liên kết"], webOnly.map(x => [x.date, SECTIONS[x.section], x.title, x.tags.join("; "), x.url])); }
+    else if (S.rv === "matched") { cols = ["Website","HOSE","Chênh lệch","Văn bản"]; rowsHtml = matched.map(x => { const c = byId[x.match]; const gap = Math.round((new Date(x.date) - new Date(c.date)) / 864e5);
+        return `<tr><td class="t">${dtt(c.date)}</td><td class="t">${dtt(x.posted)}</td><td class="t">${gap === 0 ? "cùng ngày" : (gap > 0 ? "HOSE sau " : "HOSE trước ") + Math.abs(gap) + " ngày"}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="sub">HOSE: <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></span></td></tr>`; });
+      exp = () => downloadCSV("lps-khop-hose.csv", ["Ngày đăng website","Đăng trên HOSE","Văn bản website","Tiêu đề HOSE","Liên kết website","Liên kết HOSE"], matched.map(x => { const c = byId[x.match]; return [c.date, x.posted.replace("T"," "), c.title, x.title, c.url, x.url]; })); }
+    else { cols = ["Ngày","Mục","Lý do không đối chiếu"]; rowsHtml = own.map(x => `<tr><td class="t">${dtt(x.posted)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>Thông báo của HOSE (${esc(x.type)})</td></tr>`).concat(
+        webExp.map(x => `<tr><td class="t">${dtt(x.date)}</td><td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></td><td>${esc(x.tags.filter(t => /Giải chấp|Chứng quyền/.test(t)).join(", "))} – không đăng ở mục tin tổ chức niêm yết</td></tr>`));
+      exp = () => downloadCSV("lps-khong-doi-chieu.csv", ["Ngày","Mục","Liên kết"], own.map(x => [x.posted, x.title, x.url]).concat(webExp.map(x => [x.date, x.title, x.url]))); }
+    $("feed").innerHTML = h + table(cols, rowsHtml);
+    csvFn = exp;
+  }
+
+  function auditNumbering(){
+    const L = A.numbering || [];
+    $("vtitle").textContent = "Số hiệu nghị quyết HĐQT"; $("cnt").textContent = L.reduce((s,y)=>s+y.count,0);
+    let h = `<div class="note"><p>Script thu thập số hiệu nghị quyết HĐQT xuất hiện trong tiêu đề hoặc nội dung văn bản đã công bố (website và HOSE), rồi liệt kê các số chưa thấy giữa số nhỏ nhất và lớn nhất của từng năm. Các số có hậu tố chữ (114A, 115B…) được tính chung vào số gốc.</p>
+      <p>Không phải nghị quyết nào cũng thuộc diện công bố thông tin. Danh sách “chưa thấy” dùng để đối chiếu với sổ nghị quyết nội bộ, không phải kết luận thiếu công bố.</p></div>`;
+    h += L.map(y => `<div class="yearcard"><h3>Năm ${y.year}</h3>
+      ${y.enough ? `<p>Thấy <b>${y.count}</b> số hiệu trong khoảng ${y.min}–${y.max}. Chưa thấy công bố: <b>${y.missing.length}</b> số.</p>
+      <div>${y.missing_ranges.map(([a,b]) => `<span class="gap">${a === b ? a : a + "–" + b}</span>`).join("") || "<i>Không có khoảng trống.</i>"}</div>`
+      : `<p>Chỉ thấy <b>${y.count}</b> số hiệu (${y.min}–${y.max}): không đủ dữ liệu để liệt kê khoảng trống. Các năm trước thường ghi số hiệu khác định dạng nên script không nhận ra.</p>`}
+      <div class="numgrid">${y.items.map(it => `<a class="num ${it.docs.every(d=>d.where==="hose")?"h":""}" href="${esc(it.docs[0].url)}" target="_blank" rel="noopener" title="${esc(it.docs.map(d=>fmtD(d.date)+" · "+d.title).join("\n"))}">${esc(it.number)}</a>`).join("")}</div>
+    </div>`).join("") || `<div class="empty" style="margin-top:14px">Chưa thu thập được số hiệu nào.</div>`;
     $("feed").innerHTML = h;
+    csvFn = () => downloadCSV("lps-so-hieu-nghi-quyet.csv", ["Năm","Số hiệu","Trạng thái","Ngày công bố","Văn bản","Nơi thấy","Liên kết"],
+      L.flatMap(y => y.items.flatMap(it => it.docs.map(d => [y.year, it.number + "/" + y.year, "Đã thấy", d.date, d.title, d.where === "hose" ? "HOSE" : "Website", d.url])).concat(y.missing.map(n => [y.year, n + "/" + y.year, "Chưa thấy công bố", "", "", "", ""]))));
+  }
+
+  function auditCalendar(){
+    const L = A.calendar || [];
+    $("vtitle").textContent = "Lịch công bố thông tin định kỳ"; $("cnt").textContent = L.length;
+    const ST = { on_time:["ok","Đúng hạn"], late:["bad","Công bố sau hạn"], missing:["bad","Quá hạn, chưa thấy"], pending:["warn","Chưa đến hạn"] };
+    let h = `<div class="note"><p>Thời hạn theo Thông tư 96/2020/TT-BTC (Điều 10, 14, 22): báo cáo tài chính quý 20 ngày sau khi kết thúc quý; bán niên đã soát xét tối đa 45 ngày; năm đã kiểm toán tối đa 90 ngày; báo cáo thường niên tối đa 110 ngày; báo cáo tình hình quản trị 30 ngày; báo cáo tỷ lệ an toàn tài chính công bố cùng lúc với báo cáo tài chính bán niên và năm. Cần đối chiếu sửa đổi tại Thông tư 68/2024/TT-BTC và 08/2026/TT-BTC.</p>
+      <p>Script tìm văn bản khớp theo tiêu đề trên website và HOSE, lấy ngày đăng sớm nhất. “Quá hạn, chưa thấy” có thể do tiêu đề đặt khác thông lệ; cần kiểm tra thủ công trước khi kết luận.</p></div>`;
+    h += table(["Báo cáo","Hạn công bố","Trạng thái","Văn bản tìm thấy"], L.map(r => {
+      const [cls, lab] = ST[r.status];
+      return `<tr><td>${esc(r.name)}<span class="sub">Kỳ kết thúc ${fmtD(r.period_end)}</span></td><td class="t">${dtt(r.deadline)}</td><td><span class="pill ${cls}">${lab}${r.status==="late"?` ${r.late_days} ngày`:""}</span></td>
+        <td>${r.doc ? `<a href="${esc(r.doc.url)}" target="_blank" rel="noopener">${esc(r.doc.title)}</a><span class="sub">${r.doc.where==="hose"?"HOSE":"Website"} · ${fmtD(r.doc.date)}</span>` : "—"}</td></tr>`;
+    }));
+    $("feed").innerHTML = h;
+    csvFn = () => downloadCSV("lps-lich-dinh-ky.csv", ["Báo cáo","Kỳ kết thúc","Hạn công bố","Trạng thái","Số ngày trễ","Ngày công bố","Văn bản","Nơi thấy","Liên kết"],
+      L.map(r => [r.name, r.period_end, r.deadline, ST[r.status][1], r.late_days ?? "", r.doc?.date || "", r.doc?.title || "", r.doc ? (r.doc.where==="hose"?"HOSE":"Website") : "", r.doc?.url || ""]));
   }
 
   // ---------- điều hướng
-  function render(){ document.querySelector(".main").classList.toggle("wide", S.tab === "recon"); document.querySelector("aside").hidden = S.tab === "recon"; renderPanels(); if (S.tab === "recon") renderRecon(); else renderFeed(); }
-  function resetFilters(){ S.src = S.y = S.m = S.d = null; S.q = ""; $("q").value = ""; S.tags = []; S.onlyLate = S.onlyWeb = S.onlyNew = false; $("onlynew").checked = false; S.shown = PAGE; }
+  function render(){
+    document.querySelector(".main").classList.toggle("wide", S.tab === "audit");
+    document.querySelector("aside").hidden = S.tab === "audit";
+    renderPanels();
+    if (S.tab === "audit") renderAudit(); else renderFeed();
+  }
+  function resetFilters(){ S.src = S.party = S.kind = S.section = S.y = S.m = S.d = null; S.q = ""; $("q").value = ""; S.tags = []; S.onlyLate = S.onlyWeb = S.onlyNew = S.onlyChg = false; $("onlynew").checked = false; S.shown = PAGE; }
   function setTab(t){
     S.tab = t; resetFilters();
     document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
@@ -495,28 +677,29 @@ footer b{color:#fff}
 
   document.addEventListener("click", e => {
     const t = e.target.closest(".tab"); if (t) { setTab(t.dataset.tab); return; }
+    const sb = e.target.closest("[data-sub]"); if (sb) { S.sub = sb.dataset.sub; renderAudit(); return; }
     const o = e.target.closest("[data-open]");
     if (o) { const b = $("b-" + o.dataset.open), open = b.hidden; b.hidden = !open; o.setAttribute("aria-expanded", String(open)); o.textContent = open ? "Thu gọn" : "Đọc tiếp"; return; }
     const tg = e.target.closest("[data-tag]");
     if (tg && !tg.disabled) { const v = tg.dataset.tag; S.tags = S.tags.includes(v) ? S.tags.filter(x => x !== v) : [...S.tags, v]; S.shown = PAGE; render(); return; }
     const at = e.target.closest("[data-addtag]");
     if (at) { const v = at.dataset.addtag; if (!S.tags.includes(v)) S.tags = [...S.tags, v]; S.shown = PAGE; render(); window.scrollTo({top:0}); return; }
-    const rv = e.target.closest("[data-rv]"); if (rv) { S.rv = rv.dataset.rv; renderRecon(); return; }
-    const s = e.target.closest("[data-src]"); if (s) { S.src = s.dataset.src || null; S.shown = PAGE; render(); return; }
+    const rv = e.target.closest("[data-rv]"); if (rv) { S.rv = rv.dataset.rv; renderAudit(); return; }
+    const st = e.target.closest("[data-set]"); if (st) { S[st.dataset.set] = st.dataset.v || null; if (st.dataset.set === "party") S.kind = null; S.shown = PAGE; render(); return; }
     const y = e.target.closest("#tree [data-y]");
     if (y) { S.y = y.dataset.y || null; S.m = y.dataset.m || null; S.d = y.dataset.d || null; S.shown = PAGE; render(); }
   });
   let tm; $("q").addEventListener("input", e => { clearTimeout(tm); tm = setTimeout(() => { S.q = e.target.value; S.shown = PAGE; renderFeed(); }, 150); });
-  $("onlylate").addEventListener("change", e => { S.onlyLate = e.target.checked; S.shown = PAGE; render(); });
-  $("onlyweb").addEventListener("change", e => { S.onlyWeb = e.target.checked; S.shown = PAGE; render(); });
-  $("onlynew").addEventListener("change", e => { S.onlyNew = e.target.checked; S.shown = PAGE; render(); });
+  [["onlylate","onlyLate"],["onlyweb","onlyWeb"],["onlychg","onlyChg"],["onlynew","onlyNew"]].forEach(([id,k]) => $(id).addEventListener("change", e => { S[k] = e.target.checked; S.shown = PAGE; render(); }));
   $("tagclear").addEventListener("click", () => { S.tags = []; S.shown = PAGE; render(); });
   $("clr").addEventListener("click", () => { resetFilters(); render(); });
   $("more").addEventListener("click", () => { S.shown += PAGE; renderFeed(); });
+  $("csv").addEventListener("click", () => { if (csvFn) csvFn(); });
   $("mtoggle").addEventListener("click", () => { const f = $("filters"), c = f.dataset.collapsed === "true"; f.dataset.collapsed = String(!c); $("mtoggle").setAttribute("aria-expanded", String(c)); });
 
   renderBand();
-  setTab(["cbtt","recon"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "news");
+  const h0 = location.hash.slice(1);
+  setTab(["cbtt","related","audit"].includes(h0) ? h0 : "news");
 })();
 </script>
 </body>
