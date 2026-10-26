@@ -21,6 +21,7 @@ VN = timezone(timedelta(hours=7))
 MAX_FILE = 30 * 1024 * 1024          # giới hạn mỗi tệp khi ghi về máy
 BATCH_FILES, BATCH_BYTES = 20, 25 * 1024 * 1024   # lô nhỏ để tránh quá thời gian ghi về máy
 CBTT_DIR = "Công bố thông tin"
+RAW = "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/"
 UA = {"User-Agent": "Mozilla/5.0 (ban-tin-lps deliver)"}
 
 
@@ -97,8 +98,13 @@ def main():
     ap.add_argument("--days", type=int, default=3, help="số ngày gần nhất (theo ngày đăng)")
     ap.add_argument("--cbtt-dir", default="Công bố thông tin", help="tên thư mục con đúng như trên máy (giữ nguyên dạng Unicode)")
     ap.add_argument("--skip", default="", help="tệp JSON danh sách đường dẫn tương đối đã có trên máy, bỏ qua")
+    ap.add_argument("--list-only", action="store_true",
+                    help="Không tải tệp: chỉ ghi manifest kèm link tải (dùng trong GitHub Actions, thư mục giao/)")
     a = ap.parse_args()
     cbtt_dir = a.cbtt_dir
+    lo = a.list_only
+    from urllib.parse import quote
+    raw = lambda rel: RAW + quote(rel)
 
     db = json.loads((BASE / "lps_db.json").read_text(encoding="utf-8"))
     out = Path(a.out)
@@ -115,8 +121,12 @@ def main():
     recs.sort(key=lambda r: (r.get("date", ""), r.get("title", "")), reverse=True)
 
     items, notes = [], []
-    shutil.copy2(BASE / "ban-tin-lps.html", out / "ban-tin-lps.html")
-    items.append({"rel": "ban-tin-lps.html", "size": (out / "ban-tin-lps.html").stat().st_size})
+    if lo:
+        items.append({"rel": "ban-tin-lps.html", "size": (BASE / "ban-tin-lps.html").stat().st_size,
+                      "url": raw("ban-tin-lps.html")})
+    else:
+        shutil.copy2(BASE / "ban-tin-lps.html", out / "ban-tin-lps.html")
+        items.append({"rel": "ban-tin-lps.html", "size": (out / "ban-tin-lps.html").stat().st_size})
 
     sess = requests.Session()
     by_day, file_rows = {}, {}
@@ -143,6 +153,9 @@ def main():
                 continue
             if nfc(rel) in skip or nfc(rel).split("/", 1)[-1] in skip:
                 continue
+            if lo:
+                items.append({"rel": rel, "size": f.get("size") or 0, "sha256": f.get("sha256"), "url": f["url"]})
+                continue
             dest = out / rel
             dest.parent.mkdir(parents=True, exist_ok=True)
             src, err = download(sess, [f["url"]], dest)
@@ -166,13 +179,19 @@ def main():
         p = out / rel
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(day_index(day, rs, file_rows), encoding="utf-8")
-        items.append({"rel": rel, "size": p.stat().st_size})
+        it = {"rel": rel, "size": p.stat().st_size}
+        if lo:
+            it["url"] = raw(f"{out.name}/{rel}")
+        items.append(it)
 
     batches, cur, cur_b = [], [], 0
     for it in items:
         if cur and (len(cur) >= BATCH_FILES or cur_b + it["size"] > BATCH_BYTES):
             batches.append(cur); cur, cur_b = [], 0
-        cur.append({"stagedPath": str(out / it["rel"]), "rel": it["rel"].replace("/", "\\"), "size": it["size"]})
+        e = {"stagedPath": str(out / it["rel"]), "rel": it["rel"].replace("/", "\\"), "size": it["size"]}
+        if lo:
+            e = {"rel": e["rel"], "size": it["size"], "url": it["url"], "sha256": it.get("sha256")}
+        cur.append(e)
         cur_b += it["size"]
     if cur:
         batches.append(cur)
