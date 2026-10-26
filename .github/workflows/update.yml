@@ -30,4 +30,4 @@ jobs:
           git config user.email "ban-tin-lps-bot@users.noreply.github.com"
           git add lps_db.json ban-tin-lps.html logo_lps.png
           git diff --cached --quiet || git commit -m "Cap nhat ban tin $(TZ=Asia/Ho_Chi_Minh date +'%Y-%m-%d %H:%M')"
-          git push
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
