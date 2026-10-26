@@ -95,8 +95,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="/mnt/user-data/outputs/tin-tuc")
     ap.add_argument("--days", type=int, default=3, help="số ngày gần nhất (theo ngày đăng)")
+    ap.add_argument("--cbtt-dir", default="Công bố thông tin", help="tên thư mục con đúng như trên máy (giữ nguyên dạng Unicode)")
     ap.add_argument("--skip", default="", help="tệp JSON danh sách đường dẫn tương đối đã có trên máy, bỏ qua")
     a = ap.parse_args()
+    cbtt_dir = a.cbtt_dir
 
     db = json.loads((BASE / "lps_db.json").read_text(encoding="utf-8"))
     out = Path(a.out)
@@ -129,7 +131,7 @@ def main():
             if name.lower() in used:
                 continue
             used.add(name.lower())
-            rel = f"{CBTT_DIR}/{day}/{name}"
+            rel = f"{cbtt_dir}/{day}/{name}"
             row = {"name": name, "url": f["url"], "sha256": f.get("sha256")}
             file_rows.setdefault(r["id"], []).append(row)
             if f.get("status") == 404:
@@ -139,7 +141,7 @@ def main():
                 row["note"] = f"tệp {f['size']/1048576:.0f} MB, quá giới hạn chuyển — mở bằng link gốc"
                 notes.append(f"Bỏ qua (quá lớn): {rel}")
                 continue
-            if nfc(rel) in skip:
+            if nfc(rel) in skip or nfc(rel).split("/", 1)[-1] in skip:
                 continue
             dest = out / rel
             dest.parent.mkdir(parents=True, exist_ok=True)
@@ -160,7 +162,7 @@ def main():
             items.append({"rel": rel, "size": size, "sha256": sha})
 
     for day, rs in by_day.items():
-        rel = f"{CBTT_DIR}/{day}/_Danh sách văn bản.html"
+        rel = f"{cbtt_dir}/{day}/_Danh sách văn bản.html"
         p = out / rel
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(day_index(day, rs, file_rows), encoding="utf-8")
