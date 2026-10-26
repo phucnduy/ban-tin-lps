@@ -4,7 +4,7 @@
 Kết quả trong thư mục --out (mặc định /mnt/user-data/outputs/tin-tuc):
   ban-tin-lps.html                                  -> Tin tức\\ban-tin-lps.html
   Cong bo thong tin/<YYYY-MM-DD>/<tệp>              -> Tin tức\\Công bố thông tin\\<YYYY-MM-DD>\\<tệp>
-  manifest.json  : danh sách tệp, chia lô (<=45 tệp, <=90 MB mỗi lô) để ghi về máy.
+  manifest.json  : danh sách tệp, chia lô (<=20 tệp, <=25 MB mỗi lô) để ghi về máy.
 
 Mỗi ngày có một tệp "_Danh sách văn bản.html" liệt kê toàn bộ văn bản của ngày đó
 (kể cả văn bản chỉ có nội dung, không có tệp đính kèm), kèm link gốc và mã SHA-256.
@@ -19,7 +19,7 @@ import requests
 BASE = Path(__file__).resolve().parent
 VN = timezone(timedelta(hours=7))
 MAX_FILE = 30 * 1024 * 1024          # giới hạn mỗi tệp khi ghi về máy
-BATCH_FILES, BATCH_BYTES = 45, 90 * 1024 * 1024
+BATCH_FILES, BATCH_BYTES = 20, 25 * 1024 * 1024   # lô nhỏ để tránh quá thời gian ghi về máy
 CBTT_DIR = "Công bố thông tin"
 UA = {"User-Agent": "Mozilla/5.0 (ban-tin-lps deliver)"}
 
