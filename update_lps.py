@@ -835,6 +835,8 @@ def step(name, fn, default=-1):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true", help="Quét lại toàn bộ các trang trên lpbs.com.vn")
+    ap.add_argument("--light", action="store_true",
+                    help="Lần chạy nhanh (dùng cho lịch chuyển file về máy): không kiểm tra lại toàn bộ văn bản")
     ap.add_argument("--render", action="store_true", help="Chỉ dựng lại HTML, không tải dữ liệu")
     args = ap.parse_args()
 
@@ -842,7 +844,7 @@ def main():
     if not args.render:
         today = dt.datetime.now(VN_TZ).date().isoformat()
         # Mỗi ngày một lần (lần chạy đầu tiên trong ngày): đọc trọn danh sách 4 mục và kiểm tra lại MỌI văn bản.
-        full_day = args.full or db["meta"].get("last_full_verify") != today
+        full_day = args.full or (not args.light and db["meta"].get("last_full_verify") != today)
         news_before = len(db["news"])
         res = step("đọc lpbs.com.vn", lambda: update_lpbs(db, full_day), (-1, 0, None))
         c, n, listing = res
