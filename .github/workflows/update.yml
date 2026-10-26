@@ -1,9 +1,9 @@
-# Chạy script lúc 07:30 và 14:30 giờ Việt Nam (00:30 và 07:30 UTC). Không dùng AI.
-# GitHub có thể chạy trễ 5–30 phút vào giờ cao điểm; lịch Claude tải về máy cơ quan đặt lúc 08:00 và 15:00.
+# Chạy script lúc 07:30, 10:30, 12:30, 15:30 giờ Việt Nam (00:30, 03:30, 05:30, 08:30 UTC). Không dùng AI.
+# GitHub có thể chạy trễ 5–30 phút; lịch Claude chuyển file về máy cơ quan lúc 08:00, 11:00, 13:00, 16:00.
 name: Cap nhat Ban tin LPS
 on:
   schedule:
-    - cron: "30 0,7 * * *"
+    - cron: "30 0,3,5,8 * * *"
   workflow_dispatch:
 permissions:
   contents: write

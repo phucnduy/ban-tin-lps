@@ -734,7 +734,7 @@ def update_related(db):
 # ------------------------------------------------------------------ DỮ LIỆU
 def empty_db():
     return {"meta": {"company": "Công ty Cổ phần Chứng khoán LPS", "ticker": "LPS", "exchange": "HOSE",
-                     "website": LPBS, "update_schedule": ["08:00", "15:00"], "schema_version": 2},
+                     "website": LPBS, "update_schedule": ["08:00", "11:00", "13:00", "16:00"], "schema_version": 2},
             "news": [], "cbtt": []}
 
 

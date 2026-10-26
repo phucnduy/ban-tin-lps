@@ -372,7 +372,7 @@ details.prev pre{white-space:pre-wrap;font:12.5px/1.5 var(--font);background:var
     const upd = u ? `${u.slice(11,16)} ${fmtD(u.slice(0,10))}` : "—";
     const nn = newCount.news + newCount.cbtt + newCount.related;
     $("band").innerHTML = `<span>Cập nhật lần cuối: <b>${esc(upd)}</b></span>
-      <span class="sched">Lịch cập nhật<span>07:30</span><span>14:30</span></span>
+      <span class="sched">Lịch cập nhật${(m.update_schedule||["08:00","11:00","13:00","16:00"]).map(t=>`<span>${esc(t)}</span>`).join("")}</span>
       <span><b>${CBTT.length}</b> văn bản · <b>${NEWS.length}</b> tin · <b>${HOSE.length}</b> tin HOSE · <b>${REL.length}</b> tin bên liên quan</span>
       ${prevSeen ? (nn ? `<span class="newsum">${nn} mục mới từ lần bạn mở trang trước</span>` : `<span>Không có mục mới từ lần mở trước</span>`) : `<span>Lần đầu mở trang trên trình duyệt này: từ lần sau, mục mới sẽ có nhãn “Mới”.</span>`}
       ${m.last_result ? `<span>Lần chạy gần nhất: ${esc(m.last_result)}</span>` : ""}`;
