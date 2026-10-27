@@ -500,7 +500,7 @@ details.prev pre{white-space:pre-wrap;font:12.5px/1.5 var(--font);background:var
     const off = r.source === "lpbs.com.vn" || r.rkind === "hose";
     const hasBody = !!(r.body || (r.files && r.files.length));
     const id = esc(r.id);
-    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : r.excerpt_origin === "hose" ? "Mô tả trên HOSE" : "";
+    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : r.excerpt_origin === "hose" ? "Mô tả trên HOSE" : r.excerpt_origin === "body" ? "Đoạn nhắc LPS trong thân bài (nguyên văn)" : "";
     const ex = r.kind !== "cbtt" && r.excerpt ? `<p class="ex">${esc(r.excerpt)}${origin?`<span class="o">${origin}</span>`:""}</p>` : "";
     let hoseChip = "";
     if (r.kind === "cbtt") {

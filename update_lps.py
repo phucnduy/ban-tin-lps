@@ -368,8 +368,37 @@ def add_news(db, item):
     return True
 
 
+MAX_BODY_SCAN = 300         # số bài RSS tối đa mỗi lần chạy được mở ra để tìm "LPS" trong thân bài
+BODY_SCAN_KEEP_DAYS = 14
+
+
+def body_mention(url):
+    """Mở bài gốc, trả về 1–2 câu nguyên văn có nhắc LPS (hoặc "" nếu thân bài không nhắc)."""
+    soup = BeautifulSoup(get(url).text, "html.parser")
+    for t in soup(["script", "style", "noscript", "header", "footer", "nav", "aside", "form"]):
+        t.decompose()
+    paras = [clean_text(p.get_text(" ")) for p in soup.find_all("p")]
+    hits = []
+    for para in paras:
+        if not KEYWORD_RE.search(para) or EXCLUDE_RE.search(para):
+            continue
+        sents = re.split(r"(?<=[.!?…])\s+", para)
+        for i, sent in enumerate(sents):
+            if KEYWORD_RE.search(sent):
+                hits.append(" ".join(sents[i:i + 2]))
+                break
+        if len(hits) >= 2:
+            break
+    return " … ".join(hits)[:600]
+
+
 def update_press(db):
     added = 0
+    checked = db["meta"].setdefault("rss_body_checked", {})
+    cutoff = (dt.datetime.now(VN_TZ) - dt.timedelta(days=BODY_SCAN_KEEP_DAYS)).date().isoformat()
+    for k in [k for k, v in checked.items() if v < cutoff]:
+        del checked[k]
+    scanned = 0
     for dom, url in RSS_FEEDS:
         try:
             items = list(rss_items(get(url).content))
@@ -379,12 +408,30 @@ def update_press(db):
         for it in items:
             desc = strip_html(it["desc"])
             hay = it["title"] + " " + desc
-            if not KEYWORD_RE.search(hay) or EXCLUDE_RE.search(hay):
+            if EXCLUDE_RE.search(hay):
                 continue
+            mention = ""
+            if not KEYWORD_RE.search(hay):
+                # Tiêu đề và sapo không nhắc LPS: mở bài (mỗi link một lần) để tìm trong thân bài.
+                link = it["link"]
+                if link in checked or scanned >= MAX_BODY_SCAN or any(x["url"] == link for x in db["news"]):
+                    continue
+                scanned += 1
+                try:
+                    mention = body_mention(link)
+                except Exception as e:
+                    log(f"  Không mở được {link}: {e}")
+                    continue
+                checked[link] = dt.datetime.now(VN_TZ).date().isoformat()
+                if not mention:
+                    continue
             pub, prec = parse_pubdate(it["pub"])
             rec = {"id": make_id("news", it["link"]), "title": it["title"], "url": it["link"],
                    "source": domain_of(it["link"]) or dom, "published": pub, "date_precision": prec,
-                   "excerpt": desc, "excerpt_origin": "rss" if desc else "", "via": "rss"}
+                   "excerpt": mention or desc, "excerpt_origin": "body" if mention else ("rss" if desc else ""),
+                   "via": "rss"}
+            if mention:
+                rec["mention_only"] = True
             if add_news(db, rec):
                 added += 1
                 log(f"  + [{rec['source']}] {rec['title']}")
@@ -411,6 +458,8 @@ def update_press(db):
                 if add_news(db, rec):
                     added += 1
                     log(f"  + [{src_dom}] {title}")
+    if scanned:
+        log(f"RSS: mở {scanned} bài để tìm LPS trong thân bài")
     return added
 
 
