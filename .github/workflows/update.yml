@@ -1,14 +1,14 @@
 # Cập nhật Bản tin LPS bằng script, không dùng AI.
 # Lịch cron của GitHub trễ hoặc bỏ lượt rất nhiều với kho này (ngày 26/10 chỉ chạy 1/22 lượt),
 # nên mỗi lượt chạy xong sẽ TỰ HẸN lượt kế tiếp: chờ đến mốc :00 hoặc :30 kế tiếp trong khung
-# 07:00–17:30 giờ Việt Nam rồi tự kích hoạt lại (workflow_dispatch). Ngoài giờ, chờ tối đa 5 giờ
+# 06:00–24:00 giờ Việt Nam rồi tự kích hoạt lại (workflow_dispatch). Từ 00:00 đến 06:00 chờ tối đa 5 giờ
 # mỗi lượt để nối sang sáng hôm sau. Cron bên dưới chỉ là dự phòng để khởi động lại chuỗi nếu bị đứt.
 # Kho công khai nên GitHub Actions không tính phút.
 name: Cap nhat Ban tin LPS
 on:
   schedule:
-    - cron: "*/30 0-10 * * *"
-    - cron: "0 22 * * *"
+    - cron: "*/30 23,0-16 * * *"   # 06:00–23:30 giờ Việt Nam
+    - cron: "0 17 * * *"           # 00:00 giờ Việt Nam
   workflow_dispatch:
 permissions:
   contents: write
@@ -55,7 +55,7 @@ jobs:
           vn = timezone(timedelta(hours=7))
           now = datetime.now(vn)
           t = now.replace(second=0, microsecond=0) + timedelta(minutes=1)
-          while t.minute not in (0, 30) or not (7 <= t.hour <= 17):
+          while t.minute not in (0, 30) or not (6 <= t.hour <= 23 or (t.hour == 0 and t.minute == 0)):
               t += timedelta(minutes=1)
           wait = (t - now).total_seconds()
           print(int(min(wait, 5 * 3600)))
