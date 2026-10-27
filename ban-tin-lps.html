@@ -295,7 +295,7 @@ html.embed footer.pg{display:none}
 <div class="hero">
   <div class="wrap">
     <h1 id="htitle">Bản tin Chứng khoán LPS</h1>
-    <p class="lead">Tin báo chí, công bố thông tin trên lpbs.com.vn và HOSE, tin bên liên quan — tự động cập nhật bằng script, nội dung lấy nguyên văn từ nguồn gốc.</p>
+    <p class="lead">Tin báo chí, công bố thông tin trên lpbs.com.vn và HOSE, tin bên liên quan. Nội dung lấy nguyên văn từ nguồn gốc.</p>
     <div class="hsearch">
       <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.8-4.8"/></svg>
       <input class="search" id="q" type="search" autocomplete="off" placeholder="Từ khóa trong tiêu đề, nội dung, số nghị quyết…" aria-label="Tìm kiếm">
@@ -360,7 +360,7 @@ html.embed footer.pg{display:none}
   <div class="wrap">
     <div><b>Công ty CP Chứng khoán LPS</b> · www.lpbs.com.vn · Chỉ lưu hành trong công ty</div>
     <div><b>Nguồn dữ liệu.</b> Văn bản trên lpbs.com.vn (Công bố thông tin, Thông tin tài chính, Báo cáo thường niên, Điều lệ và quy chế) và tin trên HOSE lấy nguyên văn. Tin báo chí hiển thị nguyên văn tiêu đề và đoạn mô tả do tòa soạn cung cấp; toàn văn đọc tại trang gốc.</div>
-    <div>Nhãn phân loại, cảnh báo trễ hạn, đối chiếu, số hiệu nghị quyết, lịch định kỳ và nhóm tin do script tự suy ra theo quy tắc, chỉ dùng để sàng lọc. Không thay thế văn bản công bố thông tin chính thức hay kết luận kiểm tra.</div>
+    <div>Nhãn phân loại, cảnh báo trễ hạn, đối chiếu, số hiệu nghị quyết, lịch định kỳ và nhóm tin được xác định tự động theo quy tắc, chỉ dùng để sàng lọc. Không thay thế văn bản công bố thông tin chính thức hay kết luận kiểm tra.</div>
   </div>
 </footer>
 
@@ -449,20 +449,16 @@ html.embed footer.pg{display:none}
     const upd = u ? `${u.slice(11,16)} ${fmtD(u.slice(0,10))}` : "—";
     const nn = newCount.news + newCount.cbtt + newCount.related;
     $("band").innerHTML = `<span>Cập nhật lần cuối: <b>${esc(upd)}</b></span>
-      <span>Làm mới 30 phút/lần (06:00–24:00)</span>
-      <span class="sched">Chuyển về máy cơ quan${(m.update_schedule||["08:00","11:00","13:00","16:00"]).map(t=>`<span>${esc(t)}</span>`).join("")}</span>
       <span><b>${CBTT.length}</b> văn bản · <b>${NEWS.length}</b> tin · <b>${HOSE.length}</b> tin HOSE · <b>${REL.length}</b> tin bên liên quan</span>
-      ${prevSeen ? (nn ? `<span class="newsum">${nn} mục mới từ lần bạn mở trang trước</span>` : `<span>Không có mục mới từ lần mở trước</span>`) : `<span>Lần đầu mở trang trên trình duyệt này: từ lần sau, mục mới sẽ có nhãn “Mới”.</span>`}
-      ${m.last_result ? `<span>Lần chạy gần nhất: ${esc(m.last_result)}</span>` : ""}`;
+      ${prevSeen ? (nn ? `<span class="newsum">${nn} mục mới từ lần bạn mở trang trước</span>` : `<span>Không có mục mới từ lần mở trước</span>`) : ""}
+`;
     $("n-news").textContent = NEWS.length; $("n-cbtt").textContent = CBTT.length; $("n-related").textContent = REL.length;
     ["news","cbtt","related","audit"].forEach(k => { const el = $("nw-"+k); el.hidden = !newCount[k]; el.textContent = newCount[k] ? "+" + newCount[k] : ""; });
-    // cảnh báo dữ liệu cũ (quá 8 giờ) hoặc lần chạy có lỗi
+    // cảnh báo dữ liệu cũ (quá 8 giờ)
     const age = u ? (Date.now() - new Date(u).getTime()) / 36e5 : 999;
-    const errs = (m.last_errors || []).map(e => e.replace(/^\[[^\]]+\]\s*/, ""));
-    if (age > 8 || errs.length) {
+    if (age > 8) {
       $("stale").hidden = false;
-      $("staletxt").innerHTML = (age > 8 ? `<span><b>Dữ liệu đã cũ:</b> lần cập nhật gần nhất cách đây ${Math.floor(age)} giờ. Kiểm tra tab Actions trong kho GitHub ban-tin-lps, hoặc lịch tải về máy cơ quan.</span>` : "")
-        + (errs.length ? `<span><b>Lần chạy gần nhất có lỗi:</b> ${esc(errs.slice(0,3).join(" · "))}</span>` : "");
+      $("staletxt").innerHTML = `<span><b>Dữ liệu đã cũ:</b> lần cập nhật gần nhất cách đây ${Math.floor(age)} giờ.</span>`;
     }
   }
 
@@ -539,7 +535,6 @@ html.embed footer.pg{display:none}
     return `<ul class="files">${files.map(f => {
       const fn = fname(f.url);
       const extra = [f.status === 404 ? `<span class="pill bad">Tệp không còn tải được</span>` : "",
-                     f.sha256 ? `<span class="sha" title="Mã băm SHA-256 lúc ${esc(f.hashed_at||"")}">SHA-256 ${esc(f.sha256.slice(0,16))}…</span>` : "",
                      f.archive ? `<a class="arch" href="${esc(f.archive)}" target="_blank" rel="noopener">Bản lưu trữ ↗</a>` : ""].filter(Boolean).join(" ");
       return `<li><a href="${esc(f.url)}" target="_blank" rel="noopener"><span class="ext">${esc(ext(f.url))}</span><span>${esc(f.label)}${fn && fn !== f.label ? `<span class="fn"> — ${esc(fn)}</span>` : ""}</span></a>${extra ? `<div>${extra}</div>` : ""}</li>`;
     }).join("")}</ul>`;
@@ -578,7 +573,7 @@ html.embed footer.pg{display:none}
     const off = r.source === "lpbs.com.vn" || r.rkind === "hose";
     const hasBody = !!(r.body || (r.files && r.files.length));
     const id = esc(r.id);
-    const origin = r.excerpt_origin === "rss" ? "Sapo theo RSS của báo" : r.excerpt_origin === "meta" ? "Sapo theo mô tả của bài gốc" : r.excerpt_origin === "hose" ? "Mô tả trên HOSE" : r.excerpt_origin === "body" ? "Đoạn nhắc LPS trong thân bài (nguyên văn)" : "";
+    const origin = r.excerpt_origin === "rss" ? "Sapo của báo" : r.excerpt_origin === "meta" ? "Sapo của bài gốc" : r.excerpt_origin === "hose" ? "Mô tả trên HOSE" : r.excerpt_origin === "body" ? "Trích đoạn nhắc đến LPS" : "";
     const ex = r.kind !== "cbtt" && r.excerpt ? `<p class="ex">${esc(r.excerpt)}${origin?`<span class="o">${origin}</span>`:""}</p>` : "";
     let hoseChip = "";
     if (r.kind === "cbtt") {
@@ -639,8 +634,8 @@ html.embed footer.pg{display:none}
         L.map(r => [r.date, r.time, S.tab === "related" ? PARTIES[r.party] : srcName(r), S.tab === "related" ? (r.rkind === "hose" ? "HOSE" : srcName(r)) : "", r.title, r.excerpt || "", r.url, r.cluster || ""]));
     };
     let head = "";
-    if (S.tab === "cbtt" && S.onlyLate) head = `<div class="note"><p><b>Cách sàng lọc trễ hạn.</b> Script tìm ngày phát sinh sự kiện trong tiêu đề hoặc câu đầu nội dung và so với ngày đăng. Vì chỉ biết ngày, không biết giờ, văn bản chỉ bị đánh dấu khi ngày đăng cách ngày phát sinh từ 2 ngày lịch trở lên, tức chắc chắn quá 24 giờ.</p><p>Căn cứ: Điều 11 và Điều 23 Thông tư 96/2020/TT-BTC, đã sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC. Không áp dụng cho báo cáo tài chính, báo cáo quản trị, tài liệu đại hội và thông báo giải chấp. Chỉ ${CBTT.filter(r=>r.late).length}/${CBTT.length} văn bản xác định được ngày phát sinh.</p></div>`;
-    if (S.tab === "related" && !S.party) head = `<div class="note"><p>Theo dõi ${Object.values(PARTIES).join(", ")} trong ${120} ngày gần nhất: công bố thông tin trên HOSE (LPB, STB) và tin báo chí qua Google News. Các bài cùng sự kiện được gộp thành một mục.</p></div>`;
+    if (S.tab === "cbtt" && S.onlyLate) head = `<div class="note"><p><b>Cách sàng lọc trễ hạn.</b> Ngày phát sinh sự kiện được lấy từ tiêu đề hoặc câu đầu nội dung rồi so với ngày đăng. Vì chỉ biết ngày, không biết giờ, văn bản chỉ bị đánh dấu khi ngày đăng cách ngày phát sinh từ 2 ngày lịch trở lên, tức chắc chắn quá 24 giờ.</p><p>Căn cứ: Điều 11 và Điều 23 Thông tư 96/2020/TT-BTC, đã sửa đổi bởi Thông tư 68/2024/TT-BTC và Thông tư 08/2026/TT-BTC. Không áp dụng cho báo cáo tài chính, báo cáo quản trị, tài liệu đại hội và thông báo giải chấp. Chỉ ${CBTT.filter(r=>r.late).length}/${CBTT.length} văn bản xác định được ngày phát sinh.</p></div>`;
+    if (S.tab === "related" && !S.party) head = `<div class="note"><p>Theo dõi ${Object.values(PARTIES).join(", ")} trong ${120} ngày gần nhất: công bố thông tin trên HOSE (LPB, STB) và tin báo chí. Các bài cùng sự kiện được gộp thành một mục.</p></div>`;
     if (!G0.length) { $("feed").innerHTML = head + `<div class="empty">Không có mục nào khớp bộ lọc. Bỏ bớt điều kiện hoặc đổi từ khóa.</div>`; $("morew").hidden = true; return; }
     const show = G0.slice(0, S.shown), G = {};
     show.forEach(g => (G[g[0].date||"0000-00-00"] ??= []).push(g));
@@ -666,13 +661,13 @@ html.embed footer.pg{display:none}
   function auditChanges(){
     const L = A.changes || [];
     $("vtitle").textContent = "Văn bản bị sửa, gỡ hoặc thay tệp"; $("cnt").textContent = L.length;
-    const base = A.baseline ? `${dtt(A.baseline)}` : "lần chạy đầu tiên";
-    let h = `<div class="note"><p>Mỗi lần chạy, script so tiêu đề, ngày, nội dung và danh sách tệp của văn bản đăng trong 45 ngày gần nhất với lần lưu trước; mỗi ngày một lần kiểm tra lại toàn bộ văn bản. Tệp đính kèm được so bằng mã băm SHA-256. Toàn bộ lịch sử dữ liệu lưu trong kho GitHub ban-tin-lps kèm thời điểm, có thể dùng làm bằng chứng phiên bản cũ.</p>
-      <p>Bắt đầu theo dõi từ <b>${esc(base)}</b>: thay đổi xảy ra trước thời điểm này không phát hiện được. ${A.hash_remaining ? `Còn ${A.hash_remaining} tệp chưa có mã băm (đang xử lý dần qua các lần chạy).` : ""}</p></div>`;
+    const base = A.baseline ? `${dtt(A.baseline)}` : "lúc bắt đầu theo dõi";
+    let h = `<div class="note"><p>Tiêu đề, ngày đăng, nội dung và tệp đính kèm của văn bản trên lpbs.com.vn được đối chiếu với bản đã lưu trước đó để phát hiện văn bản bị sửa, gỡ hoặc thay tệp. Bản trước khi thay đổi được lưu lại để đối chiếu.</p>
+      <p>Bắt đầu theo dõi từ <b>${esc(base)}</b>: thay đổi xảy ra trước thời điểm này không phát hiện được. </p></div>`;
     h += table(["Phát hiện lúc","Văn bản","Thay đổi","Bản trước"], L.map(c => {
       const p = c.previous;
       const prev = p && ["sua_noi_dung","doi_tieu_de","doi_tep","thay_noi_dung_tep","doi_ngay"].includes(c.kind)
-        ? `<details class="prev"><summary>Xem bản trước</summary><pre>${esc(p.title)}\n${esc(p.date||"")}\n\n${esc(p.body||"")}\n\n${esc((p.files||[]).map(f=>f.label+" — "+f.url+(f.sha256?" — SHA-256 "+f.sha256:"")).join("\n"))}</pre></details>` : "";
+        ? `<details class="prev"><summary>Xem bản trước</summary><pre>${esc(p.title)}\n${esc(p.date||"")}\n\n${esc(p.body||"")}\n\n${esc((p.files||[]).map(f=>f.label+" — "+f.url).join("\n"))}</pre></details>` : "";
       return `<tr><td class="t">${dtt(c.at)}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a><span class="sub">Đăng ${fmtD(c.date)}</span></td><td><span class="pill ${/go_khoi_web|sua|thay|doi_tieu|doi_ngay/.test(c.kind)?"bad":"warn"}">${esc(c.label)}</span>${c.detail?`<span class="sub">${esc(c.detail)}</span>`:""}</td><td>${prev}</td></tr>`;
     }));
     $("feed").innerHTML = h;
@@ -709,12 +704,12 @@ html.embed footer.pg{display:none}
   function auditNumbering(){
     const L = A.numbering || [];
     $("vtitle").textContent = "Số hiệu nghị quyết HĐQT"; $("cnt").textContent = L.reduce((s,y)=>s+y.count,0);
-    let h = `<div class="note"><p>Script thu thập số hiệu nghị quyết HĐQT xuất hiện trong tiêu đề hoặc nội dung văn bản đã công bố (website và HOSE), rồi liệt kê các số chưa thấy giữa số nhỏ nhất và lớn nhất của từng năm. Các số có hậu tố chữ (114A, 115B…) được tính chung vào số gốc.</p>
+    let h = `<div class="note"><p>Số hiệu nghị quyết HĐQT được tổng hợp từ tiêu đề và nội dung văn bản đã công bố (website và HOSE); các số chưa thấy giữa số nhỏ nhất và lớn nhất của từng năm được liệt kê bên dưới. Các số có hậu tố chữ (114A, 115B…) được tính chung vào số gốc.</p>
       <p>Không phải nghị quyết nào cũng thuộc diện công bố thông tin. Danh sách “chưa thấy” dùng để đối chiếu với sổ nghị quyết nội bộ, không phải kết luận thiếu công bố.</p></div>`;
     h += L.map(y => `<div class="yearcard"><h3>Năm ${y.year}</h3>
       ${y.enough ? `<p>Thấy <b>${y.count}</b> số hiệu trong khoảng ${y.min}–${y.max}. Chưa thấy công bố: <b>${y.missing.length}</b> số.</p>
       <div>${y.missing_ranges.map(([a,b]) => `<span class="gap">${a === b ? a : a + "–" + b}</span>`).join("") || "<i>Không có khoảng trống.</i>"}</div>`
-      : `<p>Chỉ thấy <b>${y.count}</b> số hiệu (${y.min}–${y.max}): không đủ dữ liệu để liệt kê khoảng trống. Các năm trước thường ghi số hiệu khác định dạng nên script không nhận ra.</p>`}
+      : `<p>Chỉ thấy <b>${y.count}</b> số hiệu (${y.min}–${y.max}): không đủ dữ liệu để liệt kê khoảng trống. Các năm trước thường ghi số hiệu theo định dạng khác nên chưa nhận diện được.</p>`}
       <div class="numgrid">${y.items.map(it => `<a class="num ${it.docs.every(d=>d.where==="hose")?"h":""}" href="${esc(it.docs[0].url)}" target="_blank" rel="noopener" title="${esc(it.docs.map(d=>fmtD(d.date)+" · "+d.title).join("\n"))}">${esc(it.number)}</a>`).join("")}</div>
     </div>`).join("") || `<div class="empty" style="margin-top:14px">Chưa thu thập được số hiệu nào.</div>`;
     $("feed").innerHTML = h;
@@ -727,7 +722,7 @@ html.embed footer.pg{display:none}
     $("vtitle").textContent = "Lịch công bố thông tin định kỳ"; $("cnt").textContent = L.length;
     const ST = { on_time:["ok","Đúng hạn"], late:["bad","Công bố sau hạn"], missing:["bad","Quá hạn, chưa thấy"], pending:["warn","Chưa đến hạn"] };
     let h = `<div class="note"><p>Thời hạn theo Thông tư 96/2020/TT-BTC (Điều 10, 14, 22): báo cáo tài chính quý 20 ngày sau khi kết thúc quý; bán niên đã soát xét tối đa 45 ngày; năm đã kiểm toán tối đa 90 ngày; báo cáo thường niên tối đa 110 ngày; báo cáo tình hình quản trị 30 ngày; báo cáo tỷ lệ an toàn tài chính công bố cùng lúc với báo cáo tài chính bán niên và năm. Cần đối chiếu sửa đổi tại Thông tư 68/2024/TT-BTC và 08/2026/TT-BTC.</p>
-      <p>Script tìm văn bản khớp theo tiêu đề trên website và HOSE, lấy ngày đăng sớm nhất. “Quá hạn, chưa thấy” có thể do tiêu đề đặt khác thông lệ; cần kiểm tra thủ công trước khi kết luận.</p></div>`;
+      <p>Văn bản được khớp theo tiêu đề trên website và HOSE, lấy theo ngày đăng sớm nhất. “Quá hạn, chưa thấy” có thể do tiêu đề đặt khác thông lệ; cần kiểm tra thủ công trước khi kết luận.</p></div>`;
     h += table(["Báo cáo","Hạn công bố","Trạng thái","Văn bản tìm thấy"], L.map(r => {
       const [cls, lab] = ST[r.status];
       return `<tr><td>${esc(r.name)}<span class="sub">Kỳ kết thúc ${fmtD(r.period_end)}</span></td><td class="t">${dtt(r.deadline)}</td><td><span class="pill ${cls}">${lab}${r.status==="late"?` ${r.late_days} ngày`:""}</span></td>
