@@ -1,20 +1,25 @@
-# Chạy script 30 phút/lần từ 07:00 đến 17:30 giờ Việt Nam (00:00–10:30 UTC). Không dùng AI.
-# Lịch GitHub hay trễ hoặc bỏ lượt nên chạy dày để lịch Claude (08:00, 11:00, 13:00, 16:00) luôn có dữ liệu mới.
+# Cập nhật Bản tin LPS bằng script, không dùng AI.
+# Lịch cron của GitHub trễ hoặc bỏ lượt rất nhiều với kho này (ngày 26/10 chỉ chạy 1/22 lượt),
+# nên mỗi lượt chạy xong sẽ TỰ HẸN lượt kế tiếp: chờ đến mốc :00 hoặc :30 kế tiếp trong khung
+# 07:00–17:30 giờ Việt Nam rồi tự kích hoạt lại (workflow_dispatch). Ngoài giờ, chờ tối đa 5 giờ
+# mỗi lượt để nối sang sáng hôm sau. Cron bên dưới chỉ là dự phòng để khởi động lại chuỗi nếu bị đứt.
 # Kho công khai nên GitHub Actions không tính phút.
 name: Cap nhat Ban tin LPS
 on:
   schedule:
     - cron: "*/30 0-10 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: ban-tin-lps
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,15 +27,40 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Chay script cap nhat
+        timeout-minutes: 60
+        continue-on-error: true
         run: python update_lps.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # để lưu bản sao tệp PDF vào mục Releases của kho
       - name: Lap danh sach tep can chuyen ve may co quan
+        continue-on-error: true
         run: python deliver.py --list-only --days 3 --out giao
       - name: Luu ket qua
+        continue-on-error: true
         run: |
           git config user.name "ban-tin-lps-bot"
           git config user.email "ban-tin-lps-bot@users.noreply.github.com"
           git add -A lps_db.json ban-tin-lps.html logo_lps.png giao
           git diff --cached --quiet || git commit -m "Cap nhat ban tin $(TZ=Asia/Ho_Chi_Minh date +'%Y-%m-%d %H:%M')"
-          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 5; done
+          ok=0; for i in 1 2 3; do git pull --rebase -q && git push && { ok=1; break; }; sleep 5; done
+          [ $ok = 1 ] || { echo "Không push được"; exit 1; }
+      - name: Hen luot chay ke tiep
+        if: always()
+        timeout-minutes: 310
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          secs=$(python3 - <<'EOF'
+          from datetime import datetime, timedelta, timezone
+          vn = timezone(timedelta(hours=7))
+          now = datetime.now(vn)
+          t = now.replace(second=0, microsecond=0) + timedelta(minutes=1)
+          while t.minute not in (0, 30) or not (7 <= t.hour <= 17):
+              t += timedelta(minutes=1)
+          wait = (t - now).total_seconds()
+          print(int(min(wait, 5 * 3600)))
+          EOF
+          )
+          echo "Chờ $secs giây rồi kích hoạt lượt kế tiếp"
+          sleep "$secs"
+          gh workflow run update.yml -R "$GITHUB_REPOSITORY" --ref main || gh api -X POST "repos/$GITHUB_REPOSITORY/actions/workflows/update.yml/dispatches" -f ref=main
