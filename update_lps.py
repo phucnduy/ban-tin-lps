@@ -790,6 +790,7 @@ def empty_db():
 def load_db():
     if DB_FILE.exists():
         db = json.loads(DB_FILE.read_text(encoding="utf-8"))
+        db["meta"]["update_schedule"] = empty_db()["meta"]["update_schedule"]
         db["news"] = [x for x in db["news"] if x.get("via") == "lpbs" or not EXCLUDE_RE.search(x["title"])]
         return db
     db = empty_db()
