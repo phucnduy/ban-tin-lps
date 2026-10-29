@@ -1,18 +1,42 @@
 {
- "generated": "2026-10-29T15:01+07:00",
+ "generated": "2026-10-29T15:31+07:00",
  "since": "2026-10-27",
- "documents": 0,
- "files": 1,
+ "documents": 2,
+ "files": 5,
  "batches": [
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2094986,
+    "size": 2099939,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
+    "sha256": null
+   },
+   {
+    "rel": "Công bố thông tin\\2026-10-29\\20261029 - CTCB2618 - CBTT Dieu chinh chung quyen_signed.pdf",
+    "size": 1520060,
+    "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20CTCB2618%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
+    "sha256": "0d4f0c5eaa7f3ef0a9442e3f2d972349ba84fe4dd5c5fdb3e85b16f1b599b68e"
+   },
+   {
+    "rel": "Công bố thông tin\\2026-10-29\\20261029 - CTCB2619 - CBTT Dieu chinh chung quyen_signed.pdf",
+    "size": 1522382,
+    "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20CTCB2619%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
+    "sha256": "a100a82a05d96c535abeaab913c11136cf88dd605c6ea70c3f84425bf82ca250"
+   },
+   {
+    "rel": "Công bố thông tin\\2026-10-29\\20261029 - LPS - CBTT GCN cung cap dich vu bu tru, thanh toan_signed.pdf",
+    "size": 1870953,
+    "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20LPS%20-%20CBTT%20GCN%20cung%20cap%20dich%20vu%20bu%20tru%2C%20thanh%20toan_signed.pdf",
+    "sha256": "4b79e80409319af4635ca81b26d25ace3051db7dbb1d7c41a3082c8d49cbd648"
+   },
+   {
+    "rel": "Công bố thông tin\\2026-10-29\\_Danh sách văn bản.html",
+    "size": 3515,
+    "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-10-29/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
     "sha256": null
    }
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-10-29T15:01+07:00"
+ "db_last_updated": "2026-10-29T15:31+07:00"
 }
