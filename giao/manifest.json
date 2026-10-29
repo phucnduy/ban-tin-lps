@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T15:31+07:00",
+ "generated": "2026-10-29T16:01+07:00",
  "since": "2026-10-27",
  "documents": 2,
  "files": 5,
@@ -7,7 +7,7 @@
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2099939,
+    "size": 2133882,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
     "sha256": null
    },
@@ -31,12 +31,12 @@
    },
    {
     "rel": "Công bố thông tin\\2026-10-29\\_Danh sách văn bản.html",
-    "size": 3515,
+    "size": 3516,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-10-29/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
     "sha256": null
    }
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-10-29T15:31+07:00"
+ "db_last_updated": "2026-10-29T16:01+07:00"
 }
