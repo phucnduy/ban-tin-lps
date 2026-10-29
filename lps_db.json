@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-10-29T16:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 4 tin bên liên quan, 46 thay đổi văn bản",
+  "last_updated": "2026-10-29T17:01+07:00",
+  "last_result": "0 văn bản mới, 1 tin mới, 0 tin HOSE mới, 2 tin bên liên quan, 46 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -699,7 +699,11 @@
    "https://cafef.vn/cong-nghiep-luong-dung-tu-thuong-mai-hoa-den-lam-chu-cong-nghe-chien-luoc-188261029123248141.chn": "2026-10-29",
    "https://cafef.vn/techcombank-bo-nhiem-them-nu-pho-tong-giam-doc-188261029153155718.chn": "2026-10-29",
    "https://cafef.vn/chu-tich-abbank-vu-van-tien-ke-chuyen-chon-nganh-lam-lanh-dao-tai-dai-hoc-kinh-te-quoc-dan-va-loi-nhan-den-the-he-tre-phai-quyet-liet-len-mau-lua-len-188261029152545968.chn": "2026-10-29",
-   "https://vneconomy.vn/blog-chung-khoan-cau-lai-rut-lui.htm": "2026-10-29"
+   "https://vneconomy.vn/blog-chung-khoan-cau-lai-rut-lui.htm": "2026-10-29",
+   "https://cafef.vn/doanh-thu-lap-ky-luc-2300-ty-dong-co-phieu-cong-ty-quan-doi-van-lao-doc-21-mat-hon-1500-ty-von-hoa-188261029152131091.chn": "2026-10-29",
+   "http://vietstock.vn/2026/10/ton-kho-idico-lap-ky-luc-loi-nhuan-quy-3-giam-41-737-1508462.htm": "2026-10-29",
+   "http://vietstock.vn/2026/10/viglacera-lai-quy-3-tang-hon-400-ton-kho-ky-luc-vuot-10-ngan-ty-737-1508421.htm": "2026-10-29",
+   "https://www.tinnhanhchungkhoan.vn/ap-luc-ban-gia-tang-vn-index-giam-hon-11-diem-post400437.html": "2026-10-29"
   }
  },
  "news": [
@@ -4540,6 +4544,18 @@
    "excerpt_origin": "body",
    "via": "rss",
    "mention_only": true
+  },
+  {
+   "id": "news-99fa4b74c37f",
+   "title": "Áp lực bán gia tăng, VN-Index giảm hơn 11 điểm",
+   "url": "https://www.tinnhanhchungkhoan.vn/ap-luc-ban-gia-tang-vn-index-giam-hon-11-diem-post400437.html",
+   "source": "tinnhanhchungkhoan.vn",
+   "published": "2026-10-29T16:26+07:00",
+   "date_precision": "minute",
+   "excerpt": "Nhóm cổ phiếu chứng khoán tiếp tục đi lùi khi toàn ngành chỉ còn VND tăng 1,1%, cùng AGR và VPX nhích nhẹ, còn lại phần lớn đều điều chỉnh, với TCX giảm 2,3%, HCM và LPS giảm gần 2%... Cổ phiếu giao dịch sôi động nhất ngành là VIX khớp 23 triệu đơn vị, cũng rung lắc và kết phiên giảm nhẹ 0,4%; SSI giảm 0,8% và khớp 13,78 triệu đơn vị.",
+   "excerpt_origin": "body",
+   "via": "rss",
+   "mention_only": true
   }
  ],
  "cbtt": [
@@ -4573,7 +4589,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -4591,7 +4607,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -4611,6 +4627,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4623,7 +4645,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -4643,6 +4665,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4655,7 +4683,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -4673,7 +4701,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -4691,7 +4719,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -4711,6 +4739,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4723,7 +4757,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -4741,7 +4775,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -4761,6 +4795,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4773,7 +4813,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -4793,6 +4833,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4805,7 +4851,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -4825,6 +4871,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4837,7 +4889,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -4855,7 +4907,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -4875,6 +4927,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4887,7 +4945,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -4916,7 +4974,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -4934,7 +4992,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -4954,6 +5012,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -4966,7 +5030,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -4984,7 +5048,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -5004,6 +5068,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5016,7 +5086,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -5036,6 +5106,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5048,7 +5124,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -5068,6 +5144,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5080,7 +5162,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -5100,6 +5182,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5112,7 +5200,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -5132,6 +5220,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5144,7 +5238,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -5162,7 +5256,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -5182,6 +5276,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5194,7 +5294,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -5212,7 +5312,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -5230,7 +5330,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -5259,7 +5359,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -5276,6 +5376,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -5322,7 +5428,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -5342,6 +5448,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5354,7 +5466,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -5372,7 +5484,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -5390,7 +5502,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -5408,7 +5520,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
@@ -5426,7 +5538,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
@@ -5446,6 +5558,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5458,7 +5576,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
@@ -5475,6 +5593,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -5501,7 +5625,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
@@ -5518,6 +5642,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -5574,7 +5704,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
@@ -5594,6 +5724,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5606,7 +5742,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
@@ -5624,7 +5760,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
@@ -5644,6 +5780,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5656,7 +5798,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
@@ -5673,6 +5815,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -5699,7 +5847,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
@@ -5728,7 +5876,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
@@ -5757,7 +5905,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
@@ -5775,7 +5923,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
@@ -5795,6 +5943,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5807,7 +5961,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
@@ -5825,7 +5979,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
@@ -5845,6 +5999,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5857,7 +6017,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
@@ -5877,6 +6037,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5889,7 +6055,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
@@ -5907,7 +6073,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
@@ -5924,6 +6090,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -5950,7 +6122,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
@@ -5970,6 +6142,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -5982,7 +6160,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "fd5b9cf02da571f1",
@@ -6000,7 +6178,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b675872c7a30dafa",
@@ -6018,7 +6196,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "6a08f5c23c167d65",
@@ -6035,6 +6213,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -6061,7 +6245,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "6a1f515c9b003e5e",
     "body": "1a007f48e9dec93b",
@@ -6090,7 +6274,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "46235d898d95f367",
     "body": "4b54b90d98db66a4",
@@ -6110,6 +6294,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6122,7 +6312,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "311f415837fd9720",
@@ -6140,7 +6330,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "5b9eaabda90c0763",
@@ -6160,6 +6350,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6172,7 +6368,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "42078ea48dca413a",
@@ -6190,7 +6386,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "286146af1fbebd16",
@@ -6208,7 +6404,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43f19b8bbef669c5",
@@ -6228,6 +6424,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6240,7 +6442,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "11bcb15b783d7836",
@@ -6269,7 +6471,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "ff4d1a38aac741a1",
     "body": "5fbe5f20d03a2fb9",
@@ -6286,6 +6488,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -6782,7 +6990,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "32c87a8e0ba70448",
     "body": "644cf691db92a4c7",
@@ -6802,6 +7010,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6814,7 +7028,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c2e7fa47058b0479",
@@ -6834,6 +7048,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6846,7 +7066,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4ee7897b57f7e1a5",
@@ -6864,7 +7084,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "d7be12cb5738aba1",
@@ -6882,7 +7102,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "269b24b66cd6ff81",
@@ -6902,6 +7122,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6914,7 +7140,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "88a0d86faed82fce",
@@ -6932,7 +7158,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1dfdda738fb0f889",
@@ -6950,7 +7176,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "39efc48ba784074d",
@@ -6970,6 +7196,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -6982,7 +7214,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "262b7e7d060478d3",
@@ -6999,6 +7231,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -7025,7 +7263,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "29612cfa4466b320",
     "body": "999bb343affa64db",
@@ -7045,6 +7283,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -7057,7 +7301,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8a4e1ca4869e3789",
@@ -7077,6 +7321,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
     }
    ]
   },
@@ -7089,7 +7339,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fb38eb4fcf32a69b",
@@ -7107,7 +7357,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7f343194f5388f2d",
@@ -7124,6 +7374,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -7160,7 +7416,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "7ecb94a55e2b0d0d",
     "body": "255fca2d813169b3",
@@ -7178,7 +7434,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "4c099fdbaf240824",
@@ -7195,6 +7451,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -7241,7 +7503,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "dfe30ddb8a5a239b",
     "body": "32b2b7b0a555b221",
@@ -7270,7 +7532,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "47dddbe9752fac2a",
     "body": "9b2d8d14792ab6db",
@@ -7287,6 +7549,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -7313,7 +7581,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "b4c1d3dd87d08af4",
     "body": "93d35671da836ca9",
@@ -7330,6 +7598,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -26936,7 +27210,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -26953,6 +27227,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -31704,7 +31984,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "cbfde550a192bc38",
     "body": "39eb5d9732ced56b",
@@ -31721,6 +32001,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -32296,7 +32582,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -32325,7 +32611,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-10-29T16:30+07:00",
+   "checked": "2026-10-29T17:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -32342,6 +32628,12 @@
     },
     {
      "at": "2026-10-29T16:30+07:00",
+     "kind": "khoi_phuc",
+     "label": "Văn bản xuất hiện trở lại",
+     "detail": ""
+    },
+    {
+     "at": "2026-10-29T17:00+07:00",
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
@@ -35108,6 +35400,22 @@
    "date_precision": "minute",
    "excerpt": "Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam thông báo về việc chấp thuận thay đổi địa điểm đặt trụ sở Phòng Giao dịch như sau:",
    "excerpt_origin": "hose"
+  },
+  {
+   "id": "rel-cb1e663075cc",
+   "party": "STB",
+   "kind": "news",
+   "title": "SACOMBANK (STB) hoàn thành gần 73% kế hoạch lợi nhuận trước thuế cả năm sau 9 tháng",
+   "url": "https://www.tinnhanhchungkhoan.vn/sacombank-stb-hoan-thanh-gan-73-ke-hoach-loi-nhuan-truoc-thue-ca-nam-sau-9-thang-post400326.html",
+   "source": "tinnhanhchungkhoan.vn",
+   "source_name": "Tin nhanh chứng khoán",
+   "published": "2026-10-29T16:32+07:00",
+   "date_precision": "minute",
+   "excerpt": "(ĐTCK) Ngân hàng TMCP Sài Gòn Tài Lộc (SACOMBANK, mã STB - sàn HOSE) vừa công bố báo cáo tài chính hợp nhất quý III/2026, với lợi nhuận trước thuế 9 tháng đạt 5.893 tỷ đồng, hoàn thành gần 73% kế hoạch năm.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVUlyVkg1amxOSVYwSzlNeGJvMU9hRm5mcWRDVm5mWkdCelRHdmhpNHZuUi1JMG5TMmZHT3R5d3lQRm01ZWtGUUVxdE1Iendoc2prdC04R0N1cDR4Q3ItcExEYzQtcHVna0ZULVdqTmp1Z3ZWVnNwNG5BMWU1ZnhwaUFBTTM1Nll1OVBNMzBKcHBWWTVHcDBqSkhReXFaNVAxRlI4X0pXUERtaTRZYmYtYUtZZDJSeG1oalY5bTI1bFNXLUMtVjBWZHV30gHGAUFVX3lxTE85aWUzQ1FTXzIxT013R2Y4MUI5LXlaQXpqdTdkWWR6OXJmU0xYUUVwV0FMWlJzX1Q2Z0xRTVctdTJKbVlYNWxDbWVhR180VWlpZENobktGQW5PZjdHcjR2N2xaQjFteVJNbm1nN2g4VHdTVmNReXI4QVZLU1Zhc0g2dVRxek4wQjFtaFFYTC1BdC1XcWNVZjRuYWNXbVd2V1ZDSTRZT2VlX3VTcGVwRGVFeEY5RDY4Z2xfTXZfNDhFTVF6NEZOQQ?oc=5",
+   "meta_tried": true
   },
   {
    "id": "rel-74e770665a63",
