@@ -1,15 +1,21 @@
 {
- "generated": "2026-10-30T14:01+07:00",
+ "generated": "2026-10-30T14:31+07:00",
  "since": "2026-10-28",
- "documents": 2,
- "files": 5,
+ "documents": 3,
+ "files": 7,
  "batches": [
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2631621,
+    "size": 2634612,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
     "sha256": null
+   },
+   {
+    "rel": "Công bố thông tin\\2026-10-30\\20261030 - LPS - NQ sua doi, bo sung Phuong an phat hanh trai phieu ra cong chung nam 2026_signed.pdf",
+    "size": 5047835,
+    "url": "https://www.lpbs.com.vn/upload/files/20261030%20-%20LPS%20-%20NQ%20sua%20doi%2C%20bo%20sung%20Phuong%20an%20phat%20hanh%20trai%20phieu%20ra%20cong%20chung%20nam%202026_signed.pdf",
+    "sha256": "a91a12970baa25a595f410627929284f1b61c7d12c0b7ec11c2c10cb918c5641"
    },
    {
     "rel": "Công bố thông tin\\2026-10-29\\20261029 - CTCB2618 - CBTT Dieu chinh chung quyen_signed.pdf",
@@ -30,6 +36,12 @@
     "sha256": "4b79e80409319af4635ca81b26d25ace3051db7dbb1d7c41a3082c8d49cbd648"
    },
    {
+    "rel": "Công bố thông tin\\2026-10-30\\_Danh sách văn bản.html",
+    "size": 2015,
+    "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-10-30/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
+    "sha256": null
+   },
+   {
     "rel": "Công bố thông tin\\2026-10-29\\_Danh sách văn bản.html",
     "size": 3515,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-10-29/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
@@ -38,5 +50,5 @@
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-10-30T14:01+07:00"
+ "db_last_updated": "2026-10-30T14:31+07:00"
 }
