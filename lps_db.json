@@ -12,7 +12,7 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-01T23:31+07:00",
+  "last_updated": "2026-11-02T00:05+07:00",
   "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 1 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [],
-  "last_full_verify": "2026-11-01",
+  "last_full_verify": "2026-11-02",
   "rss_body_checked": {
    "https://cafef.vn/cuu-pho-thu-tuong-duc-lam-lanh-dao-cap-cao-cong-ty-chung-khoan-viet-188261027091540627.chn": "2026-10-27",
    "https://cafef.vn/gan-300-nhan-vien-tai-mot-cong-ty-chung-khoan-nghi-viec-trong-quy-3-188261027003507821.chn": "2026-10-27",
@@ -1062,7 +1062,12 @@
    "https://cafef.vn/nhung-ga-khong-lo-cong-nghe-dang-lam-giau-cho-dai-gia-kcn-dang-thanh-tam-188261101213702306.chn": "2026-11-01",
    "https://cafef.vn/huy-dong-2571-nguoi-27-xe-chua-chay-12-xe-cuu-thuong-6-robot-de-xu-ly-kich-ban-tham-hoa-tai-to-hop-hoa-dau-54-ty-usd-o-tphcm-188261101213557186.chn": "2026-11-01",
    "https://cafef.vn/tuan-toi-vn-index-co-the-tro-lai-nguong-1760-1770-diem-188261101221824447.chn": "2026-11-01",
-   "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn": "2026-11-01"
+   "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn": "2026-11-01",
+   "https://cafef.vn/chuyen-gia-chi-ten-nhom-co-phieu-dang-o-chan-song-co-co-hoi-but-pha-cuoi-nam-188261101181828709.chn": "2026-11-02",
+   "https://cafef.vn/mot-dai-gia-chuan-bi-lan-chot-co-tuc-hon-50-bang-tien-mat-du-chi-gan-7000-ty-dong-188261101215317881.chn": "2026-11-02",
+   "https://cafef.vn/nhung-ngoi-sao-mot-thoi-tren-san-chung-khoan-tu-vi-the-cu-om-la-thang-den-chia-3-chia-5-tu-dinh-188261101230807928.chn": "2026-11-02",
+   "https://cafef.vn/bi-mat-sau-nhung-to-co-phan-e-va-hanh-trinh-26-nam-cua-hai-co-phieu-dau-tien-tren-san-chung-khoan-188261101105644903.chn": "2026-11-02",
+   "https://cafef.vn/ty-phu-nguyen-thi-phuong-thao-dang-ky-tai-tro-50000-ty-dong-vinacapital-tinh-huy-dong-200-trieu-usd-nong-cuoc-dua-tai-thap-99-tang-cao-497m-o-thu-thiem-188261101221335781.chn": "2026-11-02"
   }
  },
  "news": [
@@ -5056,7 +5061,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -5074,7 +5079,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -5196,7 +5201,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -5318,7 +5323,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -5336,7 +5341,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -5354,7 +5359,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -5476,7 +5481,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -5494,7 +5499,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -5616,7 +5621,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -5738,7 +5743,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -5860,7 +5865,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -5878,7 +5883,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6000,7 +6005,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6029,7 +6034,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6047,7 +6052,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6169,7 +6174,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6187,7 +6192,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6309,7 +6314,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6431,7 +6436,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6553,7 +6558,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6675,7 +6680,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6797,7 +6802,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6815,7 +6820,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -6937,7 +6942,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -6955,7 +6960,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -6973,7 +6978,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -7002,7 +7007,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -7155,7 +7160,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -7277,7 +7282,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -7295,7 +7300,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -7313,7 +7318,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -7331,7 +7336,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
@@ -7349,7 +7354,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
@@ -7471,7 +7476,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
@@ -7604,7 +7609,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
@@ -7767,7 +7772,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
@@ -7889,7 +7894,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
@@ -7907,7 +7912,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
@@ -8029,7 +8034,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
@@ -8162,7 +8167,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
@@ -8191,7 +8196,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
@@ -8220,7 +8225,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
@@ -8238,7 +8243,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
@@ -8360,7 +8365,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
@@ -8378,7 +8383,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
@@ -8500,7 +8505,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
@@ -8622,7 +8627,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
@@ -8640,7 +8645,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
@@ -8773,7 +8778,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
@@ -8895,7 +8900,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "fd5b9cf02da571f1",
@@ -8913,7 +8918,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b675872c7a30dafa",
@@ -8931,7 +8936,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "6a08f5c23c167d65",
@@ -9064,7 +9069,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6a1f515c9b003e5e",
     "body": "1a007f48e9dec93b",
@@ -9093,7 +9098,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46235d898d95f367",
     "body": "4b54b90d98db66a4",
@@ -9215,7 +9220,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "311f415837fd9720",
@@ -9233,7 +9238,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "5b9eaabda90c0763",
@@ -9355,7 +9360,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "42078ea48dca413a",
@@ -9373,7 +9378,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "286146af1fbebd16",
@@ -9391,7 +9396,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43f19b8bbef669c5",
@@ -9513,7 +9518,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "11bcb15b783d7836",
@@ -9542,7 +9547,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ff4d1a38aac741a1",
     "body": "5fbe5f20d03a2fb9",
@@ -10145,7 +10150,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "32c87a8e0ba70448",
     "body": "644cf691db92a4c7",
@@ -10267,7 +10272,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c2e7fa47058b0479",
@@ -10389,7 +10394,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4ee7897b57f7e1a5",
@@ -10407,7 +10412,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "d7be12cb5738aba1",
@@ -10425,7 +10430,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "269b24b66cd6ff81",
@@ -10547,7 +10552,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "88a0d86faed82fce",
@@ -10565,7 +10570,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1dfdda738fb0f889",
@@ -10583,7 +10588,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "39efc48ba784074d",
@@ -10705,7 +10710,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "262b7e7d060478d3",
@@ -10838,7 +10843,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "29612cfa4466b320",
     "body": "999bb343affa64db",
@@ -10960,7 +10965,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8a4e1ca4869e3789",
@@ -11082,7 +11087,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fb38eb4fcf32a69b",
@@ -11100,7 +11105,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7f343194f5388f2d",
@@ -11243,7 +11248,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7ecb94a55e2b0d0d",
     "body": "255fca2d813169b3",
@@ -11261,7 +11266,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "4c099fdbaf240824",
@@ -11414,7 +11419,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "dfe30ddb8a5a239b",
     "body": "32b2b7b0a555b221",
@@ -11443,7 +11448,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "47dddbe9752fac2a",
     "body": "9b2d8d14792ab6db",
@@ -11576,7 +11581,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b4c1d3dd87d08af4",
     "body": "93d35671da836ca9",
@@ -11709,7 +11714,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "aa62ff98a720fa38",
     "body": "1430054e27f27058",
@@ -11788,7 +11793,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1546257c6a8446cb",
     "body": "3d286363196e7af7",
@@ -11817,7 +11822,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6b8a2051f9300e3b",
     "body": "542595d0ddd8673f",
@@ -11846,7 +11851,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3fc07e757d889453",
     "body": "96ef5317b9c2fc08",
@@ -11875,7 +11880,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2b72258bfd31faa6",
     "body": "5db23022d8105f72",
@@ -11904,7 +11909,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9463b0328cdc3ccb",
     "body": "366cdc7f18fb78ba",
@@ -11963,7 +11968,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "34317fb549267647",
     "body": "9220137e4543adc9",
@@ -12312,7 +12317,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "690cc5df4c821cca",
     "body": "cd371b7c7b65afe7",
@@ -12351,7 +12356,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2febea58fdfca849",
     "body": "f0e487a57f0696a9",
@@ -13040,7 +13045,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b02886636d723ef9",
     "body": "a15c8c5e85010794",
@@ -13079,7 +13084,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d40ca2bfcd9fdb5",
     "body": "740314a57fc72eb0",
@@ -13118,7 +13123,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "40dbe0e9d2e418e2",
     "body": "21c92f5d50b28040",
@@ -13155,7 +13160,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "228fc21b25e68eb1",
     "body": "9a4e2d4cefe0b1d4",
@@ -13192,7 +13197,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5ed5c9d8611cca61",
     "body": "fecf507b90432681",
@@ -13221,7 +13226,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bd6a237644ae818b",
     "body": "645d469bfda71472",
@@ -13260,7 +13265,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f76d5767a05bcaaa",
     "body": "2fc5e4cffac8522f",
@@ -13289,7 +13294,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e9aeeeb762dc0014",
     "body": "dd99fe77bd4a7df2",
@@ -13307,7 +13312,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8793c9c7babd0ee0",
     "body": "d40d0e77f2cb69dc",
@@ -13325,7 +13330,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8793c9c7babd0ee0",
     "body": "e6c756055f4d9ed8",
@@ -13774,7 +13779,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f115e6798a5def02",
     "body": "2823efab80a6ae2c",
@@ -13803,7 +13808,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b266fe44b28d0be8",
     "body": "563a2809ababa159",
@@ -13832,7 +13837,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "765456e8281fbb00",
     "body": "5f61a4f01d34d47c",
@@ -13850,7 +13855,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "076a8a66c8851cfd",
@@ -13868,7 +13873,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8793c9c7babd0ee0",
     "body": "51238887ccb928e7",
@@ -13897,7 +13902,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d9c213af4630627",
     "body": "131bd519a190cfda",
@@ -13926,7 +13931,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9baf045f636816d7",
     "body": "08e283e62959b92a",
@@ -13955,7 +13960,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "881e5b9ec6e065db",
     "body": "182831109dc08788",
@@ -13984,7 +13989,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d40ca2bfcd9fdb5",
     "body": "65f873cbfb1a7bba",
@@ -14013,7 +14018,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "69bb06f366016623",
     "body": "9f575d39b13e7653",
@@ -14031,7 +14036,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "b60e3799f5b485be",
@@ -14060,7 +14065,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a3454c07116d3cff",
     "body": "36b82cc6a488e975",
@@ -14089,7 +14094,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b89ac6b70966616e",
     "body": "53a3cd784c8839bb",
@@ -14118,7 +14123,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6831f483e001c8b4",
     "body": "fb936c5eba0d0b0a",
@@ -14147,7 +14152,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3fd34fb2eed46de5",
     "body": "31ad5c5377215ae0",
@@ -14165,7 +14170,7 @@
    "files": [],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4b2638c5e4f400a3",
     "body": "1be5036f921fc1f0",
@@ -14194,7 +14199,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "40dbe0e9d2e418e2",
     "body": "55fe6d6cdbfe724c",
@@ -14223,7 +14228,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "34317fb549267647",
     "body": "ab509b3c38f52dfe",
@@ -14252,7 +14257,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "37a6269534c9c740",
     "body": "0524bb133355db5e",
@@ -14280,7 +14285,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "705b88c019fd1423",
     "body": "1aa60c5690bfe671",
@@ -14309,7 +14314,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "512a09c2fbf42561",
     "body": "78272be3015ae463",
@@ -14338,7 +14343,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d77bca860f4c4fa",
     "body": "2f9c815fe6062041",
@@ -14367,7 +14372,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ad2d7b3d9f971d1d",
     "body": "480a5221f552f83b",
@@ -14396,7 +14401,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f6313cc4fc119482",
     "body": "14abdf3214aaa8c3",
@@ -14425,7 +14430,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "339099f18b7e7dc3",
     "body": "13ea146c673e77ae",
@@ -14454,7 +14459,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9a45589ce6b34baf",
     "body": "dae8d1d210ab73a4",
@@ -14483,7 +14488,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "80bdf9954dbc92fa",
     "body": "5044f1af1648889a",
@@ -14512,7 +14517,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "41fe84d4744090f0",
     "body": "7ab1d608ba38cb2b",
@@ -14541,7 +14546,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a2301eae93045590",
     "body": "d8dd9835689b9f93",
@@ -14574,7 +14579,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ec28e2be8003f575",
     "body": "0b8cdbaaf2867464",
@@ -14693,7 +14698,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "51a77ad85ed83e5f",
     "body": "816f7465e8a0deab",
@@ -14722,7 +14727,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "03ca6b5995dd1afc",
     "body": "3ae3e6a3f619d4cf",
@@ -14751,7 +14756,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "755c5497a0d74e72",
     "body": "c9510cd892b8b7c8",
@@ -14780,7 +14785,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "49ca5699744e7dc2",
     "body": "0dbf206f95598dd1",
@@ -14809,7 +14814,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "40fdf01bcb6766f6",
     "body": "6ac464d7279127b5",
@@ -14838,7 +14843,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c9c194cf0c50069f",
     "body": "75088353414740b5",
@@ -14887,7 +14892,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e51cf23bf27c968a",
     "body": "2c8df90488a344b6",
@@ -14916,7 +14921,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "66d8a31d2e0cfc3e",
     "body": "0353edb33295fcd0",
@@ -14945,7 +14950,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "efb9fd232217e1b7",
     "body": "74beed7dc90d88f8",
@@ -15014,7 +15019,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "40456d1b7dee8af7",
     "body": "887a62b0e28a0d1d",
@@ -15043,7 +15048,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0edf454f168b597e",
     "body": "5acd360f37804944",
@@ -15072,7 +15077,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "460c5bb73afd61b2",
     "body": "53263d8d8370333f",
@@ -15101,7 +15106,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1a335c2b8443ac42",
     "body": "002c1e42ce43570a",
@@ -15130,7 +15135,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "39597f71cb4cf35d",
     "body": "c5536a034eb30d48",
@@ -15159,7 +15164,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "55c1a436bee85fbe",
     "body": "5577f8a98df0c49a",
@@ -15188,7 +15193,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "473934ae2aca7ea4",
     "body": "c3fccef696146c41",
@@ -15217,7 +15222,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "91a1ef3be2fb0c4d",
     "body": "9f92d9c8a7cdd81e",
@@ -15246,7 +15251,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "39597f71cb4cf35d",
     "body": "da4544345e683fa4",
@@ -15275,7 +15280,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "165dd68fccbe433b",
     "body": "ec5aa46a58530d23",
@@ -15304,7 +15309,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "758232a1f2b94a84",
     "body": "4db93e6ef625b4a3",
@@ -15483,7 +15488,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "396fa2582a537919",
     "body": "6137cccad8f2d6bd",
@@ -15512,7 +15517,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "577e987d197440a9",
     "body": "8d97110abdde8f55",
@@ -15541,7 +15546,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "460c5bb73afd61b2",
     "body": "be829cff9dec00d9",
@@ -15570,7 +15575,7 @@
    ],
    "fetched": "2026-10-24T15:29+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9416472794dd2377",
     "body": "63910002d284fbb8",
@@ -15599,7 +15604,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "13eb1523ce81ae99",
     "body": "d087f6dda9e3c46c",
@@ -15628,7 +15633,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "75e4b515efcfbf7c",
     "body": "913451b04d819942",
@@ -15657,7 +15662,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2102e515731beef8",
     "body": "630f9fe63458e3b3",
@@ -15686,7 +15691,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "41e49942cc018e1f",
     "body": "9e4d2f5b0861fbfe",
@@ -15715,7 +15720,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "05ed0109061e7d1b",
     "body": "75ea03da08fe273b",
@@ -15744,7 +15749,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a149e4110a6836e0",
     "body": "81adb8e2d2f8fb48",
@@ -15773,7 +15778,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "469fb4cbd79b8518",
     "body": "c030cf979802f216",
@@ -15802,7 +15807,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "24a44fc0ec7b51e4",
     "body": "0c6f7d0ca3826c44",
@@ -15881,7 +15886,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7613ab94004e78a2",
     "body": "9024f27660f73476",
@@ -15960,7 +15965,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b48cce8ed5c638cb",
     "body": "e2a68c1a426a3564",
@@ -15989,7 +15994,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b4ffb4bff123f6ee",
     "body": "ae35b10e87ba04a7",
@@ -16018,7 +16023,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "282b6b2adfff88df",
     "body": "fe22f3d0e0172c18",
@@ -16047,7 +16052,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "26a241c60be0e47e",
     "body": "26a241c60be0e47e",
@@ -16076,7 +16081,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7d31c92ced303e1b",
     "body": "e2e33dd414822f70",
@@ -16105,7 +16110,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0ddfc5d2eb64f722",
     "body": "e7427309a6aeff5c",
@@ -16314,7 +16319,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e1cf8cdbb1c1c981",
     "body": "cc0799bf134ccdd5",
@@ -16343,7 +16348,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2864610b07a56f4a",
     "body": "0b1129e60358341b",
@@ -16372,7 +16377,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "94d13d8860378f52",
     "body": "44ae0ecc4531e13d",
@@ -16401,7 +16406,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "475e835c3dfb1341",
     "body": "bbcdb2fbc330a9bf",
@@ -16430,7 +16435,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6f69a4db2438e187",
     "body": "f10633c208ea38ce",
@@ -16459,7 +16464,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d108bd7e27102304",
     "body": "2b8a5703902ecf4c",
@@ -16488,7 +16493,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c40e0a02cf930442",
     "body": "ec065368536755c9",
@@ -16517,7 +16522,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6e75b1fa253fe48a",
     "body": "6e75b1fa253fe48a",
@@ -16546,7 +16551,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "58f9bedb09838fe5",
     "body": "58f9bedb09838fe5",
@@ -16575,7 +16580,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bab5bb8acd74ff0c",
     "body": "d4fd6ec4617b45c6",
@@ -16604,7 +16609,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4104fad9063c1ae4",
     "body": "19ee637fb0d38a30",
@@ -16633,7 +16638,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3ace3bf1c4bf7009",
     "body": "f3fbb3bfa35ff83e",
@@ -16702,7 +16707,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5adbd5c6814b5db7",
     "body": "5a7baeed2f6cedf3",
@@ -16731,7 +16736,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "12b538e4f92019e0",
     "body": "12b538e4f92019e0",
@@ -16760,7 +16765,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3ace3bf1c4bf7009",
     "body": "e3c69c19581abfdb",
@@ -16789,7 +16794,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3ace3bf1c4bf7009",
     "body": "6e5e3db394fdfbc2",
@@ -16818,7 +16823,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1ae9ef52d7139e76",
     "body": "4d501511194ba355",
@@ -16847,7 +16852,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a38dc52533087571",
     "body": "a38dc52533087571",
@@ -16876,7 +16881,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46c441a3c73266d5",
     "body": "46c441a3c73266d5",
@@ -16905,7 +16910,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "98765f9145e06457",
     "body": "3fcb555a6a9d1033",
@@ -16934,7 +16939,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b29a3abc6e5f156b",
     "body": "af7a2d149fe1ee26",
@@ -17003,7 +17008,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8df99173414b1978",
     "body": "1521ef77e49c887f",
@@ -17152,7 +17157,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f8b719004697d044",
     "body": "6ae2839ce3143cd5",
@@ -17181,7 +17186,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d27db113c70a809",
     "body": "8061611c5155bab9",
@@ -17270,7 +17275,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2956320f75362335",
     "body": "7f23cf27fb54b238",
@@ -17299,7 +17304,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cf61e8cd2eec157e",
     "body": "5d3121e867ca9321",
@@ -17858,7 +17863,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "12d93b2974be2031",
     "body": "2bbe3428b7715d67",
@@ -17887,7 +17892,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "510c9b1d863336c3",
     "body": "510c9b1d863336c3",
@@ -17916,7 +17921,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5b6554008d4421b0",
     "body": "5b6554008d4421b0",
@@ -17944,7 +17949,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2ba82d72d6b1842e",
     "body": "2ba82d72d6b1842e",
@@ -17972,7 +17977,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "39597f71cb4cf35d",
     "body": "39597f71cb4cf35d",
@@ -18117,7 +18122,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1adaba9ecadfa30f",
     "body": "59404194fd5d245c",
@@ -18145,7 +18150,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "349a1117e83627da",
     "body": "349a1117e83627da",
@@ -18182,7 +18187,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c824bc882d00d701",
     "body": "6cd114cddc1e53ce",
@@ -18210,7 +18215,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bd034d0a474563d2",
     "body": "bd034d0a474563d2",
@@ -18238,7 +18243,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46285cc64edd609d",
     "body": "46285cc64edd609d",
@@ -18266,7 +18271,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "edc1d0468a705254",
     "body": "edc1d0468a705254",
@@ -18294,7 +18299,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "51c06f66c2a6d6ac",
     "body": "fd39889364df8736",
@@ -18322,7 +18327,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3c2285c9203c5605",
     "body": "3c2285c9203c5605",
@@ -18350,7 +18355,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "93fe60f29ed9f670",
     "body": "74ecfee7f1cb46d5",
@@ -18378,7 +18383,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8d8bb4a32aa1d332",
     "body": "db1e2d59a72e9751",
@@ -18406,7 +18411,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7b4363426256ef7a",
     "body": "54f94af5931348cc",
@@ -18434,7 +18439,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "66d064ae4c45fd76",
     "body": "aee26df5ca16d301",
@@ -18462,7 +18467,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5e1db8a645b16101",
     "body": "5e1db8a645b16101",
@@ -18490,7 +18495,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c9cc81ddd23172e0",
     "body": "c1ef1a9a01c81dd0",
@@ -18518,7 +18523,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b7fed0f06ee0efc4",
     "body": "790f271ecb79040d",
@@ -18546,7 +18551,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fdf1912125490d2d",
     "body": "fdf1912125490d2d",
@@ -18574,7 +18579,7 @@
    ],
    "fetched": "2026-10-24T15:30+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "70f48cd73becaa22",
     "body": "e86338b0598a631d",
@@ -18602,7 +18607,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9a7082644c0bcdbe",
     "body": "9a7082644c0bcdbe",
@@ -18630,7 +18635,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f7c4ff47c71dc3c9",
     "body": "f7c4ff47c71dc3c9",
@@ -18658,7 +18663,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "018f9af7ab72f000",
     "body": "018f9af7ab72f000",
@@ -18686,7 +18691,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a05ec703500fbc43",
     "body": "a05ec703500fbc43",
@@ -18714,7 +18719,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "98e2bf11c7d375ad",
     "body": "98e2bf11c7d375ad",
@@ -18742,7 +18747,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "66d064ae4c45fd76",
     "body": "66d064ae4c45fd76",
@@ -18770,7 +18775,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9c7389bae78838f1",
     "body": "9c7389bae78838f1",
@@ -18798,7 +18803,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8cba79289765fec1",
     "body": "8cba79289765fec1",
@@ -18826,7 +18831,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7a6b007bd24b93aa",
     "body": "7a6b007bd24b93aa",
@@ -18863,7 +18868,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "14685d474a0f9930",
     "body": "e6562970591911e7",
@@ -18891,7 +18896,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d505c4ea3c9a1ae8",
     "body": "d505c4ea3c9a1ae8",
@@ -18919,7 +18924,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "934cf2914aae9c9e",
     "body": "934cf2914aae9c9e",
@@ -18947,7 +18952,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2d4c4f226b92cfc4",
     "body": "2d4c4f226b92cfc4",
@@ -18975,7 +18980,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6885946e23259310",
     "body": "6885946e23259310",
@@ -19003,7 +19008,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "26a241c60be0e47e",
     "body": "26a241c60be0e47e",
@@ -19031,7 +19036,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c0ef10c9961a9845",
     "body": "c0ef10c9961a9845",
@@ -19059,7 +19064,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "014c726b42be5720",
     "body": "3831e33e901ea2e5",
@@ -19087,7 +19092,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "217d2488572a6c52",
     "body": "f86b5af804cb60da",
@@ -19160,7 +19165,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "236f7ee064d2fbc0",
     "body": "7c46b177e510118a",
@@ -19188,7 +19193,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "41d73b5d0760ac07",
     "body": "41d73b5d0760ac07",
@@ -19216,7 +19221,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a6d67df9f71eac8a",
     "body": "6a4ab2a7fcaed368",
@@ -19244,7 +19249,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "15781a01d2a9ebac",
     "body": "76b64c2f67cd0d68",
@@ -19272,7 +19277,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "710d5f6b4e6062cd",
     "body": "0978781e2a6563a1",
@@ -19300,7 +19305,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "adbdace36503c2a5",
     "body": "d693f738f139b93b",
@@ -19328,7 +19333,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8a0eb028d8957059",
     "body": "769f5f488056be1e",
@@ -19356,7 +19361,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "dc171716337ff9e7",
     "body": "6e4398c2cd3ee858",
@@ -19384,7 +19389,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b648cad509a707a0",
     "body": "28dd68926c3a98f8",
@@ -19412,7 +19417,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "106aaa90e3ff4be8",
     "body": "0d3725740979fa43",
@@ -19440,7 +19445,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0287ecee26f1b363",
     "body": "9e2a7c8e2270702a",
@@ -19468,7 +19473,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6205e77e5a12a761",
     "body": "390c848102ebbffb",
@@ -19496,7 +19501,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "19981e8d97aac9d0",
     "body": "0932a93abc80508e",
@@ -19524,7 +19529,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a34bfcd9fb80d0e8",
     "body": "44e6c7c4a6597cd1",
@@ -19552,7 +19557,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "99e0bd011973a66d",
     "body": "789580ab97f61f13",
@@ -19580,7 +19585,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bc8cbf3f17b1f0cb",
     "body": "93e78e59432818af",
@@ -19833,7 +19838,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5f2cde4869b8b97b",
     "body": "8c7a490523cfc316",
@@ -19861,7 +19866,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "391c154282ff7d4b",
     "body": "66aa5146932e306d",
@@ -19889,7 +19894,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d0144e2633573881",
     "body": "ab3e5a09db519dd0",
@@ -19917,7 +19922,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e3be2a8dd1853232",
     "body": "bbfce646f25a2e30",
@@ -19945,7 +19950,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5aa5209e7577c9d4",
     "body": "cea0031d95e0616b",
@@ -19973,7 +19978,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b1c6e1506fc4c439",
     "body": "7c017eed54444d0c",
@@ -20001,7 +20006,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "737366f89ba6e304",
     "body": "9aaefc85ca61b437",
@@ -20029,7 +20034,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e49f5d7f863a4d01",
     "body": "7a89939fa0d0f390",
@@ -20057,7 +20062,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "45267e19960a3498",
     "body": "c4a46faf20e4e6c2",
@@ -20085,7 +20090,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f849914702592bfb",
     "body": "dd4fe1665ece01b4",
@@ -20113,7 +20118,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9507e965f91427b4",
     "body": "2ce4ab7a2ab6119a",
@@ -20159,7 +20164,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5e3cfa9e6f67d3a8",
     "body": "b2d63a71d9608149",
@@ -20187,7 +20192,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bc8a22cc4d564a7e",
     "body": "d1e627c7456f84ff",
@@ -20215,7 +20220,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1d388e092519bae4",
     "body": "3a2ff5e7793f928c",
@@ -20243,7 +20248,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "59a6e887743d0545",
     "body": "8c4cea967f43aea4",
@@ -20280,7 +20285,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "658b6c73a7ea2fbb",
     "body": "fd2a7b4d152a67bc",
@@ -20308,7 +20313,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "85ae046db4860995",
     "body": "20d225daadb7e2c9",
@@ -20336,7 +20341,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9c2eb4fba2724111",
     "body": "b4620048e6c7e4e4",
@@ -20364,7 +20369,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2a1c2d92e18c6df6",
     "body": "dd64b4cb9e329ee4",
@@ -20392,7 +20397,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "72331b8a06d61a86",
     "body": "c986042f7b3965d3",
@@ -20420,7 +20425,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4ee799284f89e5df",
     "body": "8970bbcaafdfcd29",
@@ -20448,7 +20453,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "006b00632db506e4",
     "body": "38284be8c885555e",
@@ -20494,7 +20499,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9ebbd8b1fbd5d6cf",
     "body": "28ab46485241da79",
@@ -20549,7 +20554,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "334264d57a7cb1cf",
     "body": "924cc77f63363c23",
@@ -20577,7 +20582,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "92254c532ea429ee",
     "body": "66ad6adb4dd6b340",
@@ -20623,7 +20628,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5e86462cce6370a3",
     "body": "0939735f50db1c3c",
@@ -20641,7 +20646,7 @@
    "files": [],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8155d2afa69e3992",
     "body": "c8e9035f94f1765b",
@@ -20669,7 +20674,7 @@
    ],
    "fetched": "2026-10-24T15:31+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "18a1b3e773d493da",
     "body": "5cf4d961af312066",
@@ -20868,7 +20873,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a09ee4bacac4ecdc",
     "body": "0633b97b29b07ac0",
@@ -20886,7 +20891,7 @@
    "files": [],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a3e6466e2fd0a035",
     "body": "a8027a30adfa8f8d",
@@ -20914,7 +20919,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8f486ebda8f1918b",
     "body": "24c3d80d131a47f9",
@@ -20942,7 +20947,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d969be209bb26f9",
     "body": "caf88de69e5f990d",
@@ -20970,7 +20975,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c1cb323d98724247",
     "body": "375184645587b8b8",
@@ -20998,7 +21003,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0ec1d9ec45d02931",
     "body": "51fb2e21d8ffeb54",
@@ -21026,7 +21031,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e62613cd5cb20add",
     "body": "7004f960f674e52d",
@@ -21054,7 +21059,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "42523e413820f4f2",
     "body": "6f54caaa32be7f92",
@@ -21082,7 +21087,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a2c8a82cbd4ce3c9",
     "body": "8e7e03408e80ee55",
@@ -21128,7 +21133,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a054fc4bd4f84c31",
     "body": "0d09f18b1a054498",
@@ -21156,7 +21161,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "99fcc9fa54bcbcdf",
     "body": "90b35fd075c73cdf",
@@ -21220,7 +21225,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fa6a5b2f40c14a99",
     "body": "c32239c402d75770",
@@ -21275,7 +21280,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8d7c2c7d3f38677f",
     "body": "fbd121e9cb9c6821",
@@ -21312,7 +21317,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0a856f5083fafd68",
     "body": "37a532479402e462",
@@ -21340,7 +21345,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8a4e08a2c836a8ad",
     "body": "89c58022e998c13b",
@@ -21404,7 +21409,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a13bfe09eb3bf8e7",
     "body": "86e2a8f5cb338aef",
@@ -21432,7 +21437,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1f30d737d07e1283",
     "body": "58de735fd10fd01b",
@@ -21460,7 +21465,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5328f4f816517ff8",
     "body": "0d66ad245ccfe67f",
@@ -21488,7 +21493,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9240001696ebcb57",
     "body": "465d3b3ef105266b",
@@ -21534,7 +21539,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "65ba153235f9d016",
     "body": "76e7af0b70d96953",
@@ -21571,7 +21576,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "398b1631e54b1f6f",
     "body": "f778d90036d43ec2",
@@ -21599,7 +21604,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6b694507ed47fc7c",
     "body": "9c8031d4789869fe",
@@ -21627,7 +21632,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f0aadf037cee79f8",
     "body": "0bcd157b50fdf4ae",
@@ -21655,7 +21660,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a9bd189b6f6b8640",
     "body": "cd2686f61c14c50f",
@@ -21683,7 +21688,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e13b74bac9b28763",
     "body": "9a8335076aa0c385",
@@ -21711,7 +21716,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ec85df268e6d75e4",
     "body": "00c8268019187de0",
@@ -21757,7 +21762,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "275ad58b9994565e",
     "body": "76dd2faeb08a2228",
@@ -21785,7 +21790,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3317e2f6996dd374",
     "body": "e077d4c6a0c86d15",
@@ -21813,7 +21818,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "173fecdeac15f8ff",
     "body": "38447a7c6447dac5",
@@ -21841,7 +21846,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9586cbe49f8fff04",
     "body": "14efd71b32d15f8b",
@@ -22112,7 +22117,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d1f183157f3d4e47",
     "body": "7cd3bb221f1689d0",
@@ -22140,7 +22145,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "080ba0e2fa7548bf",
     "body": "57d45a8b57435014",
@@ -22168,7 +22173,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5cde1f4c3b9aa9e9",
     "body": "06dfc16af1f9b80a",
@@ -22196,7 +22201,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ac0d99151549c1bd",
     "body": "5115a98a7f6be906",
@@ -22224,7 +22229,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "de2766eec79bd8a3",
     "body": "f89f6128397f1c6b",
@@ -22261,7 +22266,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6a32e333015874f1",
     "body": "f1d600068996bf9f",
@@ -22388,7 +22393,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f3a7b8ae585255ce",
     "body": "af178b31ba80fcd5",
@@ -22416,7 +22421,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2a423213c4a0de3c",
     "body": "6f01868f6a5d22de",
@@ -22444,7 +22449,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cebb799519a3174c",
     "body": "39440d0f23b36e44",
@@ -22499,7 +22504,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1d22d08cafa051cf",
     "body": "de8325447a383b7a",
@@ -22527,7 +22532,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "229924393bd443ce",
     "body": "5097ccd4aa2abb04",
@@ -22555,7 +22560,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c28ce4860b89eee4",
     "body": "6f91e6c14f4b25c6",
@@ -22583,7 +22588,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ff358c0f26228630",
     "body": "e503816a7cd1b53e",
@@ -22611,7 +22616,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "de06afe6f9d4bb7c",
     "body": "6ad72f5e2624ac21",
@@ -22639,7 +22644,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "26668e639408e212",
     "body": "8bced8641ced039b",
@@ -22685,7 +22690,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4503b3f8c7697514",
     "body": "e378413d93cf2512",
@@ -22713,7 +22718,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f9119ec0031aa0cb",
     "body": "493838827d96fd85",
@@ -22741,7 +22746,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4c9c75c1810ca567",
     "body": "9fbc8649840f30ca",
@@ -22769,7 +22774,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "52cc8e04c4f95437",
     "body": "7722246208541326",
@@ -22797,7 +22802,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9f02d3f79d2bd4ac",
     "body": "544bd8422676ae6a",
@@ -22825,7 +22830,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "40a936963180f2aa",
     "body": "94b4d48493084a82",
@@ -22853,7 +22858,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "16d21a558454ca00",
     "body": "3df69ad24cf6f12b",
@@ -22881,7 +22886,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "da7299086c5f16f6",
     "body": "ec1c79b94143fc8e",
@@ -22909,7 +22914,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bd5bd79175d09e88",
     "body": "88a28039ac71c6a2",
@@ -22937,7 +22942,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2214a2bf8aaac177",
     "body": "37c41431e7fdfd66",
@@ -22965,7 +22970,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6e7db7b5de5269dc",
     "body": "3b71d0d8210fd849",
@@ -22993,7 +22998,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3339b99c48749755",
     "body": "51955b8acb2fe0e7",
@@ -23021,7 +23026,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "dd7d230fc7281bf0",
     "body": "54697c0ee3e7f718",
@@ -23049,7 +23054,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a4852beb3a1764be",
     "body": "649372238e3075a5",
@@ -23077,7 +23082,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "feb44c5e3c402a86",
     "body": "359a0dfda4b6efd8",
@@ -23105,7 +23110,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a2f80dc3e0f113c5",
     "body": "eb62bf9ad3a52dc2",
@@ -23133,7 +23138,7 @@
    ],
    "fetched": "2026-10-24T15:32+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fdc9cf79d36f5133",
     "body": "0625b0d99954f115",
@@ -23161,7 +23166,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7ff94e3477bcce75",
     "body": "ce854addba5977d6",
@@ -23189,7 +23194,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2400920004af3bc3",
     "body": "439e8f4f0195a207",
@@ -23217,7 +23222,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2a9638d557bdea26",
     "body": "55ab6b9a957b1c00",
@@ -23245,7 +23250,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "93d0800430d1edd8",
     "body": "3cb15225ab4b4aef",
@@ -23273,7 +23278,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f87abd21766fde6f",
     "body": "a1594b237af8563e",
@@ -23301,7 +23306,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "77483b8358c0b882",
     "body": "7331c11b36038f8c",
@@ -23329,7 +23334,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9c7dfd000c2663ca",
     "body": "2777c386687891dd",
@@ -23357,7 +23362,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c6f41308ae331d2e",
     "body": "461e865609a868fd",
@@ -23403,7 +23408,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b0b79fbc6fc96521",
     "body": "1925641111e6f5f2",
@@ -23431,7 +23436,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "18a1996b386ef0e6",
     "body": "ea392052b0fb680b",
@@ -23468,7 +23473,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "32cdd156af7cd1a6",
     "body": "eca1969c75f52452",
@@ -23496,7 +23501,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "47034b9dac66ec02",
     "body": "1eea7d06a2e76394",
@@ -23524,7 +23529,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1eb1051855cafe04",
     "body": "359999aad50de1b0",
@@ -23561,7 +23566,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "430b05482a267364",
     "body": "44ae14150ada4019",
@@ -23589,7 +23594,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b2b8860d2fcb78a3",
     "body": "b887a55243a37c34",
@@ -23617,7 +23622,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "42ef3c8f835f9a5f",
     "body": "f86af120f4a6634a",
@@ -23645,7 +23650,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fd329bd9c74732d2",
     "body": "805cad11a2492e1a",
@@ -23682,7 +23687,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "558753bc5629c75f",
     "body": "b4b9934fac8b952b",
@@ -23710,7 +23715,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3bbf2344ddb98a81",
     "body": "c32e0fb644e2e60a",
@@ -23747,7 +23752,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8c56009ef69941b0",
     "body": "9ce95af0e1997532",
@@ -23775,7 +23780,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2f55e4eeddeca036",
     "body": "298c1d06ca54c707",
@@ -23803,7 +23808,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "af016a06eac1e006",
     "body": "4c489030deffcc36",
@@ -23831,7 +23836,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2b0aa3b384e38aff",
     "body": "12f303f4ca722ae1",
@@ -23859,7 +23864,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b9515ecfdcd8a63a",
     "body": "eee2c77f6e86f90c",
@@ -23887,7 +23892,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7953a63df2095b7f",
     "body": "c86f7693bd3be7bb",
@@ -23915,7 +23920,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ceed6cdc82bd3f8f",
     "body": "3b13bf68608f8a3d",
@@ -23943,7 +23948,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "879fc303e1225a38",
     "body": "aef94b8f6e9e2a49",
@@ -23971,7 +23976,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e1c1f92cec05f0b4",
     "body": "9ca75c1b81975ee6",
@@ -23999,7 +24004,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bdf2be474b386f65",
     "body": "d8f745186fce034d",
@@ -24027,7 +24032,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "85ce8c086da41c17",
     "body": "84bf57695c9ba780",
@@ -24055,7 +24060,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "43449ec195d86408",
     "body": "315323ddeb92a0e7",
@@ -24083,7 +24088,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a8723e7d22cb4bd7",
     "body": "db7557ad51ae2d79",
@@ -24120,7 +24125,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b4c435a9067791c4",
     "body": "f999039c722a67c3",
@@ -24391,7 +24396,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f4ff4c337d5d6c6f",
     "body": "94f6d802b71396b0",
@@ -24437,7 +24442,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "26238e65bebd1ee6",
     "body": "008f002e631943f2",
@@ -24465,7 +24470,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8489d317eaf7823b",
     "body": "1de418130367e77b",
@@ -24493,7 +24498,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d77d70454796ea9",
     "body": "d61bb1627b14c465",
@@ -24521,7 +24526,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4c74a920cfcb2145",
     "body": "f5bea50c9fac7e62",
@@ -24549,7 +24554,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d307921ab974fa9",
     "body": "7e6b2a7659164f4e",
@@ -24577,7 +24582,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2a3d3910a2e1280c",
     "body": "6eed8f04568e9542",
@@ -24605,7 +24610,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5cc80a76fc5fe606",
     "body": "2d5f4f989c4a38e4",
@@ -24642,7 +24647,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a4963a4b86703b4f",
     "body": "9ca3f19889bcb20d",
@@ -24670,7 +24675,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "316449a4938694e6",
     "body": "2216a9d4cb0cbb91",
@@ -24707,7 +24712,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e8c864925c537270",
     "body": "310962546892bc00",
@@ -24735,7 +24740,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ca2b11568e1ef8be",
     "body": "f6b0be3402c7453c",
@@ -24763,7 +24768,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6194c81061bb5b7c",
     "body": "fcda6e7ea4cc9d04",
@@ -24818,7 +24823,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0491a55d84204dc1",
     "body": "d28f9ac4f7b97573",
@@ -24846,7 +24851,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2d83d73482f6b788",
     "body": "9f6e8d6b41bf4cdb",
@@ -24892,7 +24897,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8a3dc096710f682d",
     "body": "a5c2cf2ca848f6b2",
@@ -24920,7 +24925,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4250b1a625b6b901",
     "body": "aa24d029baef3812",
@@ -24948,7 +24953,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "951d1568433a99ba",
     "body": "dca289f9fe9206e7",
@@ -24976,7 +24981,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "de55851d38d13f62",
     "body": "eeb27a040f006c7e",
@@ -25004,7 +25009,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "23f22c63896ce226",
     "body": "ad4ef624177cddde",
@@ -25036,7 +25041,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6dc17d3668837dfc",
     "body": "b1406e82457c0b15",
@@ -25064,7 +25069,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e09ad39adf3c9330",
     "body": "6747259dadc318dd",
@@ -25101,7 +25106,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2b00d35626708cd0",
     "body": "767edc47842e4efd",
@@ -25138,7 +25143,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "66f4816533477666",
     "body": "181caf25db0d48fc",
@@ -25211,7 +25216,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4b6a50f47e436b93",
     "body": "00238f82c9a687fd",
@@ -25239,7 +25244,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2fbb6e7d48584c06",
     "body": "4e65a04e5f3cfe88",
@@ -25272,7 +25277,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "48de224767a3920c",
     "body": "1ff1c6f43951d89b",
@@ -25308,7 +25313,7 @@
    ],
    "fetched": "2026-10-24T15:33+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0e5efd4258ad53d1",
     "body": "8b336231485d9fd5",
@@ -25336,7 +25341,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d65b5ad2cc923f58",
     "body": "27d428d241bc74ec",
@@ -25364,7 +25369,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0e80c53b0eb4d4de",
     "body": "2f833bd3bfd478eb",
@@ -25626,7 +25631,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "89cd9502c2379e12",
     "body": "48e014bc2b5a27a5",
@@ -25654,7 +25659,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "eeea7945d9d83ce6",
     "body": "ce717e7ddc599a85",
@@ -25691,7 +25696,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "362adbc9ac5081e2",
     "body": "2156d25246023836",
@@ -25719,7 +25724,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4250b1a625b6b901",
     "body": "6a863d666133275b",
@@ -25747,7 +25752,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "06f9fa33458cf0e0",
     "body": "58d33c3debb8739e",
@@ -25775,7 +25780,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "92465d88db5c2127",
     "body": "a311a9b994f454ac",
@@ -25803,7 +25808,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e46acc5d1dd6df71",
     "body": "1da26f40055ae13e",
@@ -25831,7 +25836,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5ca5dfb215a8f758",
     "body": "10efde1b1b94dbff",
@@ -25859,7 +25864,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "de55851d38d13f62",
     "body": "fd185a6f30bca501",
@@ -25887,7 +25892,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "dc03b5f3ccbd975c",
     "body": "e23101ce2d58af46",
@@ -25919,7 +25924,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6dc17d3668837dfc",
     "body": "e0f9502abf856953",
@@ -25956,7 +25961,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b0b5f087d02dc30f",
     "body": "bf58a852134bd37c",
@@ -25984,7 +25989,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d2d4a14553ff545",
     "body": "95b995caf0ce02db",
@@ -26030,7 +26035,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ba4dac7288413edc",
     "body": "7fd1c13beb46ac8d",
@@ -26067,7 +26072,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b76bbc7b438c848f",
     "body": "661182358fcee11b",
@@ -26140,7 +26145,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0cb99c17673c22f0",
     "body": "ca36139ae162105b",
@@ -26168,7 +26173,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "45338a89b480a626",
     "body": "f67235bfaf8c4769",
@@ -26196,7 +26201,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "84380393938f5d61",
     "body": "a1373d78ba362397",
@@ -26224,7 +26229,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a89472ad2750d62b",
     "body": "51dc6954b9fc7511",
@@ -26261,7 +26266,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d5a13f3ae141a04",
     "body": "88e7e439396c36a2",
@@ -26289,7 +26294,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "10bab3b6bba1e098",
     "body": "511a4d2c81c0941f",
@@ -26317,7 +26322,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3fe8e12a14f04342",
     "body": "76d5ee2ac3c6b414",
@@ -26345,7 +26350,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "67d9a813a573c1c2",
     "body": "fa3f90e633b23c04",
@@ -26373,7 +26378,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ce59353823072e45",
     "body": "aa079d95bc13c156",
@@ -26401,7 +26406,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "29805a52457ceff4",
     "body": "a116fe325b213fcb",
@@ -26429,7 +26434,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f08efb144e1c6637",
     "body": "8efc5a0e76f37ca3",
@@ -26457,7 +26462,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "147aafc996083fa5",
     "body": "56ee5cd8fb9d03bf",
@@ -26485,7 +26490,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b88384e2bff61243",
     "body": "a4d82536fd0e766d",
@@ -26513,7 +26518,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "22ce8f8b9c3e7fe1",
     "body": "d432826567524f50",
@@ -26559,7 +26564,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "742bee0caa507ca0",
     "body": "e1bb92202ab083e2",
@@ -26587,7 +26592,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1ef3b50b5a187642",
     "body": "3a20bfad797d04ac",
@@ -26615,7 +26620,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3765db0a91285683",
     "body": "60bcaed3996dbf09",
@@ -26643,7 +26648,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "accc2344bdb09f7f",
     "body": "dc61931af1c648be",
@@ -26671,7 +26676,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d654fd7c7400d508",
     "body": "981d70fde0f3f3d3",
@@ -26699,7 +26704,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "636c94bceea9c3f0",
     "body": "bdd8c4384afe3bc3",
@@ -26754,7 +26759,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "693b318f32ef1bba",
     "body": "792da275b3fd58c7",
@@ -26791,7 +26796,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "53143a851270e32a",
     "body": "792856dc454880b3",
@@ -26819,7 +26824,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e46994d0456853aa",
     "body": "30beceab1c20b459",
@@ -26847,7 +26852,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9e4b31dd09584515",
     "body": "7ea1b62c9e8c7b41",
@@ -26884,7 +26889,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b0b5f087d02dc30f",
     "body": "3df9ac0c66a519de",
@@ -26912,7 +26917,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b5bea9404e21b090",
     "body": "ac9da14290097935",
@@ -26954,7 +26959,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ffb586c858676a95",
     "body": "5cac8045fd1ff0e1",
@@ -26990,7 +26995,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1f2f482ee03af1dd",
     "body": "231beb504e07d510",
@@ -27018,7 +27023,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e25e4ad09eb86560",
     "body": "8f3a3b1fab07eb9a",
@@ -27046,7 +27051,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "89ff3f08efc64d78",
     "body": "3076d655cf8a4cbb",
@@ -27074,7 +27079,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "941766dafb87cc0e",
     "body": "81c4cf3a14098f82",
@@ -27111,7 +27116,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b4ca6cfd1a42efac",
     "body": "be478e1d28038f39",
@@ -27152,7 +27157,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f510ff4d8ccf4b6b",
     "body": "ae37682541700ec9",
@@ -27180,7 +27185,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6b09e9de6ad36d44",
     "body": "6ac5626b60188bfa",
@@ -27283,7 +27288,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2b8c968fb17b2039",
     "body": "b6a1f011d06171d7",
@@ -27311,7 +27316,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "16779297e52362af",
     "body": "f3c673e8a6a9c4d9",
@@ -27339,7 +27344,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c6c85b1a16c61db7",
     "body": "f055380679f10d5b",
@@ -27376,7 +27381,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4cfecfd2ac9315d2",
     "body": "36bef856a2239af7",
@@ -27413,7 +27418,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1fe35a7d6ea860b4",
     "body": "607d6fd2fffcd785",
@@ -27441,7 +27446,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8935dabab783e983",
     "body": "45c26766151be4aa",
@@ -27469,7 +27474,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2beb55f6021a5041",
     "body": "8f1367ba68bdab76",
@@ -27506,7 +27511,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e2c171733a5dd1e4",
     "body": "9993eaf52cc9aca9",
@@ -27534,7 +27539,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "451d8d6eb89238de",
     "body": "f38429d4a7558ce4",
@@ -27571,7 +27576,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "792241914c47d8c2",
     "body": "e4b272d3bbdd9860",
@@ -27599,7 +27604,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1cef98b32319d6bb",
     "body": "5c08b538ada43de5",
@@ -27627,7 +27632,7 @@
    ],
    "fetched": "2026-10-24T15:34+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2621443921a2057e",
     "body": "0a8bc61d6af7a24f",
@@ -27655,7 +27660,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c647a5733001e58c",
     "body": "d3365a1a74efb175",
@@ -27683,7 +27688,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3386fb06b01c6d74",
     "body": "c2e9cb3d05b12d34",
@@ -27729,7 +27734,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e3b94df9569c68ce",
     "body": "9077521202dee2eb",
@@ -27757,7 +27762,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6eb8c8d60174ff0f",
     "body": "d7a0f5bfca072c4d",
@@ -27785,7 +27790,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fd81c42440dc3c9e",
     "body": "083f24343a247436",
@@ -27840,7 +27845,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2b4feb4b515dd03c",
     "body": "099cb83d2da2e6d5",
@@ -27868,7 +27873,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "41ce6127db3e90a7",
     "body": "ddee2b8577efe979",
@@ -27896,7 +27901,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0711c603eb1800c8",
     "body": "6f68de255c7d1a3c",
@@ -27924,7 +27929,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "6a94dc131045c954",
@@ -27988,7 +27993,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "26be320d3f5f793a",
     "body": "9e6465e8f36cf138",
@@ -28016,7 +28021,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "41ce6127db3e90a7",
     "body": "6597c95c376a7e0d",
@@ -28062,7 +28067,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "25e18f70a3f1465f",
     "body": "db153458e0a58762",
@@ -28080,7 +28085,7 @@
    "files": [],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "941766dafb87cc0e",
     "body": "0384285f22dda970",
@@ -28108,7 +28113,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b8fcf2aed10f35d5",
     "body": "dbc4ad65e6893ff5",
@@ -28136,7 +28141,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "04dc1cc746283c79",
@@ -28164,7 +28169,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "898f6830822d59d1",
     "body": "f0622b64645c095f",
@@ -28201,7 +28206,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "abfdad35cd050c53",
     "body": "74bdda5d60e04a60",
@@ -28238,7 +28243,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ddcc0d70f0a9e5b7",
     "body": "2b71ee06b3dc909b",
@@ -28266,7 +28271,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "39b30e19a583a819",
     "body": "b4f7204d0e2766f3",
@@ -28303,7 +28308,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0d61ba943d30caf3",
     "body": "6d3d870469359b46",
@@ -28331,7 +28336,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "11ad80e7b6193aaa",
     "body": "7a9f5df88d702640",
@@ -28359,7 +28364,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "98b88450352d5452",
@@ -28486,7 +28491,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d50029c5cc6f35e8",
     "body": "90a0135ae2908361",
@@ -28514,7 +28519,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "11ad80e7b6193aaa",
     "body": "483d982d618661be",
@@ -28542,7 +28547,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "998331d459ff55c2",
@@ -28570,7 +28575,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "11ad80e7b6193aaa",
     "body": "799b749ca94b1c32",
@@ -28607,7 +28612,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "55cfaaca1f8c2c3f",
     "body": "e9b1617fdf8102b0",
@@ -28635,7 +28640,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "ab481dd61e7ca840",
@@ -28663,7 +28668,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "901bca172fc24a3b",
     "body": "9fe2224a6855b195",
@@ -28691,7 +28696,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e457d1c73c126393",
     "body": "6d33c7fb4118cf7f",
@@ -28737,7 +28742,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3d3f870dfc4c9928",
     "body": "50d2c9a6599ad4de",
@@ -28765,7 +28770,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "76bf57cc9281ec6f",
     "body": "231beb504e07d510",
@@ -28802,7 +28807,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bfcd5ddfe5f85b3e",
     "body": "ac62ce0c1c6f7c7b",
@@ -28826,7 +28831,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fa3fb5011f2d0e55",
     "body": "dd5914fc9651a589",
@@ -28862,7 +28867,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "62704de31336dc69",
     "body": "8c227d453d56ec7a",
@@ -28890,7 +28895,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9546bcb142686f9e",
     "body": "a92338d8eedd4074",
@@ -28918,7 +28923,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "264165c7ef78c9a6",
     "body": "dc417cbc86b01f25",
@@ -28955,7 +28960,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bf71a7b039cad4db",
     "body": "3b530c645fe3ded0",
@@ -28983,7 +28988,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "12b8cb73b4d5c5c3",
     "body": "99b1bd46c65dbfa3",
@@ -29011,7 +29016,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46159a9aa88d5817",
     "body": "13d7a2fd8a744027",
@@ -29039,7 +29044,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bd9d3f364a3bc0bd",
     "body": "f5d0e9cb7026636f",
@@ -29067,7 +29072,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "74f143c2964b8ac1",
     "body": "a78c7b55102e6265",
@@ -29095,7 +29100,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "96dfb2b1d6540014",
     "body": "7964f21cf19620c1",
@@ -29123,7 +29128,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "316b33a3cc03cb06",
     "body": "5ba90e5d6d17d5a7",
@@ -29151,7 +29156,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "366721a333fe316b",
     "body": "8210dd9aedf06205",
@@ -29169,7 +29174,7 @@
    "files": [],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "67f4ca409bcd49de",
     "body": "45db3c76f569e64f",
@@ -29197,7 +29202,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "97cca5f5bf067c3d",
     "body": "ed97af86ca85fee2",
@@ -29234,7 +29239,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1a422377555efcd5",
     "body": "adf5d45e8958e985",
@@ -29262,7 +29267,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "349557b37855e679",
     "body": "b432a9d0767215d6",
@@ -29290,7 +29295,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ea7c8411f6f78900",
     "body": "1f378fc11ac28687",
@@ -29318,7 +29323,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f9d8069c69413920",
     "body": "287e67ec04e2baa0",
@@ -29346,7 +29351,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "74d40942e21b3eeb",
     "body": "d35da8a181fa8224",
@@ -29374,7 +29379,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "71a4a5f72973d235",
     "body": "83a49f96ccbc6c42",
@@ -29402,7 +29407,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fc280ee964302969",
     "body": "614e5fbbb84e4c8c",
@@ -29420,7 +29425,7 @@
    "files": [],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2285dae0ffbad6b0",
     "body": "6e74fb09cde14b32",
@@ -29448,7 +29453,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d7641a1c27151c13",
     "body": "c783bf1eb8d77c28",
@@ -29476,7 +29481,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0325e847484d2af2",
     "body": "34336d82ff469f37",
@@ -29504,7 +29509,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0f6bbf5034685e6d",
     "body": "0757de94fec37944",
@@ -29532,7 +29537,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f3e2078c0422c678",
     "body": "def6e3d1f7926d49",
@@ -29560,7 +29565,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b3ffc4e35f9cead3",
     "body": "edeeb90fcf5571ff",
@@ -29588,7 +29593,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a62cb28b241a97e4",
     "body": "d25fdbacf042d8a3",
@@ -29616,7 +29621,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9941849a4d6919e1",
     "body": "b8a4c50ec90d21a6",
@@ -29644,7 +29649,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "394204645de20f02",
     "body": "fa0fda9af76b42aa",
@@ -29672,7 +29677,7 @@
    ],
    "fetched": "2026-10-24T15:35+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2f8beefa658714f0",
     "body": "25874e759b368c5e",
@@ -29718,7 +29723,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bf8b21ffb2d29e62",
     "body": "796e530fde4f5b11",
@@ -29746,7 +29751,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "56c1e888a4fea331",
     "body": "5bf51d9e80005fd1",
@@ -29774,7 +29779,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d6d5e3f5d4601b9",
     "body": "999091e83abdcf75",
@@ -29802,7 +29807,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2c716b5cc4f13619",
     "body": "70e50ae579e5a777",
@@ -29830,7 +29835,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e706708e05d87f03",
     "body": "154c65a237fcf04c",
@@ -29858,7 +29863,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9ca9697c9d8d626d",
     "body": "ea04f5f659199811",
@@ -29886,7 +29891,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "550a0ebac3bb6279",
     "body": "cbab9b6d477aa692",
@@ -29914,7 +29919,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a0246c6b56ce4849",
     "body": "fad965c060a9bbb3",
@@ -29932,7 +29937,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3de4a7cc85afdbad",
     "body": "91541d39079550c9",
@@ -29950,7 +29955,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c1fc71e6738338c6",
     "body": "356f029e1de7d3fb",
@@ -29968,7 +29973,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ab303c8cb3a27572",
     "body": "91a29be6401ea909",
@@ -29986,7 +29991,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ef685539de2797a3",
     "body": "18780c364d725c47",
@@ -30004,7 +30009,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2275818a3d8ad23d",
     "body": "033c614785a0e63e",
@@ -30022,7 +30027,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6677f63e9d31833a",
     "body": "5a6c056b98256ea0",
@@ -30040,7 +30045,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c68375f48701d514",
     "body": "125f91e62a8bdb47",
@@ -30068,7 +30073,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2f8beefa658714f0",
     "body": "aa3e06e987722a91",
@@ -30086,7 +30091,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4e26a69bc6c154fc",
     "body": "bc7d5975adafe4ee",
@@ -30104,7 +30109,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1a2a416a32481fa4",
     "body": "765a1ae62dd6ac7e",
@@ -30122,7 +30127,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3ce216d98f24e6ee",
     "body": "f89e87ecfb0f349a",
@@ -30140,7 +30145,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c1fc71e6738338c6",
     "body": "f74d215cb604b355",
@@ -30168,7 +30173,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c753ed5631a0eed7",
     "body": "e8d18ee33f4acf06",
@@ -30196,7 +30201,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "621dbaae6613bc8d",
     "body": "3866a42090a64f8f",
@@ -30224,7 +30229,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e681528b02ff78e2",
     "body": "2215abcbb63f410b",
@@ -30242,7 +30247,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "75322a074f8ed0d8",
     "body": "9bace74453927b7f",
@@ -30270,7 +30275,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d64df00622e6d661",
     "body": "702b96204d631991",
@@ -30298,7 +30303,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3799cba1d3cbabce",
     "body": "481cb25372c6eb7f",
@@ -30326,7 +30331,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fdaa27f9778b223b",
     "body": "85cc5473211d52b5",
@@ -30354,7 +30359,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6f55749ee3fd5993",
     "body": "3cbc96042d54f415",
@@ -30382,7 +30387,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "698ea072b03f3f8f",
     "body": "0549cc1249f68904",
@@ -30410,7 +30415,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cd53d13beb62063f",
     "body": "f4515260a2fc8040",
@@ -30438,7 +30443,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "febd394fe56ae2df",
     "body": "fa90c5c2c1c29893",
@@ -30456,7 +30461,7 @@
    "files": [],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a049666a7f52baf4",
     "body": "fefb157c694a22e7",
@@ -30484,7 +30489,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4a0be319cb5d35d6",
     "body": "726f3d035eefd2ca",
@@ -30512,7 +30517,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d1512c2aac81c67",
     "body": "b082c2576da82a14",
@@ -30540,7 +30545,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6a113656bc734dd2",
     "body": "7c30045370b84605",
@@ -30568,7 +30573,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cca3eedeeb4dfae5",
     "body": "5a5a0e86e52e7871",
@@ -30596,7 +30601,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4f114ffbed47eecc",
     "body": "04bc34a7af60606c",
@@ -30624,7 +30629,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c5cd6b92d6c5f9c7",
     "body": "ba94af274e927686",
@@ -30652,7 +30657,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cbe0e53c9ade1264",
     "body": "56e2157fbe06f991",
@@ -30680,7 +30685,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ee1a700c37d3ff2a",
     "body": "6dabc6694a93dd62",
@@ -30708,7 +30713,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a270c3d8130a8f48",
     "body": "d0e13ba1192c285a",
@@ -30736,7 +30741,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d10ca836087071cf",
     "body": "f55e79a3fdf127f1",
@@ -30764,7 +30769,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6231996f4706579d",
     "body": "148ffb15d91e284f",
@@ -30792,7 +30797,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "931a43e3e9b112dc",
     "body": "3a43889eace72a57",
@@ -30820,7 +30825,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d8f62e7890cf28e5",
     "body": "226c5b9182a3a81f",
@@ -30848,7 +30853,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ac9e0ae84c42370b",
     "body": "966487312c8a185d",
@@ -30876,7 +30881,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "217711db887fd90e",
     "body": "357c99fb8edb7ebb",
@@ -30904,7 +30909,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "598cae8f08b8815e",
     "body": "aab81d1cd3fc86ab",
@@ -30932,7 +30937,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5fc0592054837f58",
     "body": "427215ee4ed59e1f",
@@ -30960,7 +30965,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d53dcd311644158",
     "body": "7960913c26de8adb",
@@ -30988,7 +30993,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f3ff5e7dbc5841ae",
     "body": "7e4d92948cbada7f",
@@ -31016,7 +31021,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "05a2f38c3086c0fb",
     "body": "894c0cb534437e5d",
@@ -31044,7 +31049,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f66ddfcbfc77a9b1",
     "body": "4549a0255767e06e",
@@ -31072,7 +31077,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d0d02f4c8d5e0cac",
     "body": "88becba7f564d1e4",
@@ -31100,7 +31105,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "36bac677855b4694",
     "body": "47f4df68297e0527",
@@ -31128,7 +31133,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "21d7be9acb69f743",
     "body": "9457a07d664a40c7",
@@ -31156,7 +31161,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4e1b542ff1c87e3b",
     "body": "f8cc60b0d09ef976",
@@ -31184,7 +31189,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0c38e0f4a81c8fd5",
     "body": "f66894d2e09845da",
@@ -31212,7 +31217,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7335973e20235fc6",
     "body": "65f8200a22ebbad8",
@@ -31240,7 +31245,7 @@
    ],
    "fetched": "2026-10-24T15:36+07:00",
    "section": "cbtt",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "96d8f767dcf29330",
     "body": "1b28405ef5aa7816",
@@ -31289,7 +31294,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -31452,7 +31457,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "42ba6a63e1cd9a01",
     "body": "9051b558ef7336c0",
@@ -31501,7 +31506,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1432d6eea8b6e517",
     "body": "d3e37ef7ddfd57ac",
@@ -31530,7 +31535,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "843d51e8ecc68bf3",
     "body": "e23f85a74f778366",
@@ -31579,7 +31584,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e2ee956c1d589bac",
     "body": "4c64ed33b65e8fee",
@@ -31618,7 +31623,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "452f66640dc4d825",
     "body": "a2bcf2d4e70c12e7",
@@ -31664,7 +31669,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f9ba28a70277aa32",
     "body": "1ae1da4c0ab0ba0e",
@@ -31701,7 +31706,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "aec5c2b32d19dd4b",
     "body": "3f35168d87a258c7",
@@ -31747,7 +31752,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b86e68fa8b5e44ff",
     "body": "f5d05f48598d4bf9",
@@ -31793,7 +31798,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "de7377b595392df5",
     "body": "b3e82e9e7a3a6c7d",
@@ -31830,7 +31835,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a98d48c7d7741719",
     "body": "4b021c9efa169e0d",
@@ -31867,7 +31872,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "84c08f22cd13277c",
     "body": "5c7726d028712fa2",
@@ -31913,7 +31918,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3d934ff4162e9c6c",
     "body": "cceffea40c9d776b",
@@ -31959,7 +31964,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a23169c3966c99ca",
     "body": "8b303765fa645d7a",
@@ -31996,7 +32001,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4a28f0b3e43478a1",
     "body": "ac8e9054e7141d25",
@@ -32033,7 +32038,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7306f13661da2665",
     "body": "05c3ef516b067415",
@@ -32070,7 +32075,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "660f6cc1371f4386",
     "body": "d489b74a11597a90",
@@ -32107,7 +32112,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5025854bf511ad09",
     "body": "a7ca0df7dba07235",
@@ -32144,7 +32149,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "abf9d3d92b0b5627",
     "body": "9fcea7bf3701e23d",
@@ -32181,7 +32186,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9eb16baec54b18d7",
     "body": "73d41c828d0173f5",
@@ -32218,7 +32223,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f2e9d19faf7d539e",
     "body": "46038b9c0915debd",
@@ -32255,7 +32260,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "370599c7b3ae8b57",
     "body": "88d4d18921bd0e90",
@@ -32292,7 +32297,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "48bfbd5325fd41db",
     "body": "b5202434914d9c13",
@@ -32329,7 +32334,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "16bb7561d1064588",
     "body": "a44d8a8ef26464e5",
@@ -32366,7 +32371,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4c1466a0ae79cecb",
     "body": "bbe642885cac94b7",
@@ -32412,7 +32417,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f84a1dca8b78aa79",
     "body": "c0699f082fa6f07e",
@@ -32449,7 +32454,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "12e20880f2193153",
     "body": "ddfcedd1d07d85aa",
@@ -32486,7 +32491,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46df5489e7f35eb6",
     "body": "aabe5178ca6f1403",
@@ -32532,7 +32537,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "25ed24479af59574",
     "body": "6be5c350b7f5dcba",
@@ -32569,7 +32574,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e75f9110fb951a9e",
     "body": "fa69f4797fee6b40",
@@ -32606,7 +32611,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d23a01f6053cb6d3",
     "body": "0627dee85852e13b",
@@ -32652,7 +32657,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "858fdf5dca3bd4c6",
     "body": "bd035bacf4d923bf",
@@ -32689,7 +32694,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a69aa5ae750036a4",
     "body": "a1a8651fc77e9f87",
@@ -32726,7 +32731,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b6717019e6d46d7c",
     "body": "999e474c0208f6b8",
@@ -32763,7 +32768,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8c9716373768eeaa",
     "body": "2de555bdfa3d3288",
@@ -32800,7 +32805,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9a66f56caebf6178",
     "body": "4c9886c9ac8a7dcc",
@@ -32837,7 +32842,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "215f4f390d762916",
     "body": "8f113ce601894c7f",
@@ -32874,7 +32879,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9a0c0d79927720b4",
     "body": "e1c3839460d27c7f",
@@ -32911,7 +32916,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cd2a66472a9c623e",
     "body": "7014bce0bb8ca1e0",
@@ -32948,7 +32953,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "471eb051588f2fac",
     "body": "83f0b5918930ea9e",
@@ -32985,7 +32990,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a78416b6dda15ebf",
     "body": "705be4e8eaece56b",
@@ -33013,7 +33018,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "80213d01aee2564e",
     "body": "574d57a986fdc028",
@@ -33050,7 +33055,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6ea1eab8f351473b",
     "body": "ef3773031220b32c",
@@ -33096,7 +33101,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7b28fda05cd80197",
     "body": "aa82d651caf419a4",
@@ -33133,7 +33138,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "767d782ed7b23662",
     "body": "459a100227c68d97",
@@ -33170,7 +33175,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a2549d04c2423018",
     "body": "d57f8094b55b3fd4",
@@ -33198,7 +33203,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8bde972b062349fc",
     "body": "a4cf9d7b6a3875e1",
@@ -33226,7 +33231,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cfcf6d8d7af34ace",
     "body": "1c58af8c42a84c49",
@@ -33254,7 +33259,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9b04848baef30fd4",
     "body": "5201006cb22acbe5",
@@ -33282,7 +33287,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e0bd9baeccbf6bb3",
     "body": "74fb98752dab7ecc",
@@ -33300,7 +33305,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7b04060b4cab4899",
     "body": "1ce015bc6dba7ec8",
@@ -33337,7 +33342,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f774f36874fb3327",
     "body": "979b184346bec46c",
@@ -33374,7 +33379,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4cdda6593d1c9de1",
     "body": "1a783702686ec20a",
@@ -33420,7 +33425,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3d3f870dfc4c9928",
     "body": "50d2c9a6599ad4de",
@@ -33457,7 +33462,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bfcd5ddfe5f85b3e",
     "body": "ac62ce0c1c6f7c7b",
@@ -33485,7 +33490,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "62704de31336dc69",
     "body": "8c227d453d56ec7a",
@@ -33513,7 +33518,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9546bcb142686f9e",
     "body": "a92338d8eedd4074",
@@ -33541,7 +33546,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "264165c7ef78c9a6",
     "body": "dc417cbc86b01f25",
@@ -33569,7 +33574,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bd9d3f364a3bc0bd",
     "body": "f5d0e9cb7026636f",
@@ -33597,7 +33602,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "74f143c2964b8ac1",
     "body": "a78c7b55102e6265",
@@ -33625,7 +33630,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "316b33a3cc03cb06",
     "body": "5ba90e5d6d17d5a7",
@@ -33653,7 +33658,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "366721a333fe316b",
     "body": "8210dd9aedf06205",
@@ -33671,7 +33676,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "67f4ca409bcd49de",
     "body": "45db3c76f569e64f",
@@ -33699,7 +33704,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ea7c8411f6f78900",
     "body": "1f378fc11ac28687",
@@ -33727,7 +33732,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "74d40942e21b3eeb",
     "body": "d35da8a181fa8224",
@@ -33755,7 +33760,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f9d8069c69413920",
     "body": "287e67ec04e2baa0",
@@ -33783,7 +33788,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0f6bbf5034685e6d",
     "body": "0757de94fec37944",
@@ -33811,7 +33816,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9941849a4d6919e1",
     "body": "b8a4c50ec90d21a6",
@@ -33839,7 +33844,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "394204645de20f02",
     "body": "fa0fda9af76b42aa",
@@ -33867,7 +33872,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2c716b5cc4f13619",
     "body": "70e50ae579e5a777",
@@ -33895,7 +33900,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d6d5e3f5d4601b9",
     "body": "999091e83abdcf75",
@@ -33923,7 +33928,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9ca9697c9d8d626d",
     "body": "ea04f5f659199811",
@@ -33951,7 +33956,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a0246c6b56ce4849",
     "body": "fad965c060a9bbb3",
@@ -33979,7 +33984,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "550a0ebac3bb6279",
     "body": "cbab9b6d477aa692",
@@ -34007,7 +34012,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "621dbaae6613bc8d",
     "body": "3866a42090a64f8f",
@@ -34035,7 +34040,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e681528b02ff78e2",
     "body": "2215abcbb63f410b",
@@ -34063,7 +34068,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cd53d13beb62063f",
     "body": "f4515260a2fc8040",
@@ -34091,7 +34096,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "febd394fe56ae2df",
     "body": "fa90c5c2c1c29893",
@@ -34119,7 +34124,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6a113656bc734dd2",
     "body": "7c30045370b84605",
@@ -34147,7 +34152,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cca3eedeeb4dfae5",
     "body": "5a5a0e86e52e7871",
@@ -34175,7 +34180,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4f114ffbed47eecc",
     "body": "04bc34a7af60606c",
@@ -34203,7 +34208,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c5cd6b92d6c5f9c7",
     "body": "ba94af274e927686",
@@ -34231,7 +34236,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a270c3d8130a8f48",
     "body": "d0e13ba1192c285a",
@@ -34259,7 +34264,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d10ca836087071cf",
     "body": "f55e79a3fdf127f1",
@@ -34287,7 +34292,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6231996f4706579d",
     "body": "148ffb15d91e284f",
@@ -34315,7 +34320,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ac9e0ae84c42370b",
     "body": "966487312c8a185d",
@@ -34343,7 +34348,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "217711db887fd90e",
     "body": "357c99fb8edb7ebb",
@@ -34371,7 +34376,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f3ff5e7dbc5841ae",
     "body": "7e4d92948cbada7f",
@@ -34399,7 +34404,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4d53dcd311644158",
     "body": "7960913c26de8adb",
@@ -34427,7 +34432,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "21d7be9acb69f743",
     "body": "9457a07d664a40c7",
@@ -34445,7 +34450,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0c38e0f4a81c8fd5",
     "body": "2cabb8776f8e14ac",
@@ -34473,7 +34478,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:03+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0c38e0f4a81c8fd5",
     "body": "f66894d2e09845da",
@@ -34501,7 +34506,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4e1b542ff1c87e3b",
     "body": "f8cc60b0d09ef976",
@@ -34529,7 +34534,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7335973e20235fc6",
     "body": "65f8200a22ebbad8",
@@ -34557,7 +34562,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "96d8f767dcf29330",
     "body": "1b28405ef5aa7816",
@@ -34585,7 +34590,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5154b57836147eef",
     "body": "f85c05eb72074b03",
@@ -34613,7 +34618,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "aeea2ea525888be9",
     "body": "800c42aecaad1f40",
@@ -34641,7 +34646,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d04a3afe67c1814",
     "body": "37550696695abd21",
@@ -34669,7 +34674,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "0fa524d48d62110f",
     "body": "b7be5ff0d6f83bc3",
@@ -34697,7 +34702,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "194904adf973ccec",
     "body": "1cadeb5644afff42",
@@ -34725,7 +34730,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1abc09c15e1e47a2",
     "body": "e75ee52156077f92",
@@ -34753,7 +34758,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "d3c2e49e6271dae1",
     "body": "007e1f61cb4c9085",
@@ -34781,7 +34786,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "4f2de47a0fbdde32",
     "body": "8b1c5f08173c5469",
@@ -34809,7 +34814,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c3c98517fa3f3d3d",
     "body": "4b0e216beb86f3df",
@@ -34837,7 +34842,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ce01e3cd5488fa7e",
     "body": "6db7368811742760",
@@ -34865,7 +34870,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "71aa7e6e09b4f7eb",
     "body": "f2d7bbbac7540741",
@@ -34893,7 +34898,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "b763655b4241610c",
     "body": "2ff7dcbd872bb420",
@@ -34921,7 +34926,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "111dccbcfbb2a57f",
     "body": "774058f5ffd1eeca",
@@ -34949,7 +34954,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2f7548032733a433",
     "body": "0d2f02f60315b13c",
@@ -34967,7 +34972,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "325b7d56bf56174c",
     "body": "4a6ebbceac3092c9",
@@ -34995,7 +35000,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "12407f9719c749f5",
     "body": "e7c6f3719406b5e5",
@@ -35023,7 +35028,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f82bf352a12ca006",
     "body": "995d642d0934415b",
@@ -35041,7 +35046,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1ede4432d2b14b9c",
     "body": "8647262f6b7731a7",
@@ -35069,7 +35074,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ee7ae5ce9dff36a8",
     "body": "1265892c9d24aa48",
@@ -35097,7 +35102,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "ab4514274f70ac5a",
     "body": "4f5736cea563fbdb",
@@ -35125,7 +35130,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7511fbfdcb8cc7f7",
     "body": "25f29cbf086c03ff",
@@ -35143,7 +35148,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "702fe957b5938513",
     "body": "75ba3cd23f30beb6",
@@ -35171,7 +35176,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5df8a2afaabf6c59",
     "body": "fb362ab3b4d148f5",
@@ -35199,7 +35204,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c0af621010f676fb",
     "body": "6b69f9d32f865f65",
@@ -35227,7 +35232,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9fd45b7a41437c89",
     "body": "acee8f069a862bdb",
@@ -35255,7 +35260,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "041b834dc87223d8",
     "body": "b1541284525c9dd7",
@@ -35283,7 +35288,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f953fc40deb94e70",
     "body": "7f8cf2c7361d0cf4",
@@ -35311,7 +35316,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "55f130afea08db5d",
     "body": "6f7dfba4de5b2ae0",
@@ -35339,7 +35344,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bef048789410c7d0",
     "body": "844b5bd50794c8fe",
@@ -35367,7 +35372,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9a9012accdef6a8a",
     "body": "b05fdede5265afcf",
@@ -35395,7 +35400,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "02f8af3ea9966f88",
     "body": "f3fd2379aac2a4e4",
@@ -35423,7 +35428,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7d7aef7b5d470ebe",
     "body": "35a1155163ab6069",
@@ -35441,7 +35446,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "73f3cfc47fba408e",
     "body": "d19418955ebd7100",
@@ -35469,7 +35474,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "62ee8e12ccd6e090",
     "body": "4fcd6b6210417359",
@@ -35497,7 +35502,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c8aa091ce875c830",
     "body": "ec58bb80ff9048d6",
@@ -35525,7 +35530,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "9afa6bd03236883a",
     "body": "a404cd5d0205575d",
@@ -35553,7 +35558,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5cd5375b1cc81f75",
     "body": "aa947712566ba8e8",
@@ -35581,7 +35586,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "eb9603c9a9ed7dad",
     "body": "6646f1cca6ee491b",
@@ -35599,7 +35604,7 @@
    "files": [],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "38e0e59cb937b5c1",
     "body": "40d6558683f58889",
@@ -35631,7 +35636,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2e7a1257c83c725c",
     "body": "b6c284bb81172ef6",
@@ -35659,7 +35664,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "45aa15820be01e24",
     "body": "6d49825df4641f5d",
@@ -35687,7 +35692,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "46418486959f1213",
     "body": "3bf60a58231c2d56",
@@ -35716,7 +35721,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "3e71b8f4b2b1081c",
     "body": "3e71b8f4b2b1081c",
@@ -35753,7 +35758,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "767193bc95000cb3",
     "body": "78553377d501f4e9",
@@ -35781,7 +35786,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "eaec59d2744d31e4",
     "body": "70a9112cd7f1f1e8",
@@ -35809,7 +35814,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "efbb08ecdbe7e087",
     "body": "8ea5da8e01ffa635",
@@ -35846,7 +35851,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "7b3055da7f60ab0d",
     "body": "951d4adea73ae2de",
@@ -35874,7 +35879,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "aebd854090132f9d",
     "body": "a96dba189c6cf174",
@@ -35902,7 +35907,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "2e9b194729d0f462",
     "body": "58a7b08c5cfcfd39",
@@ -35930,7 +35935,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "8bde972b062349fc",
     "body": "a4cf9d7b6a3875e1",
@@ -35958,7 +35963,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "264165c7ef78c9a6",
     "body": "dc417cbc86b01f25",
@@ -35986,7 +35991,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "394204645de20f02",
     "body": "fa0fda9af76b42aa",
@@ -36014,7 +36019,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c5cd6b92d6c5f9c7",
     "body": "ba94af274e927686",
@@ -36042,7 +36047,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "5d04a3afe67c1814",
     "body": "37550696695abd21",
@@ -36070,7 +36075,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "02f8af3ea9966f88",
     "body": "f3fd2379aac2a4e4",
@@ -36098,7 +36103,7 @@
    ],
    "section": "bctn",
    "first_seen": "2026-10-25T08:04+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "45aa15820be01e24",
     "body": "6d49825df4641f5d",
@@ -36147,7 +36152,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cbfde550a192bc38",
     "body": "39eb5d9732ced56b",
@@ -36280,7 +36285,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1e47a244cb7fbe76",
     "body": "d8340cdcd0cdef7d",
@@ -36309,7 +36314,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f85e5cfb03324aa7",
     "body": "8ae6c9ce8ed31b41",
@@ -36338,7 +36343,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c2e794656272bc44",
     "body": "00ca7cf4ec9ca612",
@@ -36367,7 +36372,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "e765b8dfce97ea7c",
     "body": "e765b8dfce97ea7c",
@@ -36396,7 +36401,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cbf36c36be96ed9a",
     "body": "cbf36c36be96ed9a",
@@ -36425,7 +36430,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "76ffd4602d34c736",
     "body": "76ffd4602d34c736",
@@ -36454,7 +36459,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "cbb5d546de54b9eb",
     "body": "cbb5d546de54b9eb",
@@ -36482,7 +36487,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "1c8db258c890c1b5",
     "body": "ec1d81a1caa76012",
@@ -36510,7 +36515,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "615e0d7df7ee1b02",
     "body": "18b4579b4f1d7758",
@@ -36538,7 +36543,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "93d09ada2e401af8",
     "body": "8c98878a21d635a2",
@@ -36566,7 +36571,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bfd092b80390add2",
     "body": "7d84f1129ee4ff12",
@@ -36594,7 +36599,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "52926eec57991edb",
     "body": "247007b06fc15d96",
@@ -36622,7 +36627,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "79bdfd3b21a11b8b",
     "body": "67072a0b0a6d22fc",
@@ -36650,7 +36655,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "281d0c8e2639c8c1",
     "body": "f45fbbc350d19058",
@@ -36678,7 +36683,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bee3d3fad7cd96a6",
     "body": "f460f4bdf9f7179b",
@@ -36706,7 +36711,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "aef4f550dfe92839",
     "body": "2fc0aec7e4608b80",
@@ -36734,7 +36739,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "6d86d0c9533f164f",
     "body": "5dd9cdb1982b0059",
@@ -36762,7 +36767,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "f23bef5351540881",
     "body": "f23bef5351540881",
@@ -36790,7 +36795,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-01T00:04+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "bee3d3fad7cd96a6",
     "body": "9d2d7439358469af",
@@ -36829,7 +36834,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -36858,7 +36863,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -36991,7 +36996,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-01T23:30+07:00",
+   "checked": "2026-11-02T00:04+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
