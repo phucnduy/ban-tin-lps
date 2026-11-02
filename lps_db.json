@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-02T15:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 19 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-02T16:01+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 22 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -1170,7 +1170,11 @@
    "https://cafef.vn/seabank-hoan-tat-tang-von-dieu-le-len-34688-ty-dong-188261102151505152.chn": "2026-11-02",
    "https://cafef.vn/no-xau-tien-gui-khach-hang-va-loi-nhuan-hien-nay-cua-ngan-hang-lon-nhat-viet-nam-188261102142820871.chn": "2026-11-02",
    "http://vietstock.vn/2026/11/chi-phi-hoat-dong-kinh-doanh-bao-hiem-tang-manh-bao-hiem-bao-minh-giam-33-lai-sau-thue-quy-3-737-1510229.htm": "2026-11-02",
-   "https://vneconomy.vn/ao-ao-ban-thao-co-phieu-giam-soc-nhat-3-thang.htm": "2026-11-02"
+   "https://vneconomy.vn/ao-ao-ban-thao-co-phieu-giam-soc-nhat-3-thang.htm": "2026-11-02",
+   "https://cafef.vn/bon-co-phieu-ngan-hang-bi-khoi-ngoai-xa-560-ty-dong-trong-ngay-vn-index-mat-31-diem-188261102153042689.chn": "2026-11-02",
+   "https://cafef.vn/bao-hiem-bao-minh-chot-ngay-phat-hanh-hon-15-trieu-co-phieu-tra-co-tuc-188261102151036162.chn": "2026-11-02",
+   "https://cafef.vn/mot-co-phieu-ngan-hang-tang-5-trong-phien-do-lua-ngay-2-11-188261102152932675.chn": "2026-11-02",
+   "http://vietstock.vn/2026/11/seabank-tang-38-loi-nhuan-truoc-thue-quy-3-737-1510265.htm": "2026-11-02"
   }
  },
  "news": [
@@ -5192,7 +5196,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -5210,7 +5214,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -5332,7 +5336,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -5454,7 +5458,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -5472,7 +5476,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -5490,7 +5494,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -5612,7 +5616,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -5630,7 +5634,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -5752,7 +5756,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -5874,7 +5878,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -5996,7 +6000,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6014,7 +6018,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6136,7 +6140,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6165,7 +6169,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6183,7 +6187,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6305,7 +6309,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6323,7 +6327,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6445,7 +6449,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6567,7 +6571,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6689,7 +6693,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6811,7 +6815,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6933,7 +6937,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6951,7 +6955,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -7073,7 +7077,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -7091,7 +7095,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -7109,7 +7113,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -7138,7 +7142,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -7291,7 +7295,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -7413,7 +7417,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -7431,7 +7435,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -7449,7 +7453,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -7467,7 +7471,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
@@ -7485,7 +7489,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
@@ -7607,7 +7611,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
@@ -7740,7 +7744,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
@@ -7903,7 +7907,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
@@ -8025,7 +8029,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
@@ -8043,7 +8047,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
@@ -8165,7 +8169,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
@@ -8298,7 +8302,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
@@ -8327,7 +8331,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
@@ -8356,7 +8360,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
@@ -8374,7 +8378,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
@@ -8496,7 +8500,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
@@ -8514,7 +8518,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
@@ -8636,7 +8640,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
@@ -8758,7 +8762,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
@@ -8776,7 +8780,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
@@ -8909,7 +8913,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
@@ -9031,7 +9035,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "fd5b9cf02da571f1",
@@ -9049,7 +9053,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b675872c7a30dafa",
@@ -9067,7 +9071,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "6a08f5c23c167d65",
@@ -9200,7 +9204,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "6a1f515c9b003e5e",
     "body": "1a007f48e9dec93b",
@@ -9229,7 +9233,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "46235d898d95f367",
     "body": "4b54b90d98db66a4",
@@ -9351,7 +9355,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "311f415837fd9720",
@@ -9369,7 +9373,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "5b9eaabda90c0763",
@@ -9491,7 +9495,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "42078ea48dca413a",
@@ -9509,7 +9513,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "286146af1fbebd16",
@@ -9527,7 +9531,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43f19b8bbef669c5",
@@ -9649,7 +9653,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "11bcb15b783d7836",
@@ -9678,7 +9682,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "ff4d1a38aac741a1",
     "body": "5fbe5f20d03a2fb9",
@@ -10281,7 +10285,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "32c87a8e0ba70448",
     "body": "644cf691db92a4c7",
@@ -10403,7 +10407,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c2e7fa47058b0479",
@@ -10525,7 +10529,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4ee7897b57f7e1a5",
@@ -10543,7 +10547,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "d7be12cb5738aba1",
@@ -10561,7 +10565,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "269b24b66cd6ff81",
@@ -10683,7 +10687,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "88a0d86faed82fce",
@@ -10701,7 +10705,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1dfdda738fb0f889",
@@ -10719,7 +10723,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "39efc48ba784074d",
@@ -10841,7 +10845,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "262b7e7d060478d3",
@@ -10974,7 +10978,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "29612cfa4466b320",
     "body": "999bb343affa64db",
@@ -11096,7 +11100,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8a4e1ca4869e3789",
@@ -11218,7 +11222,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fb38eb4fcf32a69b",
@@ -11236,7 +11240,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7f343194f5388f2d",
@@ -11379,7 +11383,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "7ecb94a55e2b0d0d",
     "body": "255fca2d813169b3",
@@ -11397,7 +11401,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "4c099fdbaf240824",
@@ -11550,7 +11554,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "dfe30ddb8a5a239b",
     "body": "32b2b7b0a555b221",
@@ -31425,7 +31429,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -36283,7 +36287,7 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "cbfde550a192bc38",
     "body": "39eb5d9732ced56b",
@@ -36965,7 +36969,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -36994,7 +36998,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -37127,7 +37131,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-02T15:30+07:00",
+   "checked": "2026-11-02T16:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -37567,6 +37571,22 @@
   }
  ],
  "related": [
+  {
+   "id": "rel-7800a367179f",
+   "party": "LPB",
+   "kind": "news",
+   "title": "Có vợ chồng tỷ phú Phạm Nhật Vượng là cổ đông, nhân viên LPBank đi làm một năm là dư tiền mua xe Vinfast",
+   "url": "https://doanhnhantrevietnam.vn/co-vo-chong-ty-phu-pham-nhat-vuong-la-co-dong-nhan-vien-lpbank-di-lam-mot-nam-la-du-tien-mua-xe-vinfast-d29478.html",
+   "source": "doanhnhantrevietnam.vn",
+   "source_name": "Doanh Nhân Trẻ",
+   "published": "2026-11-02T15:30+07:00",
+   "date_precision": "minute",
+   "excerpt": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank, mã chứng khoán: LPB) vừa công bố báo cáo tài chính quý III/2026 với lợi nhuận trước thuế đạt 4.448 tỷ đồng, tăng 29% so với cùng kỳ năm trước. Khấu trừ thuế thu nhập doanh nghiệp, lợi nhuận sau thuế của ngân hàng đạt 3.562 tỷ đồng, tăng tương ứng 29%.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQW1hZWpYX1dXSzhINkZQelhob1ZSeHpmc2VzemZWS1pVb1BnbFpLWnNscmxvSWIzM3FwX1JCOWV3a05QTWJ3OFBocVFESEdIUmVCdi1PMXg5MmFxTzVlbmZROFRiSjVuOEpfYldxYW1WekpNUDJQNjhXbGFEX1ZEellqOG15eVJrWUh3b2NYNjc5QUpXV083X3NTRmJtZ1BSVG9odEVrRndheDFUNjIzUGRfeFlZX181c20tU1NkVk1nZTdOeVYtWHRGOS1fNFFDLTdhRlZHLUR6bFExOHdz?oc=5",
+   "meta_tried": true
+  },
   {
    "id": "rel-dd193a199bdd",
    "party": "LPB",
@@ -40440,6 +40460,22 @@
    "excerpt_origin": "hose"
   },
   {
+   "id": "rel-c68f0c86eaea",
+   "party": "STB",
+   "kind": "news",
+   "title": "SACOMBANK-SBL thông báo sử dụng tên mới của Công ty và các chi nhánh trực thuộc",
+   "url": "https://baodautu.vn/sacombank-sbl-thong-bao-su-dung-ten-moi-cua-cong-ty-va-cac-chi-nhanh-truc-thuoc-d735786.html",
+   "source": "baodautu.vn",
+   "source_name": "baodautu",
+   "published": "2026-11-02T15:33+07:00",
+   "date_precision": "minute",
+   "excerpt": "SACOMBANK-SBL thông báo sử dụng tên mới của Công ty trách nhiệm hữu hạn một thành cho thuê tài chính Ngân hàng Sài Gòn Thương Tín (Công ty) và các Chi nhánh trực thuộc.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYklBZmZEV0lhUWpjRlVCN2xoMzR0aG4yMlI5NDhSWTdoVzFZN2NfekZpbkJjWjh2cHVXYUFZNXdjcjZacUI4ZnZyb09qTlMtX2loTVhtNlRMQVdfc2M3TndQQmRJZ1l0RDF0TXNCWS1vRTBxbW5wODZWTVZ5akZpOE9IeVAwSUtJWUVRd3pvS1dVVWllQk0yZW00dHNIcXNaOWxqalE2S1l5NXIydGdwT1NR?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-4570021a8454",
    "party": "STB",
    "kind": "news",
@@ -40456,6 +40492,38 @@
    "meta_tried": true
   },
   {
+   "id": "rel-77706b2f1ffe",
+   "party": "STB",
+   "kind": "news",
+   "title": "SACOMBANK bổ nhiệm bà Nguyễn Thị Kiều Anh giữ chức quyền Tổng Giám đốc",
+   "url": "https://www.vietnam.vn/sacombank-bo-nhiem-ba-nguyen-thi-kieu-anh-giu-chuc-quyen-tong-giam-doc",
+   "source": "vietnam.vn",
+   "source_name": "Vietnam.vn",
+   "published": "2026-11-02T15:16+07:00",
+   "date_precision": "minute",
+   "excerpt": "SACOMBANK bổ nhiệm Phó Tổng giám đốc Nguyễn Thị Kiều Anh làm quyền Tổng giám đốc từ ngày 2/11/2026 thay ông Loic Faussier chuyển sang vai trò cố vấn cấp cao.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZWduZnowTGRKUzhSQWdmcnBDRWRfMGNhMHNEX21Nc0xjU3VoVTZSbmV2N2xkZW44eHpxU1lYTHJaY19ReVlVTnJDQUEtVFVrUlRaVzlQQWkzNjIxSmZkRkJlbXlzeVJxMXhnQVNCVHdKNVNhdGFfRzlwT1A5eUhfN3Z5S0VVelltNm93b3dKWGxmWVJPMElNdQ?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-86f4b0bd4a93",
+   "party": "STB",
+   "kind": "news",
+   "title": "Sacombank tiếp tục thay Tổng Giám đốc, bà Nguyễn Thị Kiều Anh được giao quyền điều hành",
+   "url": "https://www.nguoiduatin.vn/sacombank-tiep-tuc-thay-tong-giam-doc-ba-nguyen-thi-kieu-anh-duoc-giao-quyen-dieu-hanh-204261102134857464.htm",
+   "source": "nguoiduatin.vn",
+   "source_name": "Người Đưa Tin",
+   "published": "2026-11-02T14:56+07:00",
+   "date_precision": "minute",
+   "excerpt": "Sacombank bổ nhiệm bà Nguyễn Thị Kiều Anh làm Quyền Tổng Giám đốc từ ngày 2/11, trong bối cảnh ngân hàng liên tục biến động nhân sự cấp cao.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWW8zb1RWTVFzVjR0ODFPbGpTU0VwTUotN0V3U2djOHpac3JtLVdNbzJGUzViNW5DTDZMaDV6Wmd6VXhMZFZQdUMybVJyRkhDSHpyNFd2aVRfdTdZU08wYWNnRkNzTFpXcXlmVWh1TWt3aHRfUmdseFhGZl9HVUJUNWdNSGNkUzEwQ2xJNXYteVg1TUVqLW1iQ2VRUXgyVWI4eGZZamVnMU9MR281b25SUGlBZzB2ai1wdG5DRHlLVm91U1Z1aFRhYUNGM2lXNk0ycGc?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-e78a0039c502",
    "party": "STB",
    "kind": "news",
@@ -40469,6 +40537,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNVGdsY3JBT0NtakNucWowbVZPSVpJcWtqekxYY1V0RG9Cb0l5Sl9tLUNLdXp0LWM0cFN3ZHZlTTgzOHp1WjdUQTlIYW1rUlUxWWZlZ0lGekdKRzB0S1E1dlA5M1RISl9sZXpSM29YV2dQWFpJV3NBVGg5OVdGX0ZGN1loZ3VkQUFDNjlpMEdIS1hNM0tjRnhFcUZBN1dqSWx4RVYwS0dydGdjQVlpZDV4X0JDQTI5Y2VIbVFoY1BhLUtWajRMNTd4QnlFWk50RHFaSUItZHd3?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-ffc78f45f1f7",
+   "party": "STB",
+   "kind": "news",
+   "title": "Bà Nguyễn Thị Kiều Anh được bổ nhiệm quyền Tổng giám đốc Sacombank",
+   "url": "https://dttc.sggp.org.vn/ba-nguyen-thi-kieu-anh-duoc-bo-nhiem-quyen-tong-giam-doc-sacombank-post138965.html",
+   "source": "dttc.sggp.org.vn",
+   "source_name": "Báo Sài Gòn Đầu Tư Tài Chính",
+   "published": "2026-11-02T14:27+07:00",
+   "date_precision": "minute",
+   "excerpt": "(ĐTTCO) - Ngân hàng TMCP Sài Gòn Tài Lộc (Sacombank) vừa công bố thông tin về việc bổ nhiệm nhân sự cấp cao vào vị trí quyền Tổng giám đốc.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb0JqdWJPWEZ4ZkxFSWJRS0RUNUg3NU4tbnF2dzNXMXE2NWsydlF6cTZZZHRGclFhQjEwcFNuTnhkWHRreTVCclRfTU9rNGFKdDVBdm1YS09ZQVZWanp0MG5IQ3BGQ1ZVNzJ6UGJvX1RSOTVqZ1YxZjBpTzRqa1R3MkRCOW9ucFM1NzBhamI3N2c1VkU5enZ0dm5lRThJSkJiVjhhOTJTSGZaRkk?oc=5",
    "meta_tried": true
   },
   {
@@ -40673,6 +40757,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOG1oZVZnZFh3NDFCT3Fmd0hmVnJGdzkxUDY3WGg0alEzUUNJR3dvVmtUX19pZkxBLThRYXM5bmJJcjEyMUJsSHpJVnlJMktwUzFmZWdxS2Z6UkFSVFN1WW11dUJtM0lLWG0wRS01d0wyT2ZIZTVsbTJBN0RKdWIwZGJBWFl1WjVFU0JsUnJuTTlNNGg3UUlOSHl6Z19OcFJINFRhcTBfdWVjMFEwUFV2MHJHWC1sWjBncDFRSnNjNDE?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-1e092e190a9a",
+   "party": "STB",
+   "kind": "news",
+   "title": "Bà Nguyễn Thị Kiều Anh: Từ chuyên viên tín dụng đến ghế điều hành SACOMBANK",
+   "url": "https://nhaquanly.vn/ba-nguyen-thi-kieu-anh-tu-chuyen-vien-tin-dung-den-ghe-dieu-hanh-sacombank-a19805.html",
+   "source": "nhaquanly.vn",
+   "source_name": "Nhaquanly",
+   "published": "2026-11-02T12:23+07:00",
+   "date_precision": "minute",
+   "excerpt": "Từ chuyên viên tín dụng tại VPBank, bà Nguyễn Thị Kiều Anh từng bước đảm nhiệm các vị trí quản lý kinh doanh, tham gia bộ máy quản trị cấp cao tại LPBank trước khi chuyển sang SACOMBANK. Chưa đầy 11 tháng sau khi gia nhập ngân hàng này, nữ lãnh đạo sinh năm 1983 được giao quyền điều hành tổ chức tín dụng có tổng tài sản hơn 1,05 triệu tỷ đồng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdG1WUEVRWVU4bUJkMEQyczYtYkVzMFRyZ3VESUxDd2g3Mzh2cFhYNGRTSHNCQVJZNm9qUG1sSXN2ZnkxMEVua25GalItYkJGQmZaQ3RqUU5UUTNNMG55dlpnNXN2VGNfeVY3NmNqRjR0Z0VSNFczbWdjTHZZd09OZThfRUs1OUZGNkN0Q2tnQXpJdmlrNDJBWVBvdGtyWkxTRkljV005ZWVsUHM?oc=5",
    "meta_tried": true
   },
   {
@@ -44317,82 +44417,6 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc0FKR1lXdGZkSmNoVjJzXzIyNmt5U09rR25HUW9UTzFKS3JSc2tEeUhnTnE2aHBIS0N3bUlsUkpkMy1IODZTSlpjOHI3TXZCelZsdVBlUWt2VHhvU25sZzR2Y0NnbVBtbUItbE5uT1RrRUZrRklUNGw5cmpGZnk3ejQ2S3J5X0FyejhiOU84Q1E1WTJlTVpDS1hTTlE?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-hose-2500610",
-   "party": "STB",
-   "kind": "hose",
-   "title": "STB: Nghị quyết HĐQT thay đổi địa chỉ các điểm giao dịch trên địa bàn TP.Bắc Ninh",
-   "url": "https://www.hsx.vn/vi/tin-tuc/tin-to-chuc-niem-yet/2500610",
-   "source": "hsx.vn",
-   "published": "2026-09-29T10:31",
-   "date_precision": "minute",
-   "excerpt": "Ngân hàng Thương mại Cổ phần Sài Gòn Tài Lộc thông báo Nghị quyết HĐQT thay đổi địa chỉ các điểm giao dịch trên địa bàn TP.Bắc Ninh như sau:",
-   "excerpt_origin": "hose"
-  },
-  {
-   "id": "rel-44c7003ac98e",
-   "party": "STB",
-   "kind": "news",
-   "title": "Lãi suất ngân hàng 28/9 tại MB, VPBank,Techcombank, Sacombank, HDBank, Agribank, Vietcombank, BIDV, VietinBank,...",
-   "url": "https://cafef.vn/lai-suat-ngan-hang-28-9-tai-mb-vpbanktechcombank-sacombank-hdbank-agribank-vietcombank-bidv-vietinbank-188260928201305879.chn",
-   "source": "cafef.vn",
-   "source_name": "CafeF",
-   "published": "2026-09-28T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Khảo sát biểu lãi suất huy động trực tuyến tại 35 ngân hàng trong nước ngày 28/9 cho thấy mặt bằng lãi suất tiếp tục phân hóa giữa các nhà băng. Tại kỳ hạn 12 tháng, lãi suất cao nhất đạt 7,8%/năm, trong khi nhiều ngân hàng đang niêm yết từ 7%/năm trở lên.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVno2b2k3ZUx3dFJobGRJcHotNHkwalZ6RGNDeDdyMExsUDJjU3pTdlRVLTZSZU1yeUpRSXBTcm1teUVGSk9uZDI3N3ZiX3RxSUhadWc4TWc2V1BDWGwzTDVRUnA1TXFZTThaWXlGMTczMmIwTEc0cGdkRDBSLWlEbi1pX0IzYVB4UmFwakoza0lUbVp5c2dmWGRtZUFZaUg3Z2w4OGZscFV0NXJJSTd6UWl2WE9HcGJMQ1A2NXpjcmZDVU9VRlRHU0lQVDVQZHFKMUhhNnZjRzZydw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-adb6640443b5",
-   "party": "STB",
-   "kind": "news",
-   "title": "Giá bạc sáng 28/9 giảm tại Phú Quý, Sacombank, DOJI, Bảo Tín Mạnh Hải",
-   "url": "https://cafef.vn/gia-bac-sang-28-9-giam-tai-phu-quy-sacombank-doji-bao-tin-manh-hai-188260928094615062.chn",
-   "source": "cafef.vn",
-   "source_name": "CafeF",
-   "published": "2026-09-28T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Giá bạc trong nước giảm mạnh hơn 1 triệu đồng/lượng trong phiên đầu tuần.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS1huY1ZCRzZoZ0dPLTVrVTNBMVRsXzlfZG9naUk5YWNXM0RkampzSlBIdjItOG85UkpNWlRSOWEtQ1RmY1dQLTdDemk3NVJwSkhKVFJfTlBCY2c0Sl9QU2IzQXR2dkpvSElnR2hQTGNsM1JXZF93M2JQQnYtYmhBaWZFYzZOUGlXNzJXMEdiRmNwRzNURG9BWElTekhqMDk1RU9tcTVWeDI2QQ?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-82af1c2b7141",
-   "party": "STB",
-   "kind": "news",
-   "title": "Dự báo lợi nhuận 10 ngân hàng năm 2026: VietinBank dẫn đầu, SACOMBANK tăng trưởng 53%",
-   "url": "https://nguoiquansat.vn/du-bao-loi-nhuan-10-ngan-hang-nam-2026-vietinbank-dan-dau-sacombank-tang-truong-53-319019.html",
-   "source": "nguoiquansat.vn",
-   "source_name": "nguoiquansat.vn",
-   "published": "2026-09-28T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "VCBS Research mới đây đã công bố dự báo kết quả kinh doanh năm 2026 của các ngân hàng.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORmdiY0RzRWswZDhwTmhUV0ZKOEYwc3NKWk9vU0ZUNk5KMGdETGo4OTBseEllQ25XcU1abkE5N05hLXFRcV9IbHhTZGFwaXpvV2poaU1JM201amVmclZ0QjFmXzRwMzNmOUxNd2dzSmx1MnI5TnVvekVIbUgzdk1MNnIyNjRDTXRGWHZIcXExTFFraTRwcDUxQ082cEtMQ0h1TUxsNFRBalNwR0o0cUlWQzVRRGFQVml0WGc?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-cada7b93fc5f",
-   "party": "STB",
-   "kind": "news",
-   "title": "Triển vọng xử lý khoản nợ nghìn tỷ của Bamboo Airways tại Sacombank",
-   "url": "https://tapchihangkhong.vn/trien-vong-xu-ly-khoan-no-nghin-ty-cua-bamboo-airways-tai-sacombank-d14800.html",
-   "source": "tapchihangkhong.vn",
-   "source_name": "Tạp chí Hàng không",
-   "published": "2026-09-28T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "VCBS dự báo Sacombank đạt 11.640 tỷ đồng lợi nhuận trước thuế năm 2026, tăng 53%, nhờ triển vọng xử lý khoản nợ Bamboo Airways, tạo thêm nguồn thu bất thường.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUGlxN3NmcWpsdzV0UEtPXzVZbS1jSVZ5aExabUVZSEhfR1NHU1JSMGJ2X3JGZHpXMVBLYVczZmFkTXlLN2h0SE5PQ2s3bmpqemhCVDE1U3E1RlJuRDMza1NnWFdOTTRaQi1QdFE4b2Q4LXRfUWIxVDBFQlVWU1FKMEllV1pGN2tHMFUweUJCWUVLa0laRG5McmhiYWRpdjNtbW9xUDBwVmMxQQ?oc=5",
    "meta_tried": true
   },
   {
