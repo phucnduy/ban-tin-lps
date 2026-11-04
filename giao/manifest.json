@@ -1,21 +1,33 @@
 {
- "generated": "2026-11-04T19:01+07:00",
+ "generated": "2026-11-04T19:31+07:00",
  "since": "2026-11-02",
- "documents": 1,
- "files": 3,
+ "documents": 2,
+ "files": 5,
  "batches": [
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2769341,
+    "size": 2771827,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
     "sha256": null
+   },
+   {
+    "rel": "Công bố thông tin\\2026-11-04\\20261104 - LPS - NQ HQDT bo nhiem ke toan truong (che thong tin)_signed.pdf",
+    "size": 3615320,
+    "url": "https://www.lpbs.com.vn/upload/files/20261104%20-%20LPS%20-%20NQ%20HQDT%20bo%20nhiem%20ke%20toan%20truong%20(che%20thong%20tin)_signed.pdf",
+    "sha256": "16a46053b6458f4e4d31b0cece6ed362939833066c81c2fd128904273e3d310b"
    },
    {
     "rel": "Công bố thông tin\\2026-11-02\\20261102 - LPS - CBTT GCN du dkkd chung khoan phai sinh_signed.pdf",
     "size": 1837292,
     "url": "https://www.lpbs.com.vn/upload/files/20261102%20-%20LPS%20-%20CBTT%20GCN%20du%20dkkd%20chung%20khoan%20phai%20sinh_signed.pdf",
     "sha256": "1f9ade5c379e37b82b8c54ff29ff45e8432a0fcd25c1cac850cc4dd46089d60d"
+   },
+   {
+    "rel": "Công bố thông tin\\2026-11-04\\_Danh sách văn bản.html",
+    "size": 1838,
+    "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-11-04/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
+    "sha256": null
    },
    {
     "rel": "Công bố thông tin\\2026-11-02\\_Danh sách văn bản.html",
@@ -26,5 +38,5 @@
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-11-04T19:01+07:00"
+ "db_last_updated": "2026-11-04T19:31+07:00"
 }
