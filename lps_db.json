@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-05T09:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 25 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-05T10:01+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 25 tin bên liên quan, 84 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -1537,7 +1537,12 @@
    "https://vneconomy.vn/chung-khoan-my-tang-bung-no-gia-dau-lao-doc-gan-9.htm": "2026-11-05",
    "https://cafef.vn/tap-doan-cua-ong-truong-gia-binh-tuyen-4-vi-tri-dam-bao-thu-nhap-tu-500-trieu-dong-nam-thuong-them-100-trieu-neu-co-bai-bao-khoa-hoc-188261105092432066.chn": "2026-11-05",
    "https://cafef.vn/loi-nhuan-gap-8-lan-cung-ky-nho-xuat-khau-co-phieu-cua-cong-ty-chuyen-che-tao-nhung-ket-cau-thep-khong-lo-bat-ngo-co-bien-188261105083004338.chn": "2026-11-05",
-   "http://vietstock.vn/2026/11/lai-quy-3-tang-47-pet-thuc-hien-96-muc-tieu-loi-nhuan-nam-sau-9-thang-737-1511578.htm": "2026-11-05"
+   "http://vietstock.vn/2026/11/lai-quy-3-tang-47-pet-thuc-hien-96-muc-tieu-loi-nhuan-nam-sau-9-thang-737-1511578.htm": "2026-11-05",
+   "https://cafef.vn/gia-vang-hom-nay-5-11-tang-toi-46-trieu-dong-moi-luong-tro-lai-muc-dinh-sau-1-tuan-188261105094635229.chn": "2026-11-05",
+   "https://cafef.vn/tap-doan-cua-ong-truong-gia-binh-tuyen-4-vi-tri-dam-bao-thu-nhap-tu-500-trieu-dong-nam-thuong-them-100-trieu-neu-lam-duoc-1-viec-188261105092432066.chn": "2026-11-05",
+   "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-sang-5-11-tai-sjc-pnj-bao-tin-minh-chau-doji-va-bao-tin-manh-hai-dong-loat-tang-toi-25-trieu-dong-luong-188261105065603864.chn": "2026-11-05",
+   "https://cafef.vn/cong-ty-tnhh-mot-thanh-vien-quan-ly-quy-acb-acbc-thong-bao-chao-ban-chung-chi-quy-acbc-bond-ra-cong-chung-188261105083038836.chn": "2026-11-05",
+   "https://cafef.vn/lai-suat-tiet-kiem-ngay-5-11-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-188261105075324654.chn": "2026-11-05"
   }
  },
  "news": [
@@ -5663,14 +5668,22 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
     "files": "47cf3176f0475607",
     "date": "2026-10-22"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-75c22896ae57",
@@ -5681,14 +5694,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-21"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -5791,6 +5804,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -5803,14 +5822,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-21"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -5913,6 +5932,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -5925,14 +5950,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-21"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-ddf0aeb38d90",
@@ -5943,14 +5976,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-20"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-9a0a257432ce",
@@ -5961,14 +6002,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-20"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6071,6 +6112,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6083,14 +6130,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-20"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-4914894975cf",
@@ -6101,14 +6156,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-19"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6211,6 +6266,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6223,14 +6284,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-19"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6333,6 +6394,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6345,14 +6412,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-19"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6455,6 +6522,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6467,14 +6540,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-16"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-3defd2be205f",
@@ -6485,14 +6566,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-16"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6595,6 +6676,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6607,14 +6694,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-16"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-d2f108b44de5",
@@ -6636,14 +6731,22 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
     "files": "656715ee7d427e74",
     "date": "2026-10-15"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-e4b9a5f16bfe",
@@ -6654,14 +6757,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-15"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6764,6 +6867,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6776,14 +6885,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-15"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-38c76b5c227b",
@@ -6794,14 +6911,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-15"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -6904,6 +7021,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -6916,14 +7039,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-14"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7026,6 +7149,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7038,14 +7167,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-14"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7148,6 +7277,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7160,14 +7295,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-14"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7270,6 +7405,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7282,14 +7423,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-13"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7392,6 +7533,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7404,14 +7551,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-13"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-24bfef10613c",
@@ -7422,14 +7577,14 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-13"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7532,6 +7687,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7544,14 +7705,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-12"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-e48fb68f815e",
@@ -7562,14 +7731,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-12"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-00b10c711ae6",
@@ -7580,14 +7757,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-12"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-c2ae387fe6ab",
@@ -7609,14 +7794,14 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
     "files": "3ff18de0d1ba3168",
     "date": "2026-10-12"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7719,6 +7904,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7762,14 +7953,14 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
     "files": "8b2c111f7b0e04d5",
     "date": "2026-10-09"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -7872,6 +8063,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -7884,14 +8081,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-09"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-413ca863c862",
@@ -7902,14 +8107,22 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-09"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-2e38ddfdf071",
@@ -7920,14 +8133,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-09"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-5f8e7910570a",
@@ -7938,14 +8159,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-08"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-27c1021f7103",
@@ -7956,14 +8185,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-08"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8066,6 +8295,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8078,14 +8313,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-08"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8188,6 +8423,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8211,14 +8452,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
     "files": "5374da598441ed4d",
     "date": "2026-10-08"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8321,6 +8562,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8374,14 +8621,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
     "files": "4a409ad783e309d8",
     "date": "2026-10-07"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8484,6 +8731,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8496,14 +8749,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-07"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-767cd04dca90",
@@ -8514,14 +8775,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-07"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8624,6 +8885,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8636,14 +8903,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-07"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8746,6 +9013,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8769,14 +9042,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
     "files": "dc3645f30df94d81",
     "date": "2026-10-07"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-72f761b374cf",
@@ -8798,14 +9079,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
     "files": "64fcfc6b0ead5bf2",
     "date": "2026-10-07"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-1608356d2bd0",
@@ -8827,14 +9116,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
     "files": "f2a98e2964fcb2d0",
     "date": "2026-10-06"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-c4a4ce6ef75b",
@@ -8845,14 +9142,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-06"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -8955,6 +9252,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -8967,14 +9270,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-06"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-409a06f6a098",
@@ -8985,14 +9296,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-06"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9095,6 +9406,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9107,14 +9424,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-05"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9217,6 +9534,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9229,14 +9552,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-05"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-82445b832993",
@@ -9247,14 +9578,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-05"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9357,6 +9688,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9380,14 +9717,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
     "files": "81c05c1c798f2299",
     "date": "2026-10-05"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9490,6 +9827,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9502,14 +9845,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "fd5b9cf02da571f1",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-02"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-016e799a485d",
@@ -9520,14 +9871,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b675872c7a30dafa",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-02"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-1f4a1d2bc27c",
@@ -9538,14 +9897,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "6a08f5c23c167d65",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-02"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9648,6 +10007,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9671,14 +10036,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "6a1f515c9b003e5e",
     "body": "1a007f48e9dec93b",
     "files": "f5a1268e5eaaf1ed",
     "date": "2026-10-02"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-093d84023164",
@@ -9700,14 +10073,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "46235d898d95f367",
     "body": "4b54b90d98db66a4",
     "files": "475aa1639448e3fa",
     "date": "2026-10-02"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9810,6 +10183,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9822,14 +10201,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "311f415837fd9720",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-244355c95c5e",
@@ -9840,14 +10227,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "5b9eaabda90c0763",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -9950,6 +10337,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -9962,14 +10355,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "42078ea48dca413a",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-71529b77ec36",
@@ -9980,14 +10381,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "286146af1fbebd16",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-3f6ab7947909",
@@ -9998,14 +10407,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43f19b8bbef669c5",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -10108,6 +10517,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -10120,14 +10535,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "11bcb15b783d7836",
     "files": "e3b0c44298fc1c14",
     "date": "2026-10-01"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-9ce4a2f7475a",
@@ -10149,14 +10572,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "ff4d1a38aac741a1",
     "body": "5fbe5f20d03a2fb9",
     "files": "a6c49ed2f472a58a",
     "date": "2026-10-01"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -10259,6 +10682,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -10752,14 +11181,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "32c87a8e0ba70448",
     "body": "644cf691db92a4c7",
     "files": "539a17c32cbe3b90",
     "date": "2026-09-30"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -10862,6 +11291,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -10874,14 +11309,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c2e7fa47058b0479",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -10984,6 +11419,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -10996,14 +11437,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4ee7897b57f7e1a5",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-d88e065096e1",
@@ -11014,14 +11463,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "d7be12cb5738aba1",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-046b5ea9cb27",
@@ -11032,14 +11489,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "269b24b66cd6ff81",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11142,6 +11599,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11154,14 +11617,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "88a0d86faed82fce",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-62a5cc7ac91d",
@@ -11172,14 +11643,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1dfdda738fb0f889",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-29"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-18d65e43b5fa",
@@ -11190,14 +11669,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "39efc48ba784074d",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-28"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11300,6 +11779,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11312,14 +11797,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "262b7e7d060478d3",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-28"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11422,6 +11907,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11445,14 +11936,14 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "29612cfa4466b320",
     "body": "999bb343affa64db",
     "files": "74e33ccc093e3bd9",
     "date": "2026-09-28"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11555,6 +12046,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11567,14 +12064,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8a4e1ca4869e3789",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-25"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11677,6 +12174,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11689,14 +12192,22 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fb38eb4fcf32a69b",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-25"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-0e95e1fe1c68",
@@ -11707,14 +12218,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7f343194f5388f2d",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-24"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11817,6 +12328,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -11850,14 +12367,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "7ecb94a55e2b0d0d",
     "body": "255fca2d813169b3",
     "files": "34929bc0728fe194",
     "date": "2026-09-24"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-bc9591b4bfa0",
@@ -11868,14 +12393,14 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "f2916ceab1cf95a8",
     "body": "4c099fdbaf240824",
     "files": "e3b0c44298fc1c14",
     "date": "2026-09-22"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -11978,6 +12503,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -12021,14 +12552,22 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "dfe30ddb8a5a239b",
     "body": "32b2b7b0a555b221",
     "files": "5e0f9d528cb713c9",
     "date": "2026-09-21"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-92ff34a1920f",
@@ -31896,14 +32435,14 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
     "files": "ff03f16c3b6127cf",
     "date": "2026-10-20"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -32006,6 +32545,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -36754,14 +37299,14 @@
    ],
    "section": "dieule",
    "first_seen": "2026-10-25T08:05+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "cbfde550a192bc38",
     "body": "39eb5d9732ced56b",
     "files": "73e2fdc1ff6e76e0",
     "date": "2026-10-02"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -36864,6 +37409,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -37436,14 +37987,22 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
     "files": "935ada9368a4cc7a",
     "date": "2026-10-29"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-c099b7a98c2d",
@@ -37465,14 +38024,14 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
     "files": "1ec2d6e9e7c1f796",
     "date": "2026-10-29"
    },
-   "status": "active",
+   "status": "removed",
    "changes": [
     {
      "at": "2026-10-29T16:00+07:00",
@@ -37575,6 +38134,12 @@
      "kind": "khoi_phuc",
      "label": "Văn bản xuất hiện trở lại",
      "detail": ""
+    },
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
     }
    ]
   },
@@ -37598,14 +38163,22 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
     "files": "f618fdfae3ea3f4d",
     "date": "2026-10-30"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-1bbb786f501e",
@@ -37627,14 +38200,22 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
     "files": "ba1347115728cc35",
     "date": "2026-11-02"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   },
   {
    "id": "cbtt-6ddea0edb54f",
@@ -37656,14 +38237,22 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-05T09:30+07:00",
+   "checked": "2026-11-05T10:00+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
     "files": "aff01c548c37e9fc",
     "date": "2026-11-04"
    },
-   "status": "active"
+   "status": "removed",
+   "changes": [
+    {
+     "at": "2026-11-05T10:00+07:00",
+     "kind": "go_khoi_web",
+     "label": "Trang văn bản không còn trên website",
+     "detail": "Trang chi tiết không còn nội dung"
+    }
+   ]
   }
  ],
  "hose": [
