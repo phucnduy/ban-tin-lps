@@ -60,11 +60,62 @@ HASH_WORKERS = 3
 HASH_TIME_BUDGET = int(os.environ.get("LPS_HASH_BUDGET", 25 * 60))   # giây cho việc tải + băm tệp mỗi lần chạy
 ARCHIVE_FROM = "2026-01-01"      # lưu bản sao PDF cho văn bản đăng từ ngày này (mã băm thì tính cho mọi file)
 ARCHIVE_MAX_BYTES = 1_900_000_000
+MISS_CONFIRM = 2                 # số lượt kiểm tra liên tiếp trả 404/rỗng mới ghi "gỡ khỏi web"
+MASS_MISS_MIN = 10               # từ chừng này trang trở lên cùng 404 trong một lượt …
+MASS_MISS_RATIO = 0.2            # … và chiếm từ 20% số trang kiểm tra được → coi là website lỗi tạm thời
 
 
 def fingerprint(title, body, files, date):
     return {"title": _h(_norm_text(title)), "body": _h(_norm_text(body)),
             "files": _h("|".join(sorted(f["url"] for f in files or []))), "date": date or ""}
+
+
+def clean_change_history(db, log=print):
+    """Dọn lịch sử thay đổi bị ghi sai (chạy mỗi lượt, không làm gì nếu lịch sử đã sạch):
+    (1) bỏ các dòng "xuất hiện trở lại" lặp lại — chỉ giữ dòng đầu tiên sau mỗi lần "gỡ khỏi web";
+    (2) bỏ cặp "gỡ khỏi web" + "xuất hiện trở lại" thuộc các đợt website lỗi hàng loạt
+        (từ MASS_MISS_MIN văn bản trở lên cùng báo gỡ trong một lượt và lượt kiểm tra sau đó đều mở lại được)."""
+    recs = db.get("cbtt", [])
+    before = sum(len(r.get("changes", [])) for r in recs)
+    for r in recs:
+        out, open_removal = [], False
+        for c in r.get("changes", []):
+            if c["kind"] == "go_khoi_web":
+                open_removal = True
+            elif c["kind"] == "khoi_phuc":
+                if not open_removal:
+                    continue
+                open_removal = False
+            out.append(c)
+        if "changes" in r:
+            r["changes"] = out
+    # (2) đợt lỗi hàng loạt
+    from collections import Counter
+    blips = Counter()
+    for r in recs:
+        ch = r.get("changes", [])
+        for i, c in enumerate(ch[:-1]):
+            if c["kind"] == "go_khoi_web" and ch[i + 1]["kind"] == "khoi_phuc":
+                blips[c["at"]] += 1
+    mass = {at for at, n in blips.items() if n >= MASS_MISS_MIN}
+    if mass:
+        for r in recs:
+            ch, out, skip = r.get("changes", []), [], False
+            for i, c in enumerate(ch):
+                if skip:
+                    skip = False
+                    continue
+                if c["kind"] == "go_khoi_web" and c["at"] in mass and i + 1 < len(ch) and ch[i + 1]["kind"] == "khoi_phuc":
+                    skip = True
+                    continue
+                out.append(c)
+            if "changes" in r:
+                r["changes"] = out
+    removed = before - sum(len(r.get("changes", [])) for r in recs)
+    if removed:
+        log(f"  dọn lịch sử thay đổi: bỏ {removed} dòng ghi sai")
+        db.setdefault("meta", {})["history_cleaned"] = now_vn() + f": bỏ {removed} dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
+    return removed
 
 
 def _add_change(rec, kind, detail=""):
@@ -192,6 +243,7 @@ def verify_documents(db, session, parse_detail, log, listing=None, full_day=Fals
     today = dt.datetime.now(VN_TZ).date()
     recent = (today - dt.timedelta(days=VERIFY_RECENT_DAYS)).isoformat()
     recs = db["cbtt"]
+    clean_change_history(db, log)
     targets = [r for r in recs if full_day or (r.get("date") or "") >= recent or "fp" not in r]
     stats = {"checked": 0, "changed": 0, "files_checked": 0, "hashed": 0, "archived": 0}
 
@@ -200,6 +252,12 @@ def verify_documents(db, session, parse_detail, log, listing=None, full_day=Fals
         return rec, v.fetch_detail(rec["url"])
     with cf.ThreadPoolExecutor(DETAIL_WORKERS) as ex:
         results = list(ex.map(work, targets))
+    # Chống báo động giả: nếu trong cùng một lượt có rất nhiều trang cùng trả 404/rỗng thì coi là website lỗi tạm thời.
+    n_miss = sum(1 for _, (st, _b, _f) in results if st in ("404", "empty"))
+    n_ok = sum(1 for _, (st, _b, _f) in results if st != "error")
+    site_glitch = n_miss >= MASS_MISS_MIN and n_miss >= MASS_MISS_RATIO * max(n_ok, 1)
+    if site_glitch:
+        log(f"  ! {n_miss}/{n_ok} trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'")
     for rec, (status, body, files) in results:
         if status == "error":
             continue
@@ -211,13 +269,19 @@ def verify_documents(db, session, parse_detail, log, listing=None, full_day=Fals
         else:
             ltitle, ldate = rec["title"], rec.get("date", "")
         if status in ("404", "empty"):
-            if rec.get("status") != "removed":
+            if site_glitch:
+                continue
+            # chỉ ghi "gỡ khỏi web" khi lỗi lặp lại ở MISS_CONFIRM lượt kiểm tra liên tiếp
+            rec["miss404"] = rec.get("miss404", 0) + 1
+            if rec.get("status") != "removed" and rec["miss404"] >= MISS_CONFIRM:
                 rec["status"] = "removed"
                 _add_change(rec, "go_khoi_web", "Trang chi tiết trả lỗi 404" if status == "404" else "Trang chi tiết không còn nội dung")
                 stats["changed"] += 1
             continue
+        rec.pop("miss404", None)
         if rec.get("status") == "removed":
             _add_change(rec, "khoi_phuc")
+            rec["status"] = "active"   # sửa lỗi: trước đây không đặt lại trạng thái → mỗi lượt lại ghi "xuất hiện trở lại"
             stats["changed"] += 1
         new_fp = fingerprint(ltitle, body, files, ldate)
         old_fp = rec.get("fp")
