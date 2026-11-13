@@ -1,48 +1,18 @@
 {
- "generated": "2026-11-13T23:31+07:00",
- "since": "2026-11-11",
- "documents": 2,
- "files": 6,
+ "generated": "2026-11-14T00:05+07:00",
+ "since": "2026-11-12",
+ "documents": 0,
+ "files": 1,
  "batches": [
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2394528,
+    "size": 2373091,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
-    "sha256": null
-   },
-   {
-    "rel": "Công bố thông tin\\2026-11-11\\20261111 - LPS - CBTT Nghi quyet phat hanh trai phieu rieng le - lan 3_signed.pdf",
-    "size": 2915834,
-    "url": "https://www.lpbs.com.vn/upload/files/20261111%20-%20LPS%20-%20CBTT%20Nghi%20quyet%20phat%20hanh%20trai%20phieu%20rieng%20le%20-%20lan%203_signed.pdf",
-    "sha256": "4a297866b8341d26390f6fa655a5d1db1965b9543b65b3dc0b782e2ea4c9d509"
-   },
-   {
-    "rel": "Công bố thông tin\\2026-11-11\\20261111 - CVNM2601 - CBTT Dieu chinh chung quyen_signed.pdf",
-    "size": 1514944,
-    "url": "https://www.lpbs.com.vn/upload/files/20261111%20-%20CVNM2601%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
-    "sha256": "a5c9700917fe1a35edd3393f46ba6c6541e3f9fef9d82f0d40111d2557a54ba2"
-   },
-   {
-    "rel": "Công bố thông tin\\2026-11-11\\20261111 - CVNM2617 - CBTT Dieu chinh chung quyen_signed.pdf",
-    "size": 1508511,
-    "url": "https://www.lpbs.com.vn/upload/files/20261111%20-%20CVNM2617%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
-    "sha256": "c4e6dd4f1d1a922e0c2ff73885145f0a93c88f6c3d9a6806473adde67417dfc6"
-   },
-   {
-    "rel": "Công bố thông tin\\2026-11-11\\20261111 - CVNM2618 - CBTT Dieu chinh chung quyen_signed.pdf",
-    "size": 1514130,
-    "url": "https://www.lpbs.com.vn/upload/files/20261111%20-%20CVNM2618%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
-    "sha256": "421aac39971e1033caf1fd55db517283620b61e4d9a718031610295f97638809"
-   },
-   {
-    "rel": "Công bố thông tin\\2026-11-11\\_Danh sách văn bản.html",
-    "size": 3798,
-    "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/giao/C%C3%B4ng%20b%E1%BB%91%20th%C3%B4ng%20tin/2026-11-11/_Danh%20s%C3%A1ch%20v%C4%83n%20b%E1%BA%A3n.html",
     "sha256": null
    }
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-11-13T23:31+07:00"
+ "db_last_updated": "2026-11-14T00:05+07:00"
 }
