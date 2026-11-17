@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-17T15:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 45 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-17T16:02+07:00",
+  "last_result": "0 văn bản mới, 1 tin mới, 0 tin HOSE mới, 41 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -25,7 +25,9 @@
    "LPB": 2955,
    "STB": 2271
   },
-  "last_errors": [],
+  "last_errors": [
+   "[2026-11-17 16:01:41] Google News lỗi (\"Sacom Life\"): 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Sacom%20Life%22%20when%3A30d&hl=vi&gl=VN&ceid=VN:vi"
+  ],
   "last_full_verify": "2026-11-17",
   "rss_body_checked": {
    "https://cafef.vn/nganh-chung-khoan-truoc-van-hoi-moi-von-lon-hon-cho-vay-manh-hon-canh-tranh-khoc-liet-hon-188261102152126004.chn": "2026-11-03",
@@ -1749,7 +1751,21 @@
    "http://vietstock.vn/2026/11/amy-grupo-cong-bo-khoan-dau-tu-tu-nhom-nha-dau-tu-trong-va-ngoai-nuoc-mo-ra-giai-doan-hop-tac-va-phat-trien-moi-737-1515403.htm": "2026-11-17",
    "http://vietstock.vn/2026/11/tong-giam-doc-gcf-da-thoai-toan-bo-von-739-1515385.htm": "2026-11-17",
    "https://cafef.vn/quy-ngoai-rot-hon-50-trieu-usd-dau-tu-vao-chuoi-nha-hang-mon-hue-len-tieng-sau-7-nam-22-trieu-usd-tien-mat-giam-chi-trong-1-thang-188261117151844261.chn": "2026-11-17",
-   "https://cafef.vn/viettel-tung-chuong-trinh-ho-tro-toi-370-ty-dong-tai-tphcm-tu-ho-kinh-doanh-den-cac-cong-ty-deu-co-co-hoi-nhan-uu-dai-188261117144459068.chn": "2026-11-17"
+   "https://cafef.vn/viettel-tung-chuong-trinh-ho-tro-toi-370-ty-dong-tai-tphcm-tu-ho-kinh-doanh-den-cac-cong-ty-deu-co-co-hoi-nhan-uu-dai-188261117144459068.chn": "2026-11-17",
+   "https://cafef.vn/phien-17-11-khoi-ngoai-tiep-da-ban-rong-xa-manh-2-co-phieu-bluechips-1882611171539393.chn": "2026-11-17",
+   "https://cafef.vn/ly-nha-ky-toi-khong-choi-co-phieu-188261117154309842.chn": "2026-11-17",
+   "https://cafef.vn/thanh-pho-rong-nhat-viet-nam-lan-dau-tien-co-cong-trinh-nghin-ty-trong-linh-vuc-dac-biet-nay-188261117153038841.chn": "2026-11-17",
+   "https://cafef.vn/tan-thay-canh-dao-ham-khoet-nui-sau-500m-dung-pin-dien-khong-lo-dau-tien-o-viet-nam-188261117150359258.chn": "2026-11-17",
+   "https://cafef.vn/hang-taxi-cua-ty-phu-pham-nhat-vuong-ram-ro-tuyen-loat-lanh-dao-tai-phan-lan-he-mo-thi-truong-moi-188261117152848434.chn": "2026-11-17",
+   "https://cafef.vn/loat-du-an-lon-cua-fpt-dig-kinh-bac-va-aeon-mall-duoc-goi-ten-trong-danh-sach-ra-soat-18826111715240766.chn": "2026-11-17",
+   "https://cafef.vn/co-phieu-ngan-hang-lon-nhat-san-chung-khoan-viet-nam-roi-xuong-day-19-thang-khoi-ngoai-ban-rong-hon-7300-ty-dong-thi-gia-giam-gan-31-tu-dinh-188261117153156458.chn": "2026-11-17",
+   "http://vietstock.vn/2026/11/nhip-dap-thi-truong-1711-suc-ep-tu-co-phieu-von-hoa-lon-1636-1515361.htm": "2026-11-17",
+   "https://vneconomy.vn/tinh-den-16112026-co-71-ma-bi-cat-margin-tren-hose.htm": "2026-11-17",
+   "https://vneconomy.vn/dong-von-etf-rut-khoi-viet-nam-thi-truong-my-hut-tien-manh.htm": "2026-11-17",
+   "https://vneconomy.vn/ty-trong-co-phieu-va-bat-dong-san-trong-tai-san-cua-nguoi-my-75-nam-qua.htm": "2026-11-17",
+   "https://vneconomy.vn/nha-dau-tu-rot-tien-vao-cac-vu-ipo-lon-nhat-pho-wall-nam-nay-dang-thua-lo.htm": "2026-11-17",
+   "https://vneconomy.vn/thanh-khoan-phuc-hoi-nhe-ben-mua-van-rat-kien-nhan.htm": "2026-11-17",
+   "https://www.tinnhanhchungkhoan.vn/sac-do-chiem-uu-the-vn-index-giam-hon-10-diem-trong-phien-ngay-1711-post401574.html": "2026-11-17"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6210,6 +6226,18 @@
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTJUY3pRVmNhc1FzU3Z5LUZhcldKUldsNWJaemM4RG5LYnoyaGR3Z2lzMUV4TWZvSWZCX1FkWks3a2hBbWlIcnpMc1FyYVNtdHliLUxRVXA1VkxWbjhHRm9DLTBtUFphWVEzNmxHOEVJd0hDakV4blVrR2REbDctY0UzTmcwanpwVmY4QzV1Tzh0MWJQZjlTSXFFc2h2Yzcx?oc=5",
    "meta_tried": true
+  },
+  {
+   "id": "news-157dc33c29d8",
+   "title": "Tính đến 16/11/2026, có 71 mã bị cắt margin trên HOSE",
+   "url": "https://vneconomy.vn/tinh-den-16112026-co-71-ma-bi-cat-margin-tren-hose.htm",
+   "source": "vneconomy.vn",
+   "published": "2026-11-17T15:40+07:00",
+   "date_precision": "minute",
+   "excerpt": "15 mã có thời gian niêm yết dưới 06 tháng gồm: AAN, BVB, DMX, DSH, DTA, DVV, ECO; FUEM 1TEC ; FUET PVND ; FUEV N50G ; GDA; HIO; LPS; MZG; VBB;",
+   "excerpt_origin": "body",
+   "via": "rss",
+   "mention_only": true
   }
  ],
  "cbtt": [
@@ -6243,7 +6271,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6262,7 +6290,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6281,7 +6309,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6300,7 +6328,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6319,7 +6347,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6338,7 +6366,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6357,7 +6385,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6376,7 +6404,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6395,7 +6423,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6414,7 +6442,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6433,7 +6461,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6452,7 +6480,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6471,7 +6499,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6501,7 +6529,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6520,7 +6548,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6539,7 +6567,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6558,7 +6586,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6577,7 +6605,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6596,7 +6624,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6615,7 +6643,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6634,7 +6662,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6653,7 +6681,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6672,7 +6700,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -6691,7 +6719,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -6710,7 +6738,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -6729,7 +6757,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -6759,7 +6787,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -6809,7 +6837,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -6828,7 +6856,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -6847,7 +6875,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -6866,7 +6894,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -6885,7 +6913,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8f62638ad6ff789f",
@@ -6904,7 +6932,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "a1e2c1c37d3c2699",
@@ -6923,7 +6951,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e6c0c3197831eb37",
@@ -6953,7 +6981,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "7d42a9cfc8666905",
     "body": "3a9e74a14ce39059",
@@ -7013,7 +7041,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "cd6ee2cfa9b19bc1",
     "body": "ff7016b330bbbc50",
@@ -7032,7 +7060,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "5e5b42eb70b346f0",
@@ -7051,7 +7079,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "23848456f59050cd",
@@ -7070,7 +7098,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "13e84a78a8f2746a",
@@ -7100,7 +7128,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "ae5b136e69bd02de",
     "body": "d23ed76f3c462f30",
@@ -7130,7 +7158,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "a470b749d99469f8",
     "body": "85bb5b0ccd75526a",
@@ -7160,7 +7188,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "05b4f000aa59123c",
     "body": "48658516c34b1cd9",
@@ -7179,7 +7207,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "755ddb9783e772e8",
@@ -7198,7 +7226,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "df13966ba0e3d723",
@@ -7217,7 +7245,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "7be3eb607a6e6662",
@@ -7236,7 +7264,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "4df73fab44f57ac8",
@@ -7255,7 +7283,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "c12c7ef4c59a7640",
@@ -7274,7 +7302,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "fc3fa799cea43d51",
@@ -7304,7 +7332,7 @@
    ],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "9dfed1c501d6d998",
     "body": "913adffb5b6d85c9",
@@ -28083,7 +28111,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33417,7 +33445,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33447,7 +33475,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33477,7 +33505,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33507,7 +33535,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33537,7 +33565,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33567,7 +33595,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33616,7 +33644,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33655,7 +33683,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -33718,7 +33746,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -33786,7 +33814,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -33815,7 +33843,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-17T15:30+07:00",
+   "checked": "2026-11-17T16:00+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
