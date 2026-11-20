@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:32+07:00",
+ "generated": "2026-11-20T17:03+07:00",
  "since": "2026-11-18",
  "documents": 1,
  "files": 2,
@@ -7,7 +7,7 @@
   [
    {
     "rel": "ban-tin-lps.html",
-    "size": 2428667,
+    "size": 2428815,
     "url": "https://raw.githubusercontent.com/phucnduy/ban-tin-lps/main/ban-tin-lps.html",
     "sha256": null
    },
@@ -20,5 +20,5 @@
   ]
  ],
  "notes": [],
- "db_last_updated": "2026-11-20T16:32+07:00"
+ "db_last_updated": "2026-11-20T17:03+07:00"
 }
