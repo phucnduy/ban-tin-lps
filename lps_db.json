@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-23T15:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 67 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-23T16:01+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 51 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-23 15:30:26]   ! 44/44 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-23 16:00:29]   ! 44/44 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-23",
   "rss_body_checked": {
@@ -1704,7 +1704,11 @@
    "http://vietstock.vn/2026/11/mot-thanh-vien-tkv-bi-phat-va-truy-thu-thue-hon-11-ty-758-1516960.htm": "2026-11-23",
    "https://cafef.vn/pho-giao-su-noi-tieng-viet-nam-vua-co-them-240-ty-dong-chi-trong-mot-ngay-188261123151750853.chn": "2026-11-23",
    "https://cafef.vn/intel-muon-nang-vi-the-tphcm-trong-chuoi-ban-dan-toan-cau-sun-group-cam-ket-lam-truc-dai-lo-ven-song-sai-gon-188261123140726741.chn": "2026-11-23",
-   "https://vneconomy.vn/co-phieu-phuc-hoi-dien-rong-ben-mua-van-rat-than-trong.htm": "2026-11-23"
+   "https://vneconomy.vn/co-phieu-phuc-hoi-dien-rong-ben-mua-van-rat-than-trong.htm": "2026-11-23",
+   "https://cafef.vn/phien-23-11-khoi-ngoai-tiep-tuc-ban-rong-bat-ngo-tung-gan-200-ty-dong-gom-mot-co-phieu-hose-188261123152245939.chn": "2026-11-23",
+   "https://cafef.vn/cuu-ceo-pnj-lam-cuoc-cai-to-f5-luy-thua-2-nhan-f1-de-thay-doi-nhanh-nhu-xe-dua-tan-ceo-lai-che-bo-may-cong-kenh-phai-cai-to-tu-goc-188261123151451161.chn": "2026-11-23",
+   "http://vietstock.vn/2026/11/lanh-dao-mua-ban-co-phieu-giao-dich-lon-tai-novaland-va-agris-739-1517005.htm": "2026-11-23",
+   "https://www.tinnhanhchungkhoan.vn/ap-luc-dao-han-trai-phieu-du-kien-tang-manh-trong-thang-12-post401966.html": "2026-11-23"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6446,7 +6450,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6465,7 +6469,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6484,7 +6488,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6503,7 +6507,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6522,7 +6526,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6541,7 +6545,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6560,7 +6564,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6579,7 +6583,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6598,7 +6602,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6617,7 +6621,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6636,7 +6640,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6655,7 +6659,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6674,7 +6678,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6704,7 +6708,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6723,7 +6727,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6742,7 +6746,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6761,7 +6765,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6780,7 +6784,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6799,7 +6803,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6818,7 +6822,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6837,7 +6841,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6856,7 +6860,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6875,7 +6879,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -6894,7 +6898,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -6913,7 +6917,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -6932,7 +6936,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -6962,7 +6966,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -7012,7 +7016,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -7031,7 +7035,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -7050,7 +7054,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -7069,7 +7073,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -28315,7 +28319,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33649,7 +33653,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33679,7 +33683,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33710,7 +33714,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33748,7 +33752,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33786,7 +33790,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33824,7 +33828,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33884,7 +33888,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33945,7 +33949,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -34021,7 +34025,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34097,7 +34101,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34141,7 +34145,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34179,7 +34183,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-23T15:30+07:00",
+   "checked": "2026-11-23T16:00+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -34688,6 +34692,70 @@
  ],
  "related": [
   {
+   "id": "rel-fae9ca6ac3b1",
+   "party": "LPB",
+   "kind": "news",
+   "title": "Chân dung Quyền Tổng Giám đốc LPBank Vũ Nam Hương",
+   "url": "https://nguoiquansat.vn/chan-dung-quyen-tong-giam-doc-lpbank-vu-nam-huong-329692.html",
+   "source": "nguoiquansat.vn",
+   "source_name": "nguoiquansat.vn",
+   "published": "2026-11-23T15:48+07:00",
+   "date_precision": "minute",
+   "excerpt": "Bà Vũ Nam Hương có gần 16 năm gắn bó với VNDirect trước khi chuyển sang LPBank vào tháng 3/2024.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNnNTX1BScGtDTzFDN1IySTQwdHNQcDBuVTM2TWdzWlJwNkNmby1nbVlkOUlDUmxMdGpqZlhPbXg0amktbHlMaFA5TkF3Wi1KY01hdzlyRkhoVDNvdDd1RlVTU1NhVUROMGI0TG5xV3ZEeU1SU2FtTndmcm0tQ1d1M2tDWEpoX1VsWHN2R3dB?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-18e7a288570b",
+   "party": "LPB",
+   "kind": "news",
+   "title": "LPBank có quyền tổng giám đốc mới, ông Vũ Quốc Khánh chuyển vị trí",
+   "url": "https://mekongasean.vn/lpbank-co-quyen-tong-giam-doc-moi-ong-vu-quoc-khanh-chuyen-vi-tri-62165.html",
+   "source": "mekongasean.vn",
+   "source_name": "Mekong ASEAN",
+   "published": "2026-11-23T15:46+07:00",
+   "date_precision": "minute",
+   "excerpt": "Bà Vũ Nam Hương được bổ nhiệm làm quyền Tổng giám đốc LPBank từ ngày 23/11, trong khi ông Vũ Quốc Khánh thôi giữ chức tổng giám đốc để đảm nhiệm vai trò cố vấn cấp cao HĐQT ngân hàng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDh2cDlob2pFa2NJSG4yTHoyc0RUZHJUXy1KbDFseEtfRk10a1FLUDBNZ01WZ1pDSTk4YjNtWGt1bEtXSFFidXdFRjhNaVdqY2dQUVlJV1NXUWhiOWh4VElwLXNZSnpCcmQ0UHFPYm1IazBaZWhqTzFuR0tBbWU5WnNVbXc5Y2VSVEREQjcybGFIR3NGMGc4b3AyS1ZuM3p6?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-f44c62da6ff2",
+   "party": "LPB",
+   "kind": "news",
+   "title": "LPBank tất toán lô trái phiếu trước hạn 5 năm",
+   "url": "https://antt.nguoiduatin.vn/lpbank-tat-toan-lo-trai-phieu-truoc-han-5-nam-205261123145554083.htm",
+   "source": "antt.nguoiduatin.vn",
+   "source_name": "An ninh Tiền tệ",
+   "published": "2026-11-23T15:39+07:00",
+   "date_precision": "minute",
+   "excerpt": "LPBank đã mua lại trước hạn trái phiếu mã LPB12412 trị giá 200 tỷ đồng vào ngày 13/11/2026.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWFOdkYzX3NPREIzMDZLSFgxbHpidldSWnhnVnk4cWsyeVJGNTN5Wmo2ZXZEcHltdHdCUWUxcXRkQmhiZEVicVZvbFR4V1hUWjMtWDJTbjBJQ1BlQ2hPTWVZeExVVnVDVkZSSXV1SnIwMjRWbTJycGNfMm8zdTR0OTJpUEd4RWkxMVhQVGpIRnhGNG1aRk9WRW1Gd0M?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-037c71a6828c",
+   "party": "LPB",
+   "kind": "news",
+   "title": "LPBank (LPB) bổ nhiệm bà Vũ Nam Hương làm quyền Tổng giám đốc",
+   "url": "https://markettimes.vn/lpbank-lpb-bo-nhiem-ba-vu-nam-huong-lam-quyen-tong-giam-doc-134754.html",
+   "source": "markettimes.vn",
+   "source_name": "Tạp chí Nhịp sống thị trường",
+   "published": "2026-11-23T15:22+07:00",
+   "date_precision": "minute",
+   "excerpt": "LPBank vừa bổ nhiệm bà Vũ Nam Hương giữ chức quyền Tổng giám đốc từ ngày 23/11, thay ông Vũ Quốc Khánh.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRW1KdzdQMkkzakJROTlGaVR5cUQ2bi1wM0ZZTDBLU1NIOXNEWGFwWVRqU0dfVDJvdzJtX0pjSVFCLXFxUFRFQ2lCVUNiY3VJWGc0ZVFTZFhacU9nRnlNS2NZcnBlb2o3TWhOLWp0T3NlX3hRUnI2QVNOUjhBZW9SUlJFVUgyTUxFTmdwOGJnUHAxTkI5eHdQLVBB?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-b695a05b7e62",
    "party": "LPB",
    "kind": "news",
@@ -34701,6 +34769,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVpEVG00b0I1bnZwLWI0TWozdVhVNXUtRElzWW53bDQyMXdyV3Z3TlU0VFUwd3Flc1Z2YnB6N1BOVkNfZVZwMlZ6bTN5THVpcEt6ejNDYkdzSnRrT0x6SXpzYnN6X2xIRThsSXlaSU1Wd1BvN1RZS25GQTlYMklZUlpkazVsZU0zRzBEeFpn?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-1dd181fda8c5",
+   "party": "LPB",
+   "kind": "news",
+   "title": "Sau 2 năm gia nhập, bà Vũ Nam Hương lên chức quyền Tổng giám đốc LPBank",
+   "url": "https://nongnghiepmoitruong.vn/sau-2-nam-gia-nhap-ba-vu-nam-huong-len-chuc-quyen-tong-giam-doc-lpbank-d842808.html",
+   "source": "nongnghiepmoitruong.vn",
+   "source_name": "Báo Nông nghiệp và Môi trường",
+   "published": "2026-11-23T15:07+07:00",
+   "date_precision": "minute",
+   "excerpt": "",
+   "excerpt_origin": "",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX2o3YWpQNEROa2pyWWVUSUZBZnRNeEJwcVktZ3g2dlRnXzRTQWtNRFcwRFpBSi0wQzRjdGVkeXd1SFlSWWgwMTV2ZGdZTEhYZVZtSUlLYnR2NndOM19yTzBVQjU4d1ZhMXNfbXA3SmtpSmY2S2VaVTBQb3Z2THppUnV5ckliYllsNVBvQnd6dDNKOFRuZ2hVU2F5Z1ZRQmV4emlKXzRvWjBuSWlNM2czb2w1Mm0?oc=5",
    "meta_tried": true
   },
   {
@@ -38551,86 +38635,6 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ2ZhelB6Um9obTQ4aVVLalpMZjNCbmo3UWdqSHVQeFlIR1VpSDRiLXpjYlh4clR4enF5aEJXT0FFMm5kY3lRZTZHajJpbDVMTU9wR184d3QyZXBDNXdMQlZCZ2wyY21VT1QyZGhKY29kMVl4bjJ4YWk4Vkd3a2V6a196dkdYeURqUmNzaXRoRFJzOWY3VUR5Y2VnRXBvX05OWGMzWVJMZUZWZzlUejhoQUhaSy1ndS1yZUt3WDBMM2V3ODNyZUQ4ekVZc2N3SGUxWVlkbW1hYw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-840b5e72782d",
-   "party": "LPB",
-   "kind": "news",
-   "title": "LPBank phát thông báo quan trọng về việc rút, chuyển tiền trên ứng dụng",
-   "url": "https://nguoiquansat.vn/lpbank-phat-thong-bao-quan-trong-ve-viec-rut-chuyen-tien-tren-ung-dung-321493.html",
-   "source": "nguoiquansat.vn",
-   "source_name": "nguoiquansat.vn",
-   "published": "2026-10-12T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Ngân hàng khuyến nghị khách hàng cài đặt và chuyển sang sử dụng ứng dụng mới trước ngày 16/10/2026 để duy trì việc sử dụng các dịch vụ ngân hàng số.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU0pzRmdYRlBEQ1dsMENTQkVDR0NzVzMtSnNmZVV6Zlgxek9kcUJQejJYZmE0NU95M3pqamtQV1ExTnhFR2k1NXBldm5UOFJKOF9uZWJ0T0VXekg2bmNvaTl2ZnU2S1Z5MVN6bUxOTTFTUTZOdi1wcTBOSHFaYXdCMm9QWFFtWTlWbmxaU3Z0N0pKOUY1ay1XaFVMQUhFV1F6N29ZdnZyclV6Zw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-fbefd9584594",
-   "party": "LPB",
-   "kind": "news",
-   "title": "CLB Hà Nội thắng trận đầu tiên tại LPBank V.League 2026/27",
-   "url": "https://vtvgo.vn/watch/55eH",
-   "source": "vtvgo.vn",
-   "source_name": "VTVgo",
-   "published": "2026-10-12T01:33+07:00",
-   "date_precision": "minute",
-   "excerpt": "Tối 11/10 trên sân Mỹ Đình, bàn thắng của Jung Patrick ở phút 78 giúp CLB Hà Nội vượt qua tân binh Bắc Ninh với tỷ số 1-0 trong trận đấu thuộc vòng 3 Giải bóng đá vô địch quốc gia V.League 2026/27. Chiến thắng đầu tiên của mùa giải giúp thầy trò huấn luyện viên Harry Kewell giải tỏa phần nào áp lực sau hai thất bại liên tiếp.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9NalBjOVJ4REZFX2JYaDZjMmIzZkVhckNUeHBfcTEzaVRJVWtEYWU1ZkFnbDNiLTNsOU5Cb21pRGQ?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-810e02a58715",
-   "party": "LPB",
-   "kind": "news",
-   "title": "LPBank (LPB) tối ưu hóa cấu trúc vốn, chuẩn bị huy động gần 4.000 tỷ đồng trái phiếu",
-   "url": "https://doanhnhan.baophapluat.vn/lpbank-lpb-toi-uu-hoa-cau-truc-von-chuan-bi-huy-dong-gan-4-000-ty-dong-trai-phieu.html",
-   "source": "doanhnhan.baophapluat.vn",
-   "source_name": "Báo Pháp Luật Việt Nam",
-   "published": "2026-10-10T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam ghi nhận sự linh hoạt trong công tác quản trị nguồn vốn khi liên tiếp tất toán sớm các lô trái phiếu cũ và phát hành mới hàng trăm tỷ đồng. Kế hoạch huy động thêm gần 4.000 tỷ đồng qua kênh chào bán ra công chúng cũng đang được triển khai mạnh mẽ để củng cố năng lực tài chính và bổ sung nguồn vốn hoạt động.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHZmbWNJbTZ5TUxpNkFfYWFjd0FiaXU4WHVwckdKUmlxVDlHUzcwM2pPLW5yQS1uc2o3a19XQ29kMDgxZTlUTThQWWhHYzhlQUZiV3lvLXFENmxtVHdrTzdqclV6WEpEMFhZSzBvbGd6RS1LQnBmZm9HYTZmU3EwQjZDcTJWdjZGT0hsNmlBczdsTHBKNWJ4ODh2b19KUFE1MFFCX1VoaEFXWHk4Z1FDWTN1ZFhXYVlVRTlN?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-6b5fa922c692",
-   "party": "LPB",
-   "kind": "news",
-   "title": "LPBank phát hành thêm 3 lô trái phiếu, tổng giá trị 400 tỷ đồng",
-   "url": "https://antt.nguoiduatin.vn/lpbank-phat-hanh-them-3-lo-trai-phieu-tong-gia-tri-400-ty-dong-205261009220857868.htm",
-   "source": "antt.nguoiduatin.vn",
-   "source_name": "An ninh Tiền tệ",
-   "published": "2026-10-10T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "LPBank vừa huy động thành công 400 tỷ đồng thông qua phát hành 3 lô trái phiếu mã LPBL12614, LPBL12612 và LPBL12613.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVXJGTXk4aU1SczllbDVudEFzai1TMnBUY2JsRHNNam5OWllDWGZvbVd5VzFOS0htd2ZZZHViaGZxNUptWkFJLXVGMEF1WE5obzVaU2ZneWhDVHUtTDZOZngzX1hFT0g4aXpsSDFiVHctRGRYdDhGZzdnc19uRkx1bm8zSnU2djlWRWRWV3JvOGhLSVljRFdhQ2FCakUtRVhRZGpoOU1uMzI1SlVJOWw3bnY5NA?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-594ff11030ba",
-   "party": "LPB",
-   "kind": "news",
-   "title": "LPBank lan tỏa thông điệp 'Khỏe thể chất – Trọn Lộc Phát' tại sự kiện thể thao cộng đồng",
-   "url": "https://theleader.vn/lpbank-lan-toa-thong-diep-khoe-the-chat-tron-loc-phat-tai-su-kien-the-thao-cong-dong-d48054.html",
-   "source": "theleader.vn",
-   "source_name": "theleader.vn",
-   "published": "2026-10-09T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Đồng hành cùng lễ phát động phong trào toàn dân tập luyện thể thao trong khuôn khổ chương trình “Vì một Việt Nam khỏe mạnh”, LPBank lan tỏa thông điệp “Khỏe thể chất – Trọn Lộc Phát”, kết nối tinh thần rèn luyện thể thao với lối sống tích cực, chủ động chăm sóc sức khỏe và xây dựng cuộc sống cân bằng, hạnh phúc.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1ZBSDRRSDluMmJlN0YyeWJmRGxvZDNJV1dncUU0TnQ1X21yYkF4YS1ZTERibDg0bkVFaUZCN2h1T2F0NWtoZzFIYVZNQTJuRjY1dTN6ZkNHNGZSTTF1el8tT1ZrY2NoMHBGUFFKaVZLRDlzeE9jRDg3RVM3Mk9WXy1QdDNBOGVhZnhqUzdrYzd0Q3I2XzA0dURjU0JwU2U4S0UwUGZudk4xUnlYU1VzWXVQckxQT1ZJ?oc=5",
    "meta_tried": true
   },
   {
@@ -42593,18 +42597,6 @@
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXNVRUh6U1VQdTlmZGE0LThpRl9xdFRNZW9Ed2NtaWtYYmlPdDFscUxqMUdaTVNULVZjNGVxTndROXpaRVloWWdHUFJCRUw1ejh1T1V6TUlfNEdlVW1XaktxZzBQT1ZDaU8tdDFoa21zLWFfeTA4bTlLTktQV3FfcmRMZ0trYXhyTE0wYU05RGtXai1iNEFoUVVMemlEWWZm?oc=5",
    "meta_tried": true
-  },
-  {
-   "id": "rel-hose-2508861",
-   "party": "STB",
-   "kind": "hose",
-   "title": "STB: Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn",
-   "url": "https://www.hsx.vn/vi/tin-tuc/tin-to-chuc-niem-yet/2508861",
-   "source": "hsx.vn",
-   "published": "2026-10-28T16:15",
-   "date_precision": "minute",
-   "excerpt": "Ngân hàng Thương mại Cổ phần Sài Gòn Tài Lộc thông báo Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn như sau:",
-   "excerpt_origin": "hose"
   },
   {
    "id": "rel-d3d456588a2f",
