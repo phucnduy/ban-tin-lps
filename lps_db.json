@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-23T17:01+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 49 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-23T17:31+07:00",
+  "last_result": "0 văn bản mới, 1 tin mới, 0 tin HOSE mới, 64 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-23 17:00:30]   ! 44/44 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-23 17:30:25]   ! 44/44 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-23",
   "rss_body_checked": {
@@ -1717,7 +1717,13 @@
    "https://www.tinnhanhchungkhoan.vn/ap-luc-thanh-toan-trai-phieu-gia-tang-vao-thang-cuoi-nam-2026-va-nam-2027-post401966.html": "2026-11-23",
    "https://cafef.vn/chuyen-gia-nguyen-huu-thai-hoa-co-tap-doan-nghin-ty-chi-co-3-ky-su-cntt-tra-luong-20-trieu-thang-nhung-lanh-dao-khong-biet-may-chu-o-dau-188261123150322162.chn": "2026-11-23",
    "http://vietstock.vn/2026/11/vietravel-uoc-lai-truoc-thue-ca-nam-45-ty-dat-muc-tieu-75-ty-trong-2027-737-1517022.htm": "2026-11-23",
-   "https://www.tinnhanhchungkhoan.vn/thi-truong-dao-chieu-co-phieu-pnj-giam-san-post401970.html": "2026-11-23"
+   "https://www.tinnhanhchungkhoan.vn/thi-truong-dao-chieu-co-phieu-pnj-giam-san-post401970.html": "2026-11-23",
+   "https://cafef.vn/lanh-dao-thu-5-cua-pnj-roi-ghe-trong-thang-11-giam-doc-marketing-188261123165743692.chn": "2026-11-23",
+   "https://cafef.vn/ty-phu-nguyen-thi-phuong-thao-ky-hop-tac-toan-dien-voi-tong-cong-ty-cua-bo-cong-an-mo-rong-sang-cong-nghiep-an-ninh-va-cong-nghe-cao-18826112316563388.chn": "2026-11-23",
+   "http://vietstock.vn/2026/11/nhip-dap-thi-truong-2311-vn-index-phuc-hoi-trong-boi-canh-phan-hoa-pnj-lai-cham-san-1636-1516907.htm": "2026-11-23",
+   "https://www.tinnhanhchungkhoan.vn/thi-truong-chung-khoan-nghi-giao-dich-ngay-van-hoa-viet-nam-post401973.html": "2026-11-23",
+   "https://www.tinnhanhchungkhoan.vn/tong-giam-doc-dragon-capital-chia-se-chien-luoc-phan-bo-tai-san-giup-nha-dau-tu-vuot-qua-bien-dong-thi-truong-post401974.html": "2026-11-23",
+   "https://www.tinnhanhchungkhoan.vn/chuoi-hoat-dong-ky-niem-30-nam-ngay-truyen-thong-nganh-chung-khoan-viet-nam-post401930.html": "2026-11-23"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6426,6 +6432,20 @@
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaTRSUVBTdGN0SlJ5dmFpVk83VHROUVNKSEJHSllsQW5MXzAyblhWLUVXRDRkS2xXRkZuRmhGNkppaWpLcHEtbERabGhVa3oxZFBSVmZ3T2tZeXZvSnJhTzNxSVE3R0tlVEtoeU11d3hiLUZsOU1uQ2tESHFxZEx6V3lQLTIyNkpETjlaaVlja0lSSjVCU2E0MzQyekNXNXJQUWw0?oc=5",
    "meta_tried": true
+  },
+  {
+   "id": "gn-ee02835d3081",
+   "title": "LPBS tiếp tục triệu tập Đại hội đồng cổ đông bất thường lần 4 bầu nhân sự HĐQT",
+   "url": "https://thuonghieucongluan.com.vn/lpbs-tiep-tuc-trieu-tap-dai-hoi-dong-co-dong-bat-thuong-lan-4-bau-nhan-su-hdqt-a287716.html",
+   "source": "thuonghieucongluan.com.vn",
+   "source_name": "thuonghieucongluan.com.vn",
+   "published": "2025-10-29T14:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Ngày 17/11/2025, LPBS sẽ chốt danh sách cổ đông tham dự Đại hội đồng cổ đông bất thường lần thứ 4 năm 2025 để bầu thành viên HĐQT.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZlljanA3ZzZZS1NpVGxRT0stcWVHV3ZXNGUzTWh5SURod256QmhoN2xUZ3FfSE5RenBPWmx6alRrT25TSTRWbVdMdjdVZ0JpbHRoZmVTRzZOWXcwM3dleDU4TXZBLUc0ZFN2d3dwY2RsWE1kRlVPNDJLeFI2b2JIemhlek9BT1RaZ3hGa0p6OFJFLUFZR0JlSGFwZHFEMU9NRFdKWXpXZTJzOFpPLURCNTEyanFObXAtT19QMUdhM1RZMHM?oc=5",
+   "meta_tried": true
   }
  ],
  "cbtt": [
@@ -6459,7 +6479,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6478,7 +6498,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6497,7 +6517,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6516,7 +6536,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6535,7 +6555,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6554,7 +6574,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6573,7 +6593,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6592,7 +6612,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6611,7 +6631,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6630,7 +6650,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6649,7 +6669,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6668,7 +6688,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6687,7 +6707,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6717,7 +6737,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6736,7 +6756,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6755,7 +6775,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6774,7 +6794,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6793,7 +6813,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6812,7 +6832,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6831,7 +6851,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6850,7 +6870,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6869,7 +6889,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6888,7 +6908,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -6907,7 +6927,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -6926,7 +6946,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -6945,7 +6965,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -6975,7 +6995,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -7025,7 +7045,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "3b18f0ea954b3d52",
     "body": "d1aaad341ef1a07e",
@@ -7044,7 +7064,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "c39eb504bb384f3f",
@@ -7063,7 +7083,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "b788e0a1ac630349",
@@ -7082,7 +7102,7 @@
    "files": [],
    "fetched": "2026-10-24T15:28+07:00",
    "section": "cbtt",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "e54d493461cb1e2a",
@@ -28328,7 +28348,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33662,7 +33682,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33692,7 +33712,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33723,7 +33743,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33761,7 +33781,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33799,7 +33819,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33837,7 +33857,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33897,7 +33917,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33958,7 +33978,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -34034,7 +34054,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34110,7 +34130,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34154,7 +34174,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34192,7 +34212,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-23T17:00+07:00",
+   "checked": "2026-11-23T17:30+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -34700,6 +34720,22 @@
   }
  ],
  "related": [
+  {
+   "id": "rel-83d8f740bebf",
+   "party": "LPB",
+   "kind": "news",
+   "title": "LPBank bổ nhiệm Quyền Tổng giám đốc, sẵn sàng cho chu kỳ tăng trưởng",
+   "url": "https://znews.vn/lpbank-bo-nhiem-quyen-tong-giam-doc-san-sang-cho-chu-ky-tang-truong-post1698467.html",
+   "source": "znews.vn",
+   "source_name": "Znews",
+   "published": "2026-11-23T17:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "LPBank công bố quyết định bổ nhiệm bà Vũ Nam Hương giữ chức Quyền Tổng giám đốc từ ngày 23/11.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSXhHQjVqelNNMldRX3E0cnNrZDlPQjk0Q3JfbzFRYjNXd3NmQk5FeS0zQmpZSE1oX1VxUF9iRGhfdGhwaHNZNVk0emVxbXZZS3MtS3QxWnZrM3h3ZGlFWTZxNFM0ZUIyMXc3RDJQb3N0UjBuQVJDWUs0V1dEUE1uWW1qVWxLTmpJMTFDckRNVXhFTGN3QldMY0ZOMDk5cjQzYTFn?oc=5",
+   "meta_tried": true
+  },
   {
    "id": "rel-661dc3d8a6f5",
    "party": "LPB",
@@ -35580,6 +35616,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGdDMVB4bFhNeGZhSzd0NnJFQWQ2Y0hSSkZRc1Z5cUNZNjJBVDc1YzdiR2hfV1VsbkNJazk0MnNMSmFLdnlpTFhSVTNMc1FHc1M0cnkyUUx2b2dkRy1jMVdPY3U0MUxzakE3bEtxR2xrZExHSlZXbHM0dWtXaVBlYkFpYWIyb3ZxdVVRQUtKUk96OWpLWDMtY3RGem5wRmNjRU9tUFdnRGJGOXhuSDQwOGRyVUVGd3VwMzhvV3I3OEt1Zw?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-73b2e63b8444",
+   "party": "LPB",
+   "kind": "news",
+   "title": "CLB Hà Nội thắng trận đầu tiên tại LPBank V.League 2026/27",
+   "url": "https://www.vtvgo.vn/watch/55eH",
+   "source": "vtvgo.vn",
+   "source_name": "VTVgo",
+   "published": "2026-11-17T07:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Tối 11/10 trên sân Mỹ Đình, bàn thắng của Jung Patrick ở phút 78 giúp CLB Hà Nội vượt qua tân binh Bắc Ninh với tỷ số 1-0 trong trận đấu thuộc vòng 3 Giải bóng đá vô địch quốc gia V.League 2026/27. Chiến thắng đầu tiên của mùa giải giúp thầy trò huấn luyện viên Harry Kewell giải tỏa phần nào áp lực sau hai thất bại liên tiếp.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE00NW1ZNGFQREExU1RCU2NId2E0VWtJaG43ak9lOEV6bzJYWUJKUndRelZTdFVJNVNSZFlSSnQ5Q25KcGlVb2c?oc=5",
    "meta_tried": true
   },
   {
@@ -38616,38 +38668,6 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5yV0VCOHRQRExmVUc1cmVyT08xRlVoNmJ6NXNIMnZmYi1nWGcwSFpidWhSa3BWYkN2ZWhDbEZCVy0?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-1a21d0b7c9f9",
-   "party": "LPB",
-   "kind": "news",
-   "title": "Cổ phiếu của tỷ phú Nguyễn Thị Phương Thảo lập đỉnh lịch sử, vốn hóa vượt Sacombank, ACB và LPBank",
-   "url": "https://cafef.vn/co-phieu-cua-ty-phu-nguyen-thi-phuong-thao-lap-dinh-lich-su-von-hoa-vuot-sacombank-acb-va-lpbank-188261014143915461.chn",
-   "source": "cafef.vn",
-   "source_name": "CafeF",
-   "published": "2026-10-14T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Cổ phiếu HDB tiếp tục giao dịch tại vùng giá cao nhất lịch sử sau điều chỉnh, đưa vốn hóa HDBank vượt 150.000 tỷ đồng, đứng thứ 3 trong nhóm ngân hàng tư nhân niêm yết.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObkhLdXBmUlU0R0tOdWdLZE5ZUlotR2hqTmZxdTRsX19XbVlzeVJVTkRZbnlHUmJZaUZpcjFxa3U5WHJYYXJyREhnZUNxOTFpVng2amt0dE8yRUFNLVRDek5ieERHQnQxWE9ENDl2QmFCWm1VUWdVSDNkZlQ3Qmkzb1lra204ZF9sa1VLOW5pdFdCTXgxTG5LWVpMNjhnYWhWQWRONWU2eTBDd2Y1WE1xQzBlbEMtMlIyVDQzRzVVUlhaSjlZSGFsVUlkRURKYUNDd1E?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-06e125a0cb82",
-   "party": "LPB",
-   "kind": "news",
-   "title": "Sở hữu ngôi sao vô địch châu Á, XMLS Thanh Hóa vẫn thua LPBank Ninh Bình tại vòng 2 giải bóng chuyền VĐQG",
-   "url": "https://thethaovanhoa.vn/so-huu-ngoi-sao-vo-dich-chau-a-xmls-thanh-hoa-van-thua-lpbank-ninh-binh-tai-vong-2-giai-bong-chuyen-vdqg-20261014222901558.htm",
-   "source": "thethaovanhoa.vn",
-   "source_name": "thethaovanhoa.vn",
-   "published": "2026-10-14T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "CLB bóng chuyền nữ LPBank Ninh Bình đánh bại XMLS Thanh Hóa với tỷ số 3-1 trong trận đấu diễn ra vào tối ngày 14/10, qua đó có khởi đầu thuận lợi tại vòng 2 giải bóng chuyền VĐQG 2026.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWE9hYnhfQzZWUXJwSElnTV9jUEktWGVwVnk0bVY5ZXRnWGxaTDRtbE9Pd05ic1lyeUIyRzUxX0Z5MWpCZTUxem9CekhSekg5NmxzbWRxd0FJcVE1MDZkdmtNck5vOF9xVXVZMThNa256YktuT3ZNZW9LeHh4SVFvcVZYUkRZc3U4bFFqRUtYNTJZdjdITnFNR25XcU1RcTBVaU5fVk1KZ1pWVXgtczg5RVZWMnl3ZjBBV2I2TWtodVFFUzNmdTA2Z1MzcERFY1FEeDBYQ2VkTFBlR3NwN01memlPSjJJUQ?oc=5",
    "meta_tried": true
   },
   {
@@ -42610,6 +42630,18 @@
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXNVRUh6U1VQdTlmZGE0LThpRl9xdFRNZW9Ed2NtaWtYYmlPdDFscUxqMUdaTVNULVZjNGVxTndROXpaRVloWWdHUFJCRUw1ejh1T1V6TUlfNEdlVW1XaktxZzBQT1ZDaU8tdDFoa21zLWFfeTA4bTlLTktQV3FfcmRMZ0trYXhyTE0wYU05RGtXai1iNEFoUVVMemlEWWZm?oc=5",
    "meta_tried": true
+  },
+  {
+   "id": "rel-hose-2508861",
+   "party": "STB",
+   "kind": "hose",
+   "title": "STB: Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn",
+   "url": "https://www.hsx.vn/vi/tin-tuc/tin-to-chuc-niem-yet/2508861",
+   "source": "hsx.vn",
+   "published": "2026-10-28T16:15",
+   "date_precision": "minute",
+   "excerpt": "Ngân hàng Thương mại Cổ phần Sài Gòn Tài Lộc thông báo Nghị quyết HĐQT về việc thuận chủ trương thay đổi tên gọi Phòng GD Đào Tấn như sau:",
+   "excerpt_origin": "hose"
   },
   {
    "id": "rel-d3d456588a2f",
