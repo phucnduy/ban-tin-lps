@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-25T14:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 61 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-25T15:01+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 45 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-25 14:30:25]   ! 40/40 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-25 15:00:25]   ! 40/40 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-25",
   "rss_body_checked": {
@@ -1606,7 +1606,12 @@
    "https://cafef.vn/tap-doan-mai-linh-chi-con-120-nhan-su-bi-ngan-hang-giu-hon-700m2-dat-xu-ly-no-188261125135019086.chn": "2026-11-25",
    "https://cafef.vn/viet-nam-don-hang-noi-that-xa-xi-italia-quy-mo-26000-ty-trang-bi-cho-du-thuyen-buom-lon-nhat-the-gioi-co-ghe-duoc-bao-tang-my-suu-tam-18826112508425747.chn": "2026-11-25",
    "https://cafef.vn/tien-ngoai-cuc-ky-nhieu-vi-sao-doanh-nghiep-viet-van-khat-von-dai-han-188261125140410433.chn": "2026-11-25",
-   "https://cafef.vn/tim-kiem-ngan-hang-ung-dung-ai-toan-dien-nam-2026-tu-nhung-thay-doi-tham-lang-den-loi-the-canh-tranh-khac-biet-188261125140259944.chn": "2026-11-25"
+   "https://cafef.vn/tim-kiem-ngan-hang-ung-dung-ai-toan-dien-nam-2026-tu-nhung-thay-doi-tham-lang-den-loi-the-canh-tranh-khac-biet-188261125140259944.chn": "2026-11-25",
+   "https://cafef.vn/truoc-ngay-khai-thac-thuong-mai-sieu-san-bay-16-ty-usd-cua-viet-nam-sap-don-them-mot-cot-moc-quan-trong-188261125145455013.chn": "2026-11-25",
+   "https://cafef.vn/ty-phu-nguyen-thi-phuong-thao-tiet-lo-khoan-dau-tu-vao-vietjet-tu-nhung-ngay-dau-da-tang-gap-100-lan-nhieu-can-bo-tro-thanh-trieu-phu-sau-ipo-188261125145215647.chn": "2026-11-25",
+   "https://cafef.vn/hai-sep-nu-ngan-hang-xinh-dep-cung-sn-1983-tre-nhat-trong-dan-nu-lanh-dao-ngoi-ghe-tong-giam-doc-ngan-hang-o-viet-nam-188261125144129742.chn": "2026-11-25",
+   "http://vietstock.vn/2026/11/nhip-dap-thi-truong-2511-rung-lac-quanh-moc-tham-chieu-thi-truong-phan-hoa-ro-net-1636-1517452.htm": "2026-11-25",
+   "http://vietstock.vn/2026/11/bon-dong-luc-lon-ky-vong-kich-hoat-dong-von-ngoai-vao-thi-truong-chung-khoan-viet-nam-tu-nam-2027-830-1517555.htm": "2026-11-25"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6398,7 +6403,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6417,7 +6422,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6436,7 +6441,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6455,7 +6460,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6474,7 +6479,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6493,7 +6498,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6512,7 +6517,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6531,7 +6536,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6550,7 +6555,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6569,7 +6574,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6588,7 +6593,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6607,7 +6612,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6626,7 +6631,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6656,7 +6661,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6675,7 +6680,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6694,7 +6699,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6713,7 +6718,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6732,7 +6737,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6751,7 +6756,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6770,7 +6775,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6789,7 +6794,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6808,7 +6813,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6827,7 +6832,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -6846,7 +6851,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "cb974e380ea7f8ab",
@@ -6865,7 +6870,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "558dd3ba84115543",
@@ -6884,7 +6889,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "3a033660553df22e",
@@ -6914,7 +6919,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "63c1109efde11c87",
     "body": "f2a50dd7997e1c06",
@@ -28267,7 +28272,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33601,7 +33606,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33631,7 +33636,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33662,7 +33667,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33700,7 +33705,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33738,7 +33743,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33776,7 +33781,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33836,7 +33841,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33897,7 +33902,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -33973,7 +33978,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34049,7 +34054,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34093,7 +34098,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34131,7 +34136,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-25T14:30+07:00",
+   "checked": "2026-11-25T15:00+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -34654,6 +34659,38 @@
   }
  ],
  "related": [
+  {
+   "id": "rel-022fffc3c34e",
+   "party": "LPB",
+   "kind": "news",
+   "title": "Từ SCB, LPBank đến SACOMBANK: Những cuộc dịch chuyển trên ghế nóng ngân hàng",
+   "url": "https://nguoiquansat.vn/tu-scb-lpbank-den-sacombank-nhung-cuoc-dich-chuyen-tren-ghe-nong-ngan-hang-329993.html",
+   "source": "nguoiquansat.vn",
+   "source_name": "nguoiquansat.vn",
+   "published": "2026-11-25T14:30+07:00",
+   "date_precision": "minute",
+   "excerpt": "Ba ngân hàng cùng thay lãnh đạo ngày 23/11, nối tiếp những cuộc dịch chuyển nhân sự và đổi vai giữa Chủ tịch, Tổng Giám đốc tại nhiều nhà băng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbFZxeE02eEtlSGltbjgzYUVFQm13SXJLMVBBU291Uk92b1B5NDd5c2RHZVQyQ3A2aWxBT1dzdXpiUVU2aU1hLXh6cHp5SFltb3o5TjdpbGhQNFhGcVVPVVdpNVNMU29FRVlqQjUyeDBvaXdmOFJtdlE5NGpRU2d0T3FfUTREaEJjdEdzbkF1SWY1QmhhaHpKWHlrdm5lSk5Vb0NWajNIZ2NiVnBvNUNV?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-049a1183ea35",
+   "party": "LPB",
+   "kind": "news",
+   "title": "LPBank bất ngờ thay tướng, nữ tướng Vũ Nam Hương lên ghế quyền CEO – ông Vũ Quốc Khánh chuyển sang vai trò mới!",
+   "url": "https://vietnambusinessinsider.vn/lpbank-bat-ngo-thay-tuong-nu-tuong-vu-nam-huong-len-ghe-quyen-ceo-ong-vu-quoc-khanh-chuyen-sang-vai-tro-moi-a57027.html",
+   "source": "vietnambusinessinsider.vn",
+   "source_name": "Cộng đồng Kinh doanh Việt Nam",
+   "published": "2026-11-25T10:36+07:00",
+   "date_precision": "minute",
+   "excerpt": "LPBank bất ngờ thay đổi vị trí điều hành cao nhất khi bổ nhiệm bà Vũ Nam Hương làm Quyền Tổng Giám đốc từ ngày 23/11, thay ông Vũ Quốc Khánh. Đáng chú ý, bà Hương từng giữ nhiều vị trí cấp cao tại VNDirect, IPA và có hơn 20 năm kinh nghiệm trong lĩnh vực tài chính – ngân hàng.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZEZscjV3YmZCbml0QVVEdms4WXlCblNsNVhJWGM4RDJmdncxV28zZVZoRV9xVGYzT0xRc1ZzZ1QxNWdTNUcyOWVoQ3BiRHc3Nnk3NVVYaTV6VTRhc041WEpKOTl1ZGZTbHIyYjNtVF8tTUpoTEY0czR4Mkw3UEdFZHFXVWZ0aENibUdkTzg5NXhqVnFhdEZxaWJGS3RGZHRWNUNpRUtwSVRuekRWRHNZSHExdVhIVVdmLURhT0lZeDdKNGRFVGR3dmJoN0d3OXhscUJoQWZKR0tsQ2xDMVZPOUkzY2RiX1pr?oc=5",
+   "meta_tried": true
+  },
   {
    "id": "rel-hose-2516430",
    "party": "LPB",
@@ -38587,34 +38624,6 @@
    "published": "2026-10-19T10:07",
    "date_precision": "minute",
    "excerpt": "Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam thông báo Nghị quyết HĐQT về việc thay đổi địa điểm trụ sở Chi nhánh Đông Đô như sau:",
-   "excerpt_origin": "hose"
-  },
-  {
-   "id": "rel-7efec7c8d727",
-   "party": "LPB",
-   "kind": "news",
-   "title": "LPBank điều chỉnh hạ lãi suất huy động và cho vay tại nhiều kỳ hạn sau chỉ đạo của Chính phủ",
-   "url": "https://tienphong.vn/lpbank-dieu-chinh-ha-lai-suat-huy-dong-va-cho-vay-tai-nhieu-ky-han-sau-chi-dao-cua-chinh-phu-post1886512.tpo",
-   "source": "tienphong.vn",
-   "source_name": "Báo Tiền Phong",
-   "published": "2026-10-19T09:49+07:00",
-   "date_precision": "minute",
-   "excerpt": "Thực hiện chủ trương của Chính phủ, thực thi chỉ đạo xuyên suốt, quyết liệt và sát sao của Thống đốc Ngân hàng Nhà nước (NHNN), từ ngày 19/10/2026 đến hết ngày 31/12/2026, Ngân hàng TMCP Lộc Phát Việt Nam (LPBank) triển khai chương trình giảm lãi suất huy động và cho vay trên toàn hệ thống. Theo đó, ngân hàng giảm 0,5–0,6%/năm lãi suất tiền gửi niêm yết tại nhiều kỳ hạn và giảm 1,6–2%/năm lãi suất cho vay đối với các khoản giải ngân mới phục vụ sản xuất, kinh doanh ngắn hạn.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbWVfU2NIQ3JEUTRaXzRwbGpOT0szbVp2TFdnVldXdG0tNjVTb0Q3Q25zZlBXVWpjWmw5c1dPblZGWkI5ZExXLXNXbFFWXy1DUXhHRzNZeDlWLUpSSzFKclMwWHJ5UXlLaHBkaFlmQnFNTHFycC1EYjc0Ry1jcDF4a3ZhOEFKQnRNN2hqTnpVSE9jZHFpaGJHS0ZKS0taY09pNEg3YXQwZTloMVJUZWg5ekk4TVhFUzdGQ2VXdVRjUkZwT2pEOWlTdw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-hose-2504511",
-   "party": "LPB",
-   "kind": "hose",
-   "title": "LPB: Thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm Phòng GD Yên Lạc",
-   "url": "https://www.hsx.vn/vi/tin-tuc/tin-to-chuc-niem-yet/2504511",
-   "source": "hsx.vn",
-   "published": "2026-10-15T16:29",
-   "date_precision": "minute",
-   "excerpt": "Ngân hàng Thương mại Cổ phần Lộc Phát Việt Nam thông báo công văn của NHNN về chấp thuận cho LPB thay đổi địa điểm Phòng GD Yên Lạc như sau:",
    "excerpt_origin": "hose"
   },
   {
