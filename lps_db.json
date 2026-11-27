@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-27T10:01+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 46 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-27T10:31+07:00",
+  "last_result": "0 văn bản mới, 1 tin mới, 0 tin HOSE mới, 47 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-27 10:00:25]   ! 36/36 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-27 10:30:26]   ! 36/36 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-27",
   "rss_body_checked": {
@@ -1534,7 +1534,13 @@
    "https://vneconomy.vn/phan-ung-cua-cac-nuoc-chau-a-sau-de-xuat-thue-quan-du-thua-cong-suat-cua-my.htm": "2026-11-27",
    "https://cafef.vn/thu-tuong-chinh-phu-le-minh-hung-cung-cac-lanh-dao-nguyen-lanh-dao-chinh-phu-bo-tai-chinh-tham-quan-khong-gian-trien-lam-quang-ba-thi-truong-chung-khoan-nhan-ky-niem-30-nam-ngay-truyen-thong-188261127094912279.chn": "2026-11-27",
    "https://cafef.vn/vang-co-phieu-nha-dat-dong-loat-dieu-chinh-dong-tien-cho-co-hoi-moi-18826112708492779.chn": "2026-11-27",
-   "https://cafef.vn/lotte-va-phat-dat-sieu-da-khu-phuc-hop-thong-minh-60000-ty-dong-o-thu-thiem-co-the-phai-nop-them-hon-3600-ty-dong-tien-su-dung-dat-188261127093300844.chn": "2026-11-27"
+   "https://cafef.vn/lotte-va-phat-dat-sieu-da-khu-phuc-hop-thong-minh-60000-ty-dong-o-thu-thiem-co-the-phai-nop-them-hon-3600-ty-dong-tien-su-dung-dat-188261127093300844.chn": "2026-11-27",
+   "https://cafef.vn/bsr-kien-tao-tuong-lai-bang-khoa-hoc-cong-nghe-doi-moi-sang-tao-va-chuyen-doi-so-18826112623442333.chn": "2026-11-27",
+   "https://cafef.vn/mot-co-phieu-ngan-hang-tang-tran-dau-phien-sang-27-11-188261127101811543.chn": "2026-11-27",
+   "https://cafef.vn/vib-ghi-dau-an-doi-moi-sang-tao-trong-mang-the-tin-dung-voi-4-giai-thuong-tu-visa-18826112710115861.chn": "2026-11-27",
+   "https://vneconomy.vn/thi-truong-thi-diem-tai-san-ma-hoa-co-kip-khoi-dong-trong-thang-cuoi-nam.htm": "2026-11-27",
+   "https://vneconomy.vn/chan-dung-ong-pablo-hernandez-de-cos-nguoi-duoc-chon-lam-chu-tich-moi-cua-ecb.htm": "2026-11-27",
+   "https://vneconomy.vn/tong-giam-doc-vcbf-khi-thi-truong-bi-ban-qua-muc-tai-san-se-tro-nen-rat-re.htm": "2026-11-27"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6389,6 +6395,20 @@
    "excerpt_origin": "body",
    "via": "rss",
    "mention_only": true
+  },
+  {
+   "id": "gn-45c1cd645c4b",
+   "title": "Chứng khoán LPS (LPS) phát hành 250 tỷ đồng trái phiếu và mở hạn mức giao dịch 10% tổng tài sản với Sàn tài sản mã hóa Sacom",
+   "url": "https://www.vietnam.vn/chung-khoan-lps-lps-phat-hanh-250-ty-dong-trai-phieu-va-mo-han-muc-giao-dich-10-tong-tai-san-voi-san-tai-san-ma-hoa-sacom",
+   "source": "vietnam.vn",
+   "source_name": "Vietnam.vn",
+   "published": "2026-11-27T10:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Công ty cổ phần Chứng khoán LPS (mã chứng khoán: LPS) vừa hoàn tất phát hành 250 tỷ đồng trái phiếu kỳ hạn một năm, đồng thời phê duyệt kế hoạch giao dịch chứng khoán và giấy tờ có giá với Công ty cổ phần Sàn giao dịch Tài sản Mã hóa Sacom (SCEX) theo hạn mức tối đa 10% tổng tài sản. Hoạt động huy động vốn và mở rộng hợp tác diễn ra khi tổng tài sản công ty đạt gần 40.000 tỷ đồng và lợi nhuận 9 tháng đầu năm 2026 tăng gấp hơn 2 lần cùng kỳ.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd3Jka09OQUZrZVNTa3FKT0RBRFhjSFdMWGVhWjJ5NDdLek5zSlZwYkxkb21DY3QtbHVYUlhjN3gtbmJYRmdoV3FOQWNlMGwyaXE4Zl9EaEZNajJoU2VpVkkxUkRFT05lQzA1UHByQTZTdGFKWjJUOGRtVWJhNzY3ei1lR2YxRm5mMlVTQjJvRURLYnZNV1pfN2UyYlNONWdMcHMwb2FaSTZnSjNmNUNMWVZNeUhOckFhT2dkUjlmakVldmp3N3oyU0U4ZUdaQWJJVWIyalpVdEV5RU1p?oc=5",
+   "meta_tried": true
   }
  ],
  "cbtt": [
@@ -6422,7 +6442,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6441,7 +6461,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6460,7 +6480,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6479,7 +6499,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6498,7 +6518,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6517,7 +6537,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6536,7 +6556,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6555,7 +6575,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6574,7 +6594,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6593,7 +6613,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6612,7 +6632,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6631,7 +6651,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6650,7 +6670,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6680,7 +6700,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6699,7 +6719,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6718,7 +6738,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6737,7 +6757,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6756,7 +6776,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6775,7 +6795,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6794,7 +6814,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -6813,7 +6833,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f7436e0617b1d8ed",
@@ -6832,7 +6852,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "10b12f27b56df8d5",
@@ -6851,7 +6871,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "ac296e4dee56e949",
@@ -28291,7 +28311,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33625,7 +33645,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33655,7 +33675,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33686,7 +33706,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33724,7 +33744,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33762,7 +33782,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33800,7 +33820,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33860,7 +33880,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33921,7 +33941,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -33997,7 +34017,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34073,7 +34093,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34117,7 +34137,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34155,7 +34175,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-27T10:00+07:00",
+   "checked": "2026-11-27T10:30+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -34678,6 +34698,22 @@
   }
  ],
  "related": [
+  {
+   "id": "rel-a0289b1ed77e",
+   "party": "LPB",
+   "kind": "news",
+   "title": "Match preview and prediction for Nam Dinh vs CAHN: The highlight of Round 9 of the LPBank V.League",
+   "url": "https://www.vietnam.vn/en/nhan-dinh-ty-so-va-du-doan-ket-qua-nam-dinh-vs-cahn-tam-diem-vong-9-lpbank-v-league",
+   "source": "vietnam.vn",
+   "source_name": "Vietnam.vn",
+   "published": "2026-11-27T10:05+07:00",
+   "date_precision": "minute",
+   "excerpt": "Nam Dinh will host reigning champions Hanoi Police at 6 PM on November 27th at Thien Truong Stadium. The home team is currently leading the league table, while Hanoi Police recently secured a notable victory against Vissel Kobe, promising a highly anticipated match.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMWMybGN4QmlaejgwRVhrdUlaTG84b1hZak1Zd2RwUy1kQUgtbFJuRWJzaE5wd29SLVpoRkJ6ZlJWQ0ZNMlYzN2tfbkxBVi1vT1VsUVpNOGlYbld6ZGdjdTczNlZlQ0dnMnJhV2Q1N1FNQTFBWjNjRXR5N29FcVJwdU1KWlZXdmdXQXZ5dHlRd1FJMXRjdExjNTJRc24wck5xRm5yNExyQlo2cWFISlE?oc=5",
+   "meta_tried": true
+  },
   {
    "id": "rel-5b911f542609",
    "party": "LPB",
@@ -38634,22 +38670,6 @@
    "meta_tried": true
   },
   {
-   "id": "rel-6e87edb724f6",
-   "party": "LPB",
-   "kind": "news",
-   "title": "Agribank, Vietcombank, BIDV, MB, ACB, Sacombank, LPBank, VietBank, Nam A Bank đồng loạt giảm lãi suất cho vay",
-   "url": "https://cafef.vn/agribank-vietcombank-bidv-mb-acb-sacombank-lpbank-vietbank-nam-a-bank-dong-loat-giam-lai-suat-cho-vay-188261019135427753.chn",
-   "source": "cafef.vn",
-   "source_name": "CafeF",
-   "published": "2026-10-19T13:53+07:00",
-   "date_precision": "minute",
-   "excerpt": "Thực hiện chỉ đạo của Chính phủ và Ngân hàng Nhà nước, Agribank, Vietcombank, BIDV, ACB, LPBank và VietBank đồng loạt triển khai các chương trình giảm lãi suất cho vay, với mức điều chỉnh phổ biến từ 1,5-2 điểm %/năm đối với các khoản vay và lĩnh vực ưu tiên.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeUh1aFRnT0ZnYlhiS1diTURobmJORENsUm9Qd1V2TXdNQW4zazRJaEtxVC1PdGpPUUptWjBWTzhORk8zcnBYZThvYU5VcGJuS2VVeTZxNnNxTUhyUlV0OG1iWWZfTm1XeFRLNEhETVM0YXJsLTAxbUNMMFJ6Nm1lVGR3NWFvc191cTR1RG41OGE2a2w0Qm8wUTdCOWJTeDIwRnlZMTBmakQ4RUpfMEhqUXpPbmpDZERZQ044VEdnMFZiRXJMZFJ1ZG0tYkdaYmZpcVRPTnQ1UHY?oc=5",
-   "meta_tried": true
-  },
-  {
    "id": "rel-389d0e1e05ac",
    "party": "STB",
    "kind": "news",
@@ -42592,6 +42612,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQek91dlVRc01pVUhjdWRTczgzWmlCZ25vRm42MmYweURGbHg1TFFkNFRUR3BNbWI0NEg1d3FQRUo4d0JMaVlaNnBOeWhjOGlMaUVuUGZxbmxMNE0tWnFzNm4ySkVFdFljay1OWWJKN0RxaGRFX2hQZVRpbmladk9CZDRhelVldC1ST2Y0UHAweW9MdFYtSUVtUzVYY19kRk1wbmJFMG5UbnB6Z1JSTm9jdFozeDBOZTBLMjNhT2pOZlNGR2UybVpkQnJuNnZIdm1HT2JPcWRSRlg1VTBuTk9zT0dXaEVvM0RYZFhmUlhJNEFqSjJKTzNQa0NGcjM?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-45c1cd645c4b",
+   "party": "SCEX",
+   "kind": "news",
+   "title": "Chứng khoán LPS (LPS) phát hành 250 tỷ đồng trái phiếu và mở hạn mức giao dịch 10% tổng tài sản với Sàn tài sản mã hóa Sacom",
+   "url": "https://www.vietnam.vn/chung-khoan-lps-lps-phat-hanh-250-ty-dong-trai-phieu-va-mo-han-muc-giao-dich-10-tong-tai-san-voi-san-tai-san-ma-hoa-sacom",
+   "source": "vietnam.vn",
+   "source_name": "Vietnam.vn",
+   "published": "2026-11-27T10:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Công ty cổ phần Chứng khoán LPS (mã chứng khoán: LPS) vừa hoàn tất phát hành 250 tỷ đồng trái phiếu kỳ hạn một năm, đồng thời phê duyệt kế hoạch giao dịch chứng khoán và giấy tờ có giá với Công ty cổ phần Sàn giao dịch Tài sản Mã hóa Sacom (SCEX) theo hạn mức tối đa 10% tổng tài sản. Hoạt động huy động vốn và mở rộng hợp tác diễn ra khi tổng tài sản công ty đạt gần 40.000 tỷ đồng và lợi nhuận 9 tháng đầu năm 2026 tăng gấp hơn 2 lần cùng kỳ.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd3Jka09OQUZrZVNTa3FKT0RBRFhjSFdMWGVhWjJ5NDdLek5zSlZwYkxkb21DY3QtbHVYUlhjN3gtbmJYRmdoV3FOQWNlMGwyaXE4Zl9EaEZNajJoU2VpVkkxUkRFT05lQzA1UHByQTZTdGFKWjJUOGRtVWJhNzY3ei1lR2YxRm5mMlVTQjJvRURLYnZNV1pfN2UyYlNONWdMcHMwb2FaSTZnSjNmNUNMWVZNeUhOckFhT2dkUjlmakVldmp3N3oyU0U4ZUdaQWJJVWIyalpVdEV5RU1p?oc=5",
    "meta_tried": true
   },
   {
