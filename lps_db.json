@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-28T00:16+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 39 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-28T05:20+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 43 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,11 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-28 00:07:31]   ! 769/770 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-28 05:16:52] Công bố thông tin: lỗi tải https://www.lpbs.com.vn/cong-bo-thong-tin-cat19: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /cong-bo-thong-tin-cat19 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 05:16:59] Thông tin tài chính: lỗi tải https://www.lpbs.com.vn/thong-tin-tai-chinh-cat17: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /thong-tin-tai-chinh-cat17 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 05:17:07] Báo cáo thường niên: lỗi tải https://www.lpbs.com.vn/bao-cao-thuong-nien-cat18: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /bao-cao-thuong-nien-cat18 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 05:17:14] Điều lệ và quy chế: lỗi tải https://www.lpbs.com.vn/dieu-le-va-quy-che-cong-ty-cat12: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /dieu-le-va-quy-che-cong-ty-cat12 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 05:17:22] Tin tức LPS: lỗi tải https://www.lpbs.com.vn/tin-tuc-lps-news24: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /tin-tuc-lps-news24 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))"
   ],
   "last_full_verify": "2026-11-28",
   "rss_body_checked": {
@@ -42613,6 +42617,22 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdXdWxDUFNDWkV0bGZUaldLdURrR3ZDOXVLRU55VFhQN2VzQ0pqdXM3Tkg5Nzd3dlVPbERDb2NMR0xfcjlEZ1ZQY1lfR2N5bEtHYktNQW9lVHhXbV9HdW00QU1EVmFfdjhNb0FreWdnQ29hM2RmTS1maXRSMWRlYjFOV0stUzRmTW5uM2lGUGQxWXhSZkFKa1BwRTkwaGVzY1MtUENVd29Cdw?oc=5",
+   "meta_tried": true
+  },
+  {
+   "id": "rel-9889dad98a72",
+   "party": "STB",
+   "kind": "news",
+   "title": "Ngân hàng Sacombank giảm 0,5%/năm lãi suất huy động, hưởng ứng chủ trương của Chính phủ",
+   "url": "https://tapchicongthuong.vn/ngan-hang-sacombank-giam-0-5--nam-lai-suat-huy-dong--huong-ung-chu-truong-cua-chinh-phu-561981.htm",
+   "source": "tapchicongthuong.vn",
+   "source_name": "Tạp chí Công Thương",
+   "published": "2026-10-30T14:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước Việt Nam (NHNN) về giảm mặt bằng lãi suất, góp phần hỗ trợ hoạt động sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế, Ngân hàng Sacombank điều chỉnh giảm 0,5%/năm lãi suất huy động đối với các kỳ hạn từ 6 tháng trở lên, áp dụng từ ngày 20/10/2026.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2dPRDY0MTFuclA2SEJfeklpUkxtSTdzZFdoU1R6cnRMdzJHcUNpUllTR2d0dUVIWGxmTlB1aDNiOFI1WV85OG4wMzc3a1Vld1J1OUEwY195bTB0RHFMVFllb3JoLWtFRTFoUFJsdHVWejc5RWhKa3FlUnRSOTJHLW9yMGFiSHpYSUx5SnZHNVJCMEYxMm1YMVFiUDZjRS1abmJWWHgwQW9RRjFnOFMwaHpXaFJXZ25kalN6dEF3d2g0d3NE?oc=5",
    "meta_tried": true
   },
   {
