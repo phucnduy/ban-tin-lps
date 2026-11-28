@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-28T20:01+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 39 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-28T20:31+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 43 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-28 20:00:26]   ! 33/33 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-28 20:30:24]   ! 33/33 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-28",
   "rss_body_checked": {
@@ -1566,7 +1566,8 @@
    "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-chieu-28-11-tai-pnj-doji-sjc-bao-tin-minh-chau-va-bao-tin-manh-hai-188261128083534496.chn": "2026-11-28",
    "https://cafef.vn/nam-a-bank-tiep-suc-kinh-doanh-cuoi-nam-voi-goi-vay-uu-dai-5000-ty-dong-18826112817145149.chn": "2026-11-28",
    "https://cafef.vn/chung-khoan-tuan-qua-thi-truong-rung-lac-manh-co-phieu-dcl-lao-doc-thang-dung-188261128175232966.chn": "2026-11-28",
-   "https://cafef.vn/co-dong-lon-nam-5406-von-chung-khoan-thanh-cong-muon-ban-ra-co-phieu-188261128175122865.chn": "2026-11-28"
+   "https://cafef.vn/co-dong-lon-nam-5406-von-chung-khoan-thanh-cong-muon-ban-ra-co-phieu-188261128175122865.chn": "2026-11-28",
+   "https://cafef.vn/ty-phu-pham-nhat-vuong-tien-them-mot-buoc-xay-nha-may-xe-dien-500-trieu-usd-tai-philippines-188261128185528025.chn": "2026-11-28"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6510,7 +6511,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6529,7 +6530,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6548,7 +6549,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6567,7 +6568,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6586,7 +6587,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6605,7 +6606,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6624,7 +6625,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6643,7 +6644,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6662,7 +6663,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6681,7 +6682,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6700,7 +6701,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6719,7 +6720,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6738,7 +6739,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6768,7 +6769,7 @@
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6787,7 +6788,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6806,7 +6807,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6825,7 +6826,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6844,7 +6845,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6863,7 +6864,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6882,7 +6883,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -28379,7 +28380,7 @@
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33713,7 +33714,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33743,7 +33744,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33774,7 +33775,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33812,7 +33813,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33850,7 +33851,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33888,7 +33889,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33948,7 +33949,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -34009,7 +34010,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -34085,7 +34086,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34161,7 +34162,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34205,7 +34206,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34243,7 +34244,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-28T20:00+07:00",
+   "checked": "2026-11-28T20:30+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -41297,6 +41298,22 @@
    "meta_tried": true
   },
   {
+   "id": "rel-78dc06afe996",
+   "party": "STB",
+   "kind": "news",
+   "title": "Hành trình từ nữ chuyên viên tín dụng trở thành Quyền Tổng Giám đốc Sacombank",
+   "url": "https://phunuvietnam.vn/hanh-trinh-cua-nu-chuyen-vien-tin-dung-tro-thanh-quyen-tong-giam-doc-sacombank-238261103085704498.htm",
+   "source": "phunuvietnam.vn",
+   "source_name": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
+   "published": "2026-11-03T15:00+07:00",
+   "date_precision": "minute",
+   "excerpt": "Hơn 20 năm gắn bó với lĩnh vực tài chính – ngân hàng, bà Nguyễn Thị Kiều Anh đi qua nhiều vị trí từ chuyên viên tín dụng, quản lý chi nhánh đến các cấp điều hành trước khi được giao trọng trách Quyền Tổng Giám đốc Sacombank.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjhmV2FITzk0cnIwcXU4bG5idlNTZTNuMzllcFdlc0JEX1VfdGVFYVRGWUNVeEF1SUFSVmdiZTFrdF92SlJvMnQ1Q2xLVFhIbzgxWTNSeTEwcE5VS0x2a2E3dGJsZ0IzcEw4UWVsUU1PLWtjSlVvZnp1Q1J5bHlpclNpb3FmdmJGcE4ySUFNNElieUFraEZGeUI2Tm5hNnktNlNXZm5kUUx4ajk1NDZ1Q2tRM1QyT2Y2S1o3bl8xYmtEUEE?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-ed491dca06e4",
    "party": "STB",
    "kind": "news",
@@ -41326,22 +41343,6 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR0N5NjQwcTR1MFk2RFJKYVZXS0ZLNWVzRU93bFNMeG85TjR6cXJ5UVk1bmhDNWtxdXItWWk3TjQ4YUc5OENHUktKMWFkelgwajRqTE5xOVpDT3NxMGZPUjVjRjJEMy00Q2dPUnd6dWhLNFhLY1RSMm4xTFItc2FiOEF4a0JZa3FaTWZsQUo0ejZaYl9YejNNZ040R280Y0gtVEw2TkppY2toM3BSZ19UTE1rOA?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-78dc06afe996",
-   "party": "STB",
-   "kind": "news",
-   "title": "Từ chuyên viên tín dụng đến Quyền Tổng Giám đốc Sacombank: Hành trình của một nữ lãnh đạo ngân hàng",
-   "url": "https://phunuvietnam.vn/hanh-trinh-cua-nu-chuyen-vien-tin-dung-tro-thanh-quyen-tong-giam-doc-sacombank-238261103085704498.htm",
-   "source": "phunuvietnam.vn",
-   "source_name": "BÁO PHỤ NỮ VIỆT NAM ĐIỆN TỬ",
-   "published": "2026-11-03T11:42+07:00",
-   "date_precision": "minute",
-   "excerpt": "Hơn 20 năm gắn bó với lĩnh vực tài chính – ngân hàng, bà Nguyễn Thị Kiều Anh đi qua nhiều vị trí từ chuyên viên tín dụng, quản lý chi nhánh đến các cấp điều hành trước khi được giao trọng trách Quyền Tổng Giám đốc Sacombank.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjhmV2FITzk0cnIwcXU4bG5idlNTZTNuMzllcFdlc0JEX1VfdGVFYVRGWUNVeEF1SUFSVmdiZTFrdF92SlJvMnQ1Q2xLVFhIbzgxWTNSeTEwcE5VS0x2a2E3dGJsZ0IzcEw4UWVsUU1PLWtjSlVvZnp1Q1J5bHlpclNpb3FmdmJGcE4ySUFNNElieUFraEZGeUI2Tm5hNnktNlNXZm5kUUx4ajk1NDZ1Q2tRM1QyT2Y2S1o3bl8xYmtEUEE?oc=5",
    "meta_tried": true
   },
   {
@@ -42682,22 +42683,6 @@
    "excerpt_origin": "",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTBXQW9pYzFzWHBUOHhjOTkyaHdaZ2dRdmJ3Q0NVMEpQZ3RUUmdIM3JFRzI2WHB0R1ZuYmRFTUNlcHAwa3Ztc2htQURHU20wQ0I4YjN5YTVEQ1FsUWM5eXRvQjJxVVlBUXFadElWYk9KYWdnTnBJTjFQa0lUUkF1N3p2T1IyVGNzSmxzekxSNU5XNVdQcEZReVlpbENOYUd4SEFoRmtOMWVQaTFDaElTRWNoWHotenNWZ1R3?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-9c4f8f6d1d94",
-   "party": "STB",
-   "kind": "news",
-   "title": "Rút tiền 50 triệu, 500 triệu, 1 tỷ đồng tại quầy Sacombank mất bao nhiêu phí?",
-   "url": "https://cafef.vn/rut-tien-50-trieu-500-trieu-1-ty-dong-tai-quay-sacombank-mat-bao-nhieu-phi-188261101102013001.chn",
-   "source": "cafef.vn",
-   "source_name": "CafeF",
-   "published": "2026-11-01T11:20+07:00",
-   "date_precision": "minute",
-   "excerpt": "Theo biểu phí giao dịch tại quầy đang áp dụng, Sacombank miễn phí rút tiền mặt VND từ tài khoản thanh toán với số tiền dưới 50 triệu đồng và miễn phí nộp tiền vào tài khoản của chính chủ. Một số giao dịch tiền mặt khác như rút từ 50 triệu đồng, nộp tiền cho người khác sau 15h hay nộp nhiều tiền mệnh giá nhỏ có thu phí.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZTJRbnB4ZkgzUkRnQlJ6ekNrNmtRUmY4cWdZQ1FNT09sY0lIZVYzUzhlT1JkYkI1X1BhMk9vZTBOci1NYVIzTWdzZlc1QTMxRHA2M2Q1Y2NmdzVOVDY3WWRacmljRTJqOFYyS3ZuVjlaM09WRUV0ZGFzeU13TnhrUEo3UlV0dFdMOTFiMld4aUFGdExsU3VDUUVLODVFNTJRdDJrYm4tUzUwQk4zZjhYbGl0azk?oc=5",
    "meta_tried": true
   },
   {
