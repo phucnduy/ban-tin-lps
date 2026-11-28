@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-28T09:31+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 41 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-28T10:01+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 39 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,7 +26,7 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-28 09:30:26]   ! 33/33 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
+   "[2026-11-28 10:00:22]   ! 33/33 trang chi tiết cùng trả 404/rỗng → coi là website lỗi tạm thời, không ghi 'gỡ khỏi web'"
   ],
   "last_full_verify": "2026-11-28",
   "rss_body_checked": {
@@ -1534,7 +1534,11 @@
    "https://www.tinnhanhchungkhoan.vn/moodys-nang-xep-hang-tin-nhiem-viet-nam-len-ba1-chi-con-cach-nguong-dau-tu-1-bac-post402195.html": "2026-11-28",
    "https://www.tinnhanhchungkhoan.vn/jpmorgan-danh-gia-cao-trien-vong-chung-khoan-singapore-va-viet-nam-post402187.html": "2026-11-28",
    "https://www.tinnhanhchungkhoan.vn/vndirect-xang-dau-tai-cau-truc-loi-the-nghieng-ve-doanh-nghiep-dau-nganh-post402185.html": "2026-11-28",
-   "https://www.tinnhanhchungkhoan.vn/indonesia-gap-rut-cai-to-thi-truong-chung-khoan-truoc-nguy-co-bi-msci-ha-bac-post402188.html": "2026-11-28"
+   "https://www.tinnhanhchungkhoan.vn/indonesia-gap-rut-cai-to-thi-truong-chung-khoan-truoc-nguy-co-bi-msci-ha-bac-post402188.html": "2026-11-28",
+   "https://cafef.vn/co-dong-lon-nhat-cua-chung-khoan-thanh-cong-muon-giam-so-huu-xuong-duoi-50-18826112809000073.chn": "2026-11-28",
+   "https://cafef.vn/ktnn-khu-vuc-xii-kien-nghi-xu-ly-tai-chinh-hon-1700-ty-dong-but-pha-ung-dung-ai-trong-nam-2026-188261128065622075.chn": "2026-11-28",
+   "https://www.tinnhanhchungkhoan.vn/mua-bao-cao-quy-iii-cua-cac-hang-cong-nghe-trung-quoc-chua-du-suc-keo-co-phieu-nganh-thoat-day-post402168.html": "2026-11-28",
+   "https://www.tinnhanhchungkhoan.vn/vn-index-chiu-suc-ep-den-dau-tu-de-xuat-thue-moi-cua-my-post402196.html": "2026-11-28"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
@@ -6444,27 +6448,27 @@
     {
      "label": "Tại đây",
      "url": "https://www.lpbs.com.vn/upload/files/20261022%20-%20LPS%20-%20NQ%20Phe%20duyet%20dieu%20chinh%20dieu%20kien%20cap%20tin%20dung%20LPBank_signed.pdf",
-     "etag": "\"239a29-66129a8589c4d\"",
-     "lm": "Thu, 26 Nov 2026 08:23:26 GMT",
+     "etag": "W/\"239a29-6609db5025c7e\"",
+     "lm": "Thu, 19 Nov 2026 09:25:23 GMT",
      "size": 2333225,
      "sha256": "0883322b0eea789de29eb738730430a3e9d9790854f058b8d3c175b2775fa84a",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/0883322b0eea_20261022_-_LPS_-_NQ_Phe_duyet_dieu_chinh_dieu_kien_cap_tin_dung_LPBank_signed.pdf"
     },
     {
      "label": "Here",
      "url": "https://www.lpbs.com.vn/upload/files/20261022%20-%20LPS%20-%20Resolution%20on%20Approval%20of%20Amendments%20to%20the%20Credit%20Facility%20Terms%20at%20LPBank_signed.pdf",
-     "etag": "\"239a29-66129a858dacd\"",
-     "lm": "Thu, 26 Nov 2026 08:23:26 GMT",
+     "etag": "W/\"239a29-6609db5027bbe\"",
+     "lm": "Thu, 19 Nov 2026 09:25:23 GMT",
      "size": 2333225,
      "sha256": "0883322b0eea789de29eb738730430a3e9d9790854f058b8d3c175b2775fa84a",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/0883322b0eea_20261022_-_LPS_-_Resolution_on_Approval_of_Amendments_to_the_Credit_Facility_Terms_at_LPBank_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "ae3aa6708387a884",
     "body": "67e1f6020a847546",
@@ -6483,7 +6487,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "795901901d5b080f",
@@ -6502,7 +6506,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "43034993dde2e5a8",
@@ -6521,7 +6525,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "426bd077fbcbd79a",
@@ -6540,7 +6544,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "477dc3889c010a64",
@@ -6559,7 +6563,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "172e9addc1334fc4",
@@ -6578,7 +6582,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "4517519d1836277f",
@@ -6597,7 +6601,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "f9630f04dc24d4c8",
@@ -6616,7 +6620,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "19186cc0eedc0a84",
@@ -6635,7 +6639,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1c30174fb95a0389",
@@ -6654,7 +6658,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "e59bdcf0f6e59bd6",
@@ -6673,7 +6677,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "4d514c981eb177c8",
@@ -6692,7 +6696,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "2e5409fa1375d8f6",
@@ -6712,17 +6716,17 @@
     {
      "label": "Tại đây/Here",
      "url": "https://www.lpbs.com.vn/upload/files/20261015-LPS-NQ%20H%C4%90QT%20Phe%20duyet%20phuong%20an%20dang%20ky%20chao%20ban%20Chung%20quyen%20Nam%202026%20Dot%202_signed.pdf",
-     "etag": "\"326856-66129a8483125\"",
-     "lm": "Thu, 26 Nov 2026 08:23:25 GMT",
+     "etag": "W/\"326856-6609db4f28d97\"",
+     "lm": "Thu, 19 Nov 2026 09:25:22 GMT",
      "size": 3303510,
      "sha256": "f3167f9afd8ccd8c9be284449f04d415bb133a92b1e276d5aa9aee72259b4aef",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/f3167f9afd8c_20261015-LPS-NQ_H_QT_Phe_duyet_phuong_an_dang_ky_chao_ban_Chung_quyen_Nam_2026_Dot_2_signed.pdf"
     }
    ],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "b159270bee6304f9",
     "body": "5e20aabcd3c474a1",
@@ -6741,7 +6745,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "397a9439d0ffe5f0",
@@ -6760,7 +6764,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "11816c6080a9cf33",
@@ -6779,7 +6783,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "8116917ae4391de6",
@@ -6798,7 +6802,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "38835e6a83f12522",
     "body": "8531214ecf403020",
@@ -6817,7 +6821,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2681276beaf05822",
     "body": "384db0cb831c9d8e",
@@ -6836,7 +6840,7 @@
    "files": [],
    "fetched": "2026-10-24T15:27+07:00",
    "section": "cbtt",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "620ee479330d869f",
     "body": "1ff294315450f3a3",
@@ -28303,37 +28307,37 @@
     {
      "label": "Tài liệu",
      "url": "https://www.lpbs.com.vn/upload/files/LPBS%20-%20FS%2030062026%20-%20ENG%20(1)(1).pdf",
-     "etag": "\"c37bb3-66129a8effa95\"",
-     "lm": "Thu, 26 Nov 2026 08:23:36 GMT",
+     "etag": "W/\"c37bb3-6609db5a2e28b\"",
+     "lm": "Thu, 19 Nov 2026 09:25:33 GMT",
      "size": 12811187,
      "sha256": "8052e8c8ed6c03442fcdca0bd25aab5bdb68a4f6f4ff1c0fb423fa43ca211587",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/8052e8c8ed6c_LPBS_-_FS_30062026_-_ENG_1_1_.pdf"
     },
     {
      "label": "Tại đây",
      "url": "https://www.lpbs.com.vn/upload/files/20261020%20-%20LPS%20-%20CBTT%20BCTC%20Qu%C3%BD%20III%202026_v2_signed(1).pdf",
-     "etag": "\"132abd6-66129a84f0728\"",
-     "lm": "Thu, 26 Nov 2026 08:23:25 GMT",
+     "etag": "W/\"132abd6-6609db4faea3b\"",
+     "lm": "Thu, 19 Nov 2026 09:25:22 GMT",
      "size": 20098006,
      "sha256": "fe7e9d24a586335b5d2fd856927a1cdfc39387a6335221b92054d440dfe390db",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/fe7e9d24a586_20261020_-_LPS_-_CBTT_BCTC_Qu_III_2026_v2_signed_1_.pdf"
     },
     {
      "label": "Here",
      "url": "https://www.lpbs.com.vn/upload/files/20261020%20-%20LPS%20-%20Disclosure%20of%20Q3%202026%20Financial%20Statements_v2_signed(1).pdf",
-     "etag": "\"12dff52-66129a8502068\"",
-     "lm": "Thu, 26 Nov 2026 08:23:25 GMT",
+     "etag": "W/\"12dff52-6609db4fc613b\"",
+     "lm": "Thu, 19 Nov 2026 09:25:22 GMT",
      "size": 19791698,
      "sha256": "fa4083a99b64a47d85c8d1e70c59d40b36016fde05cb49efe5e2bd437bbdbe7d",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/fa4083a99b64_20261020_-_LPS_-_Disclosure_of_Q3_2026_Financial_Statements_v2_signed_1_.pdf"
     }
    ],
    "section": "ttc",
    "first_seen": "2026-10-25T08:02+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "d9b9157d1b7b1bf0",
     "body": "cc10162ca600e032",
@@ -33647,27 +33651,27 @@
     {
      "label": "Chứng quyền có bảo đảm mã CTCB2618/Covered warrants CTCB2618",
      "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20CTCB2618%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
-     "etag": "\"1731bc-66129a858fa0d\"",
-     "lm": "Thu, 26 Nov 2026 08:23:26 GMT",
+     "etag": "W/\"1731bc-6609db5029afe\"",
+     "lm": "Thu, 19 Nov 2026 09:25:23 GMT",
      "size": 1520060,
      "sha256": "0d4f0c5eaa7f3ef0a9442e3f2d972349ba84fe4dd5c5fdb3e85b16f1b599b68e",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/0d4f0c5eaa7f_20261029_-_CTCB2618_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     },
     {
      "label": "Chứng quyền có bảo đảm mã CTCB2619/Covered warrants CTCB2619",
      "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20CTCB2619%20-%20CBTT%20Dieu%20chinh%20chung%20quyen_signed.pdf",
-     "etag": "\"173ace-66129a85909ad\"",
-     "lm": "Thu, 26 Nov 2026 08:23:26 GMT",
+     "etag": "W/\"173ace-6609db502ba3f\"",
+     "lm": "Thu, 19 Nov 2026 09:25:23 GMT",
      "size": 1522382,
      "sha256": "a100a82a05d96c535abeaab913c11136cf88dd605c6ea70c3f84425bf82ca250",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/a100a82a05d9_20261029_-_CTCB2619_-_CBTT_Dieu_chinh_chung_quyen_signed.pdf"
     }
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "a9e09a61862f14f2",
     "body": "6d79f92f7be65698",
@@ -33687,17 +33691,17 @@
     {
      "label": "Tại đây/Here",
      "url": "https://www.lpbs.com.vn/upload/files/20261029%20-%20LPS%20-%20CBTT%20GCN%20cung%20cap%20dich%20vu%20bu%20tru%2C%20thanh%20toan_signed.pdf",
-     "etag": "\"1c8c69-66129a859388d\"",
-     "lm": "Thu, 26 Nov 2026 08:23:26 GMT",
+     "etag": "W/\"1c8c69-6609db502e91f\"",
+     "lm": "Thu, 19 Nov 2026 09:25:23 GMT",
      "size": 1870953,
      "sha256": "4b79e80409319af4635ca81b26d25ace3051db7dbb1d7c41a3082c8d49cbd648",
-     "hashed_at": "2026-11-27T18:31+07:00",
+     "hashed_at": "2026-11-28T10:00+07:00",
      "archive": "https://github.com/phucnduy/ban-tin-lps/releases/download/luu-tru-2026/4b79e8040931_20261029_-_LPS_-_CBTT_GCN_cung_cap_dich_vu_bu_tru_thanh_toan_signed.pdf"
     }
    ],
    "section": "cbtt",
    "first_seen": "2026-10-29T15:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "c5a792ddf8b8ca94",
     "body": "7ac25962f9e8e2d0",
@@ -33728,7 +33732,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-10-30T14:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "fe7917f661178913",
     "body": "2cc95fb41445d0e8",
@@ -33766,7 +33770,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-02T17:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "6d06af5fd2c0f937",
     "body": "41ccfcde0efb7f2f",
@@ -33804,7 +33808,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-04T19:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "8980d02cb0f9d16f",
     "body": "14d1232526bc791e",
@@ -33842,7 +33846,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "a432fbbfcc22d8bc",
     "body": "007757f5dc9abcb1",
@@ -33902,7 +33906,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-11T15:00+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "d41867ff45c75fd0",
     "body": "5f087a4b20d92673",
@@ -33963,7 +33967,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2cf9d6302e27ec3e",
     "body": "310a32a51281effe",
@@ -34039,7 +34043,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T08:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "9784f87d1e01c3a8",
     "body": "d1ccd291f1195a14",
@@ -34115,7 +34119,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "2dc2dac1892d4990",
     "body": "310a32a51281effe",
@@ -34159,7 +34163,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-16T09:00+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "4cd5840b630c5e7b",
     "body": "d1ccd291f1195a14",
@@ -34197,7 +34201,7 @@
    ],
    "section": "cbtt",
    "first_seen": "2026-11-18T11:30+07:00",
-   "checked": "2026-11-28T09:30+07:00",
+   "checked": "2026-11-28T10:00+07:00",
    "fp": {
     "title": "0bc953998fe6316a",
     "body": "c6274db488ea54f7",
@@ -38689,6 +38693,22 @@
    "excerpt_origin": "hose"
   },
   {
+   "id": "rel-37e92258bc8f",
+   "party": "STB",
+   "kind": "news",
+   "title": "Tài khoản Vietcombank, VietinBank, BIDV, Agribank, Sacombank, SHB,... tự động bị khóa/đóng trong trường hợp sau",
+   "url": "https://cafebiz.vn/tai-khoan-vietcombank-vietinbank-bidv-agribank-sacombank-shb-tu-dong-bi-khoa-dong-trong-truong-hop-sau-17626112808450449.chn",
+   "source": "cafebiz.vn",
+   "source_name": "CafeBiz",
+   "published": "2026-11-28T09:09+07:00",
+   "date_precision": "minute",
+   "excerpt": "Một tài khoản thanh toán lâu không phát sinh giao dịch có thể bị chuyển sang trạng thái không hoạt động, bị thu phí duy trì hằng tháng hoặc bị ngân hàng đóng. Mốc thời gian và điều kiện số dư được mỗi ngân hàng quy định khác nhau.",
+   "excerpt_origin": "meta",
+   "via": "google",
+   "google_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRVFteXNYU21iNnNNZHNIUFl2aUMwTFdpQ0RESXVuTG04SDlqRFZLVmRPUTl2dkZLRlhPMUJ2M0N1TDNaWlZhQndjY01GVkZiS3MxNDNqUHo2RlRqMVV1Q0NsTG5Lc1dOREVuSTNvUnN5cGEzMUdYSEdCVnI1SS13Q2JnTklxVU02LWhTdFAyLUJ5YlBNU3RvYkFBeHI4dGpYTTVRWENxaWtkUjF3OUtfTEhUWWlSbVZvdG5IUW1HdWlybWYzajFNS3l0bjhmVHNTUjZjbk9tMkRNb00?oc=5",
+   "meta_tried": true
+  },
+  {
    "id": "rel-91d52b05a181",
    "party": "STB",
    "kind": "news",
@@ -42616,38 +42636,6 @@
    "excerpt_origin": "meta",
    "via": "google",
    "google_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQV1dFYmdYYV92UjVCaUxQNlBrZ2k2MG91MDJ4R1UxQUxYb0ZrNWhJdE1QVlNROVdVdmt4Z2o4djJOMUNNVE5EUFRhYnNqYzN2M1FUQWJtOGRvS2Q5V3hwMk9fOEVVSElNVThVSVRiakNfTTgwM1lKYnFYTC1BNVBENVhXU3FGbFZSVF9Mc29HMS1ESjEyMHNMQ2Q2QlBIdXlxeHVzbnU5Mk9PZU91NzBBYnIzcUVqMDZCZjlNVzFRT2JsaGFBZXNBV2pnOE9NcllQX2piX2ZpZjRJQ0VwWTR0dkFqUl84SEZLdU1uaGlXN1RTTnZrQS1hQUFfcER4Zw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-396a57665fea",
-   "party": "STB",
-   "kind": "news",
-   "title": "Sacombank vượt mốc 1 triệu tỷ đồng tài sản, cổ phiếu STB được nâng giá mục tiêu",
-   "url": "https://kinhtechungkhoan.vn/sacombank-vuot-moc-1-trieu-ty-dong-tai-san-co-phieu-stb-duoc-nang-gia-muc-tieu",
-   "source": "kinhtechungkhoan.vn",
-   "source_name": "Tạp chí Kinh tế chứng khoán Việt Nam",
-   "published": "2026-10-30T16:48+07:00",
-   "date_precision": "minute",
-   "excerpt": "SHS Research kỳ vọng lợi nhuận ngân hàng có thể tăng mạnh vào năm 2027 nếu thương vụ đấu giá 32,5% cổ phần đang cầm cố tại VAMC được thực hiện theo kịch bản dự kiến.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdXdWxDUFNDWkV0bGZUaldLdURrR3ZDOXVLRU55VFhQN2VzQ0pqdXM3Tkg5Nzd3dlVPbERDb2NMR0xfcjlEZ1ZQY1lfR2N5bEtHYktNQW9lVHhXbV9HdW00QU1EVmFfdjhNb0FreWdnQ29hM2RmTS1maXRSMWRlYjFOV0stUzRmTW5uM2lGUGQxWXhSZkFKa1BwRTkwaGVzY1MtUENVd29Cdw?oc=5",
-   "meta_tried": true
-  },
-  {
-   "id": "rel-9889dad98a72",
-   "party": "STB",
-   "kind": "news",
-   "title": "Ngân hàng Sacombank giảm 0,5%/năm lãi suất huy động, hưởng ứng chủ trương của Chính phủ",
-   "url": "https://tapchicongthuong.vn/ngan-hang-sacombank-giam-0-5--nam-lai-suat-huy-dong--huong-ung-chu-truong-cua-chinh-phu-561981.htm",
-   "source": "tapchicongthuong.vn",
-   "source_name": "Tạp chí Công Thương",
-   "published": "2026-10-30T14:00+07:00",
-   "date_precision": "minute",
-   "excerpt": "Hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước Việt Nam (NHNN) về giảm mặt bằng lãi suất, góp phần hỗ trợ hoạt động sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế, Ngân hàng Sacombank điều chỉnh giảm 0,5%/năm lãi suất huy động đối với các kỳ hạn từ 6 tháng trở lên, áp dụng từ ngày 20/10/2026.",
-   "excerpt_origin": "meta",
-   "via": "google",
-   "google_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa2dPRDY0MTFuclA2SEJfeklpUkxtSTdzZFdoU1R6cnRMdzJHcUNpUllTR2d0dUVIWGxmTlB1aDNiOFI1WV85OG4wMzc3a1Vld1J1OUEwY195bTB0RHFMVFllb3JoLWtFRTFoUFJsdHVWejc5RWhKa3FlUnRSOTJHLW9yMGFiSHpYSUx5SnZHNVJCMEYxMm1YMVFiUDZjRS1abmJWWHgwQW9RRjFnOFMwaHpXaFJXZ25kalN6dEF3d2g0d3NE?oc=5",
    "meta_tried": true
   },
   {
