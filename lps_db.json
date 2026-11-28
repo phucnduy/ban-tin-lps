@@ -12,8 +12,8 @@
   ],
   "schema_version": 2,
   "cbtt_full_done": true,
-  "last_updated": "2026-11-28T06:34+07:00",
-  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 43 tin bên liên quan, 0 thay đổi văn bản",
+  "last_updated": "2026-11-28T07:03+07:00",
+  "last_result": "0 văn bản mới, 0 tin mới, 0 tin HOSE mới, 42 tin bên liên quan, 0 thay đổi văn bản",
   "hose_full_done": true,
   "section_done_cbtt": true,
   "section_done_ttc": true,
@@ -26,11 +26,11 @@
    "STB": 2271
   },
   "last_errors": [
-   "[2026-11-28 06:30:20] Công bố thông tin: lỗi tải https://www.lpbs.com.vn/cong-bo-thong-tin-cat19: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /cong-bo-thong-tin-cat19 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
-   "[2026-11-28 06:30:29] Thông tin tài chính: lỗi tải https://www.lpbs.com.vn/thong-tin-tai-chinh-cat17: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /thong-tin-tai-chinh-cat17 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
-   "[2026-11-28 06:30:37] Báo cáo thường niên: lỗi tải https://www.lpbs.com.vn/bao-cao-thuong-nien-cat18: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /bao-cao-thuong-nien-cat18 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
-   "[2026-11-28 06:30:44] Điều lệ và quy chế: lỗi tải https://www.lpbs.com.vn/dieu-le-va-quy-che-cong-ty-cat12: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /dieu-le-va-quy-che-cong-ty-cat12 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
-   "[2026-11-28 06:30:52] Tin tức LPS: lỗi tải https://www.lpbs.com.vn/tin-tuc-lps-news24: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /tin-tuc-lps-news24 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))"
+   "[2026-11-28 07:00:20] Công bố thông tin: lỗi tải https://www.lpbs.com.vn/cong-bo-thong-tin-cat19: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /cong-bo-thong-tin-cat19 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 07:00:28] Thông tin tài chính: lỗi tải https://www.lpbs.com.vn/thong-tin-tai-chinh-cat17: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /thong-tin-tai-chinh-cat17 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 07:00:37] Báo cáo thường niên: lỗi tải https://www.lpbs.com.vn/bao-cao-thuong-nien-cat18: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /bao-cao-thuong-nien-cat18 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 07:00:44] Điều lệ và quy chế: lỗi tải https://www.lpbs.com.vn/dieu-le-va-quy-che-cong-ty-cat12: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /dieu-le-va-quy-che-cong-ty-cat12 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))",
+   "[2026-11-28 07:00:52] Tin tức LPS: lỗi tải https://www.lpbs.com.vn/tin-tuc-lps-news24: HTTPSConnectionPool(host='www.lpse.com.vn', port=443): Max retries exceeded with url: /tin-tuc-lps-news24 (Caused by NameResolutionError(\"HTTPSConnection(host='www.lpse.com.vn', port=443): Failed to resolve 'www.lpse.com.vn' ([Errno -2] Name or service not known)\"))"
   ],
   "last_full_verify": "2026-11-28",
   "rss_body_checked": {
@@ -1519,7 +1519,12 @@
    "https://cafef.vn/chung-khoan-tang-hon-24-diem-trong-ngay-sinh-nhat-thi-truong-188261127231711003.chn": "2026-11-28",
    "https://cafef.vn/chu-tich-vndirect-pham-minh-huong-tiet-lo-danh-muc-tich-san-goi-gon-trong-2-co-phieu-va-ly-do-chua-bao-gio-so-thieu-tien-188261127175814653.chn": "2026-11-28",
    "https://cafef.vn/mot-co-phieu-boc-dau-len-dinh-lich-su-sau-thong-tin-tra-co-tuc-tien-mat-khung-254-188261127154111305.chn": "2026-11-28",
-   "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn": "2026-11-28"
+   "https://cafef.vn/bat-nguyen-anh-duc-chuyen-day-khoi-nghiep-online-ve-hanh-vi-tron-thue-12-ty-188261127231451625.chn": "2026-11-28",
+   "https://cafef.vn/to-hop-phao-6-nong-chong-may-bay-uav-cua-viet-nam-sap-ra-mat-ban-5000-phat-phut-do-doanh-nghiep-quoc-phong-quy-mo-doanh-thu-1800-ty-phat-trien-188261127224635719.chn": "2026-11-28",
+   "https://cafef.vn/nutifood-muon-mua-them-2-trieu-co-phieu-qns-nang-so-huu-tai-chu-thuong-hieu-sua-fami-len-gan-9-188261127222348766.chn": "2026-11-28",
+   "https://cafef.vn/nguon-cung-ngoai-te-cai-thien-ty-gia-co-them-yeu-to-ho-tro-cuoi-nam-18826112806591458.chn": "2026-11-28",
+   "https://cafef.vn/viet-nam-can-khoi-thong-nguon-von-nhan-roi-trong-dan-188261128064412378.chn": "2026-11-28",
+   "https://cafef.vn/moodys-nang-xep-hang-tin-nhiem-quoc-gia-cua-viet-nam-len-ba1-trien-vong-on-dinh-188261128064017978.chn": "2026-11-28"
   },
   "history_cleaned": "2026-11-06T09:00+07:00: bỏ 2294 dòng (lặp 'xuất hiện trở lại' và đợt 404 hàng loạt)"
  },
